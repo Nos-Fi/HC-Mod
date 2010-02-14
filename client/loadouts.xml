@@ -1,0 +1,728 @@
+<script>
+
+
+### LOADOUTS ###
+
+
+<data file="DATA\SOLAR\loadouts.ini" method="append">
+<source>
+
+[Loadout]
+nickname = clan_prison
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_station_small
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S2_04
+equip = rh_battleship_turret04_a, HpTurret_S2_05
+equip = rh_battleship_turret04_a, HpTurret_S2_06
+equip = rh_battleship_turret04_a, HpTurret_S2_08
+equip = rh_battleship_turret04_a, HpTurret_S2_09
+equip = rh_battleship_turret04_a, HpTurret_S2_11
+equip = rh_battleship_turret04_a, HpTurret_S2_12
+equip = SlowXLargeRed, HpRunningLight01
+equip = SlowXLargeRed, HpRunningLight02
+equip = SlowXLargeRed, HpRunningLight03
+equip = SlowXLargeRed, HpRunningLight04
+equip = SlowXLargeRed, HpRunningLight05
+equip = SlowXLargeRed, HpRunningLight06
+equip = SlowXLargeRed, HpRunningLight07
+equip = SlowXLargeRed, HpRunningLight08
+equip = SlowXLargeRed, HpRunningLight09
+equip = SlowXLargeRed, HpRunningLight10
+equip = SlowXLargeRed, HpRunningLight11
+equip = SlowXLargeRed, HpRunningLight12
+equip = SlowXLargeRed, HpRunningLight13
+equip = SlowXLargeRed, HpRunningLight14
+equip = SlowXLargeRed, HpRunningLight15
+equip = SlowXLargeRed, HpRunningLight16
+equip = SlowXLargeRed, HpRunningLight17
+equip = SlowXLargeRed, HpRunningLight18
+equip = SlowXLargeRed, HpRunningLight19
+equip = SlowXLargeRed, HpRunningLight20
+equip = SlowXLargeRed, HpRunningLight21
+equip = SlowXLargeRed, HpRunningLight22
+equip = SlowXLargeRed, HpRunningLight23
+equip = SlowXLargeRed, HpRunningLight24
+equip = SlowXLargeRed, HpRunningLight25
+equip = SlowXLargeRed, HpRunningLight26
+equip = SlowXLargeRed, HpRunningLight27
+equip = SlowXLargeRed, HpRunningLight28
+equip = SlowXLargeRed, HpRunningLight29
+equip = SlowXLargeRed, HpRunningLight30
+equip = SlowXLargeRed, HpRunningLight31
+equip = SlowXLargeRed, HpRunningLight32
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_depot_hc
+equip = LargeBlue, HpRunningLight01
+equip = LargeBlue, HpRunningLight02
+equip = LargeBlue, HpRunningLight03
+equip = sfx_rumble_trading_depot
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = rh_battleship_turret04_a, HpTurret_S1_01
+equip = rh_battleship_turret04_a, HpTurret_S1_02
+equip = rh_battleship_turret04_a, HpTurret_S1_03
+equip = rh_battleship_turret04_a, HpTurret_S1_04
+equip = rh_battleship_turret04_a, HpTurret_S1_05
+equip = rh_battleship_turret04_a, HpTurret_S1_06
+equip = rh_battleship_turret04_a, HpTurret_S1_07
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_smallstation1_old_hc
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = smallstation_animate1
+equip = smallstation_animate2
+equip = sfx_rumble_station_small
+equip = rh_battleship_turret04_a, HpTurret_S1_01
+equip = rh_battleship_turret04_a, HpTurret_S1_03
+equip = rh_battleship_turret04_a, HpTurret_S1_04
+equip = rh_battleship_turret04_a, HpTurret_S1_05
+equip = rh_battleship_turret04_a, HpTurret_S1_06
+equip = rh_battleship_turret04_a, HpTurret_S1_07
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = LargeWhite, HpLight01
+equip = SlowLargeRed, HpRunningLight01
+equip = LargeWhite, HpRunningLight05
+equip = LargeWhite, HpRunningLight06
+equip = LargeWhite, HpRunningLight10
+equip = LargeWhite, HpRunningLight16
+equip = SlowXLargeRed, HpRunningLight07
+equip = SlowXLargeRed, HpRunningLight08
+equip = SlowLargeYellow, HpRunningLight03
+equip = SlowLargeYellow, HpRunningLight04
+equip = SlowLargeYellow, HpRunningLight09
+equip = SlowLargeYellow, HpRunningLight17
+equip = SlowLargeYellow, HpRunningLight18
+equip = SlowLargeYellow, HpRunningLight20
+equip = SlowMediumGreen, HpRunningLight11
+equip = SlowMediumGreen, HpRunningLight12
+equip = SlowMediumGreen, HpRunningLight13
+equip = SlowMediumGreen, HpRunningLight14
+equip = LargeWhite, HpRunningLight15
+equip = Small_Station_E3_2001, HPDock01
+equip = Small_Station_E3_2001, HPDock02
+equip = Small_Station_E3_2001, HPDock03
+equip = Small_Station_E3_2001, HPDock04
+equip = Small_Station_E3_2001, HPDock05
+equip = Small_Station_E3_2001, HPDock06
+equip = Small_Station_E3_2001, HPDock07
+equip = Small_Station_E3_2001, HPDock08
+equip = Small_Station_E3_2001, HPDock09
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_smallstation1_hc
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = smallstation_animate1
+equip = smallstation_animate2
+equip = sfx_rumble_station_small
+equip = rh_battleship_turret04_a, HpTurret_S1_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S1_03
+equip = rh_battleship_turret04_a, HpTurret_S1_04
+equip = rh_battleship_turret04_a, HpTurret_S1_05
+equip = rh_battleship_turret04_a, HpTurret_S1_06
+equip = rh_battleship_turret04_a, HpTurret_S1_07
+equip = rh_battleship_turret04_a, HpTurret_S2_08
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = LargeWhite, HpLight01
+equip = SlowLargeRed, HpRunningLight01
+equip = LargeWhite, HpRunningLight05
+equip = LargeWhite, HpRunningLight06
+equip = LargeWhite, HpRunningLight10
+equip = LargeWhite, HpRunningLight16
+equip = SlowXLargeRed, HpRunningLight07
+equip = SlowXLargeRed, HpRunningLight08
+equip = SlowLargeYellow, HpRunningLight03
+equip = SlowLargeYellow, HpRunningLight04
+equip = SlowLargeYellow, HpRunningLight09
+equip = SlowLargeYellow, HpRunningLight17
+equip = SlowLargeYellow, HpRunningLight18
+equip = SlowLargeYellow, HpRunningLight20
+equip = SlowMediumGreen, HpRunningLight11
+equip = SlowMediumGreen, HpRunningLight12
+equip = SlowMediumGreen, HpRunningLight13
+equip = SlowMediumGreen, HpRunningLight14
+equip = LargeWhite, HpRunningLight15
+equip = Small_Station_E3_2001, HPDock01
+equip = Small_Station_E3_2001, HPDock02
+equip = Small_Station_E3_2001, HPDock03
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_FragB
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_station_large
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S2_03
+equip = rh_battleship_turret04_a, HpTurret_S2_04
+equip = SlowXLargeRed, HpRunningLight01
+equip = SlowXLargeRed, HpRunningLight02
+equip = SlowXLargeBlue, HpRunningLight03
+equip = SlowXLargeBlue, HpRunningLight04
+equip = SlowXLargeBlue, HpRunningLight05
+equip = SlowXLargeBlue, HpRunningLight06
+equip = SlowXLargeBlue, HpRunningLight07
+equip = SlowXLargeBlue, HpRunningLight08
+equip = SlowXLargeBlue, HpRunningLight09
+equip = SlowXLargeBlue, HpRunningLight11
+equip = SlowXLargeBlue, HpRunningLight12
+equip = SlowXLargeBlue, HpRunningLight13
+equip = SlowXLargeBlue, HpRunningLight14
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_miningbase_nomad
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_station_large
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S2_03
+equip = rh_battleship_turret04_a, HpTurret_S2_04
+equip = SlowXLargeRed, HpRunningLight01
+equip = SlowXLargeRed, HpRunningLight02
+equip = SlowXLargeBlue, HpRunningLight03
+equip = SlowXLargeBlue, HpRunningLight04
+equip = SlowXLargeBlue, HpRunningLight05
+equip = SlowXLargeBlue, HpRunningLight06
+equip = SlowXLargeBlue, HpRunningLight07
+equip = SlowXLargeBlue, HpRunningLight08
+equip = SlowXLargeBlue, HpRunningLight09
+equip = SlowXLargeBlue, HpRunningLight11
+equip = SlowXLargeBlue, HpRunningLight12
+equip = SlowXLargeBlue, HpRunningLight13
+equip = SlowXLargeBlue, HpRunningLight14
+equip = armor_scale_13
+
+
+[Loadout]
+nickname = clan_miningbase_badlands
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_station_large
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S2_03
+equip = rh_battleship_turret04_a, HpTurret_S2_04
+equip = SlowXLargeRed, HpRunningLight01
+equip = SlowXLargeRed, HpRunningLight02
+equip = SlowXLargeBlue, HpRunningLight03
+equip = SlowXLargeBlue, HpRunningLight04
+equip = SlowXLargeBlue, HpRunningLight05
+equip = SlowXLargeBlue, HpRunningLight06
+equip = SlowXLargeBlue, HpRunningLight07
+equip = SlowXLargeBlue, HpRunningLight08
+equip = SlowXLargeBlue, HpRunningLight09
+equip = SlowXLargeBlue, HpRunningLight11
+equip = SlowXLargeBlue, HpRunningLight12
+equip = SlowXLargeBlue, HpRunningLight13
+equip = SlowXLargeBlue, HpRunningLight14
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_rock_large02
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_station_large
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S2_03
+equip = rh_battleship_turret04_a, HpTurret_S2_04
+equip = rh_battleship_turret04_a, HpTurret_S2_05
+equip = rh_battleship_turret04_a, HpTurret_S2_06
+equip = rh_battleship_turret04_a, HpTurret_S2_07
+equip = rh_battleship_turret04_a, HpTurret_S2_08
+equip = rh_battleship_turret04_a, HpTurret_S2_09
+equip = SlowXLargeRed, HpRunningLight43
+equip = SlowXLargeRed, HpRunningLight44
+equip = SlowXLargeBlue, HpRunningLight45
+equip = SlowXLargeBlue, HpRunningLight46
+equip = SlowXLargeBlue, HpRunningLight47
+equip = SlowXLargeBlue, HpRunningLight48
+equip = SlowXLargeBlue, HpRunningLight49
+equip = SlowXLargeBlue, HpRunningLight50
+equip = SlowXLargeBlue, HpRunningLight51
+equip = SlowXLargeBlue, HpRunningLight52
+equip = SlowXLargeBlue, HpRunningLight53
+equip = SlowXLargeBlue, HpRunningLight54
+equip = SlowXLargeBlue, HpRunningLight55
+equip = SlowXLargeBlue, HpRunningLight56
+equip = SlowXLargeBlue, HpRunningLight57
+equip = SlowXLargeBlue, HpRunningLight58
+equip = SlowXLargeBlue, HpRunningLight59
+equip = SlowXLargeBlue, HpRunningLight60
+equip = SlowXLargeBlue, HpRunningLight61
+equip = SlowXLargeBlue, HpRunningLight62
+equip = SlowXLargeBlue, HpRunningLight63
+equip = SlowXLargeBlue, HpRunningLight64
+equip = SlowXLargeBlue, HpRunningLight65
+equip = SlowXLargeBlue, HpRunningLight66
+equip = SlowXLargeBlue, HpRunningLight67
+equip = SlowXLargeBlue, HpRunningLight68
+equip = SlowXLargeBlue, HpRunningLight69
+equip = SlowXLargeBlue, HpRunningLight70
+equip = SlowXLargeBlue, HpRunningLight71
+equip = SlowXLargeBlue, HpRunningLight72
+equip = SlowXLargeBlue, HpRunningLight73
+equip = SlowXLargeBlue, HpRunningLight74
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_factory
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = LargeBlue, HpRunningLight01
+equip = LargeBlue, HpRunningLight02
+equip = LargeBlue, HpRunningLight03
+equip = LargeBlue, HpRunningLight04
+equip = LargeBlue, HpRunningLight05
+equip = LargeBlue, HpRunningLight06
+equip = LargeBlue, HpRunningLight07
+equip = LargeBlue, HpRunningLight08
+equip = LargeBlue, HpRunningLight09
+equip = LargeBlue, HpRunningLight10
+equip = LargeBlue, HpRunningLight11
+equip = LargeBlue, HpRunningLight12
+equip = LargeBlue, HpRunningLight13
+equip = LargeBlue, HpRunningLight14
+equip = LargeBlue, HpRunningLight15
+equip = LargeBlue, HpRunningLight16
+equip = LargeBlue, HpRunningLight17
+equip = LargeBlue, HpRunningLight18
+equip = LargeBlue, HpRunningLight20
+equip = LargeBlue, HpRunningLight21
+equip = LargeBlue, HpRunningLight22
+equip = LargeBlue, HpRunningLight23
+equip = LargeBlue, HpRunningLight24
+equip = LargeBlue, HpRunningLight25
+equip = LargeBlue, HpRunningLight26
+equip = LargeBlue, HpRunningLight27
+equip = sfx_rumble_trading_depot
+equip = rh_battleship_turret04_a, HpTurret_S1_01
+equip = rh_battleship_turret04_a, HpTurret_S1_02
+equip = rh_battleship_turret04_a, HpTurret_S1_03
+equip = rh_battleship_turret04_a, HpTurret_S1_04
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_freeport
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = LargeBlue, HpRunningLight01
+equip = LargeBlue, HpRunningLight02
+equip = LargeBlue, HpRunningLight03
+equip = LargeBlue, HpRunningLight04
+equip = LargeBlue, HpRunningLight05
+equip = LargeBlue, HpRunningLight06
+equip = LargeBlue, HpRunningLight07
+equip = LargeBlue, HpRunningLight08
+equip = LargeBlue, HpRunningLight09
+equip = LargeBlue, HpRunningLight10
+equip = LargeBlue, HpRunningLight11
+equip = LargeBlue, HpRunningLight12
+equip = LargeBlue, HpRunningLight13
+equip = LargeBlue, HpRunningLight14
+equip = LargeBlue, HpRunningLight15
+equip = LargeBlue, HpRunningLight16
+equip = LargeBlue, HpRunningLight17
+equip = LargeBlue, HpRunningLight18
+equip = sfx_rumble_trading_depot
+equip = rh_battleship_turret04_a, HpTurret_S1_01
+equip = rh_battleship_turret04_a, HpTurret_S1_02
+equip = rh_battleship_turret04_a, HpTurret_S1_03
+equip = rh_battleship_turret04_a, HpTurret_S1_04
+equip = rh_battleship_turret04_a, HpTurret_S1_05
+equip = rh_battleship_turret04_a, HpTurret_S1_06
+equip = armor_scale_13
+
+[Loadout]
+nickname = hc_station
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_trading_depot
+equip = LargeBlue, HpRunningLight01
+equip = LargeBlue, HpRunningLight02
+equip = LargeBlue, HpRunningLight03
+equip = LargeBlue, HpRunningLight04
+equip = LargeBlue, HpRunningLight05
+equip = LargeBlue, HpRunningLight06
+equip = LargeBlue, HpRunningLight07
+equip = LargeBlue, HpRunningLight08
+
+[Loadout]
+nickname = hc_station_outpost
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_trading_outpost
+equip = SlowLargeWhite, HpRunningLight01
+equip = SlowLargeWhite, HpRunningLight02
+equip = SlowLargeWhite, HpRunningLight03
+equip = SlowLargeWhite, HpRunningLight04
+equip = SlowLargeWhite, HpRunningLight05
+equip = SlowLargeWhite, HpRunningLight06
+equip = SlowLargeWhite, HpRunningLight07
+equip = SlowLargeWhite, HpRunningLight08
+equip = SlowLargeWhite, HpRunningLight09
+equip = SlowLargeWhite, HpRunningLight10
+equip = SlowLargeWhite, HpRunningLight11
+equip = SlowLargeWhite, HpRunningLight12
+equip = FastLargeRed, HpRunningLight13
+equip = FastLargeBlue, HpRunningLight14
+equip = trading_outpost
+
+[Loadout]
+nickname = clan_tekagi1
+equip = SlowXLargeRed, HpRunningLight01
+equip = SlowXLargeRed, HpRunningLight02
+equip = SlowXLargeRed, HpRunningLight03
+equip = SlowXLargeRed, HpRunningLight04
+equip = SlowXLargeRed, HpRunningLight05
+equip = SlowXLargeRed, HpRunningLight06
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_tekagi2
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = SlowXLargeRed, HpRunningLight07
+equip = SlowXLargeRed, HpRunningLight08
+equip = SlowXLargeRed, HpRunningLight09
+equip = SlowXLargeRed, HpRunningLight10
+equip = SlowXLargeRed, HpRunningLight11
+equip = SlowXLargeRed, HpRunningLight12
+equip = SlowXLargeRed, HpRunningLight13
+equip = SlowXLargeRed, HpRunningLight14
+equip = SlowXLargeRed, HpRunningLight15
+equip = SlowXLargeRed, HpRunningLight16
+equip = SlowXLargeRed, HpRunningLight17
+equip = SlowXLargeRed, HpRunningLight18
+equip = SlowXLargeRed, HpRunningLight19
+equip = SlowXLargeRed, HpRunningLight20
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S2_03
+equip = rh_battleship_turret04_a, HpTurret_S2_04
+equip = rh_battleship_turret04_a, HpTurret_S2_05
+equip = rh_battleship_turret04_a, HpTurret_S2_06
+equip = rh_battleship_turret04_a, HpTurret_S2_07
+equip = rh_battleship_turret04_a, HpTurret_S2_08
+equip = rh_battleship_turret04_a, HpTurret_S2_09
+equip = rh_battleship_turret04_a, HpTurret_S2_10
+equip = rh_battleship_turret04_a, HpTurret_S2_11
+equip = outer_sanctum_lightning, HpFX01
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_outpost
+equip = sfx_rumble_trading_outpost
+equip = SlowLargeWhite, HpRunningLight01
+equip = SlowLargeWhite, HpRunningLight02
+equip = SlowLargeWhite, HpRunningLight03
+equip = SlowLargeWhite, HpRunningLight04
+equip = SlowLargeWhite, HpRunningLight05
+equip = SlowLargeWhite, HpRunningLight06
+equip = SlowLargeWhite, HpRunningLight07
+equip = SlowLargeWhite, HpRunningLight08
+equip = SlowLargeWhite, HpRunningLight09
+equip = SlowLargeWhite, HpRunningLight10
+equip = SlowLargeWhite, HpRunningLight11
+equip = SlowLargeWhite, HpRunningLight12
+equip = FastLargeRed, HpRunningLight13
+equip = FastLargeBlue, HpRunningLight14
+equip = rh_battleship_turret04_a, HpTurret_S1_01
+equip = rh_battleship_turret04_a, HpTurret_S1_02
+equip = rh_battleship_turret04_a, HpTurret_S1_03
+equip = rh_battleship_turret04_a, HpTurret_S1_05
+equip = rh_battleship_turret04_a, HpTurret_S1_06
+equip = rh_battleship_turret04_a, HpTurret_S1_07
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S2_03
+equip = rh_battleship_turret04_a, HpTurret_S2_05
+equip = rh_battleship_turret04_a, HpTurret_S2_06
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = armor_scale_13
+
+
+[Loadout]
+nickname = clan_ring
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = FastMediumGreen, HpRunningLight01
+equip = FastMediumGreen, HpRunningLight02
+equip = FastMediumGreen, HpRunningLight03
+equip = FastMediumGreen, HpRunningLight04
+equip = FastMediumGreen, HpRunningLight23
+equip = FastMediumGreen, HpRunningLight26
+equip = FastMediumGreen, HpRunningLight29
+equip = FastMediumGreen, HpRunningLight30
+equip = MediumWhite, HpRunningLight12
+equip = MediumWhite, HpRunningLight13
+equip = MediumWhite, HpRunningLight14
+equip = MediumWhite, HpRunningLight15
+equip = MediumWhite, HpRunningLight16
+equip = MediumWhite, HpRunningLight17
+equip = MediumWhite, HpRunningLight18
+equip = MediumWhite, HpRunningLight19
+equip = MediumWhite, HpRunningLight20
+equip = MediumWhite, HpRunningLight21
+equip = MediumWhite, HpRunningLight24
+equip = MediumWhite, HpRunningLight25
+equip = MediumWhite, HpRunningLight27
+equip = MediumWhite, HpRunningLight28
+equip = MediumWhite, HpRunningLight31
+equip = MediumWhite, HpRunningLight32
+equip = SlowMediumRed, HpRunningLight11
+equip = SlowMediumRed, HpRunningLight22
+equip = rh_battleship_turret04_a, HpTurret_S1_01
+equip = rh_battleship_turret04_a, HpTurret_S1_02
+equip = rh_battleship_turret04_a, HpTurret_S1_03
+equip = rh_battleship_turret04_a, HpTurret_S1_04
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_largestation
+equip = infinite_power
+equip = sfx_rumble_station_large
+equip = ge_s_scanner_02
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S1_04
+equip = rh_battleship_turret04_a, HpTurret_S1_06
+equip = rh_battleship_turret04_a, HpTurret_S1_07
+equip = rh_battleship_turret04_a, HpTurret_S1_09
+equip = rh_battleship_turret04_a, HpTurret_S2_10
+equip = rh_battleship_turret04_a, HpTurret_S1_11
+equip = rh_battleship_turret04_a, HpTurret_S1_13
+equip = rh_battleship_turret04_a, HpTurret_S2_14
+equip = rh_battleship_turret04_a, HpTurret_S1_15
+equip = rh_battleship_turret04_a, HpTurret_S1_17
+equip = SlowXLargeRed, Hp_RunningLight01
+equip = SlowXLargeRed, Hp_RunningLight02
+equip = SlowXLargeBlue, Hp_RunningLight03
+equip = SlowXLargeBlue, Hp_RunningLight04
+equip = SlowXLargeBlue, Hp_RunningLight05
+equip = SlowXLargeBlue, Hp_RunningLight06
+equip = SlowXLargeBlue, Hp_RunningLight07
+equip = SlowXLargeBlue, Hp_RunningLight08
+equip = SlowXLargeBlue, Hp_RunningLight09
+equip = SlowXLargeBlue, Hp_RunningLight11
+equip = SlowXLargeBlue, Hp_RunningLight12
+equip = SlowXLargeBlue, Hp_RunningLight13
+equip = SlowXLargeBlue, Hp_RunningLight14
+equip = SlowXLargeBlue, Hp_RunningLight15
+equip = SlowXLargeBlue, Hp_RunningLight16
+equip = SlowXLargeBlue, Hp_RunningLight17
+equip = SlowXLargeBlue, Hp_RunningLight20
+equip = SlowXLargeRed, Hp_RunningLight21
+equip = SlowXLargeRed, Hp_RunningLight22
+equip = SlowXLargeRed, Hp_RunningLight33
+equip = SlowXLargeRed, Hp_RunningLight34
+equip = SlowXLargeRed, Hp_RunningLight35
+equip = SlowXLargeRed, Hp_RunningLight36
+equip = SlowXLargeRed, Hp_RunningLight37
+equip = SlowXLargeRed, Hp_RunningLight38
+equip = SlowXLargeRed, Hp_RunningLight39
+equip = SlowXLargeRed, Hp_RunningLight40
+equip = SlowXLargeRed, Hp_RunningLight42
+equip = SlowXLargeRed, Hp_RunningLight43
+equip = SlowXLargeRed, Hp_RunningLight44
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_rock_large01
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_station_large
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S2_03
+equip = rh_battleship_turret04_a, HpTurret_S2_04
+equip = rh_battleship_turret04_a, HpTurret_S2_05
+equip = rh_battleship_turret04_a, HpTurret_S2_06
+equip = rh_battleship_turret04_a, HpTurret_S2_07
+equip = rh_battleship_turret04_a, HpTurret_S2_08
+equip = rh_battleship_turret04_a, HpTurret_S2_09
+equip = SlowXLargeRed, HpRunningLight43
+equip = SlowXLargeRed, HpRunningLight44
+equip = SlowXLargeBlue, HpRunningLight45
+equip = SlowXLargeBlue, HpRunningLight46
+equip = SlowXLargeBlue, HpRunningLight47
+equip = SlowXLargeBlue, HpRunningLight48
+equip = SlowXLargeBlue, HpRunningLight49
+equip = SlowXLargeBlue, HpRunningLight50
+equip = SlowXLargeBlue, HpRunningLight51
+equip = SlowXLargeBlue, HpRunningLight52
+equip = SlowXLargeBlue, HpRunningLight53
+equip = SlowXLargeBlue, HpRunningLight54
+equip = SlowXLargeBlue, HpRunningLight55
+equip = SlowXLargeBlue, HpRunningLight56
+equip = SlowXLargeBlue, HpRunningLight57
+equip = SlowXLargeBlue, HpRunningLight58
+equip = SlowXLargeBlue, HpRunningLight59
+equip = SlowXLargeBlue, HpRunningLight60
+equip = armor_scale_13
+
+</source>
+</data>
+
+<data file="DATA\SHIPS\loadouts_special.ini" method="append">
+<source>
+
+[Loadout]
+nickname = clan_liner
+archetype = ge_liner
+equip = ge_s_scanner_02
+equip = infinite_power
+equip = sfx_rumble_liner
+equip = rh_battleship_turret04_a, HpTurret_Liner_01
+equip = rh_battleship_turret04_a, HpTurret_Liner_02
+equip = rh_battleship_turret04_a, HpTurret_Liner_03
+equip = rh_battleship_turret04_a, HpTurret_Liner_04
+equip = rh_battleship_turret04_a, HpTurret_Liner_05
+equip = rh_battleship_turret04_a, HpTurret_Liner_06
+equip = rh_battleship_turret04_a, HpTurret_Liner_07
+equip = rh_battleship_turret04_a, HpTurret_Liner_08
+equip = rh_battleship_turret04_a, HpTurret_Liner_09
+equip = rh_battleship_turret04_a, HpTurret_Liner_10
+equip = rh_battleship_turret04_a, HpTurret_Liner_11
+equip = SlowLargeWhite, HpRunningLight12
+equip = SlowLargeWhite, HpRunningLight13
+equip = SlowLargeWhite, HpRunningLight01
+equip = SlowLargeWhite, HpRunningLight02
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_br_battleship
+archetype = br_battleship
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_battleship
+equip = rh_battleship_turret04_a, HpTurret_B1_01
+equip = rh_battleship_turret04_a, HpTurret_B1_02
+equip = rh_battleship_turret04_a, HpTurret_B2_01
+equip = rh_battleship_turret04_a, HpTurret_B2_02
+equip = rh_battleship_turret04_a, HpTurret_B2_04
+equip = rh_battleship_turret04_a, HpTurret_B4_01
+equip = rh_battleship_turret04_a, HpTurret_B4_04
+equip = SlowLargeRed, HpRunningLight19
+equip = SlowLargeRed, HpRunningLight20
+equip = SlowLargeRed, HpRunningLight09
+equip = SlowLargeRed, HpRunningLight10
+equip = SlowLargeRed, HpRunningLight11
+equip = SlowLargeRed, HpRunningLight05
+equip = LargeWhiteSpecial, HpHeadLight01
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_li_dreadnought
+archetype = li_dreadnought
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_battleship
+equip = rh_battleship_turret04_a, HpTurret_L1_01
+equip = rh_battleship_turret04_a, HpTurret_L2_01
+equip = rh_battleship_turret04_a, HpTurret_L4_01
+equip = rh_battleship_turret04_a, HpTurret_L4_02
+equip = rh_battleship_turret04_a, HpTurret_L4_04
+equip = rh_battleship_turret04_a, HpTurret_L4_05
+equip = rh_battleship_turret04_a, HpTurret_L4_07
+equip = SlowLargeBlue, HpRunningLight15
+equip = SlowLargeBlue, HpRunningLight17
+equip = SlowLargeBlue, HpRunningLight33
+equip = SlowLargeBlue, HpRunningLight09
+equip = SlowLargeBlue, HpRunningLight11
+equip = SlowLargeBlue, HpRunningLight34
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_osiris
+archetype = or_osiris
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = ge_s_tractor_01
+equip = sfx_rumble_battleship
+equip = rh_battleship_turret04_a, HpTurret_O1_01
+equip = rh_battleship_turret04_a, HpTurret_O2_01
+equip = rh_battleship_turret04_a, HpTurret_O3_02
+equip = rh_battleship_turret04_a, HpTurret_O4_01
+equip = rh_battleship_turret04_a, HpTurret_O4_03
+equip = rh_battleship_turret04_a, HpTurret_O4_04
+equip = armor_scale_13
+
+[Loadout]
+nickname = clan_ku_battleship
+archetype = ku_battleship
+equip = ge_s_scanner_02
+equip = infinite_power
+equip = sfx_rumble_battleship
+equip = rh_battleship_turret04_a, HpTurret_K1_02
+equip = rh_battleship_turret04_a, HpTurret_K1_05
+equip = rh_battleship_turret04_a, HpTurret_K1_07
+equip = rh_battleship_turret04_a, HpTurret_K3_02
+equip = rh_battleship_turret04_a, HpTurret_K3_03
+equip = rh_battleship_turret04_a, HpTurret_K3_05
+equip = rh_battleship_turret04_a, HpTurret_K3_06
+equip = rh_battleship_turret04_a, HpTurret_K3_10
+equip = SlowXLargeRed, HpRunningLight08
+equip = SlowXLargeRed, HpRunningLight07
+equip = SlowXLargeRed, HpRunningLight01
+equip = SlowXLargeRed, HpRunningLight04
+equip = SlowXLargeRed, HpRunningLight03
+equip = SlowXLargeRed, HpRunningLight10
+equip = LargeWhiteSpecial, HpHeadLight01
+equip = armor_scale_13
+
+
+[Loadout]
+nickname = clan_rh_battleship
+archetype = rh_battleship
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_battleship
+equip = rh_battleship_turret04_a, HpTurret_R1_01
+equip = rh_battleship_turret04_a, HpTurret_R1_03
+equip = rh_battleship_turret04_a, HpTurret_R2_01
+equip = rh_battleship_turret04_a, HpTurret_R2_03
+equip = rh_battleship_turret04_a, HpTurret_R3_01
+equip = rh_battleship_turret04_a, HpTurret_R3_03
+equip = rh_battleship_turret04_a, HpTurret_R3_05
+equip = rh_battleship_turret04_a, HpTurret_R4_01
+equip = rh_battleship_turret04_a, HpTurret_R4_03
+equip = rh_battleship_turret04_a, HpTurret_R4_05
+equip = rh_battleship_turret04_a, HpTurret_R4_07
+equip = SlowLargeYellow, HpRunningLight03
+equip = SlowLargeYellow, HpRunningLight04
+equip = SlowLargeYellow, HpRunningLight08
+equip = SlowLargeYellow, HpRunningLight07
+equip = SlowLargeYellow, HpRunningLight05
+equip = armor_scale_13
+
+[Loadout]
+nickname = hc_liner
+archetype = ge_liner
+equip = ge_s_scanner_02
+equip = infinite_power
+equip = sfx_rumble_liner
+equip = SlowLargeWhite, HpRunningLight12
+equip = SlowLargeWhite, HpRunningLight13
+equip = SlowLargeWhite, HpRunningLight01
+equip = SlowLargeWhite, HpRunningLight02
+</source>
+</data>
+
+
+</script>

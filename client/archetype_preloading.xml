@@ -1,0 +1,119 @@
+<script>
+
+<data file="DATA\UNIVERSE\SYSTEMS\BR05\Br05.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = ge_transport
+ship = ku_gunboat
+ship = or_elite_msn01
+ship = or_osiris
+ship = ge_liner
+ship = br_battleship
+ship = br_destroyer
+ship = ku_battleship
+ship = ku_destroyer
+ship = li_cruiser
+ship = li_dreadnought
+ship = rh_battleship
+ship = rh_cruiser
+ship = rh_gunboat
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\BR01\Br01.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+ship = ge_liner
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\LI01\Li01.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+ship = ge_liner
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\KU01\Ku01.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\RH01\Rh01.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\RH02\Rh02.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\Hi01\Hi01.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\Hi02\Hi02.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\Ew04\Ew04.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+ship = or_osiris
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\BW06\Bw06.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\BW07\Bw07.ini" method="append">
+<source>
+[Archetype]
+ship = bw_elite2
+ship = ge_fighter6
+ship = or_elite_msn01
+</source>
+</data>
+
+
+</script>

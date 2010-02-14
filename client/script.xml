@@ -1,0 +1,822 @@
+<script>
+
+<header name="Hamburg City Server Mod (v3.17 beta 4)" savesafe="true">
+<scriptversion>
+1.3
+</scriptversion>
+
+<author>
+w0dk4 - look in readme for extended credits
+</author>
+
+<modurl>
+http://www.freelancerserver.de
+</modurl>
+
+<description>
+Hamburg City MOD Features:
+
+
+- ClanReputations & Clanbases
+
+- Hamburg City Base:
+* Hamburg System, Sector ~5d
+
+- Engine-Shop (at Hamburg City Base)
+
+- Ships flyable:
+* Enforcer (originally: Juni's Defender) 
+* Seth (improved Anubis, originally: The Order Ship) 
+* Blood Dragon
+* Armored Transport
+* CSV (Combat Service Vehicle)
+* Transport
+* Train
+* Liberty Cruiser
+* Osiris (Clans only)
+* Nomad Fighter (RPG only)
+* Liberty Dreadnought (Event only)
+* Rheinland Battleship (Event only)
+* Rheinland Cruiser (Event only)
+
+- Special Ships with Cloaking Device:
+* Valkyre
+* Banshee
+* Humpback
+* Anubis
+
+- Mining Zones & Blaster
+* in Hamburg System
+* and in New Tokyo System
+
+- Race System
+- Neutral Zone (PvP System)
+- Extended Omicron systems
+
+- New Weapons sold in Neutral Zone:
+* Novabomb Launcher
+* Repair Turret
+
+- Enhanced Colony Fighters
+- Dynamic Economy
+- Extended AntiCheat
+
+and some surprises :)
+</description>
+
+<options default=""> 
+
+<option name="Event mode (do NOT turn on unless asked to)" id="1" safesave="false">
+<item id="0" name="Off">
+</item>
+<item id="1" name="On">
+</item>
+</option>
+
+<option name="Activate hidden Tizona Del Cid/Rapier effect" id="2" safesave="false">
+<item id="0" name="No">
+</item>
+<item id="1" name="Yes">
+</item>
+</option>
+
+<option name="Activate engine trail on own ship" id="3" safesave="false">
+<item id="0" name="No">
+</item>
+<item id="1" name="Yes">
+</item>
+</option>
+
+<option name="Activate Global Server Workaround v1.0" id="4" safesave="false">
+<item id="0" name="No">
+</item>
+<item id="1" name="Yes">
+</item>
+</option>
+
+<option name="Log chat-window to chat.log" id="5" safesave="false">
+<item id="0" name="No">
+</item>
+<item id="1" name="Yes">
+</item>
+</option>
+
+<option name="Level of Detail" id="6" safesave="false">
+<item id="0" name="Low">
+</item>
+<item id="1" name="High">
+</item>
+</option>
+
+<option name="Asteroid Fields Level of Detail" id="7" safesave="false">
+<item id="0" name="Low">
+</item>
+<item id="1" name="High">
+</item>
+</option>
+
+<option name="Bandwidth (AutoUpdate and Dynamic Economy)" id="8" safesave="false">
+<item id="0" name="Dial-Up: 56k">
+</item>
+<item id="1" name="Broadband: 128k">
+</item>
+<item id="2" name="Broadband: 512k">
+</item>
+<item id="3" name="Broadband: 1mbit">
+</item>
+<item id="4" name="Broadband: >1mbit">
+</item>
+</option>
+
+<option name="Bloom Effect" id="9" safesave="false">
+<item id="0" name="Deactivated">
+</item>
+<item id="1" name="Activated (lightning bug warning)">
+</item>
+</option>
+
+<option name="Flak Explosion Quality" id="10" safesave="false">
+<item id="0" name="Low">
+</item>
+<item id="1" name="High">
+</item>
+</option>
+
+
+<option name="Disable 3D Sound at FL Startup" id="11" safesave="false">
+<item id="0" name="Yes">
+</item>
+<item id="1" name="No (crash bug warning)">
+</item>
+</option>
+
+<option name="Widescreen Settings" id="12" safesave="false">
+<item id="0" name="Disabled">
+</item>
+<item id="1" name="Enabled, Resolution: 1280x720">
+</item>
+<item id="2" name="Enabled, Resolution: 1600x900">
+</item>
+<item id="3" name="Enabled, Resolution: 1920x1080">
+</item>
+<item id="4" name="Enabled, Resolution: 1440x900">
+</item>
+<item id="5" name="Enabled, Resolution: 1680x1050">
+</item>
+<item id="6" name="Enabled, Resolution: 1920x1200">
+</item>
+</option>
+
+</options>
+
+</header>
+
+
+
+
+### MBASES.INI ENTRYS
+
+
+<data file="DATA\Missions\mbases.ini" method="copyfile" sourcefile="DATA\Missions\mbases.ini" scanfile="true">
+</data>
+
+
+
+
+### UNIVERSE & SYSTEM ENTRYS ###
+
+
+
+<data file="DATA\UNIVERSE\universe.ini" method="copyfile" sourcefile="DATA\UNIVERSE\universe.ini" scanfile="true">
+</data>
+
+
+
+### NEWS ###
+
+<xmldata name="news1">
+#Nach neusten Berichten sollen Nomaden in Omicron Gamma sowie in Dublin (Bretonia) eingefallen sein!\n
+W‰hrend die Piraten in O.Gamma Probleme haben, die Nomads aufzuhalten, haben sich die 4 H‰user von Sirius zusammengeschlossen und schwere Flotten nach Dublin entsandt. Trotzdem geht von den Nomaden weiterhin eine groﬂe Gefahr in Dublin aus, weswegen dort schon von einigen jungen Freelancer-Piloten die Rede ist, die es leider nicht geschafft haben, den Nomads zu entkommen!\n
+Auch in Omicron-Gamma und dem dortigen Unkown System sollen schon dutzende Freelancer den Nomaden zum Opfer gefallen sein!\n\n
+Due to latest reports, Nomads have invaded in Dublin (Bretonia).\n The 4 houses have decided to send massive fleets to intercept the Nomads. However, Freelancers say Dublin is still one of the most dangerous places, so watch your back!\n
+</xmldata>
+
+
+<xmldata name="news2">
+#1. No Hacks/Cheats/Bugusing/Insulting!\n\n
+2. Newbie-Protection: Do NOT attack lvl 1-20 Newbies in house systems! \n\n
+3. Be fair to other Players, no insult words please!
+</xmldata>
+
+
+<data file="data\missions\news.ini" method="append">
+<source>
+[NewsItem]
+rank = base_0_rank, mission_end
+logo = news_flags
+icon = critical
+category = 0
+headline = 0 ;GENERATESTRRES("! ATTACK OF THE NOMADS - WARNING !")
+text = 0 ;GENERATEXMLRES(news1)
+audio = true
+base = Rh02_08_Base
+
+
+[NewsItem]
+rank = base_0_rank, mission_end
+icon = world
+logo = news_system_rh2
+category = 0
+headline = 0 ;GENERATESTRRES("!SERVER RULES!")
+text = 0 ;GENERATEXMLRES(news2)
+audio = true
+base = Rh02_08_Base
+</source>
+</data>
+
+
+
+
+### NEW SHIPS ###
+
+
+### Ship Infocards
+
+
+<xmldata name="li_elite2_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 5000</TEXT><PARA/><TEXT>Cargo Space: 50</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="ku_dragon_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>†</TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 5600</TEXT><PARA/><TEXT>Cargo Space: 55</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 42/42</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 8</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="or_elite2_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>†</TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/1</TEXT><PARA/><TEXT>Armor: 9000</TEXT><PARA/><TEXT>Cargo Space: 70</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 61/61</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="ge_armored_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>†</TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/6</TEXT><PARA/><TEXT>Armor: 50400</TEXT><PARA/><TEXT>Cargo Space: 340</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/166</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 8</TEXT><PARA/><TEXT>Additional Equipment: CM</TEXT><PARA/><PARA/><POP/></RDL>  
+</xmldata>
+
+<xmldata name="ge_transport_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>†</TEXT><PARA/><TEXT>Gun/Turret Mounts: 0/5</TEXT><PARA/><TEXT>Armor: 28600</TEXT><PARA/><TEXT>Cargo Space: 400</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/100</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 9</TEXT><PARA/><TEXT>Additional Equipment: CM</TEXT><PARA/><PARA/><POP/></RDL>  
+</xmldata>
+
+<xmldata name="ge_train_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>†</TEXT><PARA/><TEXT>Gun/Turret Mounts: 0/0</TEXT><PARA/><TEXT>Armor: 95200</TEXT><PARA/><TEXT>Cargo Space: 450</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/333</TEXT><PARA/><TEXT>Optimal Weapon Class: 0</TEXT><PARA/><TEXT>Max. Weapon Class: 0</TEXT><PARA/><TEXT>Additional Equipment: -</TEXT><PARA/><PARA/><POP/></RDL>  
+</xmldata>
+
+
+<xmldata name="li_elite2_stats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TEXT>†</TEXT><PARA/><TEXT>5/1</TEXT><PARA/><TEXT>5000</TEXT><PARA/><TEXT>50</TEXT><PARA/><TEXT>36/36</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>M, CM, CD/T </TEXT><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="ku_dragon_stats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TEXT>†</TEXT><PARA/><TEXT>6/0</TEXT><PARA/><TEXT>5600</TEXT><PARA/><TEXT>55</TEXT><PARA/><TEXT>42/42</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>M, CM, CD/T </TEXT><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="or_elite2_stats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TEXT>†</TEXT><PARA/><TEXT>6/1</TEXT><PARA/><TEXT>9000</TEXT><PARA/><TEXT>70</TEXT><PARA/><TEXT>61/61</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>10</TEXT><PARA/><TEXT>M, CM, CD/T </TEXT><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="ge_armored_stats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TEXT>†</TEXT><PARA/><TEXT>3/6</TEXT><PARA/><TEXT>33400</TEXT><PARA/><TEXT>325</TEXT><PARA/><TEXT>0/100</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>CM</TEXT><PARA/><POP/></RDL>  
+</xmldata>
+
+<xmldata name="ge_transport_stats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TEXT>†</TEXT><PARA/><TEXT>0/5</TEXT><PARA/><TEXT>15600</TEXT><PARA/><TEXT>400</TEXT><PARA/><TEXT>0/50</TEXT><PARA/><text>8</TEXT><PARA/><TEXT>9</TEXT><PARA/><TEXT>CM</TEXT><PARA/><POP/></RDL>  
+</xmldata>
+
+<xmldata name="ge_train_stats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>†</TEXT><PARA/><TEXT>†</TEXT><PARA/><text>0/0</TEXT><PARA/><TEXT>56400</TEXT><PARA/><TEXT>450</TEXT><PARA/><text>0/166</TEXT><PARA/><text>0</TEXT><PARA/><text>0</TEXT><PARA/><text>- </TEXT><PARA/><POP/></RDL>
+</xmldata>
+
+
+
+<xmldata name="li_elite2_info2">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>"Enforcer" Liberty Very Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>†</TEXT><PARA/><TEXT>"The best of the best," this heavily outfitted rig represents the pinnacle of Liberty's technological advances and design savoir faire. With its elevated armor and power rating as standard and the additional mount for firepower, it's no wonder that this ship is the number one choice of the Liberty Armed Forces.</TEXT><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="ku_dragon_info2">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>"Blood Dragon" Kusari Very Heavy Fighter</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>†</TEXT><PARA/><TEXT>"The serpents tooth," this ship is the razor sharp maw of Kusari military knowledge and technology. The Dragon is the coalescence of form and function, blending unbeatable offensive and defensive capabilities and significant cargo space. In the hands of an experienced pilot this ship is not so much a weapon as a force of nature.</TEXT><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="or_elite2_info2">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><JUST loc="center"/><TRA data="1" mask="-31" def="-2"/><TEXT>"Seth" Order Very Heavy Fighter</TEXT><PARA/><TRA data="96" mask="-31" def="-1"/><PARA/><TRA data="65281" mask="-31" def="30"/><TEXT>!!!Attention, this ship has a high strafepowerusage!!!</TEXT><PARA/><JUST loc="left"/><TRA data="96" mask="-31" def="-1"/><PARA/><TEXT>There is no profile on this ship, however the readings of the on-board components suggest a ship composed of pieces harvested from multiple houses in Sirius, heavily modified, and then integrated in a radical design.</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="br_elite_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 5800</TEXT><PARA/><TEXT>Cargo Space: 50</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="ku_elite_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 4400</TEXT><PARA/><TEXT>Cargo Space: 50</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
+### NEW SHIPS COPY FILE 
+
+<data file="DATA\SHIPS\shiparch.ini" method="copyfile" sourcefile="DATA\SHIPS\shiparch.ini" scanfile="true">
+</data>
+
+
+
+
+### VIP FIX! ###
+
+
+<data file="DATA\EQUIPMENT\select_equip.ini" method="sectionreplace">
+<section>
+[Commodity]
+nickname = commodity_vips
+</section>
+<dest>
+ids_name = 261647
+ids_info = 65887
+</dest>
+<source>
+ids_name = 261647
+ids_info = 0 ;GENERATESTRRES("VIPs = Very Important Persons")
+</source>
+</data>
+
+### ENGINE TRAIL SWITCH ###
+
+<data file="DATA\FX\effects.ini" method="copyfile" sourcefile="DATA\FX\effects_playtrail.ini" scanfile="false" options="3:1">
+</data>
+
+### TIZONA/RAPIER SWITCH ###
+
+<data file="DATA\FX\effects.ini" method="append" options="2:1">
+<section>
+[Effect]
+nickname = pi_pulse_02_proj
+</section>
+<source>
+vis_effect = pi_pulse_02_proj
+</source>
+</data>
+
+<data file="DATA\FX\effects.ini" method="append" options="2:1">
+<section>
+[Effect]
+nickname = pi_pulse_03_proj
+</section>
+<source>
+vis_effect = pi_pulse_03_proj
+</source>
+</data>
+
+
+
+### OTHER EFFECTS (SWITCH) ###
+
+<data file="DATA\FX\effects_explosion.ini" method="sectionreplace" options="10:0">
+<section>
+[Effect]
+nickname = flak_explosion
+</section>
+<dest>
+vis_effect = gf_explosion_flak
+</dest>
+<source>
+vis_effect = gf_explosion_large_debris01
+</source>
+</data>
+
+<data file="DATA\FX\EXPLOSIONS\explosions_ale.ini" method="append">
+<source>
+
+[VisEffect]
+nickname = gf_explosion_flak
+alchemy = fx\explosions\gf_explosion_flak.ale
+effect_crc = 290209852
+textures = fx\sarma.txm
+textures = fx\lightbeam.txm
+textures = fx\standardeffects.txm
+textures = fx\kioncannon.txm
+
+[VisEffect]
+nickname = gf_huge_capital_explosion
+alchemy = fx\explosions\gf_explosion_li_battleship_wtfhuge.ale
+effect_crc = 3897419492
+textures = fx\sarma.txm
+textures = fx\lightbeam.txm
+textures = fx\standardeffects.txm
+textures = fx\kioncannon.txm
+</source>
+</data>
+
+
+
+
+
+<data file="DATA\FX\effects.ini" method="append">
+<source>
+
+[Effect]
+nickname = er_nanite_proj
+effect_type = EFT_WEAPON_PROJ
+vis_effect = gf_bolt04
+vis_generic = gf_bolt04
+
+[Effect]
+nickname = er_mining
+effect_type = EFT_WEAPON_PROJ
+vis_effect = gf_bolt01
+vis_generic = gf_bolt01
+
+[Effect]
+nickname = railgun
+effect_type = EFT_WEAPON_PROJ
+vis_effect = gf_bluering
+vis_generic = gf_bluering
+
+[Effect]
+nickname = bfg
+effect_type = EFT_WEAPON_PROJ
+vis_effect = gf_distortion
+vis_generic = gf_distortion
+
+</source>
+</data>
+
+### EVENT MODE SWITCH
+
+<data file="DATA\SHIPS\shiparch.ini" method="sectionreplace" options="1:1">
+<section>
+[Ship]
+ids_name = 237032
+ids_info = 66566
+nickname = li_dreadnought
+</section>
+<dest>
+type = CAPITAL
+</dest>
+<source>
+type = FREIGHTER
+</source>
+</data>
+
+<data file="DATA\SHIPS\shiparch.ini" method="sectionreplace" options="1:1">
+<section>
+[Ship]
+ids_name = 237049
+ids_info = 66596
+nickname = rh_battleship
+</section>
+<dest>
+type = CAPITAL
+</dest>
+<source>
+type = FREIGHTER
+</source>
+</data>
+
+<data file="DATA\SHIPS\shiparch.ini" method="sectionreplace" options="1:1">
+<section>
+[Ship]
+ids_name = 237050
+ids_info = 66597
+nickname = rh_cruiser
+</section>
+<dest>
+type = CRUISER
+</dest>
+<source>
+type = FREIGHTER
+</source>
+</data>
+
+
+
+### VISUALS & Extended Options
+
+
+<data file="EXE\dacom.ini" method="copyfile" sourcefile="EXE\dacom_details.ini" scanfile="false" options="6:1">
+</data>
+
+<data file="EXE\dacom.ini" method="append" options="4:1">
+<section>
+[Libraries]
+</section>
+<source>
+gls_workaround.dll
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="5:1">
+<section>
+[Settings]
+</section>
+<dest>
+LogChat=no
+</dest>
+<source>
+LogChat=yes
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="6:1">
+<section>
+[Settings]
+</section>
+<dest>
+HighDetails=no
+</dest>
+<source>
+HighDetails=yes
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="7:1">
+<section>
+[Settings]
+</section>
+<dest>
+HighDetailFields=no
+</dest>
+<source>
+HighDetailFields=yes
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="8:1">
+<section>
+[Settings]
+</section>
+<dest>
+MaxBandWidth=4
+</dest>
+<source>
+MaxBandWidth=10
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="8:2">
+<section>
+[Settings]
+</section>
+<dest>
+MaxBandWidth=4
+</dest>
+<source>
+MaxBandWidth=30
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="8:3">
+<section>
+[Settings]
+</section>
+<dest>
+MaxBandWidth=4
+</dest>
+<source>
+MaxBandWidth=50
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="8:4">
+<section>
+[Settings]
+</section>
+<dest>
+MaxBandWidth=4
+</dest>
+<source>
+MaxBandWidth=100
+</source>
+</data>
+
+<data file="EXE\d3d8.dll" method="copyfile" sourcefile="EXE\d3d8_.dll" options="9:1">
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="11:1">
+<section>
+[Settings]
+</section>
+<dest>
+3DSound=no
+</dest>
+<source>
+3DSound=yes
+</source>
+</data>
+
+<data file="DATA\Cameras.ini" method="sectionreplace" options="12:1,12:2,12:3">
+<section>
+[WinCamera]
+</section>
+<dest>
+fovx = 54.431999
+</dest>
+<source>
+fovx = 69.0
+</source>
+</data>
+
+<data file="DATA\Cameras.ini" method="sectionreplace" options="12:4,12:5,12:6">
+<section>
+[WinCamera]
+</section>
+<dest>
+fovx = 54.431999
+</dest>
+<source>
+fovx = 63.2
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="12:1">
+<section>
+[Settings]
+</section>
+<dest>
+ScreenWidth=0
+ScreenHeight=0 
+</dest>
+<source>
+ScreenWidth=1280
+ScreenHeight=720
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="12:2">
+<section>
+[Settings]
+</section>
+<dest>
+ScreenWidth=0
+ScreenHeight=0 
+</dest>
+<source>
+ScreenWidth=1600
+ScreenHeight=900
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="12:3">
+<section>
+[Settings]
+</section>
+<dest>
+ScreenWidth=0
+ScreenHeight=0 
+</dest>
+<source>
+ScreenWidth=1920
+ScreenHeight=1080
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="12:4">
+<section>
+[Settings]
+</section>
+<dest>
+ScreenWidth=0
+ScreenHeight=0 
+</dest>
+<source>
+ScreenWidth=1440
+ScreenHeight=900
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="12:5">
+<section>
+[Settings]
+</section>
+<dest>
+ScreenWidth=0
+ScreenHeight=0 
+</dest>
+<source>
+ScreenWidth=1680
+ScreenHeight=1050
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="12:6">
+<section>
+[Settings]
+</section>
+<dest>
+ScreenWidth=0
+ScreenHeight=0 
+</dest>
+<source>
+ScreenWidth=1920
+ScreenHeight=1200
+</source>
+</data>
+
+<data file="data\Equipment\misc_equip.ini" method="sectionreplace">
+
+###############
+######Power upgrade for colony Ships####
+###############
+<section>
+[Power]
+nickname = ku_elite_power01
+</section>
+
+<dest>
+capacity = 3400
+charge_rate = 345
+</dest>
+<source>
+capacity = 5400
+charge_rate = 545
+</source>
+</data>
+
+<data file="data\Equipment\misc_equip.ini" method="sectionreplace">
+<section>
+[Power]
+nickname = br_elite_power01
+</section>
+
+<dest>
+capacity = 2500
+charge_rate = 248
+</dest>
+<source>
+capacity = 5400
+charge_rate = 545
+</source>
+</data> 
+
+<data file="data\Equipment\misc_equip.ini" method="sectionreplace">
+<section>
+[Power]
+nickname = bw_elite_power01
+</section>
+
+<dest>
+capacity = 4700
+charge_rate = 465
+</dest>
+<source>
+capacity = 5400
+charge_rate = 545
+</source>
+</data>
+
+###############
+###############Transporter Rebalancing J‰nnner 10
+###############
+
+<data file="data/SHIPS/shiparch.ini" method="sectionreplace" scanfile="true">
+<section>
+nickname = ge_train
+</section>
+<dest>
+hit_pts = 95200
+nanobot_limit = 333
+</dest>
+<source>
+hit_pts = 295000
+nanobot_limit = 0
+</source>
+</data>
+
+<data file="data/SHIPS/shiparch.ini" method="sectionreplace">
+<section>
+nickname = ge_transport
+</section>
+<dest>
+hit_pts = 28600
+nanobot_limit = 100
+</dest>
+<source>
+hit_pts = 75000
+nanobot_limit = 0
+</source>
+</data>
+
+<data file="data/SHIPS/shiparch.ini" method="sectionreplace">
+<section>
+nickname = ge_armored
+</section>
+<dest>
+nanobot_limit = 166
+</dest>
+<source>
+nanobot_limit = 0
+</source>
+</data>
+
+<data file="data/SHIPS/shiparch.ini" method="sectionreplace">
+<section>
+nickname = ge_armored
+</section>
+<dest>
+hit_pts = 50400
+</dest>
+<source>
+hit_pts = 127000
+</source>
+</data>
+</script>

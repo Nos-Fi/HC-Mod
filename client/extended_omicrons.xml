@@ -1,0 +1,1663 @@
+<script>
+####################################
+## BONUS SYSTEMS
+####################################
+
+##############################
+#### UNKNOWN ALPHA | Ew05 ####
+##############################
+
+<data file="DATA\UNIVERSE\systems\EW05\Ew05.ini" method="append">
+<source>
+[Object]
+nickname = Ew05_to_St02_hole
+ids_name = 0 ;GENERATESTRRES("Omikron Beta Jump Hole")
+pos = 27200, 0, -15800
+rotate = 0, 140, 0
+archetype = jumphole_red
+msg_id_prefix = gcs_refer_system_St02
+jump_effect = jump_effect_hole
+ids_info = 66146
+visit = 128
+goto = St02, St02_to_Ew05_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+##############################
+#### UNKNOWN GAMMA | Ew06 ####
+##############################
+
+<data file="DATA\UNIVERSE\systems\EW06\Ew06.ini" method="append">
+<source>
+[Object]
+nickname = EW06_to_ST03b
+ids_name = 0 ;GENERATESTRRES("Omikron Major Nomad Gate")
+ids_info = 66145
+pos = 11543, 0, -23642
+rotate = 0, 161, 0
+Archetype = nomad_gate
+msg_id_prefix = gcs_refer_system_St03b
+jump_effect = jump_effect_bretonia
+behavior = NOTHING
+reputation = fc_n_grp
+difficulty_level = 1
+loadout = nomad_gate
+pilot = pilot_solar_easiest
+goto = St03b, St03b_to_EW06, gate_tunnel_bretonia
+</source>
+</data>
+
+##############################
+#### OMICRON MINOR | ST01 ####
+##############################
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST01\st01.ini" method="sectionappend">
+<section>
+[Object]
+nickname = St01_to_St03_hole
+</section>
+<source>
+msg_id_prefix = gcs_refer_system_St03
+behavior = NOTHING
+reputation = fc_n_grp
+difficulty_level = 1
+loadout = nomad_gate
+pilot = pilot_solar_easiest
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST01\st01.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St01_to_St02_hole
+</section>
+<dest>
+nickname = St01_to_St02_hole
+</dest>
+<source>
+nickname = St01_to_St02
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST01\st01.ini" method="sectionappend">
+<section>
+[Object]
+nickname = St01_to_St02
+</section>
+<source>
+ids_name = 0 ;GENERATESTRRES("Omikron Beta Jump Hole")
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST01\st01.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St01_to_St02
+</section>
+<dest>
+goto = St02, St02_to_St01_hole, gate_tunnel_bretonia
+</dest>
+<source>
+goto = St02, St02_to_St01, gate_tunnel_bretonia
+</source>
+</data> 
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST01\st01.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St01_to_St03_hole
+</section>
+<dest>
+nickname = St01_to_St03_hole
+</dest>
+<source>
+nickname = St01_to_St03
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST01\st01.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St01_to_St03
+</section>
+<dest>
+ids_name = 261793
+</dest>
+<source>
+ids_name = 0 ;GENERATESTRRES("Omikron Major Nomad Gate")
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST01\st01.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St01_to_St03
+</section>
+<dest>
+goto = St03, St03_to_St01_hole, gate_tunnel_bretonia
+</dest>
+<source>
+goto = St03, St03_to_St01, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST01\st01.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St01_dock_ring_1
+</section>
+<dest>
+ids_name = 261194
+</dest>
+<source>
+ids_name = 0 ;GENERATESTRRES("Toledo - Docking Ring")
+</source>
+</data>
+
+##################################
+#### OMICRON BETA FAKE | ST02 ####
+##################################
+
+<data file="data\universe\systems\st02\st02.ini" method="append">
+<source>
+[EncounterParameters]
+nickname = area_defend
+filename = missions\encounters\area_defend.ini
+
+[Zone]
+nickname = ST02_01_enc
+pos = 1520, 0, -12053
+shape = SPHERE
+size = 8000
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST02\ST02.ini" method="append">
+<source>
+[Object]
+nickname = ST02_02
+ids_name = 0 ;GENERATESTRRES("OS Botzler")
+ids_info = 0 ;GENERATEXMLRES(botzler)
+spin = 0.000000, 0.000000, 0.000000
+rotate = 0, 0, 0
+pos = 1520, 0, -12053
+behavior = NOTHING
+pilot = pilot_solar_easy
+dock_with = ST02_01_Base
+base = ST02_01_Base
+reputation = fc_order_grp
+rotate = 0, 43, 0
+archetype = o_osiris
+loadout = or_osiris
+difficulty_level = 38
+space_costume = , robot_body_A
+voice = pilot_f_mil_m02b 
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST02\st02.ini" method="append">
+<source>
+[Object]
+nickname = St02_to_Ew05_hole
+ids_name = 0 ;GENERATESTRRES("Unknown Jump Hole")
+pos = 505, 0, -12753
+rotate = 0, 8, 0
+archetype = jumphole_red
+msg_id_prefix = gcs_refer_system_Ew05
+jump_effect = jump_effect_hole
+ids_info = 66146
+visit = 0
+goto = Ew05, Ew05_to_St02_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST02\st02.ini" method="append">
+<source>
+[Object]
+nickname = ST02_to_St04_hole
+ids_name = 0 ;GENERATESTRRES("Omicron Lambda Jump Gate")
+pos = -17000, 0, -1490
+rotate = 0, -31, 0
+archetype = jumpgate
+msg_id_prefix = gcs_refer_system_St02
+jump_effect = jump_effect_bretonia
+reputation = fc_order_grp
+behavior = NOTHING
+difficulty_level = 7
+loadout = jumpgate_br_02
+pilot = pilot_solar_easiest
+goto = St04, St04_to_ST02_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST02\st02.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St02_to_St01_hole
+</section>
+<dest>
+nickname = St02_to_St01_hole
+</dest>
+<source>
+nickname = St02_to_St01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST02\st02.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St02_to_St01
+</section>
+<dest>
+ids_name = 60211
+</dest>
+<source>
+ids_name = 0 ;GENERATESTRRES("Omikron Minor Jump Hole")
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST02\st02.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St02_to_St01
+</section>
+<dest>
+goto = St01, St01_to_St02_hole, gate_tunnel_bretonia
+</dest>
+<source>
+goto = St01, St01_to_St02, gate_tunnel_bretonia
+</source>
+</data>
+
+################################
+#### OMICRON MAJOR 1 | ST03 ####
+################################
+
+<data file="data\universe\systems\st03\st03.ini" method="append">
+<source>
+[EncounterParameters]
+nickname = area_defend
+filename = missions\encounters\area_defend.ini
+
+[Zone]
+nickname = ST03_01_enc
+pos = 9336, 3500, 4509
+shape = SPHERE
+size = 8000
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+
+[Zone]
+nickname = dyson_enc
+pos = 0, 600, 0
+shape = SPHERE
+size = 8000
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+</source>
+</data>
+
+<data file="DATA\Universe\SYSTEMS\ST03\st03.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03_planet_desert_600_1
+</section>
+<dest>
+spin = 0, 0.020000, 0
+</dest>
+<source>
+0, 0, 0
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="append">
+<source>
+[Object]
+nickname = ST03_to_St04_hole
+ids_name = 0 ;GENERATESTRRES("Omikron Lambda Jump Hole")
+pos = -6800, 1500, -6800
+rotate = 0, -40, 0
+archetype = jumphole_red
+msg_id_prefix = gcs_refer_system_St03
+jump_effect = jump_effect_hole
+ids_info = 66146
+visit = 0
+goto = St04, ST04_to_St03_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\ST03.ini" method="append">
+<source>
+[Object]
+nickname = ST03_01_dock_ring
+ids_name = 0 ;GENERATESTRRES("Alexandria - Docking Ring")
+archetype = dock_ring
+ids_info = 66141
+behavior = NOTHING
+pilot = pilot_solar_easy
+dock_with = ST03_01_Base
+pos = 8600, 3500, 4440
+rotate = 0, -95, 0
+reputation = fc_order_grp
+difficulty_level = 2
+space_costume = pl_male7_head, pi_pirate3_body
+voice = atc_leg_f01a
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03_to_St01_hole
+</section>
+<dest>
+nickname = St03_to_St01_hole
+</dest>
+<source>
+nickname = St03_to_St01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03_to_St01
+</section>
+<dest>
+ids_name = 261793
+</dest>
+<source>
+ids_name = 0 ;GENERATESTRRES("Omikron Minor Nomad Gate")
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03_to_St01
+</section>
+<dest>
+goto = St01, St01_to_St03_hole, gate_tunnel_bretonia
+</dest>
+<source>
+goto = St01, St01_to_St03, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="append">
+<source>
+[Object]
+nickname = dyson_end_hole
+pos = 0, 600, 0
+rotate = 0, 0, 0
+archetype = dyson_airlock_inside
+msg_id_prefix = gcs_refer_system_St03
+jump_effect = jump_effect_bretonia 
+goto = St03, dyson_end_hole, gate_tunnel_bretonia
+behavior = NOTHING
+parent = St03_dyson_airlock
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="sectionappend">
+<section>
+[Object]
+nickname = St03_planet_desert_600_1
+</section>
+<source>
+rotate = 0, 0, 0
+base = St03_01_Base
+reputation = fc_order_grp
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03_planet_desert_600_1
+</section>
+<dest>
+ids_name = 261792
+</dest>
+<source>
+ids_name = 0 ;GENERATESTRRES("Alexandria")
+ids_info = 0 ;GENERATEXMLRES(Alexandria)
+base= ST03_01_Base
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="sectionreplace">
+<section>
+[zone]
+nickname = Zone_St03_planet_death
+</section>
+<dest>
+size = 800
+</dest>
+<source>
+size = 650
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03_dyson_airlock_1
+</section>
+<dest>
+nickname = St03_dyson_airlock_1
+</dest>
+<source>
+nickname = St03_dyson_airlock
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03\st03.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03_dyson_airlock
+</section>
+<dest>
+goto = St03b, St03b_dyson_airlock_1, gate_tunnel_bretonia
+</dest>
+<source>
+goto = St03b, St03b_dyson_airlock, gate_tunnel_bretonia
+</source>
+</data>
+
+#################################
+#### OMICRON MAJOR 2 | St03b ####
+#################################
+
+<data file="data\universe\systems\st03b\st03b.ini" method="append">
+<source>
+[EncounterParameters]
+nickname = area_defend
+filename = missions\encounters\area_defend.ini
+
+[zone]
+nickname = ST03b_02_enc
+pos = -11630, 0, 12580
+shape = SPHERE
+size = 8000
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+
+[zone]
+nickname = St03b_dyson_airlock_enc
+pos = -25000, 0, 0
+shape = SPHERE
+size = 2000
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+
+[zone]
+nickname = St03b_to_EW06_hole
+pos = 958, 0, 28505
+shape = SPHERE
+size = 2000
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03b\st03b.ini" method="append">
+<source>
+[Object]
+nickname = ST03B_02
+ids_name = 0 ;GENERATESTRRES("Sierra Nevada")
+ids_info = 0 ;GENERATEXMLRES(nevada)
+pos = -11630, 0, 12580
+behavior = NOTHING
+pilot = pilot_solar_easy
+dock_with = ST03B_02_Base
+base = ST03B_02_Base
+reputation = fc_order_grp
+rotate = 0, 180, 0
+archetype = o_osiris
+loadout = or_osiris
+difficulty_level = 38
+space_costume = , robot_body_A
+voice = pilot_f_mil_m02b
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03b\st03b.ini" method="append">
+<source>
+[Object]
+nickname = St03b_to_EW06
+ids_name = 0 ;GENERATESTRRES("Unknown Nomad Gate")
+pos = 958, 0, 28505
+rotate = 0, 39, 0
+Archetype = nomad_gate
+behavior = NOTHING
+msg_id_prefix = gcs_refer_system_Ew06
+jump_effect = jump_effect_bretonia
+reputation = fc_n_grp
+difficulty_level = 1
+loadout = nomad_gate
+pilot = pilot_solar_easiest
+goto = EW06, EW06_to_St03b, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03b\st03b.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03b_dyson_airlock_1
+</section>
+<dest>
+nickname = St03b_dyson_airlock_1
+</dest>
+<source>
+nickname = St03b_dyson_airlock
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03b\st03b.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03b_dyson_airlock
+</section>
+<dest>
+goto = St03, St03_dyson_airlock_1, gate_tunnel_bretonia
+</dest>
+<source>
+goto = St03, dyson_end_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03b\st03b.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03b_dyson_airlock
+</section>
+<dest>
+Archetype = dyson_airlock_inside
+</dest>
+<source>
+Archetype = nomad_gate
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03b\st03b.ini" method="sectionappend">
+<section>
+[Object]
+nickname = St03b_dyson_airlock
+</section>
+<source>
+rotate = 0, 180, 0
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03b\st03b.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Nomad_city
+</section>
+<dest>
+ids_name = 1
+</dest>
+<source>
+ids_name = 0 ;GENERATESTRRES("Nomad City")
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\ST03b\st03b.ini" method="sectionappend">
+<section>
+[Object]
+nickname = Nomad_city
+</section>
+<source>
+ids_info = 0 ;GENERATEXMLRES(nomadcity)
+</source>
+</data>
+
+###############################
+#### OMICRON LAMBDA | St04 ####
+###############################
+
+<data file="DATA\UNIVERSE\SYSTEMS\St04\St04.ini" method="append" newfile="true">
+<source>
+
+[SystemInfo]
+name = St04 
+space_color = 0, 0, 0
+local_faction = fc_order_grp
+
+[TexturePanels]
+file = universe\heavens\shapes.ini
+
+[Music]
+space = music_omicron_space
+danger = music_omicron_danger
+battle = music_omicron_battle
+
+[EncounterParameters]
+nickname = area_nomads
+filename = missions\encounters\area_nomads.ini
+
+[EncounterParameters]
+nickname = area_defend
+filename = missions\encounters\area_defend.ini
+
+[Dust]
+spacedust = Dust
+
+[Ambient]
+color = 30, 10, 6
+
+[Background]
+basic_stars = solar\starsphere\starsphere_stars_crow.cmp
+complex_stars = solar\starsphere\starsphere_li02_stars.cmp
+nebulae = solar\starsphere\starsphere_hi02.cmp
+
+[LightSource]
+nickname = St04_system_light
+pos = 0, 0, 0
+color = 255, 50, 0
+range = 80000
+type = DIRECTIONAL
+atten_curve = DYNAMIC_DIRECTION
+
+[Object]
+nickname = St04_Sun
+ids_name = 261049
+pos = 0, 0, 0
+ambient_color = 255, 255, 255
+archetype = sun_1000
+star = sm_red_sun
+atmosphere_range = 8000
+ids_info = 66155
+
+[zone]
+nickname = Zone_St04_Sun_death
+pos = 0, 0, 0
+shape = SPHERE
+size = 7000
+damage = 10000
+sort = 99
+density = 0
+relief_time = 0
+
+; ### Fields ###
+
+[Asteroids]
+file = solar\asteroids\ST04_mines.ini
+zone = Zone_ST04_granada_01 
+
+[Asteroids]
+file = solar\asteroids\ST04_sanabria.ini
+zone = Zone_ST04_sanabria_01
+
+[Asteroids]
+file = solar\asteroids\ST04_wadis.ini
+zone = Zone_ST04_wadis_01
+
+[Asteroids]
+file = solar\asteroids\ST04_teide.ini
+zone = Zone_ST04_teide_01
+
+[Nebula]
+file = solar\rings\st04_systemfog.ini
+zone = st04_systemfog
+
+[zone]
+nickname = st04_systemfog
+pos = 0, 0, 0
+rotate = 0, 0, 0
+shape = SPHERE
+size = 300000
+sort = 0.000000
+
+[Zone]
+nickname = Zone_ST04_granada_01
+ids_name = 0 ;GENERATESTRRES("Granada")
+pos = 22975, 0, -9845
+size = 12000, 12000, 12000
+shape = SPHERE
+property_flags = 4128
+visit = 36
+spacedust = asteroiddust
+spacedust_maxparticles = 50
+sort = 20
+toughness = 6
+density = 4
+repop_time = 20
+max_battle_size = 4
+pop_type = nonlootable_ast_field
+relief_time = 35
+
+[Zone]
+nickname = Zone_ST04_access
+pos = 15715, 0, -15121
+shape = BOX
+size = 2000, 1000, 22000
+property_flags = 131072
+sort = 990
+rotate = 0, 45, 0
+
+[Zone]
+nickname = Zone_ST04_to_ST03
+pos = 22975, 0, -9845
+shape = ELLIPSOID
+size = 2000, 2000, 2200
+property_flags = 131072
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+encounter = area_nomads, 19, 0.200000
+faction = fc_n_grp, 1.000000
+
+[Zone]
+nickname = Zone_ST04_wadis_01
+ids_name = 0 ;GENERATESTRRES("Wadis")
+pos = -13633, 0, -37111
+rotate = 0, 47, 0
+shape = SPHERE
+size = 16773, 7532, 7521
+property_flags = 130
+visit = 36
+spacedust = dust
+spacedust_maxparticles = 50
+sort = 50
+toughness = 6
+density = 4
+repop_time = 20
+max_battle_size = 20
+pop_type = lootable_ast_field
+relief_time = 35 
+
+[Zone]
+nickname = Zone_ST04_teide_01
+ids_name = 0 ;GENERATESTRRES("Teide") 
+pos = -27518, 0, 9594
+size = 20447, 10357, 10357
+shape = SPHERE
+property_flags = 66
+visit = 36
+spacedust = dust
+spacedust_maxparticles = 50
+sort = 50
+toughness = 6
+density = 4
+repop_time = 20
+max_battle_size = 20
+pop_type = lootable_ast_field
+relief_time = 35  
+
+[Zone]
+nickname = Zone_ST04_sanabria_01
+ids_name = 0 ;GENERATESTRRES("Sanabria")
+pos = 9846, 0, -32315
+rotate = 0, 47, 0
+shape = SPHERE
+size = 4773, 4532, 4521
+property_flags = 66
+visit = 36
+spacedust = dust
+spacedust_maxparticles = 50
+sort = 50
+toughness = 6
+density = 4
+repop_time = 20
+max_battle_size = 20
+pop_type = lootable_ast_field
+relief_time = 35 
+
+[Zone]
+nickname = Zone_ST04_dumiat-nebel_01
+ids_name = 0 ;GENERATESTRRES("Dumiat-Nebel")
+ids_info = 0 ;GENERATEXMLRES(dumiat)
+pos = -25499, 0, 17420 
+size = 8345 
+shape = SPHERE 
+damage = 675 
+sort = 209 
+toughness = 6 
+density = 4 
+spacedust = leeds 
+repop_time = 20 
+max_battle_size = 4 
+relief_time = 35 
+property_flags = 32776 
+property_fog_color = 102, 102, 255
+
+; encounter
+[zone]
+nickname = Zone_st04_01_enc
+pos = 2524, 0, -24236
+shape = SPHERE
+size = 8000
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+
+[zone]
+nickname = Zone_st04_02_enc
+pos = -28710, 0, -2100
+shape = SPHERE
+size = 8000
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+
+[zone]
+nickname = Zone_st04_03_enc
+pos = -14300, 0, -39460
+shape = SPHERE
+size = 8000
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+
+; ### Jump Hole/Gate ###
+
+[Object]
+nickname = ST04_to_St03_hole
+ids_name = 0 ;GENERATESTRRES("Omicron Major Jumphole")
+pos = 22975, 0, -9845
+rotate = 0, 140, 0
+archetype = jumphole_green
+msg_id_prefix = gcs_refer_system_St03
+jump_effect = jump_effect_hole
+visit = 0
+goto = St03, St03_to_ST04_hole, gate_tunnel_bretonia 
+
+[zone]
+nickname = Zone_ST04_to_St03_hole
+pos = 57187, 0, 38125
+shape = SPHERE
+size = 1000
+property_flags = 131072
+visit = 128
+sort = 0 
+
+[Object]
+nickname = ST04_to_St02_hole
+ids_name = 0 ;GENERATESTRRES("Omicron Beta Gate")
+pos = -32380, 0, -900
+rotate = 0, -37, 0
+archetype = jumpgate
+msg_id_prefix = gcs_refer_system_St02
+jump_effect = jump_effect_bretonia
+reputation = fc_order_grp
+behavior = NOTHING
+difficulty_level = 7
+loadout = jumpgate_br_02
+pilot = pilot_solar_easiest
+goto = St02, St02_to_ST04_hole, gate_tunnel_bretonia
+
+[zone]
+nickname = Zone_ST04_to_St02
+pos = -57500, 0, 17500
+shape = SPHERE
+size = 1000
+property_flags = 131072
+visit = 128
+sort = 0
+
+; ### Bases ###
+
+[Object]
+nickname = ST04_01
+ids_name = 0 ;GENERATESTRRES("Cairo")
+ids_info = 0 ;GENERATEXMLRES(cairo)
+spin = 0.000000, 0.000000, 0.000000
+rotate = 0, 0, 0
+pos = 2524, 0, -24236
+archetype = planet_earthgaia_1500
+atmosphere_range = 1600
+burn_color = 255, 222, 160
+base = ST04_01_Base
+reputation = fc_order_grp 
+
+[zone]
+nickname = Zone_ST04_01_Kairo_death 
+pos = 2524, 0, -24236 
+shape = SPHERE 
+size = 1550 
+damage = 2000000 
+sort = 99.500000 
+density = 0 
+relief_time = 0 
+population_additive = false 
+
+[Object]
+nickname = ST04_01_dock_ring
+ids_name = 0 ;GENERATESTRRES("Cairo Docking")
+archetype = dock_ring
+behavior = NOTHING
+pilot = pilot_solar_easy
+dock_with = ST04_01_Base
+pos = 2188, 0, -22659
+rotate = 0, -14, 0
+reputation = fc_order_grp
+difficulty_level = 5
+space_costume = , robot_body_A
+voice = pilot_c_ill_f01a 
+
+[Object]
+nickname = ST04_01_docking_fixture_1
+ids_name = 261166
+pos = 2188, 350, -22659
+rotate = 0, -14, 0
+archetype = docking_fixture
+ids_info = 66489
+reputation = fc_order_grp
+behavior = NOTHING
+dock_with = ST04_01_Base
+base = ST04_01_Base
+
+[Object]
+nickname = ST04_02
+ids_name = 0 ;GENERATESTRRES("Menes")
+ids_info = 0 ;GENERATEXMLRES(menes)
+pos = -28710, 0, -2100
+behavior = NOTHING
+pilot = pilot_solar_easy
+dock_with = ST04_02_Base
+base = ST04_02_Base
+reputation = fc_order_grp
+rotate = 0, 0, 0
+archetype = co_base_ice_large02
+loadout = co_base_ice_large02_pi_01
+difficulty_level = 5
+space_costume = , robot_body_A
+voice = pilot_c_ill_m01b
+
+[Object]
+nickname = ST04_03
+ids_name = 0 ;GENERATESTRRES("Sinai")
+ids_info = 0 ;GENERATEXMLRES(sinai)
+pos = -14300, 0, -39460
+behavior = NOTHING
+pilot = pilot_solar_easy
+dock_with = ST04_03_Base
+base = ST04_03_Base
+reputation = fc_order_grp
+rotate = 0, 0, 0
+archetype = space_factory01
+difficulty_level = 5
+loadout = space_factory01_co_01
+space_costume = , robot_body_A
+voice = pilot_c_ill_m01b
+
+[Object]
+nickname = ST04_shipyard_1
+ids_name = 0
+pos = -13804,130,-39209
+rotate = 0, 90, 0
+archetype = shipyard
+reputation = fc_order_grp
+ids_info = 0
+parent = ST04_03
+
+[Object]
+nickname = ST04_shipyard_2
+ids_name = 0
+pos = -13804,-195,-39209
+rotate = 0, 90, 0
+archetype = shipyard
+reputation = fc_order_grp
+ids_info = 0
+parent = ST04_03
+
+[Object]
+nickname = ST04_shipyard_3
+ids_name = 0
+pos = -13804,130,-39711
+rotate = 0, 90, 0
+archetype = shipyard
+reputation = fc_order_grp
+ids_info = 0
+parent = ST04_03
+
+[Object]
+nickname = ST04_shipyard_4
+ids_name = 0
+pos = -13804,-195,-39711
+rotate = 0, 90, 0
+archetype = shipyard
+reputation = fc_order_grp
+ids_info = 0
+parent = ST04_03
+
+[Object]
+nickname = ST04_OS_Osiris_1
+pos = -13804,-180,-39711
+rotate = 0, 90, 0
+archetype = o_osiris
+dock_with = ST04_03_Base
+base = ST04_03_Base
+visit = 128
+parent = ST04_03
+
+[Object]
+nickname = ST04_OS_Osiris_2
+pos = -13804,150,-39209
+rotate = 0, 90, 0
+archetype = o_osiris
+dock_with = ST04_03_Base
+base = ST04_03_Base
+visit = 128
+parent = ST04_03
+
+[Zone]
+nickname = ST04_03_ex
+pos = -14300, 0, -39460
+shape = ELLIPSOID
+size = 1000, 1000, 1000
+property_flags = 131072
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+
+[Object]
+nickname = ST04_04
+ids_name = 0 ;GENERATESTRRES("OS Djoser")
+ids_info = 0 ;GENERATEXMLRES(djoser)
+pos = 12160, 0, -17640
+behavior = NOTHING
+pilot = pilot_solar_easy
+dock_with = ST04_04_Base
+base = ST04_04_Base
+reputation = fc_order_grp
+rotate = 0, -57, 0
+archetype = o_osiris
+loadout = or_osiris
+difficulty_level = 38
+space_costume = , robot_body_A
+voice = pilot_f_mil_m02b 
+
+[Object]
+nickname = ST04_05
+ids_name = 0 ;GENERATESTRRES("Memphis")
+ids_info = 0 ;GENERATEXMLRES(memphis)
+spin = 0.000000, 0.000000, 0.000000
+rotate = 0, 0, 0
+pos = -25499, 0, 17420
+archetype = planet_moonred_1500
+atmosphere_range = 1650
+burn_color = 255, 222, 160
+
+[zone]
+nickname = ST04_01_Memphis_death 
+pos = -25499, 0, 17420
+shape = SPHERE 
+size = 1600 
+damage = 2000000 
+sort = 99.500000 
+density = 0 
+relief_time = 0 
+population_additive = false 
+
+[Object]
+nickname = ST04_06
+ids_name = 0 ;GENERATESTRRES("Gizeh")
+pos = 8250,0,-28250
+behavior = NOTHING
+pilot = pilot_solar_easy
+rotate = 0, 0, 0
+archetype = mplatform
+loadout = mplatform_red_co_01
+difficulty_level = 5
+
+[Zone]
+nickname = ST04_06_ex
+pos = 8250,0,-28250
+shape = ELLIPSOID
+size = 300, 300, 300
+property_flags = 131072
+sort = 5
+toughness = 1
+density = 3
+repop_time = 10
+max_battle_size = 8
+relief_time = 10
+encounter = area_defend, 19, 0.200000
+faction = fc_order_grp, 1.000000
+
+; ### Wrack ###
+
+[Object]
+nickname = ST04_suprise_ge_train_01
+ids_name = 0 ;GENERATESTRRES("RMS Queen Mary")
+ids_info = 0 ;GENERATEXMLRES(mary)
+pos = -26930, 0, 9300
+visit = 16
+rotate = 90, 90, 60
+archetype = suprise_ge_train
+loadout = ST04_Train
+
+[Object]
+nickname = ST04_suprise_ge_train_02
+ids_name = 0 ;GENERATESTRRES("New London Eye")
+ids_info = 0 ;GENERATEXMLRES(nleye)
+pos = -26887.3,0,9247.36
+visit = 16
+rotate = 134.843,67.6706,147.451
+archetype = suprise_ge_fighter6
+loadout = ST04_Fighter
+
+</source>
+</data>
+
+
+###################
+#### INFOCARDS ####
+###################
+
+<xmldata name="alexandria">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+Planet Alexandria
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The planet Alexandria was discovered after the final fight, in which the Nomads nearly totally forced out.
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+It is rich on mineral resources, but the high miningrate causes lots of toxic waste.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Many artifactfounds of an ancient high culture, which lived on this planet long time before, let the black market and smuggling rise up in the past years.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+<xmldata name="botzler">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+OS Botzler
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The Ordership Botzler is the twin ship of the OS Osiris.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The name Botzler was given by a pilot, who fighted against the Nomads in the final fight. According to rumors, Klaus Botzler of the Rheinland Navy died, when he destroyed a shipyard of Rheinland, where Nomad Battleships were build. The explosion destroyed all ships which were under construction.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+
+<xmldata name="memphis">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+Planet Memphis
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Memphis is an uninhabitable planet in Omicron Lambda.
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+On planet Memphis, scans were carried out at first, however, every time the results were useless.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Scientists aren't sure, how that could happen, but in many theories it is mentioned, that this is caused by the planet surface and atmosphere.
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Neither machines nor humans could work at Memphis because of extreme low temperature (ca. -240°C) and strong magnetic fields. This temperature makes any terraforming process impossible: any organism would freeze immediately. Another preventing factor is the high radiation dose emitted by the Dumiat-Fog.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+
+<xmldata name="Cairo">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+Planet Cairo
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Cairo is the mainplanet in the Omicron Lambda-System. This, from The Order controlled planet, is famous for the producing of high quality luxurygoods.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+But because they are produced in a rare rate, the necessity is still high.
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+For providing the water supply of the mostly wealthy society of Cairo, large waterstocks are necessary.From the obvious debris field, the governement of Cairo mines building material for houses and other things. This method is controversial, but tolerated.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+<xmldata name="menes">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+Menes Station
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Little is known about Menes, because all data are subject to the highest secrecy.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+According to rumors, The Order tries to find out more about the Nomads and their ability for taking over humans.
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+There are strict safety measures for docking and visitors.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
++++ It is strictly forbidden to take cargo like Light Arms and Optical Chips with you into the security zone +++
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+
+<xmldata name="mary">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+RMS Queen Mary
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The Queen Mary is a cruiser of the enterprise “Orbital Spa and Cruise”. On the basis of new London the Qeen Mary as well as its escort, “New London Eye” started.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+On board: Prominent guests, who are excited to walk throught the endless department stores of the planet Cairo and to buy some the famous luxury goods.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Also on board: Dieter Bohlen, originating from Rheinland, who had to transact some business in New London after his last holiday trip to Farwaystation.
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The systems around Omicron Lambda are very roughly and particularly in Omicron Gamma and the Omega systems high pirate activity has been registered. Thats the reason for the heavy armament of the Queen Mary and its escort.
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
++++ News +++
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Orbital Spa and Cruise informed us, that the contact to the Queen Mary broke off yesterday afternoon.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The local authorities are informed and patrols of The Order are searching in the area, where the signal of the Queen Mary got lost.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Nevertheless, a reason for being worried does not exist, explained a - however extremly procures sounding - press speaker.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The radiation in the area - known as the 
+
+-Fog - complicates navigation strongly, so that an average could be possible. However, the Queen Mary can protect their passengers against the damaging effects of the highly energetic radiation. Orbital Spa and Cruise is confidently that the Queen Mary will be found very soon.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+
+<xmldata name="nleye">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+New London Eye
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The New London Eye is flown by one of the best pilots of the BAF. It is the escort of the RMS Queen Mary.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+<xmldata name="nomadcity">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+Nomad City
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The Nomad "City" is a giant antique building, which is protected by a strong energy shield. Not much is known about this, also "Hyper Gate" called, building.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Because of that, The Order built a station near to the "City" for studying it.
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The four main-generators were destroyed, so the "City" got nearly no energy. Scientists wondered, how the energy shield could be recharged with the little energy, which were still aviable.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+<xmldata name="sinai">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+Sinai Shipyard
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The Sinai Shipyard is used by The Order for producing many things. They sell external ship equipment like weapons, shields and thrusters, but also ships (big transports).
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The shipyard gets nearly all its resources from the debris field near Cairo, so the prices are very low.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+But the shipyard doesn't guarantee the compatibility or the functionality of weapons and other equipment, because they are made out of debris.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+<xmldata name="nevada">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+Sierra Nevada Researchstation
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Sierra Nevada Researchstation is a boring place, for both V.I.P.s and normal Freelancer...
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+But all archeologists from Sirius are interested to come here. Each of them want to find a big discovery on the subject "Nomads".
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Here you can study the Nomads and their "City" really near. Mabye too near, because Sierra Nevada stands under continuing attacks of the Nomads. However, no large danger to the station and its inhabitants.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+<xmldata name="djoser">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+OS Djoser
+
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Little is known, like OS Botzler and OS Osiris, about the OS Djoser. But it is popular belief, that the OS Djoser is was sent to the Omicron Major jumphole. It shall defend the system against the Nomads and other enemies of The Order.
+</TEXT>
+<PARA/>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+A minefield and multiple weapon platforms were set up to stop the Nomads, should the Djoser be destroyed.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+
+
+
+<xmldata name="dumiat">
+<RDL>
+<PUSH/>
+<TRA data="1" mask="1" def="-2"/>
+<JUST loc="center"/>
+<TEXT>
+Dumiat-Fog
+</TEXT>
+<TEXT> </TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+The Dumiat-For mainly consists of frozen water. It is - however - opaque - the scientists aren't sure about the reason of this. Another mystery is the the highly energetic radiation of this cloud.
+</TEXT>
+<PARA/>
+<TRA data="0" mask="1" def="-1"/>
+<JUST loc="left"/>
+<TEXT>
+Radiation and low temperatures because of the opaque Fog make the the Dumiat-Fog and the Planet inside to an lethal place.
+</TEXT>
+<PARA/>
+<POP/>
+</RDL>
+</xmldata>
+</script>
