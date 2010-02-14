@@ -1,0 +1,61 @@
+<script>
+
+
+
+### Freeport 1 Shipdealer ###
+
+<data file="data\universe\SYSTEMS\BW01\BASES\Bw01_02_base.ini" method="sectionappend">
+<section>
+[BaseInfo]
+nickname = Bw01_02_Base
+start_room = Deck
+</section>
+<source>
+
+[Room]
+nickname = ShipDealer
+file = Universe\Systems\Bw01\Bases\Rooms\Bw01_02_ShipDealer.ini
+</source>
+</data>
+
+<data file="data\universe\SYSTEMS\BW01\BASES\ROOMS\Bw01_02_bar.ini" method="sectionappend">
+<section>
+[Hotspot]
+name = IDS_HOTSPOT_EQUIPMENTDEALER_ROOM
+</section>
+<source>
+
+[Hotspot]
+name = IDS_HOTSPOT_SHIPDEALER_ROOM
+behavior = ExitDoor
+room_switch = ShipDealer
+</source>
+</data>
+
+
+<data file="data\universe\SYSTEMS\BW01\BASES\ROOMS\Bw01_02_deck.ini" method="sectionappend">
+<section>
+[Hotspot]
+name = IDS_HOTSPOT_EQUIPMENTDEALER
+</section>
+<source>
+
+[Hotspot]
+name = IDS_HOTSPOT_SHIPDEALER_ROOM
+behavior = ExitDoor
+room_switch = ShipDealer
+</source>
+</data>
+
+
+### KnowledgeMap Entry Farway ###
+
+<data file="DATA\INTERFACE\KnowledgeMap.ini" method="append">
+<source>
+
+Map = 458804, HiddenForce_Base, 1
+Map = 458805, Ew05_to_St02_hole, 1
+</source>
+</data>
+
+</script>

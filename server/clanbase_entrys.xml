@@ -1,0 +1,1343 @@
+<script>
+
+<data file="DATA\InitialWorld.ini" method="copyfile" sourcefile="DATA\InitialWorld.ini" scanfile="true">
+</data>
+
+## ClanBase Entrys
+
+<data file="DATA\UNIVERSE\Systems\Rh01\Rh01.ini" method="append">
+<source>
+	
+[Object] 
+nickname = Rh01_IMPERIUM_Base
+pos = 59550, -4000, 31652 
+ids_info = 0 
+behavior = NOTHING 
+pilot = pilot_crazy
+dock_with = Rh01_IMPERIUM_Base 
+base = Rh01_IMPERIUM_Base 
+reputation = IMPERIUM_CLAN 
+rotate = 0, 0, 0 
+archetype = r_battleship 
+ids_name = 0 ;GENERATESTRRES("ISD II Redoubtable")
+loadout = clan_rh_battleship 
+difficulty_level = 30 
+space_costume = benchmark_male_head, benchmark_male_body 
+voice = atc_leg_m01 
+  
+[Object] 
+nickname = Rh01_space_habitat_wide_02 
+ids_name = 0 
+ids_info = 0 
+rotate = 0, 0, 90 
+pos = 59549, -4036, 31212 
+archetype = space_habitat_wide 
+parent = Rh01_IMPERIUM_Base 
+reputation = IMPERIUM_CLAN 
+  
+[Object] 
+nickname = Rh01_space_beaml_dmg_01 
+ids_name = 0 
+ids_info = 0 
+rotate = 0, 0, 0 
+pos = 59490, -4030, 31494 
+archetype = space_beaml_dmg 
+parent = Rh01_IMPERIUM_Base 
+reputation = IMPERIUM_CLAN 
+  
+[Object] 
+nickname = Rh01_space_beaml_dmg_02 
+ids_name = 0 
+ids_info = 0 
+rotate = 0, 0, 0 
+pos = 59612, -4030, 31494 
+archetype = space_beaml_dmg 
+parent = Rh01_IMPERIUM_Base 
+reputation = IMPERIUM_CLAN 
+
+[Object] 
+nickname = Rh01_NXS_base 
+pos = 54644,8000,-14355 
+rotate = 50,-90,-50 
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+archetype = r_battleship 
+loadout = clan_rh_battleship 
+difficulty_level = 30 
+space_costume = benchmark_male_head, benchmark_male_body 
+voice = atc_leg_m01 
+behavior = NOTHING 
+pilot = pilot_crazy 
+dock_with = Rh01_NXS_base 
+base = Rh01_NXS_base 
+reputation = NEXUS_CLAN
+
+[Object] 
+nickname = component_01 
+ids_name = 1 
+pos = 55076,8000,-14628 
+Archetype = space_dome 
+parent = Rh01_NXS_base 
+
+[Object] 
+nickname = component_02 
+ids_name = 1 
+pos = 55076,8000,-14865 
+Archetype = space_dome 
+parent = Rh01_NXS_base 
+
+[Object] 
+nickname = component_03 
+ids_name = 1 
+pos = 55076,7969,-14355 
+rotate = 90,0,90 
+Archetype = space_habitat_wide 
+parent = Rh01_NXS_base 
+
+[Object] 
+nickname = component_04 
+ids_name = 1 
+pos = 54640,8112,-14357 
+Archetype = space_habitat_tall 
+parent = Rh01_NXS_base 
+54644,8000,-14355 
+
+[Object] 
+nickname = component_05 
+ids_name = 1 
+pos = 54400,7980,-14355 
+Archetype = lair_shield_gen 
+parent = Rh01_NXS_base 
+rotate = 90, 0, 90 
+
+[Object] 
+nickname = component_06 
+ids_name = 1 
+pos = 54845,7970,-14411 
+Archetype = space_habitat_wide 
+parent = Rh01_NXS_base 
+rotate = 0, 0, 90 
+
+[Object] 
+nickname = component_07 
+ids_name = 1 
+pos = 54845,7970,-14298 
+Archetype = space_habitat_wide 
+parent = Rh01_NXS_base 
+rotate = 0, 0, 90 
+
+[Object] 
+nickname = component_08 
+ids_name = 1 
+pos = 54875,8024,-14355 
+Archetype = com_sat 
+parent = Rh01_NXS_base 
+
+[Object] 
+nickname = component_10 
+ids_name = 1 
+pos = 54405,7985,-14412 
+Archetype = lair_platform 
+parent = Rh01_NXS_base 
+rotate = 90, 0, 90 
+
+[Object] 
+nickname = component_11 
+ids_name = 1 
+pos = 54405,7985,-14298 
+Archetype = lair_platform 
+parent = Rh01_NXS_base 
+rotate = 270, 0, 90 
+
+[Object] 
+nickname = component_12 
+ids_name = 1 
+pos = 54403,8046,-14355 
+Archetype = com_sat 
+parent = Rh01_NXS_base 
+
+[Object] 
+nickname = component_13 
+ids_name = 1 
+pos = 55076,7890,-14865 
+Archetype = space_tanksx4 
+parent = Rh01_NXS_base 
+
+[Object] 
+nickname = component_14 
+ids_name = 1 
+pos = 55076,7890,-14628 
+Archetype = space_tanksx4 
+parent = Rh01_NXS_base
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Ku04\Ku04.ini" method="append">
+<source>
+
+[Object]
+nickname = Ku04_STE_BASE
+ids_name = 0 ;GENERATESTRRES("~SinCity~")
+pos = 72919, 4000, 34995
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Ku04_STE_Base
+base = Ku04_STE_Base
+reputation = STE_CLAN
+rotate = 0, 0, 0
+archetype = smallstation1
+loadout = clan_smallstation1_hc
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+
+[Object] 
+nickname = STE_base_space_habitat_tall_1 
+pos = 72918, 4200, 34994 
+archetype = space_habitat_tall 
+reputation = STE_CLAN 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_habitat_wide_1 
+pos = 73036, 4089, 35123 
+archetype = space_habitat_wide 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_habitat_tall_2 
+pos = 73036, 4265, 35123 
+archetype = space_habitat_tall 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_habitat_wide_2 
+pos = 72795, 4089, 35110 
+archetype = space_habitat_wide 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_habitat_tall_3 
+pos = 72795, 4159, 35110 
+archetype = space_habitat_tall 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_habitat_wide_3 
+pos = 72797, 4089, 34870 
+archetype = space_habitat_wide 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_habitat_tall_4 
+pos = 72796, 4126, 34870 
+archetype = space_habitat_tall 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_habitat_tall_10 
+pos = 73034, 4150, 34886 
+rotate = 0, -30, 0 
+archetype = space_habitat_tall 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_tankl4_1 
+ids_name = 60251 
+pos = 72928, 3953, 34965 
+rotate = 0, 0, 90 
+archetype = space_tankl4 
+reputation = STE_CLAN 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_tankl4_2 
+ids_name = 60251 
+pos = 72911, 3953, 34965 
+rotate = 0, 0, 270 
+archetype = space_tankl4 
+reputation = STE_CLAN 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_solar_pnl_1 
+pos = 72919, 4000, 35020 
+rotate = 100, 0, 0 
+archetype = space_solar_pnl 
+reputation = STE_CLAN 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_solar_pnl_2 
+pos = 72919, 3930, 35040 
+rotate = 148, 0, 0 
+archetype = space_solar_pnl 
+reputation = STE_CLAN 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_domel_1 
+pos = 72875, 3815, 34950 
+rotate = 0, 39, 90 
+archetype = space_dome 
+reputation = STE_CLAN 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_space_domel_2 
+pos = 72963, 3815, 34950 
+rotate = 0, 321, 270 
+archetype = space_dome 
+reputation = STE_CLAN 
+parent = Ku04_STE_BASE 
+
+[Object] 
+nickname = STE_base_telescope_1 
+ids_name = 1 
+pos = 73134, 3999, 34996 
+archetype = telescope 
+parent = Ku04_STE_BASE 
+rotate = 180,15,90 
+
+[Object] 
+nickname = STE_base_telescope_2 
+ids_name = 1 
+pos = 72920, 3999, 34780 
+archetype = telescope 
+parent = Ku04_STE_BASE 
+rotate = 270,0,105 
+
+[Object] 
+nickname = STE_base_telescope_3 
+ids_name = 1 
+pos = 72703, 3999, 34996 
+archetype = telescope 
+parent = Ku04_STE_BASE 
+rotate = 0,345,90 
+
+[Object] 
+nickname = STE_base_com_sat_1 
+ids_name = 1 
+pos = 72920, 4035, 35094 
+archetype = com_sat 
+parent = Ku04_STE_BASE 
+rotate = 0,0,0 
+
+[Object] 
+nickname = STE_base_com_sat_2 
+ids_name = 1 
+pos = 72920, 4035, 35136 
+archetype = com_sat 
+parent = Ku04_STE_BASE 
+rotate = 0,40,0 
+
+[Object] 
+nickname = STE_base_telescope_4 
+ids_name = 1 
+pos = 72920, 4040, 35115 
+archetype = telescope 
+parent = Ku04_STE_BASE 
+rotate = 0,74,180 
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Bw02\Bw02.ini" method="append">
+<source>
+	
+[Object] 
+nickname = Bw02_USAF_Base 
+pos = 2587, 4000, 4166 
+ids_info = 0
+behavior = NOTHING 
+pilot = pilot_crazy
+dock_with = Bw02_USAF_Base 
+base = Bw02_USAF_Base 
+reputation = USAF_CLAN
+rotate = 0, 0, 0 
+archetype = outpost 
+ids_name = 0 ;GENERATESTRRES("Magnum Opus")
+loadout = clan_outpost
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body 
+voice = atc_leg_m01 
+
+[Object] 
+nickname = USAF_component01
+rotate = -90, 0, 0 
+pos = 2592, 3600, 4166 
+archetype = space_industrial 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component02
+rotate = 0, -90, 0 
+pos = 2734, 4153, 4213 
+archetype = space_habitat_tall 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component03
+rotate = 0, 0, 0 
+pos = 2425, 4095, 4208 
+archetype = space_habitat_wide 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component04 
+rotate = 0, -90, 0 
+pos = 3072, 3999, 4166 
+archetype = space_industrial01 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component05 
+rotate = 0, 90, 0 
+pos = 2089, 3995, 4163 
+archetype = space_industrial01 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component06 
+rotate = 0, 0, 0 
+pos = 2089, 4026, 3797 
+archetype = space_dome 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component07 
+rotate = 0, -180, 0 
+pos = 2089, 4026, 4530 
+archetype = space_dome 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component08
+rotate = 0, 0, 0 
+pos = 3072, 4029, 3800 
+archetype = space_dome 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component09
+rotate = 0, -180, 0 
+pos = 3073, 4029, 4531 
+archetype = space_dome 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component10
+rotate = 0, -90, 0 
+pos = 2436, 3601, 4166 
+archetype = large_transport 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component11
+rotate = 0, 0, 0 
+pos = 2694, 3600, 4166 
+archetype = l_dreadnought_nodock 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component12 
+rotate = 0, 0, 0 
+pos = 2592, 3602, 4322 
+archetype = large_transport 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component13 
+rotate = 0, 0, 0 
+pos = 3072, 3878, 4165 
+archetype = space_tanksx4 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component14
+rotate = 0, -90, 0 
+pos = 2475, 3840, 4166 
+archetype = space_tanks4 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component15
+rotate = 0, -90, 0 
+pos = 2341, 3840, 4166 
+archetype = space_tanks4 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+
+[Object] 
+nickname = USAF_component16
+rotate = 0, 0, 0 
+pos = 2487, 4155, 4136 
+archetype = space_habitat_tall 
+parent = Bw02_USAF_Base 
+reputation = USAF_CLAN
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Rh03\Rh03.ini" method="append">
+<source>
+[Object] 
+nickname = Rh03_Rheinwehr_base 
+ids_name = 0 ;GENERATESTRRES("[KMS]Donau")
+ids_info = 0
+pos = -40000, 5000, 40000
+archetype = r_battleship 
+dock_with = Rh03_Rheinwehr_base 
+base = Rh03_Rheinwehr_base 
+loadout = clan_rh_battleship 
+difficulty_level = 30 
+behavior = NOTHING 
+rotate = 0, 0, 0 
+pilot = pilot_crazy 
+space_costume = br_karina_head_gen, li_female_guard_body
+voice = atc_leg_f01
+reputation = rheinwehr_clan
+
+[Object]
+nickname = Rh_Dome
+pos = -40000, 5047, 39775
+Archetype = space_dome
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Tanks
+pos = -40000, 4873, 40188
+Archetype = space_tanksx4
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Industry
+pos = -40000, 4903, 39770
+Archetype = space_industrial
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Turm1
+pos = -40065, 5075, 39962
+Archetype = space_habitat_tall
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Turm2
+pos = -40065, 5075, 40043
+Archetype = space_habitat_tall
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Turm3
+pos = -39938, 5075, 39962
+Archetype = space_habitat_tall
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Turm4
+pos = -39938, 5075, 40043
+Archetype = space_habitat_tall
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Sat
+pos = -40000, 5120, 40001
+Archetype = com_sat
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Nomi
+pos = -40000, 4960, 39572
+rotate = 180, 0, 0
+Archetype = lair_platform
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Platform1
+pos = -40063, 4962, 39575
+rotate = 90, 0, -90
+Archetype = wplatform
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Tele1
+pos = -40045, 4955, 39550
+rotate = 0, -15, 0
+Archetype = telescope
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Platform2
+pos = -39937, 4962, 39575
+rotate = 90, 0, 90
+Archetype = wplatform
+parent = Rh03_Rheinwehr_base
+
+[Object]
+nickname = Rh_Tele2
+pos = -39955, 4955, 39550
+rotate = 0, -15, 0
+Archetype = telescope
+parent = Rh03_Rheinwehr_base
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Br01\Br01.ini" method="append">
+<source>
+[Object]
+nickname = Br01_UFO_BASE
+pos = 57900, 4000, 49950
+rotate = 0, 0, 0
+archetype = space_police_dmg
+ids_name = 0 ;GENERATESTRRES("Area51")
+
+[Object]
+nickname = Br01_KSK_BASE
+pos = -36300, 4000, 92000
+rotate = 0, -69, 0
+archetype = space_police_dmg
+ids_name = 0 ;GENERATESTRRES("[KSK]~New Paradise")
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Hi02\Hi02.ini" method="append">
+<source>
+
+[Object]
+nickname = Hi02_OEG_BASE
+pos = 9000, 4000, 26000
+rotate = 0, -80, 0
+archetype = space_police_dmg
+ids_name = 0 ;GENERATESTRRES("Cronos")
+
+[Object] 
+nickname = Hi02_OIA_BASE 
+pos = 19000, -4000, -2000 
+archetype = space_police_dmg
+ids_name = 0 ;GENERATESTRRES("~ Cocktailbar ~") 
+
+[Object]
+nickname = Hi02_TCEAGLES_BASE
+pos = 6124, 11545, 17712
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Hi02_TCEAGLES_BASE
+base = Hi02_TCEAGLES_BASE
+reputation = TCEAGLES_CLAN
+rotate = 175.102,-43.7713,-179.99
+archetype = r_battleship
+ids_name = 0 ;GENERATESTRRES("ANS Terra")
+loadout = clan_rh_battleship
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
+
+[Object] 
+nickname = hi02_AUW_Base
+ids_name = 0 ;GENERATESTRRES("Lanzelott")
+ids_info = 0 
+pos = 26720, 10400, 23500
+rotate = 0, -90, 0 
+Archetype = prison 
+base = hi02_AUW_Base 
+dock_with = hi02_AUW_Base 
+loadout = clan_prison 
+pilot = pilot_crazy
+space_costume = br_karina_head_gen, li_female_guard_body 
+difficulty_level = 30 
+voice = atc_leg_f01 
+behavior = NOTHING 
+reputation = AUW_CLAN 
+
+[Object] 
+nickname = hi02_07_habitat_tall 
+ids_name = 0 
+ids_info = 0 
+pos = 26720, 10695, 23500
+Archetype = space_habitat_tall 
+behavior = NOTHING 
+parent = hi02_AUW_Base 
+reputation = AUW_CLAN 
+
+[Object] 
+nickname = hi02_07_solar_plant 
+ids_name = 0 
+ids_info = 0 
+pos = 26720, 10520, 23500
+rotate = 0, 0, -90 
+Archetype = space_solar_plant 
+parent = hi02_AUW_Base 
+reputation = AUW_CLAN 
+
+[Object] 
+nickname = hi02_07_shipyard 
+ids_name = 0 
+ids_info = 0 
+pos = 26427, 10370, 23500
+rotate = 0, 180, 0 
+Archetype = shipyard 
+parent = hi02_AUW_Base 
+reputation = AUW_CLAN 
+
+[Object] 
+nickname = hi02_07_space_dome 
+ids_name = 0 
+ids_info = 0 
+pos = 26995, 10430, 23500 
+rotate = 0, 270, 0 
+Archetype = space_dome 
+parent = hi02_AUW_Base 
+reputation = AUW_CLAN 
+
+[Object] 
+nickname = hi02_07_telescope_01 
+ids_name = 0 
+ids_info = 0 
+pos = 26720, 10500, 23600
+rotate = 0, 165, 0 
+Archetype = telescope 
+parent = hi02_AUW_Base 
+reputation = AUW_CLAN 
+
+[Object] 
+nickname = hi02_07_telescope_02 
+ids_name = 0 
+ids_info = 0 
+pos = 26720, 10500, 23400
+rotate = 0, -15, 0 
+Archetype = telescope 
+parent = hi02_AUW_Base 
+reputation = AUW_CLAN 
+
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Rh05\Rh05.ini" method="append">
+<source>
+
+[Object]
+nickname = Rh05_ALLIANZ_BASE
+pos = -800, 4000, 50000
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Rh05_ALLIANZ_Base
+base = Rh05_ALLIANZ_Base
+reputation = ALLIANZ_CLAN
+rotate = 0, 0, 0
+archetype = smallstation1
+ids_name = 0 ;GENERATESTRRES("Freeport 7.2")
+ids_info = 458753
+loadout = clan_smallstation1_hc
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Ku01\Ku01.ini" method="append">
+<source>
+
+[Object]
+nickname = Ku01_WOLFS_BASE
+pos = -36520.4,6476.57,38782.5
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Ku01_WOLFS_Base
+base = Ku01_WOLFS_Base
+reputation = WOLFS_CLAN
+rotate = 0, -30, 0
+archetype = b_battleship
+ids_name = 0 ;GENERATESTRRES("Fearsome Secret")
+loadout = clan_br_battleship
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Hi01\HI01.ini" method="append">
+<source>
+	
+[Object] 
+nickname = Hi01_PIRATES_Base 
+pos = 30546, 5000, -18641 
+ids_info = 491521 
+behavior = NOTHING 
+pilot = pilot_crazy
+dock_with = Hi01_PIRATES_Base 
+base = Hi01_PIRATES_Base 
+reputation = PIRATES_CLAN
+rotate = 0, 0, 0 
+archetype = miningbase_badlands 
+ids_name = 0 ;GENERATESTRRES("Insanity")
+loadout = clan_miningbase_badlands 
+difficulty_level = 30
+
+[Object] 
+nickname = Hi01_PIRATES_Base_dyson_city_platform_02 
+ids_name = 458787 
+ids_info = 0 
+rotate = 0, 0, 0 
+pos = 30546, 5100, -18641 
+archetype = dyson_generator 
+parent = Hi01_PIRATES_Base 
+reputation = fc_ou_grp 
+
+[Object] 
+nickname = TP_component_01 
+ids_name = 1 
+pos = 30546, 5350, -18641 
+Archetype = space_habitat_tall 
+parent = Hi01_PIRATES_Base 
+rotate = 0, 0, 0 
+
+[Object] 
+nickname = TP_component_02 
+ids_name = 1 
+pos = 30495, 5300, -18622 
+Archetype = space_habitat_tall 
+parent = Hi01_PIRATES_Base 
+rotate = 0, 0, 0 
+
+[Object] 
+nickname = TP_component_03 
+ids_name = 1 
+pos = 30583, 5250, -18693 
+Archetype = space_habitat_tall 
+parent = Hi01_PIRATES_Base 
+rotate = 0, 0, 0 
+
+[Object] 
+nickname = TP_component_04 
+ids_name = 1 
+pos = 30575, 5200, -18590 
+Archetype = space_habitat_tall 
+parent = Hi01_PIRATES_Base 
+rotate = 0, 0, 0 
+
+[Object] 
+nickname = Hi01_USF_BASE 
+pos = 3940, 4000, 18500 
+behavior = NOTHING 
+pilot = pilot_crazy 
+dock_with = Hi01_USF_Base 
+base = Hi01_USF_Base 
+reputation = uSF 
+rotate = 0, 0, 0 
+archetype = b_battleship 
+ids_name = 0 ;GENERATESTRRES("New Providence")
+loadout = clan_br_battleship 
+difficulty_level = 30 
+space_costume = benchmark_male_head, benchmark_male_body 
+voice = atc_leg_m01 
+
+[Object] 
+nickname = usf_base_component_01 
+ids_name = 1 
+pos = 3961,3970,18420 
+archetype = space_habitat_wide 
+parent = Hi01_USF_Base 
+rotate = 90,0,0 
+
+[Object] 
+nickname = usf_base_component_02 
+ids_name = 1 
+pos = 3915,3970,18420 
+archetype = space_habitat_wide 
+parent = Hi01_USF_Base 
+rotate = 90, 0, 0 
+
+[Object] 
+nickname = usf_base_component_03 
+ids_name = 1 
+pos = 3938,3970,18420 
+archetype = space_habitat_wide 
+parent = Hi01_USF_Base 
+rotate = 90,0,0
+</source>
+</data>
+
+
+<data file="DATA\UNIVERSE\Systems\EW04\ew04.ini" method="append"> 
+<source> 
+	
+[Object]
+nickname = Ew04_ORDEN_Base
+pos =  28885.8,10413.1,10320.3
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Ew04_ORDEN_Base
+base = Ew04_ORDEN_Base
+reputation = ORDEN_CLAN
+rotate = -14.8902,89.3599,14.8901
+archetype = l_dreadnought
+loadout = clan_li_dreadnought
+ids_name = 0 ;GENERATESTRRES("Avalon")
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
+
+[Object] 
+nickname = EW04_FT_Base 
+pos = 14343,-5000,-20962 
+behavior = NOTHING 
+pilot = pilot_crazy 
+dock_with = Ew04_FT_Base 
+base = Ew04_FT_Base 
+reputation = FT_CLAN 
+rotate = 0, 0, 0 
+archetype = prison 
+ids_name = 0 ;GENERATESTRRES("FlyingTigers -=\Katzenkörbchen/=-") 
+loadout = clan_prison
+difficulty_level = 30 
+space_costume = benchmark_male_head, benchmark_male_body 
+voice = atc_leg_m01 
+
+[Object]
+nickname = Ew04_PS_Base
+pos = -14005, 7500, -9193
+ids_name = 0 ;GENERATESTRRES("Renovatio")
+ids_info = 0
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Ew04_PS_Base
+base = Ew04_PS_Base
+reputation = PS_clan
+rotate = 0, 0, 0
+archetype = luxury_liner
+loadout = clan_liner
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
+
+[Object]
+nickname = PS_buoy_01
+rotate = 0, -90, 0
+pos = -14002, 7485, -9408
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_02
+rotate = 0, -90, 0
+pos = -14008, 7485, -9408
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_03
+rotate = 0, -90, 0
+pos = -14001, 7476, -9414
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_04
+rotate = 0, -90, 0
+pos = -14009, 7476, -9414
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_05
+rotate = 0, 0, -90
+pos = -14005, 7529, -9179
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_06
+rotate = 0, 0, -90
+pos = -14005, 7529, -9168
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_07
+rotate = 0, 0, -90
+pos = -14005, 7529, -9156
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_08
+rotate = 0, 0, -270
+pos = -14020, 7464, -9305
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_09
+rotate = 0, 0, -270
+pos = -13989, 7464, -9305
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_10
+rotate = 0, 0, -270
+pos = -14020, 7464, -9264
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_11
+rotate = 0, 0, -270
+pos = -13989, 7464, -9264
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_12
+rotate = 0, -180, 0
+pos = -13992, 7483, -9151
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_13
+rotate = 0, 0, 0
+pos = -14018, 7483, -9151
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_14
+rotate = 0, 0, 0
+pos = -14028, 7473, -9291
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_15
+rotate = 0, -180, 0
+pos = -13982, 7473, -9291
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+
+[Object]
+nickname = PS_buoy_16
+rotate = 0, 90, 0
+pos = -14005, 7486, -9070
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = PS_clan
+</source> 
+</data> 
+
+<data file="DATA\UNIVERSE\Systems\Bw09\Bw09.ini" method="append">
+<source>
+
+[Object] 
+nickname = Bw09_dos_Base 
+ids_name = 0 ;GENERATESTRRES("White~Sun")
+pos = 30260, 19915, 47082 
+archetype = k_battleship 
+pilot = pilot_crazy
+loadout = clan_ku_battleship 
+dock_with = Bw09_dos_Base 
+base = Bw09_dos_Base 
+behavior = NOTHING 
+visit = 0 
+reputation = dos_clan 
+voice = atc_leg_m01 
+space_costume = pi_pirate3_head, pl_male3_journeyman_body, prop_neuralnet_F_right 
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Bw06\Bw06.ini" method="append">
+<source>
+
+[Object]
+nickname = Bw06_GOH_BASE
+pos = -11115, -3703, 11563
+archetype = space_police_dmg
+rotate = 0, -63.9987, 0
+ids_name = 0 ;GENERATESTRRES("Purgatorium")
+
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Ku02\Ku02.ini" method="append">
+<source>
+
+[Object]
+nickname = Ku02_TD_Base
+pos = -65795.5, 13581.6, -585.349
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Ku02_TD_Base
+base = Ku02_TD_Base
+reputation = TD_CLAN
+rotate = 0, 0, 0
+archetype = miningbase_FragC
+ids_name = 0 ;GENERATESTRRES("Drachennest")
+loadout = clan_FragB
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\br06\br06.ini" method="append">
+<source>
+
+[Object]
+nickname = br06_FOF_base
+ids_name = 0 ;GENERATESTRRES("~Trader's~Paradise~")
+pos = 6124, 11545, 17712
+archetype = space_freeport01
+ids_info = 0
+dock_with = br06_FOF_Base
+base = br06_FOF_Base
+reputation = FOF_Clan
+behavior = NOTHING
+voice = atc_leg_m01
+space_costume = li_captain_head, pl_male1_peasant_body
+difficulty_level = 30
+loadout = clan_freeport
+pilot = pilot_crazy 
+
+[Object]
+nickname = fof_component_01
+pos = 6124, 11576, 17382
+archetype = space_dome
+reputation = fof_clan
+pilot = pilot_solar_hard
+parent = br01_FOF_base
+
+[Object]
+nickname = fof_component_02
+pos = 6124, 11576, 18042
+rotate = 0, 180, 0
+archetype = space_dome
+reputation = fof_clan
+pilot = pilot_solar_hard
+parent = br01_FOF_base
+
+[Object]
+nickname = fof_component_03
+pos = 6124, 11545, 18042
+rotate = 180, 100, 0
+archetype = space_solar_pnl
+reputation = fof_clan
+parent = br01_FOF_Base
+
+[Object]
+nickname = fof_component_04
+pos = 6124, 11545, 17382
+rotate = 180, -70, 0
+archetype = space_solar_pnl
+reputation = fof_clan
+parent = br01_FOF_Base
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\EW01\ew01.ini" method="append"> 
+<source> 
+
+[Object]
+nickname = EW01_oso_base
+pos = 25500, 22000, 26000
+ids_info = 0
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = EW01_oso_base
+base = EW01_oso_base
+reputation = oso_clan
+rotate = 0, 0, 0
+archetype = smallstation1_old 
+ids_name = 0 ;GENERATESTRRES("~ Conduct Of War ~")
+loadout = space_station clan_smallstation1_old_hc
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
+
+[Object]
+nickname = oso_component01
+rotate = 0, 0, 90
+pos = 25175, 21847, 25953
+archetype = space_dome
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component02
+rotate = 0, 0, -90
+pos = 25825, 21847, 25953
+archetype = space_dome
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component03
+rotate = 0, 0, 0
+pos = 25175, 21847, 25953
+archetype = baxter_hazard
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component04
+rotate = 0, 0, 0
+pos = 25825, 21847, 25953
+archetype = baxter_hazard
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component05
+rotate = 0, 0, 0
+pos = 25206, 21836, 26247
+archetype = dyson_generator
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component06
+rotate = 0, 0, 0
+pos = 25794, 21836, 26247
+archetype = dyson_generator
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component07
+rotate = 0, 180, 0
+pos = 25357, 21837, 26180
+archetype = Roid_Miner
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component08
+rotate = 0, 55, -90
+pos = 25382, 21776, 25851
+archetype = space_solar_pnl
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component09
+rotate = 0, -90, 0
+pos = 25611, 21779, 26102
+archetype = gas_collector
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component10
+rotate = 0, 0, -45
+pos = 25355, 22017, 26000
+archetype = m10_buoy
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component11
+rotate = 0, 0, -45
+pos = 25311, 22017, 26000
+archetype = m10_buoy
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component12
+rotate = 0, 0, -115
+pos = 25645, 22017, 26000
+archetype = m10_buoy
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component13
+rotate = 0, 0, -115
+pos = 25688, 22017, 26000
+archetype = m10_buoy
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component14
+rotate = 0, 0, -90
+pos = 25500, 22017, 25855
+archetype = m10_buoy
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component15
+rotate = 0, 0, -90
+pos = 25500, 22017, 25812
+archetype = m10_buoy
+parent = EW01_oso_base
+reputation = oso_clan
+</source> 
+</data> 
+
+<data file="DATA\UNIVERSE\Systems\Br03\Br03.ini" method="append">
+<source>
+
+[Object] 
+nickname = Br03_nuclear_Base 
+ids_name = 0 ;GENERATESTRRES("[Promethium]")
+pos = -32854, 4434, 52379
+archetype = outpost
+loadout = clan_outpost
+dock_with = br03_nuclear_Base 
+base = br03_nuclear_Base 
+behavior = NOTHING 
+pilot = pilot_crazy
+visit = 0 
+reputation = nuclear_clan 
+voice = atc_leg_m01 
+space_costume = pi_pirate3_head, pl_male3_journeyman_body, prop_neuralnet_F_right 
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\Systems\Ew03\ew03.ini" method="append">
+<source>
+
+[Object] 
+nickname = Ew03_RIP_Base 
+ids_name = 0 ;GENERATESTRRES("~~Graveyard~~")
+pos = 51220,-14000,15622 
+archetype = b_battleship
+loadout = clan_br_battleship
+dock_with = Ew03_RIP_Base 
+base = Ew03_RIP_Base 
+behavior = NOTHING 
+pilot = pilot_crazy
+visit = 0 
+reputation = RIP_clan 
+voice = atc_leg_m01 
+space_costume = pi_pirate3_head, pl_male3_journeyman_body, prop_neuralnet_F_right 
+</source>
+</data>
+</script>
