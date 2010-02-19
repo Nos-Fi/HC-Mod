@@ -1,6 +1,6 @@
 <script>
 
-<header name="Hamburg City Server Mod (v3.17 beta 4)" savesafe="true">
+<header name="Hamburg City Server Mod (v3.17 beta 5)" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -764,59 +764,4 @@ charge_rate = 545
 </source>
 </data>
 
-###############
-###############Transporter Rebalancing Jännner 10
-###############
-
-<data file="data/SHIPS/shiparch.ini" method="sectionreplace" scanfile="true">
-<section>
-nickname = ge_train
-</section>
-<dest>
-hit_pts = 95200
-nanobot_limit = 333
-</dest>
-<source>
-hit_pts = 295000
-nanobot_limit = 0
-</source>
-</data>
-
-<data file="data/SHIPS/shiparch.ini" method="sectionreplace">
-<section>
-nickname = ge_transport
-</section>
-<dest>
-hit_pts = 28600
-nanobot_limit = 100
-</dest>
-<source>
-hit_pts = 75000
-nanobot_limit = 0
-</source>
-</data>
-
-<data file="data/SHIPS/shiparch.ini" method="sectionreplace">
-<section>
-nickname = ge_armored
-</section>
-<dest>
-nanobot_limit = 166
-</dest>
-<source>
-nanobot_limit = 0
-</source>
-</data>
-
-<data file="data/SHIPS/shiparch.ini" method="sectionreplace">
-<section>
-nickname = ge_armored
-</section>
-<dest>
-hit_pts = 50400
-</dest>
-<source>
-hit_pts = 127000
-</source>
-</data>
 </script>
