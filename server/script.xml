@@ -1,5 +1,5 @@
 <script>
-<header name="Hamburg City Serverside Mod (v3.172)"> <!--header tag and name of mod -->
+<header name="Hamburg City Serverside Mod (v3.173)"> <!--header tag and name of mod -->
 
 <scriptversion> <!--The oldest version of FLMM that this mod will work with -->
 1.3
@@ -244,15 +244,15 @@ base = Rh02_08_Base
 </xmldata>
 
 <xmldata name="ge_armored_info">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/6</TEXT><PARA/><TEXT>Armor: 50400</TEXT><PARA/><TEXT>Cargo Space: 340</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/166</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 8</TEXT><PARA/><TEXT>Additional Equipment: CM</TEXT><PARA/><PARA/><POP/></RDL>  
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 3/6</TEXT><PARA/><TEXT>Armor: 127000</TEXT><PARA/><TEXT>Cargo Space: 340</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/0</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 8</TEXT><PARA/><TEXT>Additional Equipment: CM</TEXT><PARA/><PARA/><POP/></RDL>  
 </xmldata>
 
 <xmldata name="ge_transport_info">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 0/5</TEXT><PARA/><TEXT>Armor: 28600</TEXT><PARA/><TEXT>Cargo Space: 400</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/100</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 9</TEXT><PARA/><TEXT>Additional Equipment: CM</TEXT><PARA/><PARA/><POP/></RDL>  
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 0/5</TEXT><PARA/><TEXT>Armor: 75000</TEXT><PARA/><TEXT>Cargo Space: 400</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/0</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 9</TEXT><PARA/><TEXT>Additional Equipment: CM</TEXT><PARA/><PARA/><POP/></RDL>  
 </xmldata>
 
 <xmldata name="ge_train_info">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 0/0</TEXT><PARA/><TEXT>Armor: 95200</TEXT><PARA/><TEXT>Cargo Space: 450</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/333</TEXT><PARA/><TEXT>Optimal Weapon Class: 0</TEXT><PARA/><TEXT>Max. Weapon Class: 0</TEXT><PARA/><TEXT>Additional Equipment: -</TEXT><PARA/><PARA/><POP/></RDL>  
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 0/0</TEXT><PARA/><TEXT>Armor: 295000</TEXT><PARA/><TEXT>Cargo Space: 450</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/0</TEXT><PARA/><TEXT>Optimal Weapon Class: 0</TEXT><PARA/><TEXT>Max. Weapon Class: 0</TEXT><PARA/><TEXT>Additional Equipment: -</TEXT><PARA/><PARA/><POP/></RDL>  
 </xmldata>
 
 
@@ -269,15 +269,15 @@ base = Rh02_08_Base
 </xmldata>
 
 <xmldata name="ge_armored_stats">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/6</TEXT><PARA/><TEXT>33400</TEXT><PARA/><TEXT>325</TEXT><PARA/><TEXT>0/100</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>CM</TEXT><PARA/><POP/></RDL>  
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/6</TEXT><PARA/><TEXT>127000</TEXT><PARA/><TEXT>325</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>CM</TEXT><PARA/><POP/></RDL>  
 </xmldata>
 
 <xmldata name="ge_transport_stats">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>0/5</TEXT><PARA/><TEXT>15600</TEXT><PARA/><TEXT>400</TEXT><PARA/><TEXT>0/50</TEXT><PARA/><text>8</TEXT><PARA/><TEXT>9</TEXT><PARA/><TEXT>CM</TEXT><PARA/><POP/></RDL>  
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>0/5</TEXT><PARA/><TEXT>75000</TEXT><PARA/><TEXT>400</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>9</TEXT><PARA/><TEXT>CM</TEXT><PARA/><POP/></RDL>
 </xmldata>
 
 <xmldata name="ge_train_stats">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><text>0/0</TEXT><PARA/><TEXT>56400</TEXT><PARA/><TEXT>450</TEXT><PARA/><text>0/166</TEXT><PARA/><text>0</TEXT><PARA/><text>0</TEXT><PARA/><text>- </TEXT><PARA/><POP/></RDL>
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>295000</TEXT><PARA/><TEXT>450</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><text>0</TEXT><PARA/><text>0</TEXT><PARA/><text>- </TEXT><PARA/><POP/></RDL>
 </xmldata>
 
 
