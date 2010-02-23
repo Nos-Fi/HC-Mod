@@ -1,6 +1,6 @@
 <script>
 
-<header name="Hamburg City Server Mod (v3.17 beta 6)" savesafe="true">
+<header name="Hamburg City Server Mod (v3.17 beta 7)" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -289,7 +289,7 @@ base = Rh02_08_Base
 </xmldata>
 
 <xmldata name="ge_train_stats">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>295000</TEXT><PARA/><TEXT>450</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><text>0</TEXT><PARA/><text>0</TEXT><PARA/><text>- </TEXT><PARA/><POP/></RDL>
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>295000</TEXT><PARA/><TEXT>450</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>0</TEXT><PARA/><TEXT>0</TEXT><PARA/><TEXT>- </TEXT><PARA/><POP/></RDL>
 </xmldata>
 
 
