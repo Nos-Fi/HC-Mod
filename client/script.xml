@@ -59,6 +59,8 @@ Hamburg City MOD Features:
 
 - Enhanced Colony Fighters
 - Dynamic Economy
+- Widescreenfix by Adoxa
+- 4 Strafe blocker by Adoxa (implemented by Viper/w0dk4)
 - Extended AntiCheat
 
 and some surprises :)
@@ -147,23 +149,6 @@ and some surprises :)
 <item id="0" name="Yes">
 </item>
 <item id="1" name="No (crash bug warning)">
-</item>
-</option>
-
-<option name="Widescreen Settings" id="12" safesave="false">
-<item id="0" name="Disabled">
-</item>
-<item id="1" name="Enabled, Resolution: 1280x720">
-</item>
-<item id="2" name="Enabled, Resolution: 1600x900">
-</item>
-<item id="3" name="Enabled, Resolution: 1920x1080">
-</item>
-<item id="4" name="Enabled, Resolution: 1440x900">
-</item>
-<item id="5" name="Enabled, Resolution: 1680x1050">
-</item>
-<item id="6" name="Enabled, Resolution: 1920x1200">
 </item>
 </option>
 
@@ -604,119 +589,10 @@ MaxBandWidth=100
 </source>
 </data>
 
-<data file="DATA\Cameras.ini" method="sectionreplace" options="12:1,12:2,12:3">
-<section>
-[WinCamera]
-</section>
-<dest>
-fovx = 54.431999
-</dest>
-<source>
-fovx = 69.0
-</source>
-</data>
-
-<data file="DATA\Cameras.ini" method="sectionreplace" options="12:4,12:5,12:6">
-<section>
-[WinCamera]
-</section>
-<dest>
-fovx = 54.431999
-</dest>
-<source>
-fovx = 63.2
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:1">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1280
-ScreenHeight=720
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:2">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1600
-ScreenHeight=900
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:3">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1920
-ScreenHeight=1080
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:4">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1440
-ScreenHeight=900
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:5">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1680
-ScreenHeight=1050
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:6">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1920
-ScreenHeight=1200
-</source>
-</data>
-
-<data file="data\Equipment\misc_equip.ini" method="sectionreplace">
-
 ###############
 ######Power upgrade for colony Ships####
 ###############
+<data file="data\Equipment\misc_equip.ini" method="sectionreplace">
 <section>
 [Power]
 nickname = ku_elite_power01

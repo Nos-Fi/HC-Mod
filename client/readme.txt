@@ -7,7 +7,7 @@ Syd (Base modding and more)
 cHiLLmAstA (intro menu scenes)
 mc_horst (flhook and client hooking methods)
 Why485 (some special effects)
-
+Adoxa (widescreen fix, 4 Strafe blocker)
 
 Extended Omicron systems credits:
 ____________________________________________________
