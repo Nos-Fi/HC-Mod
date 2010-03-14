@@ -1,0 +1,120 @@
+<script>
+<!-- HHCKK Weapons Mod by Mic -->
+##<!-- Vengeance Mk III -->
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = li_gun01_mark06_ammo
+</section>
+<dest>
+hull_damage = 52.700001
+</dest>
+<source>
+hull_damage = 66
+energy_damage = 0
+</source>
+</data>
+
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = li_gun01_mark06
+</section>
+<dest>
+power_usage = 16.469999
+</dest>
+<source>
+power_usage = 23
+</source>
+</data>
+
+##<!-- Stunpulse -->
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = co_gun02_mark01_ammo
+</section>
+<dest>
+hull_damage = 4.600000
+energy_damage = 153
+</dest>
+<source>
+hull_damage = 8
+energy_damage = 262
+</source>
+</data>
+
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = co_gun02_mark01
+</section>
+<dest>
+power_usage = 9.180000
+refire_delay = 0.250000
+muzzle_velocity = 750
+</dest>
+<source>
+power_usage = 25
+refire_delay = 0.250000
+muzzle_velocity = 700
+</source>
+</data>
+
+##<!-- Stealthblade Mk II -->
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = rh_gun01_mark02_ammo
+</section>
+<dest>
+hull_damage = 92.900002
+energy_damage = 0
+</dest>
+<source>
+hull_damage = 132
+energy_damage = 0
+</source>
+</data>
+
+##<!-- Borroco -->
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = fc_c_gun02_mark01
+</section>
+<dest>
+muzzle_velocity = 600
+</dest>
+<source>
+muzzle_velocity = 650
+</source>
+</data>
+
+##<!-- Adv. Sunrail -->
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = br_gun02_mark04
+</section>
+<dest>
+muzzle_velocity = 600
+</dest>
+<source>
+muzzle_velocity = 650
+</source>
+</data>
+
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = co_gun02_mark01_ammo
+</section>
+<dest>
+lifetime = 0.800000
+</dest>
+<source>
+lifetime = 0.85714285714285714285714285714286
+</source>
+</data>
+</script>
