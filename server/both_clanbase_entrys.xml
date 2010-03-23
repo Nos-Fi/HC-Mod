@@ -1111,7 +1111,7 @@ voice = atc_leg_m01
 [Object]
 nickname = br06_FOF_base
 ids_name = 0 ;GENERATESTRRES("~Trader's~Paradise~")
-pos = 6124, 11545, 17712
+pos = -25100, 14600, -26200 
 archetype = space_freeport01
 ids_info = 0
 dock_with = br06_FOF_Base
@@ -1126,36 +1126,36 @@ pilot = pilot_crazy
 
 [Object]
 nickname = fof_component_01
-pos = 6124, 11576, 17382
+pos = -25100, 14631, -26530
 archetype = space_dome
 reputation = fof_clan
 pilot = pilot_solar_hard
-parent = br01_FOF_base
+parent = br06_FOF_base
 
 [Object]
 nickname = fof_component_02
-pos = 6124, 11576, 18042
+pos = -25100, 14631, -25870
 rotate = 0, 180, 0
 archetype = space_dome
 reputation = fof_clan
 pilot = pilot_solar_hard
-parent = br01_FOF_base
+parent = br06_FOF_base
 
 [Object]
 nickname = fof_component_03
-pos = 6124, 11545, 18042
+pos = -25100, 14600, -25870
 rotate = 180, 100, 0
 archetype = space_solar_pnl
 reputation = fof_clan
-parent = br01_FOF_Base
+parent = br06_FOF_Base
 
 [Object]
 nickname = fof_component_04
-pos = 6124, 11545, 17382
+pos = -25100, 14600, -26530
 rotate = 180, -70, 0
 archetype = space_solar_pnl
 reputation = fof_clan
-parent = br01_FOF_Base
+parent = br06_FOF_Base
 </source>
 </data>
 
