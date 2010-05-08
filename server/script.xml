@@ -233,10 +233,6 @@ base = Rh02_08_Base
 
 <xmldata name="li_elite2_info">
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 5000</TEXT><PARA/><TEXT>Cargo Space: 50</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
-</xmldata> 
-
-<xmldata name="ku_dragon_info">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 5600</TEXT><PARA/><TEXT>Cargo Space: 55</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 42/42</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 8</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
 </xmldata>
 
 <xmldata name="or_elite2_info">
@@ -255,9 +251,17 @@ base = Rh02_08_Base
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 0/0</TEXT><PARA/><TEXT>Armor: 295000</TEXT><PARA/><TEXT>Cargo Space: 450</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/0</TEXT><PARA/><TEXT>Optimal Weapon Class: 0</TEXT><PARA/><TEXT>Max. Weapon Class: 0</TEXT><PARA/><TEXT>Additional Equipment: -</TEXT><PARA/><PARA/><POP/></RDL>  
 </xmldata>
 
+<xmldata name="br_elite_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 5800</TEXT><PARA/><TEXT>Cargo Space: 35</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 20/20</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="ku_elite_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 4400</TEXT><PARA/><TEXT>Cargo Space: 55</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 26/26</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
 
 <xmldata name="li_elite2_stats">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>5/1</TEXT><PARA/><TEXT>4400</TEXT><PARA/><TEXT>50</TEXT><PARA/><TEXT>36/36</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>M, CM, CD/T </TEXT><PARA/><POP/></RDL>
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>5/1</TEXT><PARA/><TEXT>5000</TEXT><PARA/><TEXT>50</TEXT><PARA/><TEXT>36/36</TEXT><PARA/><TEXT>5</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>M, CM, CD/T </TEXT><PARA/><POP/></RDL>
 </xmldata>
 
 <xmldata name="ku_dragon_stats">
@@ -269,7 +273,7 @@ base = Rh02_08_Base
 </xmldata>
 
 <xmldata name="ge_armored_stats">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/6</TEXT><PARA/><TEXT>127000</TEXT><PARA/><TEXT>325</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>CM</TEXT><PARA/><POP/></RDL>  
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>3/6</TEXT><PARA/><TEXT>127000</TEXT><PARA/><TEXT>340</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>6</TEXT><PARA/><TEXT>8</TEXT><PARA/><TEXT>CM</TEXT><PARA/><POP/></RDL>  
 </xmldata>
 
 <xmldata name="ge_transport_stats">
@@ -280,6 +284,13 @@ base = Rh02_08_Base
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>295000</TEXT><PARA/><TEXT>450</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>0</TEXT><PARA/><TEXT>0</TEXT><PARA/><TEXT>- </TEXT><PARA/><POP/></RDL>
 </xmldata>
 
+<xmldata name="br_elite_stats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/0</TEXT><PARA/><TEXT>5800</TEXT><PARA/><TEXT>35</TEXT><PARA/><TEXT>20/20</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>M, CM, CD/T </TEXT><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="ku_elite_stats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>6/0</TEXT><PARA/><TEXT>4400</TEXT><PARA/><TEXT>55</TEXT><PARA/><TEXT>26/26</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>7</TEXT><PARA/><TEXT>M, CM, CD/T </TEXT><PARA/><POP/></RDL>
+</xmldata>
 
 
 <xmldata name="li_elite2_info2">
@@ -293,14 +304,6 @@ base = Rh02_08_Base
 <xmldata name="or_elite2_info2">
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><JUST loc="center"/><TRA data="1" mask="-31" def="-2"/><TEXT>"Seth" Order Very Heavy Fighter</TEXT><PARA/><TRA data="96" mask="-31" def="-1"/><PARA/><TRA data="65281" mask="-31" def="30"/><TEXT>!!!Attention, this ship has a high strafepowerusage!!!</TEXT><PARA/><JUST loc="left"/><TRA data="96" mask="-31" def="-1"/><PARA/><TEXT>There is no profile on this ship, however the readings of the on-board components suggest a ship composed of pieces harvested from multiple houses in Sirius, heavily modified, and then integrated in a radical design.</TEXT><PARA/><PARA/><POP/></RDL>
 </xmldata>
-
-<xmldata name="br_elite_info">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 5800</TEXT><PARA/><TEXT>Cargo Space: 50</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
-</xmldata>
-
-<xmldata name="ku_elite_info">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 4400</TEXT><PARA/><TEXT>Cargo Space: 50</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
-</xmldata> 
 
 ### NEW SHIPS COPY FILE 
 
