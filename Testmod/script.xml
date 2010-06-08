@@ -1,0 +1,740 @@
+<script>
+<header name="Hamburg City - Testmod V1.0" savesafe="true">
+<scriptversion>
+1.3
+</scriptversion>
+
+<author>
+Tritor, Nosfi
+</author>
+
+<modurl>
+</modurl>
+
+<description>
+HHC Mod must be activated first!!!
+
+Features:
+- Test Arena
+- KKSchiffstest2010_06
+</description>
+
+<options default=""> 
+</options>
+
+</header>
+
+<data file="EXE\mpnewcharacter.fl" method="sectionreplace">
+<section>
+[Player]
+name = %%NAME%%
+</section>
+<dest>
+rank = 0
+</dest>
+<source>
+rank = 89
+</source>
+<dest>
+money = 6000
+</dest>
+<source>
+money = 500000000
+</source>
+<dest>
+system = %%HOME_SYSTEM%%
+base = %%HOME_BASE%%
+</dest>
+<source>
+system = neutral
+base = NEUTRAL_02_Base
+last_base = NEUTRAL_02_Base
+</source>
+<dest>
+%%PACKAGE%%
+</dest>
+<source>
+ship_archetype = 2702011459
+
+equip = 2189918923, , 1
+equip = 2482777999, , 1
+equip = 2996300800, HpShield01, 1
+equip = 2611185986, HpWeapon05, 1
+equip = 2611185986, HpWeapon06, 1
+equip = 3112104454, HpTorpedo01, 1
+equip = 3176774988, HpWeapon02, 1
+equip = 3176774988, HpWeapon03, 1
+equip = 3176774988, HpWeapon04, 1
+equip = 3176774988, HpWeapon01, 1
+equip = 2836982026, HpMine01, 1
+equip = 2199282693, HpCM01, 1
+equip = 2723858309, , 1
+equip = 2265531853, HpHeadlight, 1
+equip = 2494027655, HpDockLight01, 1
+equip = 2494027655, HpDockLight02, 1
+equip = 2802020621, HpRunningLight01, 1
+equip = 2802020621, HpRunningLight02, 1
+equip = 2802020621, HpRunningLight03, 1
+equip = 2802020621, HpRunningLight04, 1
+equip = 2802020621, HpRunningLight05, 1
+equip = 2802020621, HpRunningLight06, 1
+equip = 2802020621, HpRunningLight07, 1
+equip = 2802020621, HpRunningLight08, 1
+equip = 2802020621, HpRunningLight09, 1
+equip = 2802020621, HpRunningLight10, 1
+equip = 2799531210, , 1
+equip = 2500775748, HpContrail01, 1
+equip = 2500775748, HpContrail02, 1
+cargo = 2911012559, 63, , , 0
+cargo = 2596081674, 63, , , 0
+cargo = 2834217409, 50, , , 0
+cargo = 2492012162, 50, , , 0
+cargo = 2210962945, 50, , , 0
+cargo = 2833349062, 2, , , 0
+cargo = 3130078795, 50, , , 0
+cargo = 2502891087, 2, , , 0
+equip = 2851656000, HpThruster01, 1
+
+base_hull_status = 1
+base_collision_group = cv_port_wing_lod1, 1
+base_collision_group = cv_star_wing_lod1, 1
+base_collision_group = cv_topfin_lod1, 1
+base_collision_group = cv_btmwing_lod1, 1
+
+base_equip = 2189918923, , 1
+base_equip = 2482777999, , 1
+base_equip = 2996300800, HpShield01, 1
+base_equip = 2611185986, HpWeapon05, 1
+base_equip = 2611185986, HpWeapon06, 1
+base_equip = 3112104454, HpTorpedo01, 1
+base_equip = 3176774988, HpWeapon02, 1
+base_equip = 3176774988, HpWeapon03, 1
+base_equip = 3176774988, HpWeapon04, 1
+base_equip = 3176774988, HpWeapon01, 1
+base_equip = 2836982026, HpMine01, 1
+base_equip = 2199282693, HpCM01, 1
+base_equip = 2723858309, , 1
+base_equip = 2265531853, HpHeadlight, 1
+base_equip = 2494027655, HpDockLight01, 1
+base_equip = 2494027655, HpDockLight02, 1
+base_equip = 2802020621, HpRunningLight01, 1
+base_equip = 2802020621, HpRunningLight02, 1
+base_equip = 2802020621, HpRunningLight03, 1
+base_equip = 2802020621, HpRunningLight04, 1
+base_equip = 2802020621, HpRunningLight05, 1
+base_equip = 2802020621, HpRunningLight06, 1
+base_equip = 2802020621, HpRunningLight07, 1
+base_equip = 2802020621, HpRunningLight08, 1
+base_equip = 2802020621, HpRunningLight09, 1
+base_equip = 2802020621, HpRunningLight10, 1
+base_equip = 2799531210, , 1
+base_equip = 2500775748, HpContrail01, 1
+base_equip = 2500775748, HpContrail02, 1
+base_cargo = 2911012559, 63, , , 0
+base_cargo = 2596081674, 63, , , 0
+base_cargo = 2834217409, 50, , , 0
+base_cargo = 2492012162, 50, , , 0
+base_cargo = 2210962945, 50, , , 0
+base_cargo = 2833349062, 2, , , 0
+base_cargo = 3130078795, 50, , , 0
+base_cargo = 2502891087, 2, , , 0
+base_equip = 2851656000, HpThruster01, 1
+
+wg = 0, HpWeapon05
+wg = 0, HpWeapon06
+wg = 0, HpWeapon02
+wg = 0, HpWeapon03
+wg = 0, HpWeapon04
+wg = 0, HpWeapon01
+
+interface = 1
+
+[mPlayer]
+locked_gate = 2926089285
+locked_gate = 2926433351
+locked_gate = 2460445762
+locked_gate = 2263303234
+locked_gate = 2284213505
+locked_gate = 2293678337
+locked_gate = 2711806985
+locked_gate = 3051899916
+locked_gate = 2640501769
+locked_gate = 2541540999
+locked_gate = 2963174661
+locked_gate = 2314954114
+locked_gate = 2193365380
+locked_gate = 2350144385
+locked_gate = 2384076422
+locked_gate = 2919942795
+locked_gate = 2747303563
+locked_gate = 2749302404
+locked_gate = 3080351366
+locked_gate = 3157307012
+locked_gate = 2675819466
+locked_gate = 2694587652
+locked_gate = 3015759243
+locked_gate = 2254122510
+locked_gate = 2578962883
+locked_gate = 2444625543
+locked_gate = 2980035276
+can_dock = 1
+can_tl = 1
+ship_type_killed = 2913217602, 1
+ship_type_killed = 3038813056, 19
+total_cash_earned = 0.000000
+total_time_played = 20245.000000
+</source>
+</data>
+
+
+<data file="data\equipment\market_ships.ini" method="append">
+<source>
+[BaseGood]
+base = NEUTRAL_03_Base
+marketgood = le2_package, 2, -1, 1, 1, 0, 1, 1
+marketgood = be_package, 8, -1, 1, 1, 0, 1, 1
+marketgood = ke_package, 13, -1, 1, 1, 0, 1, 1
+
+[BaseGood]
+base = NEUTRAL_02_Base
+marketgood = be_package, 8, -1, 1, 1, 0, 1, 1
+marketgood = ke_package, 13, -1, 1, 1, 0, 1, 1
+marketgood = re_package, 22, -1, 1, 1, 0, 1, 1
+</source>
+</data>
+
+<data file="data\equipment\market_misc.ini" method="sectionreplace">
+<section>
+[BaseGood]
+base = NEUTRAL_02_Base
+</section>
+<dest>
+MarketGood = ge_gf1_engine_01, 0, -1, 100, 100, 0, 1
+MarketGood = missile01_mark01_rtcn, 1, -1, 10, 10, 0, 2
+MarketGood = missile01_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile01_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile01_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile01_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile01_mark05_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark05_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile03_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile03_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile03_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile03_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = loot_turret01n, 1, -1, 10, 10, 0, 1
+MarketGood = cruise_disruptor01_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = cruise_disruptor01_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = torpedo01_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = torpedo01_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark05_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark05_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = ge_s_cm_01_ammo, 0, -1, 50, 50, 0, 1
+MarketGood = ge_s_cm_02_ammo, 2, -1, 50, 50, 0, 1
+MarketGood = ge_s_cm_03_ammo, 6, -1, 50, 50, 0, 1
+</dest>
+<source>
+MarketGood = ge_gf1_engine_01, 0, -1, 100, 100, 0, 1
+MarketGood = missile01_mark01_rtcn, 1, -1, 10, 10, 0, 2
+MarketGood = missile01_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile01_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile01_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile01_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile01_mark05_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile02_mark05_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile03_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile03_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile03_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = missile03_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = cruise_disruptor01_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = cruise_disruptor01_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = torpedo01_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = torpedo01_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine01_mark05_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark01_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark03_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark04_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = mine02_mark05_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = ge_s_cm_01_ammo, 0, -1, 50, 50, 0, 1
+MarketGood = ge_s_cm_02_ammo, 2, -1, 50, 50, 0, 1
+MarketGood = ge_s_cm_03_ammo, 6, -1, 50, 50, 0, 1
+MarketGood = loot_turret01n, 1, -1, 10, 10, 0, 1
+MarketGood = co_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lr_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_gun01_mark01_m1, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun01_mark01_m1, 0, -1, 10, 10, 0, 1
+MarketGood = co_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_x_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = c_j_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = co_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lr_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_g_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_x_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = gd_im_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = gd_z_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun01_mark01_m3, 0, -1, 10, 10, 0, 1
+MarketGood = fc_j_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_g_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lr_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_u_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_gc_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_fa_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = gd_im_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = br_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = gd_z_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = br_gun02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lh_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lr_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_g_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lwb_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_fa_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_x_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_gun02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun02_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = fc_rh_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = br_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_bd_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = br_gun02_mark02,, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lh_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = ku_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_m_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = ku_gun02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_j_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_g_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_u_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_gc_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lwb_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_fa_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_gun02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_x_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = gd_gm_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun01_mark06, 0, -1, 10, 10, 0, 1
+MarketGood = gd_im_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun01_mark06_m11, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = li_gun02_mark06, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = br_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_rh_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = br_gun02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_bd_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = ku_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_b_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = ku_gun02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = gd_z_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lh_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_h_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = co_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_m_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lr_gun01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = fc_h_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_m_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lwb_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_gun02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = br_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = gd_gm_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = br_gun02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = gd_im_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = ku_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = ku_gun02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_rh_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_bd_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = co_gun01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = fc_b_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = special_nomad_gun03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_z_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_h_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_u_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_gc_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_gm_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lwb_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = gd_im_gun01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = ku_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = ku_gun02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_rh_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_bd_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_b_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = co_gun01_mark06, 0, -1, 10, 10, 0, 1
+MarketGood = gd_z_gun01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun01_mark06, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_gun02_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_gun02_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_gun01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = gd_gm_gun01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = rh_gun02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = special_nomad_gun01, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun08, 0, -1, 10, 10, 0, 1
+MarketGood = special_nomad_gun02, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun09, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun01, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun10, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun02, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun11, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun03, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun12, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun04, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun13, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun05, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun14, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun06, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun15, 0, -1, 10, 10, 0, 1
+MarketGood = special_gun07, 0, -1, 10, 10, 0, 1
+MarketGood = co_gun02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = co_gun02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_gun02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = co_gun02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_gun02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = co_gun02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_gun02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = nomad_gun01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = nomad_gun01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = nomad_gun01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = missile01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = missile02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = missile03_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = missile01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = missile02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = missile03_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = missile01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = missile02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = missile03_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = missile01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = missile02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = missile03_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = missile01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = missile02_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = torpedo01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = torpedo01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = cruise_disruptor01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = cruise_disruptor01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lr_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = co_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_turret02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_j_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lr_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = li_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = gd_im_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_turret02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = loot_turret01, 0, -1, 10, 10, 0, 1
+MarketGood = co_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_j_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_turret02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = gd_z_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_turret02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = br_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lh_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = br_turret02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lr_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = br_turret02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_rh_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = li_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = ku_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_turret02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = ku_turret02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_m_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = br_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = li_turret02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_gm_turret01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_j_turret01, 0, -1, 10, 10, 0, 1
+MarketGood = gd_im_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_turret02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_bd_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = fc_b_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = gd_z_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lh_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = br_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_h_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = br_turret02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = rh_turret01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = ku_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = rh_turret02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = ku_turret02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_lr_turret01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_turret02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_rh_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_or_turret02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = ku_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_m_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = ku_turret02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = rh_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = co_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = rh_turret02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_gm_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_ou_turret02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_im_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_turret01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = fc_b_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_bd_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_h_turret01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = gd_z_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = rh_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = rh_turret02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_gm_turret01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = gd_bh_turret02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = co_turret02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = co_turret02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_turret02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = co_turret02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = fc_c_turret02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = ge_s_cm_01, 0, -1, 10, 10, 0, 1
+MarketGood = ge_s_cm_02, 0, -1, 10, 10, 0, 1
+MarketGood = ge_s_cm_03, 0, -1, 10, 10, 0, 1
+MarketGood = mine01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = mine02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = mine01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = mine02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = mine01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = mine02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = mine01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = mine02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = mine01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = mine02_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark01_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark02_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark03_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark04_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark05_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark06_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark07_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark08_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark09_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark10_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark01_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark02_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark03_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark04_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark05_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark06_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark07_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark08_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark09_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark10_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark01_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark02_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark03_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark04_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark05_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark06_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark07_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark08_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark09_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark10_lf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark01_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark02_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark03_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark04_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark05_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark06_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark07_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark08_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark09_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark10_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark01_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark02_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark03_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark04_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark05_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark06_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark07_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark08_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark09_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark10_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark01_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark02_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark03_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark04_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark05_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark06_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark07_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark08_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark09_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark10_hf, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark01_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark02_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark03_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark04_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark05_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark06_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark07_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark08_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark09_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield01_mark10_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark01_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark02_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark03_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark04_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark05_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark06_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark07_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark08_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark09_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield02_mark10_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark01_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark02_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark03_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark04_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark05_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark06_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark07_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark08_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark09_fr, 0, -1, 10, 10, 0, 1
+MarketGood = shield03_mark10_fr, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark06, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark07, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark08, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark09, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield01_mark10, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark06, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark07, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark08, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark09, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield02_mark10, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark01, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark02, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark03, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark04, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark05, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark06, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark07, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark08, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark09, 0, -1, 10, 10, 0, 1
+MarketGood = npc_shield03_mark10, 0, -1, 10, 10, 0, 1
+MarketGood = order_shield, 0, -1, 10, 10, 0, 1
+MarketGood = ge_s_thruster_01, 0, -1, 10, 10, 0, 1
+MarketGood = ge_s_thruster_02, 0, -1, 10, 10, 0, 1
+MarketGood = ge_s_thruster_03, 0, -1, 10, 10, 0, 1
+MarketGood = ge_s_thruster_04, 0, -1, 10, 10, 0, 1
+MarketGood = order_thruster, 0, -1, 10, 10, 0, 1
+</source>
+</data>
+
+<data file="data\universe\systems\neutral\bases\neutral_02_base.ini" method="append">
+<source>
+[Room]
+nickname = ShipDealer
+file = Universe\Systems\NEUTRAL\Bases\Rooms\NEUTRAL_02_shipdealer.ini
+</source>
+</data>
+
+<data file="data\universe\systems\neutral\bases\neutral_03_base.ini" method="append">
+<source>
+[Room]
+nickname = ShipDealer
+file = Universe\Systems\NEUTRAL\Bases\Rooms\NEUTRAL_03_shipdealer.ini
+</source>
+</data>
+
+<data file="data\universe\systems\neutral\bases\rooms\neutral_03_shipdealer.ini" method="copyfile" sourcefile="neutral_03_shipdealer.ini">
+</data>
+
+<data file="data\universe\systems\neutral\bases\rooms\neutral_02_shipdealer.ini" method="copyfile" sourcefile="neutral_02_shipdealer.ini">
+</data>
+
+<data file="data\universe\systems\neutral\bases\rooms\neutral_02_cityscape.ini" method="append">
+<source>
+[Hotspot]
+name = IDS_HOTSPOT_SHIPDEALER_ROOM
+behavior = ExitDoor
+room_switch = ShipDealer
+</source>
+</data>
+
+<data file="data\universe\systems\neutral\bases\rooms\neutral_02_equip.ini" method="append">
+<source>
+[Hotspot]
+name = IDS_HOTSPOT_SHIPDEALER_ROOM
+behavior = ExitDoor
+room_switch = ShipDealer
+</source>
+</data>
+
+<data file="data\universe\systems\neutral\bases\rooms\neutral_bases_deck.ini" method="append">
+<source>
+[Hotspot]
+name = IDS_HOTSPOT_SHIPDEALER_ROOM
+behavior = ExitDoor
+room_switch = ShipDealer
+</source>
+</data>
+
+</script>
