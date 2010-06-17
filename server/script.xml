@@ -235,6 +235,10 @@ base = Rh02_08_Base
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 5000</TEXT><PARA/><TEXT>Cargo Space: 50</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
 </xmldata>
 
+<xmldata name="ku_dragon_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>?</TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>?</TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 5600</TEXT><PARA/><TEXT>Cargo Space: 55</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 42/42</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 8</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
 <xmldata name="or_elite2_info">
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/1</TEXT><PARA/><TEXT>Armor: 9000</TEXT><PARA/><TEXT>Cargo Space: 70</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 61/61</TEXT><PARA/><TEXT>Optimal Weapon Class: 8</TEXT><PARA/><TEXT>Max. Weapon Class: 10</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
 </xmldata>
