@@ -1,6 +1,6 @@
 <script>
 
-<header name="Hamburg City Server Mod (v3.17a)" savesafe="true">
+<header name="Hamburg City Server Mod (v3.17a_Roll_edition)" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -189,7 +189,10 @@ and some surprises :)
 <data file="DATA\Missions\mbases.ini" method="copyfile" sourcefile="DATA\Missions\mbases.ini" scanfile="true">
 </data>
 
+### Keymap.ini entrys
 
+<data file="DATA\INTERFACE\KeyMap.ini" method="copyfile" sourcefile="DATA\INTERFACE\KeyMap.ini" scanfile="true">
+</data>
 
 
 ### UNIVERSE & SYSTEM ENTRYS ###
@@ -254,6 +257,10 @@ base = Rh02_08_Base
 
 <xmldata name="li_elite2_info">
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 5/1</TEXT><PARA/><TEXT>Armor: 5000</TEXT><PARA/><TEXT>Cargo Space: 50</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 36/36</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="ku_dragon_info">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>?</TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>?</TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 5600</TEXT><PARA/><TEXT>Cargo Space: 55</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 42/42</TEXT><PARA/><TEXT>Optimal Weapon Class: 6</TEXT><PARA/><TEXT>Max. Weapon Class: 8</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
 </xmldata>
 
 <xmldata name="or_elite2_info">
