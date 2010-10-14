@@ -16,7 +16,7 @@ system = %%HOME_SYSTEM%%
 base = %%HOME_BASE%%
 
 house = 0.3, li_n_grp
-house = 0.3, li_lsf_grp
+house = -1, li_lsf_grp
 house = 0.1, li_p_grp
 house = 0, br_n_grp
 house = 0, br_p_grp
@@ -79,18 +79,14 @@ house = -1, fc_no_grp
 house = -1, uSF
 house = 0, ALLIANZ_CLAN
 house = -1, FT_CLAN
-house = -1, WOLFS_CLAN
 house = 0, TD_CLAN
 house = 0, TCEAGLES_CLAN
 house = 0, FOF_CLAN
 house = -1, STE_CLAN
-house = -1, DOS_CLAN
-house = -1, ORDEN_CLAN
-house = -1, IMPERIUM_CLAN
+house = -0.3, IMPERIUM_CLAN
 house = 0, NEXUS_CLAN
 house = -1, PIRATES_CLAN
 house = 0, AUW_CLAN
-house = 0, PS_CLAN
 house = -1, RIP_CLAN
 house = 0, Rheinwehr_CLAN
 house = 0, OSO_CLAN
@@ -101,6 +97,7 @@ house = 0, Rh_EVENT_CLAN
 house = 0, Ku_EVENT_CLAN
 house = 0, Li_EVENT_CLAN
 house = 0, KK_EVENT_CLAN
+house = 0, PS_CLAN
 
 
 ;Li02
