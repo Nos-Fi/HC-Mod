@@ -391,4 +391,18 @@ charge_rate = 545
 </source>
 </data>
 
+<data file="data\Equipment\misc_equip.ini" method="sectionreplace">
+<section>
+[Power]
+nickname = bh_elite2_power01
+</section>
+
+<dest>
+charge_rate = 750
+</dest>
+<source>
+charge_rate = 950
+</source>
+</data>
+
 </script>
