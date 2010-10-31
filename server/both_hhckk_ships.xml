@@ -1,0 +1,67 @@
+<script>
+<header name="HHCKK Schiffstest-Mod" savesafe="true">
+<scriptversion>
+1.0
+</scriptversion>
+<author>
+Tritor
+</author>
+<description>
+M1C toof
+</description>
+</header>
+
+##<!-- Drache -->
+
+<data file="DATA\Ships\shiparch.ini" method="sectionreplace">
+<section>
+nickname = ku_elite
+</section>
+<dest>
+hit_pts = 4400
+</dest>
+<source>
+hit_pts = 4900
+</source>
+<dest>
+steering_torque = 52480.000000, 52480.000000, 143000.000000
+</dest>
+<source>
+steering_torque = 50020.000000, 50020.000000, 143000.000000
+</source>
+</data>
+
+##<!-- Crusader -->
+
+<data file="DATA\Ships\shiparch.ini" method="sectionreplace">
+<section>
+nickname = br_elite
+</section>
+<dest>
+hit_pts = 5800
+</dest>
+<source>
+hit_pts = 5400
+</source>
+<dest>
+steering_torque = 47150.000000, 47150.000000, 230000.000000
+</dest>
+<source>
+steering_torque = 45100.000000, 45100.000000, 143000.000000
+</source>
+</data>
+
+##<!-- Enforcer -->
+
+<data file="DATA\Ships\shiparch.ini" method="sectionreplace">
+<section>
+nickname = li_elite2
+</section>
+<dest>
+steering_torque = 49200.000000, 49200.000000, 143000.000000
+</dest>
+<source>
+steering_torque = 47150.000000, 47150.000000, 143000.000000
+</source>
+</data>
+</script>
