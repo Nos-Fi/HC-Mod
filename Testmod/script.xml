@@ -1,5 +1,5 @@
 <script>
-<header name="Hamburg City - Testmod V1.0" savesafe="true">
+<header name="Hamburg City - Testmod R44" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -16,7 +16,6 @@ HHC Mod must be activated first!!!
 
 Features:
 - Test Arena
-- KKSchiffstest2010_06
 </description>
 
 <options default=""> 
