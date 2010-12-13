@@ -16,9 +16,7 @@
 </xmldata>
 
 <xmldata name="Nuclear_CLAN">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT>-Clan Name: Nuclear</TEXT><PARA/><TEXT>-Clan Tag: [Nuclear]</TEXT><PARA/><TEXT>-Clan RPG: Pirates[X]</TEXT><PARA/><TEXT>-Founder: Biloxi, Roatan</TEXT><PARA/><TEXT>-Allies: Pirates und Rogues</TEXT><PARA/><TEXT>-Enemies: Police</TEXT><PARA/><TEXT>-Clan Description:</TEXT><PARA/>
-<TEXT>'Nuclear' are an ex elite navy detachment which was called the 31st Thunderbolts. They 'disappeared' during a search and rescue operation which took place in La Serena [Planet Los Angeles]. Later reports show that they have been exposed to a high dose of radiations which had an unforseen effect: their senses were sharpened, turning them into some sort of 'super humans'.
-The reports also show that they dropped the 'justice' for piracy, and since then, they are periodically attacking Navy convoys, from a remote base called Promethium, earning their nickname as Nuclear.</TEXT><POP/></RDL>
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA bold="true"/><TEXT>Tag:</TEXT><TRA bold="default"/><TEXT> [Nuclear]</TEXT><PARA/><TRA bold="true"/><TEXT>Rpg:</TEXT><TRA bold="default"/><TEXT> Pirates</TEXT><PARA/><TRA bold="true"/><TEXT>Intellectual property:</TEXT><TRA bold="default"/><TEXT> Nine-Tailed-Fox</TEXT><PARA/><TRA bold="true"/><TEXT>Descripton:</TEXT><PARA/><TRA bold="default"/><TEXT>'Nuclear' are an ex elite navy detachment which has been called the 31st Thunderbolts. They 'disappeared' during a search and rescue operation which took place in La Serena . Later reports show that they have been exposed to a high dose of radiation which had an unforseen effect: their senses were sharpened, turning them into some sort of 'super humans'. The reports also show that they dropped the 'justice' for piracy, and since then, they are periodically attacking Navy convoys, from a remote Base called , earning their nickname as Nuclear.</TEXT><PARA/><POP/></RDL>
 </xmldata>
 
 <xmldata name="USAF_CLAN">
