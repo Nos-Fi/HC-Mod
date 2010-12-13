@@ -28,11 +28,11 @@
 </xmldata>
 
 <xmldata name="br_elite_info">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 5800</TEXT><PARA/><TEXT>Cargo Space: 35</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 20/20</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 5400</TEXT><PARA/><TEXT>Cargo Space: 35</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 20/20</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
 </xmldata>
 
 <xmldata name="ku_elite_info">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 4400</TEXT><PARA/><TEXT>Cargo Space: 55</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 26/26</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 6/0</TEXT><PARA/><TEXT>Armor: 4900</TEXT><PARA/><TEXT>Cargo Space: 55</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 26/26</TEXT><PARA/><TEXT>Optimal Weapon Class: 7</TEXT><PARA/><TEXT>Max. Weapon Class: 7</TEXT><PARA/><TEXT>Additional Equipment: M, CM, CD/T</TEXT><PARA/><PARA/><POP/></RDL>
 </xmldata>
 
 
