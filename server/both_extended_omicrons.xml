@@ -1660,4 +1660,662 @@ Radiation and low temperatures because of the opaque Fog make the the Dumiat-Fog
 <POP/>
 </RDL>
 </xmldata>
+
+##############################
+#### ALASKA | Li05        ####
+##############################
+
+
+<xmldata name="RoguesBaseText">
+Nachdem die große Nomadeninvasion abgewendet war, schafften es die\n
+Rogues, einen kleinen Stützpunkt in Alaska zu errichten, weit entfernt von\n
+anderen Stationen. Wie sie die Versorgung und Errichtung dieser Basis\n
+zustande bringen konnten, nachdem das Sprungtor in das System New\n
+York wieder verriegelt war, wird wohl immer ein Geheimnis der\n
+kriminellen Gruppierung bleiben.\n
+Als die Liberty Marine davon erfuhr, dass die Rogues in ihrem\n
+Gefängnissystem eine Station unterhalten, haben sie fünf Suchstaffeln\n
+losgeschickt, um die Basis ausfindig zu machen und zu vernichten. Einer\n
+der Trupps konnte die Basis finden und in großen Teilen zerstören, wurde\n
+aber bei dem Angriff vollständig ausgelöscht, sodass der Liberty Marine\n
+keine Koordinaten vorliegen. Von den losgeschickten Staffeln kehrten\n
+insgesamt zwei Schiffe zurück, was ein peinliches Desaster für den in\n
+Alaska befehlshabenden Admiral Adams darstellt. Die Suche nach der\n
+Basis wurde nicht wieder aufgenommen, da man nicht noch mehr Piloten\n
+im Nirgendwo verlieren wollte.\n
+Nachdem die Station teilweise zerstört wurde, konnten die Rogues die\n
+Lebenserhaltenden Systeme komplett instandsetzen, wodurch sie Home of\n
+infamous Rogues nicht aufgeben mussten.\n
+\n
+Gerüchten zufolge wurde die Basis von Überläufern aus Liberty-Marine und\n
+LSF mitfinanziert, was auch eine mögliche Erklärung für den unbemerkten\n
+Aufbau und die gute Versorgung ist.\n
+Die Station nutzt den Rogues hauptsächlich, um an besseren Waffen und\n
+Schiffen zu forschen, angeblich auch an Schiffen mit Tarnvorrichtung. Seit\n
+die Liberty-Marine von der Basis weiß und vermehrt Patrouillen losschickt,\n
+sind bereits zwölf Staffeln spurlos verschwunden, was das Gerücht um\n
+verbesserte Technologien der Rogues innerhalb der Marine und LSF noch\n
+anheizt.
+</xmldata>
+
+### SHIPYARD ###
+## Replace old shipyard + Change the parents##
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_space_industrial_2
+</section>
+<dest>
+ids_name = 196801
+pos = 61952, 0, 31583
+rotate = 0, -90, 0
+Archetype = space_industrial
+ids_info = 65539
+visit = 0
+</dest>
+<source>
+pos = 61952, 0, 31583
+rotate = 0, -90, 0
+Archetype = space_industrial
+parent = Li05_03_Base
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_space_industrial_1
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_space_industrial_3
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_space_research_2
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_space_research_1
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_shipyard_6
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_shipyard_7
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_shipyard_8
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_shipyard_9
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_shipyard_10
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = Li05_shipyard_11
+</section>
+<dest>
+parent = Li05_space_industrial_2
+</dest>
+<source>
+parent = Li05_03_Base
+</source>
+</data>
+
+
+### NEW STATIONS ###
+## Rouge Staion ##
+<data file="DATA\UNIVERSE\UNIVERSE.ini" method="append">
+<source>
+
+[Base]
+nickname = Li05_02_Base
+system = Li05
+strid_name = 0 ;GENERATESTRRES("Home of infamous Rogues")
+file = UNIVERSE\Systems\Li05\Bases\Li05_02_Base.ini
+BGCS_base_run_by = W02bF36
+</source>
+</data>
+
+<data file="DATA\EQUIPMENT\market_commodities.ini" method="append">
+<source>
+
+[BaseGood]
+base = Li05_02_base
+MarketGood = commodity_oxygen, 0, -1, 0, 0, 1, 1.600000
+MarketGood = commodity_water, 0, -1, 0, 0, 1, 1.200000
+MarketGood = commodity_food, 0, -1, 0, 0, 1, 1.200000
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="append">
+<source>
+
+[Object]
+nickname = Li05_02_Base
+pos = 34335, 0, -7510
+ids_name = 0 ;GENERATESTRRES("Home of infamous Rogues")
+ids_info = 0 ;GENERATEXMLRES(RoguesBaseText)
+behavior = NOTHING
+pilot = pilot_solar_easy
+dock_with = Li05_02_Base
+base = Li05_02_Base
+reputation = fc_lr_grp
+rotate = 0, 0, 0
+archetype = space_port_dmg
+loadout = space_port_dmg_pi_01
+difficulty_level = 1
+space_costume = benchmark_female_head, benchmark_female_body
+voice = atc_leg_m01
+
+[Object]
+nickname = Li05_02_beaml_dmg_1
+pos = 34135, 1, -7510
+archetype = space_beaml_dmg
+parent = Li05_02_Base
+rotate = 0, -90, 0
+
+[Object]
+nickname = Li05_02_habitat_dmg_1
+pos = 34514, 0, -7503
+archetype = space_habitat_dmg
+parent = Li05_02_Base
+rotate = -90, -90, 0
+
+[Object]
+nickname = Li05_02_tankl_3dmg_1
+pos = 34334, -225, -7581
+archetype = space_tankl_3dmg
+parent = Li05_02_Base
+rotate = 0, 0, 0
+
+[Object]
+nickname = Li05_02_tanks_1dmg_1
+pos = 34334, -225, -7441
+archetype = space_tankl_3dmg
+parent = Li05_02_Base
+rotate = 0, 180, 0
+
+</source>
+</data>
+
+<data file="DATA\MISSIONS\mbases.ini" method="append">
+<source>
+
+[MBase]
+nickname = Li05_02_Base
+local_faction = fc_lr_grp
+diff = 3
+msg_id_prefix = gcs_refer_base_Li05_02_Base
+
+[MVendor]
+num_offers = 2, 4
+
+[GF_NPC]
+nickname = Li0502_fix_bartender
+body = pl_male3_journeyman_body
+head = pi_pirate1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244642
+affiliation = fc_j_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = Li0502_fix_trader
+body = pl_male3_journeyman_body
+head = pl_male7_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244643
+affiliation = fc_j_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = Li0502_fix_weaponsdealer
+body = pl_male3_journeyman_body
+head = rh_hassler_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244644
+affiliation = fc_j_grp
+voice = rvp106
+
+
+[MRoom]
+nickname = bar
+character_density = 4
+fixture = Li0502_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+
+[MRoom]
+nickname = Deck
+character_density = 2
+fixture = Li0502_fix_trader, Zs/NPC/Trader/01/A/Stand, scripts\vendors\li_commtrader_fidget.thn, trader
+fixture = Li0502_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+</source>
+</data>
+
+## Shipyard ##
+<data file="DATA\UNIVERSE\UNIVERSE.ini" method="append">
+<source>
+
+[Base]
+nickname = Li05_03_Base
+system = Li05
+strid_name = 196801
+file = UNIVERSE\Systems\Li05\Bases\Li05_03_Base.ini
+BGCS_base_run_by = W02bF32
+</source>
+</data>
+
+<data file="DATA\EQUIPMENT\market_commodities.ini" method="append">
+<source>
+
+[BaseGood]
+base = Li05_03_base
+MarketGood = commodity_oxygen, 0, -1, 150, 500, 0, 0.800000
+MarketGood = commodity_water, 0, -1, 150, 500, 0, 0.900000
+MarketGood = commodity_food, 0, -1, 150, 500, 0, 0.900000
+</source>
+</data>
+
+<data file="DATA\EQUIPMENT\market_ships.ini" method="append">
+<source>
+[BaseGood]
+base = Li05_03_base
+marketgood = lfr_package, 1, -1, 1, 1, 0, 1, 1
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="append">
+<source>
+
+[Object]
+nickname = Li05_03_Base
+pos = 61949, 0, 32637
+ids_info = 65539
+ids_name = 196801
+visit = 0
+behavior = NOTHING
+pilot = pilot_solar_easy
+dock_with = Li05_03_Base
+base = Li05_03_Base
+reputation = li_n_grp
+rotate = 0, 90, 0
+archetype = space_shipping01
+loadout = space_shipping01_co_01
+difficulty_level = 1
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
+</source>
+</data>
+
+<data file="DATA\MISSIONS\mbases.ini" method="append">
+<source>
+[MBase]
+nickname = Li05_03_Base
+local_faction = li_n_grp
+diff = 2
+msg_id_prefix = gcs_refer_base_Li05_03_Base
+
+[MVendor]
+num_offers = 2, 4
+
+[BaseFaction]
+faction = li_n_grp
+weight = 6
+npc = Li0503_lpolice_001_f
+
+[GF_NPC]
+nickname = Li0503_fix_bartender
+body = li_bartender_body
+head = li_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244624
+affiliation = li_n_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = Li0503_fix_trader
+body = li_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244625
+affiliation = li_n_grp
+voice = rvp111
+
+[GF_NPC]
+nickname = Li0503_fix_weaponsdealer
+body = li_male_elite_body
+head = rh_hassler_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244626
+affiliation = li_n_grp
+voice = rvp101
+[GF_NPC]
+
+nickname = Li0502_fix_ship
+body = pl_male3_journeyman_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 245176
+affiliation = fc_j_grp
+voice = rvp106
+
+[MRoom]
+nickname = bar
+character_density = 6
+fixture = Li0503_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+
+[MRoom]
+nickname = Deck
+character_density = 2
+fixture = Li0503_fix_trader, Zs/NPC/Trader/01/A/Stand, scripts\vendors\li_commtrader_fidget.thn, trader
+fixture = Li0503_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MRoom]
+nickname = ShipDealer
+character_density = 2
+fixture = Li0502_fix_ship, Zs/NPC/Shipdealer/01/A/Stand, scripts\vendors\li_shipdealer_fidget.thn, ShipDealer
+</source>
+</data>
+
+### Trade ###
+<data file="DATA\EQUIPMENT\market_commodities.ini" method="append">
+<source>
+
+
+[BaseGood]
+base = Li05_01_base
+MarketGood = commodity_gold, 0, -1, 0, 0, 1, 2
+MarketGood = commodity_silver, 0, -1, 0, 0, 1, 2.250000
+MarketGood = commodity_niobium, 0, -1, 0, 0, 1, 2.850000
+MarketGood = commodity_oxygen, 0, -1, 150, 500, 0, 0.500000
+MarketGood = commodity_water, 0, -1, 150, 500, 0, 0.500000
+MarketGood = commodity_diamonds, 0, -1, 0, 0, 1, 1.500000
+MarketGood = commodity_food, 0, -1, 150, 500, 0, 0.862100
+MarketGood = commodity_alien_artifacts, 0, -1, 0, 0, 1, 4.750000
+MarketGood = commodity_luxury_food, 0, -1, 0, 0, 1, 7.500000
+MarketGood = commodity_H_fuel, 0, -1, 150, 500, 0, 1.200000
+MarketGood = commodity_construction_machinery, 0, -1, 0, 0, 1, 1.300000
+MarketGood = commodity_cardamine, 0, -1, 0, 0, 1, 2
+MarketGood = commodity_sidearms, 0, -1, 0, 0, 1, 0.550000
+</source>
+</data>
+
+
+### NEW YORK ###
+<data file="DATA\UNIVERSE\SYSTEMS\Li01\Li01.ini" method="append">
+<source>
+
+
+[Object]
+nickname = Li01_Trade_Lane_Ring_02
+pos = 65873, 0, 17610
+rotate = 0, -69, 0
+archetype = Trade_Lane_Ring_Construct_A
+ids_name = 458754
+ids_info = 66170
+behavior = NOTHING
+difficulty_level = 1
+loadout = trade_lane_ring_br_01
+pilot = pilot_solar_easiest
+
+[Object]
+nickname = Li01_to_Li05_nav_buoy_2
+ids_name = 261163
+pos = 65873, 0, 17610
+archetype = nav_buoy
+
+
+[Object]
+nickname = Li01_Trade_Lane_Ring_03
+pos = 69047, 0, 16449
+rotate = 0, -69, 0
+archetype = Trade_Lane_Ring_Construct_B
+ids_name = 458754
+ids_info = 66170
+behavior = NOTHING
+difficulty_level = 1
+loadout = trade_lane_ring_br_01
+pilot = pilot_solar_easiest
+
+[Object]
+nickname = Li01_to_Li05_nav_buoy_3
+ids_name = 261163
+pos = 69047, 0, 16449
+archetype = nav_buoy
+
+
+[Object]
+nickname = Li01_Trade_Lane_Ring_04
+pos = 72221, 0, 15289
+rotate = 0, 69, 180
+archetype = Trade_Lane_Ring_Construct_B
+ids_name = 458754
+ids_info = 66170
+behavior = NOTHING
+difficulty_level = 1
+loadout = trade_lane_ring_br_01
+pilot = pilot_solar_easiest
+
+[Object]
+nickname = Li01_to_Li05_nav_buoy_4
+ids_name = 261163
+pos = 72221, 0, 15289
+archetype = nav_buoy
+
+
+[Object]
+nickname = Li01_Trade_Lane_Ring_05
+pos = 75395, 0, 14128
+rotate = 0, -69, 0
+archetype = Trade_Lane_Ring_Construct_A
+ids_name = 458754
+ids_info = 66170
+behavior = NOTHING
+difficulty_level = 1
+loadout = trade_lane_ring_br_01
+pilot = pilot_solar_easiest
+
+[Object]
+nickname = Li01_to_Li05_nav_buoy_5
+ids_name = 261163
+pos = 75395, 0, 14128
+archetype = nav_buoy
+</source>
+</data>
+
+### GATE FIX ###
+<data file="DATA\UNIVERSE\SYSTEMS\Li05\Li05.ini" method="append">
+<source>
+[Object]
+nickname = Li05_to_Li01_fix
+ids_name = 0 ;GENERATESTRRES("Alaska - New York")
+pos = 65000, 0, 35000
+Archetype = jumpgate
+ids_info = 66145
+msg_id_prefix = gcs_refer_system_Li01
+jump_effect = jump_effect_bretonia
+behavior = NOTHING
+reputation = li_n_grp
+visit = 0
+difficulty_level = 10
+pilot = pilot_solar_easy
+goto = Li01, Li01_to_Li05_fix, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\SYSTEMS\Li01\Li01.ini" method="append">
+<source>
+[Object]
+nickname = Li01_to_Li05_fix
+ids_name = 0 ;GENERATESTRRES("New York - Alaska")
+pos = 80632, 0, 12299
+rotate = 0, 105, 0
+Archetype = jumpgate
+msg_id_prefix = gcs_refer_system_Li05
+ids_info = 66145
+jump_effect = jump_effect_bretonia
+reputation = li_n_grp
+visit = 0
+behavior = NOTHING
+difficulty_level = 10
+goto = Li05, Li05_to_Li01, gate_tunnel_bretonia
+loadout = jumpgate_li_03
+pilot = pilot_solar_easy
+</source>
+</data>
+
+###### Prison fix #######
+
+<data file="DATA\UNIVERSE\SYSTEMS\LI05\BASES\li05_01_base.ini" method="append">
+<source>
+[Room]
+nickname = Bar
+file = Universe\Systems\Li05\Bases\Rooms\Li05_01_Bar.ini
+</source>
+</data>
+
+<data file="DATA\MISSIONS\mbases.ini" method="append">
+<source>
+
+[MBase]
+nickname = Li05_01_Base
+local_faction = li_n_grp
+diff = 0
+
+[MVendor]
+num_offers = 0, 0
+
+[BaseFaction]
+faction = li_p_grp
+weight = 10
+
+[GF_NPC]
+nickname = li0501_fix_bartender
+body = li_bartender_body
+head = ge_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244627
+affiliation = li_p_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = li0501_fix_trader
+body = li_rockford_body
+head = br_quigly_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244628
+affiliation = li_p_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = li0501_fix_weaponsdealer
+body = li_rockford_body
+head = pl_male7_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244629
+affiliation = li_p_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = li0501_fix_trader
+body = sc_scientist2_body
+head = pl_male7_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244634
+affiliation = co_vr_grp
+voice = rvp101
+</source>
+</data>
+
 </script>
