@@ -925,50 +925,7 @@ voice = atc_leg_m01
 nickname = br06_FOF_base
 ids_name = 0 ;GENERATESTRRES("~Trader's~Paradise~")
 pos = -25100, 14600, -26200 
-archetype = space_freeport01
-ids_info = 0 ;GENERATEXMLRES(FOF_base)
-dock_with = br06_FOF_Base
-base = br06_FOF_Base
-reputation = FOF_Clan
-behavior = NOTHING
-voice = atc_leg_m01
-space_costume = li_captain_head, pl_male1_peasant_body
-difficulty_level = 30
-loadout = clan_freeport
-pilot = pilot_crazy 
-
-[Object]
-nickname = fof_component_01
-pos = -25100, 14631, -26530
-archetype = space_dome
-reputation = fof_clan
-pilot = pilot_solar_hard
-parent = br06_FOF_base
-
-[Object]
-nickname = fof_component_02
-pos = -25100, 14631, -25870
-rotate = 0, 180, 0
-archetype = space_dome
-reputation = fof_clan
-pilot = pilot_solar_hard
-parent = br06_FOF_base
-
-[Object]
-nickname = fof_component_03
-pos = -25100, 14600, -25870
-rotate = 180, 100, 0
-archetype = space_solar_pnl
-reputation = fof_clan
-parent = br06_FOF_Base
-
-[Object]
-nickname = fof_component_04
-pos = -25100, 14600, -26530
-rotate = 180, -70, 0
-archetype = space_solar_pnl
-reputation = fof_clan
-parent = br06_FOF_Base
+archetype = space_police_dmg
 </source>
 </data>
 

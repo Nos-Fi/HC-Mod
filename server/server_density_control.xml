@@ -1559,4 +1559,5 @@ num_offers = 0, 0
 faction = fc_order_grp
 offers_missions = false
 </source>
+</data>
 </script> 
