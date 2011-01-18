@@ -17,7 +17,8 @@ Nomaden Torpedo :)
 </description>
 
 </header>
-               Weapon Nomad-Torpedo
+       
+        Weapon Nomad-Torpedo
 
 <data file="data\equipment\weapon_equip.ini" method="append">
 <source>
@@ -31,6 +32,7 @@ radius = 25
 hull_damage = 3587
 energy_damage = 0
 impulse = 0
+torpedo01_mark01_motor
 </source>
 </data>
 
@@ -54,6 +56,7 @@ mass = 1
 volume = 0.000100
 </dest>
 <source>
+Motor = torpedo01_mark01_motor
 ids_name = 263527
 explosion_arch = nomad_torpedo01_rtc_explosion
 requires_ammo = true
