@@ -1,35 +1,5 @@
 <script>
-<header name="HHC Nomad Torp">
-
-<header name="Nomaden Torpedo v0.95" savesafe="true">
-<scriptversion>
-1.0
-</scriptversion>
-
-<author>
-bossdrache 1
-</author>
-
-<modurl>
-</modurl>
-
-<description>
-Aktiviert den Nomaden Torpedo 
-für den HHC Server
-
-</description>
-
-<options default="">
-
-<option name="Nomad Torpedo Original effect or Nomad mine effect?" id="1" safesave="false">
-<item id="0" name="Nomad torpedo original effect">
-</item>
-<item id="1" name="Nomad mine effect">
-</item>
-</option>
-</options>
-</header>
-       
+      
                ***Nomad mine effect***
 
 <data file="data\fx\effects.ini" method="sectionappend" options="1:1">
