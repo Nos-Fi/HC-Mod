@@ -1,6 +1,7 @@
 <script>
+<header name="HHC Nomad Torp">
 
-<header name="HHC Nomaden Torpedo" savesafe="true">
+<header name="Nomaden Torpedo v0.95" savesafe="true">
 <scriptversion>
 1.0
 </scriptversion>
@@ -13,12 +14,42 @@ bossdrache 1
 </modurl>
 
 <description>
-Nomaden Torpedo :)
+Aktiviert den Nomaden Torpedo 
+für den HHC Server
+
 </description>
 
+<options default="">
+
+<option name="Nomad Torpedo Original effect or Nomad mine effect?" id="1" safesave="false">
+<item id="0" name="Nomad torpedo original effect">
+</item>
+<item id="1" name="Nomad mine effect">
+</item>
+</option>
+</options>
 </header>
        
-        Weapon Nomad-Torpedo
+               ***Nomad mine effect***
+
+<data file="data\fx\effects.ini" method="sectionappend" options="1:1">
+<section>
+[Effect]
+nickname = rtc_nomadtorpedo_impact
+</section>
+<dest>
+effect_type = EFT_EXPLOSION_LARGE
+snd_effect = med_explosion2
+vis_effect = rtc_nomadtorpedo_impact
+</dest>
+<source>
+effect_type = EFT_EXPLOSION_LARGE
+snd_effect = med_explosion2
+vis_effect = gf_explosion_mine03
+</source>
+</data>
+
+               ***Weapon Nomad-Torpedo***
 
 <data file="data\equipment\weapon_equip.ini" method="append">
 <source>
@@ -28,11 +59,10 @@ effect = rtc_nomadtorpedo_impact
 lifetime = 0.000000, 0.000000
 process = disappear
 strength = 100
-radius = 25
+radius = 16
 hull_damage = 3587
 energy_damage = 0
 impulse = 0
-torpedo01_mark01_motor
 </source>
 </data>
 
@@ -56,29 +86,29 @@ mass = 1
 volume = 0.000100
 </dest>
 <source>
-Motor = torpedo01_mark01_motor
-ids_name = 263527
 explosion_arch = nomad_torpedo01_rtc_explosion
+loot_appearance = ammo_crate
+units_per_container = 10
+hp_type = hp_torpedo
 requires_ammo = true
 hit_pts = 2
 one_shot_sound = fire_no_torpedo
-const_effect = rtc_nomadtorpedo_proj
-detonation_dist = 6.250000
-lifetime = 89.840000
+detonation_dist = 0.50
+lifetime = 37.500000
+Motor = torpedo01_mark01_motor
 force_gun_ori = false
-mass = 1
-volume = 0.000100
+const_effect = rtc_nomadtorpedo_proj
 hull_damage = 0
 energy_damage = 0
-hp_type = hp_torpedo
-loot_appearance = ammo_crate
-units_per_container = 10
-force_gun_ori = false
-seeker = DUMB
+seeker = LOCK
 seeker_range = 1500
 time_to_lock = 0
 seeker_fov_deg = 35
-max_angular_velocity = 0.580670
+max_angular_velocity = 0.15
+ids_name = 263527
+ids_info = 263527
+mass = 1
+volume = 0.000000
 </source>
 </data>
 
@@ -116,34 +146,34 @@ LODranges = 0, 20
 </dest>
 <source>
 DA_archetype = Equipment\models\weapons\no_fighter_gun.cmp
-HP_child = HPConnect
 material_library = solar\nomad.mat
-hit_pts = 400
+HP_child = HPConnect
+hit_pts = 1401
 explosion_resistance = 1.000000
 debris_type = debris_normal
 parent_impulse = 20
 child_impulse = 80
-volume = 0.000100
+volume = 0.000000
 mass = 10
+hp_gun_type = hp_torpedo_special_1
 damage_per_fire = 0
 power_usage = 0
-refire_delay = 2
+refire_delay = 3
 muzzle_velocity = 16.700001
 toughness = 12.100000
-hp_gun_type = hp_torpedo_special_1
-flash_particle_name = rtc_nomadtorpedo_flash
-flash_radius = 15
-light_anim = l_gun01_flash
 projectile_archetype = nomad_torpedo01_rtc_ammo
 separation_explosion = sever_debris
 auto_turret = false
 turn_rate = 90
-lootable = false
+lootable = true
 LODranges = 0, 20
+flash_particle_name = rtc_nomadtorpedo_flash
+flash_radius = 15
+light_anim = l_gun01_flash
 </source>
 </data>
 
-               Weapon good Nomad-torpedo
+              ***Weapon good Nomad-torpedo and ammo***
 
 <data file="data\equipment\weapon_good.ini" method="append">
 <source>
@@ -151,10 +181,10 @@ LODranges = 0, 20
 nickname = nomad_torpedo01_rtc_ammo
 equipment = nomad_torpedo01_rtc_ammo
 category = equipment
-price = 1
+price = 487
 ids_name = 263527
 ids_info = 264527
-item_icon = equipment\models\commodities\nn_icons\equipicon_nomadpower.3db
+item_icon = equipment\models\commodities\nn_icons\commod_opticalchips.3db
 shop_archetype = equipment\models\weapons\no_fighter_gun.cmp
 material_library = solar\nomad.mat
 </source>
@@ -176,7 +206,7 @@ shop_archetype = equipment\models\weapons\no_fighter_gun.cmp
 </dest>
 <source>
 price = 50
-item_icon = equipment\models\commodities\nn_icons\EQUIPICON_torplauncher.3db
+item_icon = equipment\models\commodities\nn_icons\equipicon_nomadpower.3db
 combinable = false
 ids_name = 263527
 ids_info = 264527
@@ -197,7 +227,7 @@ MarketGood = nomad_torpedo01_rtc, 0, -1, 10, 10, 0, 1
 <data file="data\equipment\market_misc.ini" method="sectionappend">
 <section>
 [BaseGood]
-base = NEUTRAL_01_Base
+base = NEUTRAL_03_Base
 </section>
 <source>
 MarketGood = nomad_torpedo01_rtc, 0, -1, 10, 10, 0, 1
