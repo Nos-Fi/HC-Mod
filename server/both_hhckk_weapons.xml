@@ -1,5 +1,41 @@
 <script>
 <!-- HHCKK Weapons Mod by Mic -->
+##<!-- Vengeance Turret -->
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = li_turret01_mark03_ammo
+</section>
+<dest>
+hull_damage = 40.400002
+</dest>
+<source>
+hull_damage = 66
+energy_damage = 0
+</source>
+</data>
+
+<data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = li_turret01_mark03
+</section>
+<dest>
+hp_gun_type = hp_turret_special_5
+damage_per_fire = 0
+power_usage = 12.620000
+refire_delay = 0.120000
+muzzle_velocity = 700
+</dest>
+<source>
+hp_gun_type = hp_turret_special_6
+damage_per_fire = 0
+power_usage = 23
+refire_delay = 0.120000
+muzzle_velocity = 750
+</source>
+</data>
+
 ##<!-- Vengeance Mk III -->
 <data file="DATA\EQUIPMENT\weapon_equip.ini" method="sectionreplace">
 <section>

@@ -8,6 +8,7 @@ cHiLLmAstA (intro menu scenes)
 mc_horst (flhook and client hooking methods)
 Why485 (some special effects)
 Adoxa (widescreen fix, 4 Strafe blocker)
+M!C (clienthooking and other moddings)
 
 Extended Omicron systems credits:
 ____________________________________________________
