@@ -1,8 +1,8 @@
 <script>
       
-               ***Nomad mine effect***
+               ***Nomad mine effect*** Nosfi wollte es so ;P
 
-<data file="data\fx\effects.ini" method="sectionappend" options="1:1">
+<data file="data\fx\effects.ini" method="sectionappend">
 <section>
 [Effect]
 nickname = rtc_nomadtorpedo_impact
@@ -74,13 +74,14 @@ seeker = LOCK
 seeker_range = 1500
 time_to_lock = 0
 seeker_fov_deg = 35
-max_angular_velocity = 0.15
+max_angular_velocity = 0.19
 ids_name = 263527
 ids_info = 263527
 mass = 1
 volume = 0.000000
 </source>
 </data>
+
 
 <data file="data\equipment\weapon_equip.ini" method="sectionappend">
 <section>
@@ -157,6 +158,7 @@ ids_info = 264527
 item_icon = equipment\models\commodities\nn_icons\commod_opticalchips.3db
 shop_archetype = equipment\models\weapons\no_fighter_gun.cmp
 material_library = solar\nomad.mat
+combinable = true
 </source>
 </data>
 
@@ -175,8 +177,9 @@ ids_info = 264527
 shop_archetype = equipment\models\weapons\no_fighter_gun.cmp
 </dest>
 <source>
-price = 50
+category = equipment
 item_icon = equipment\models\commodities\nn_icons\equipicon_nomadpower.3db
+price = 50
 combinable = false
 ids_name = 263527
 ids_info = 264527
