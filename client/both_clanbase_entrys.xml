@@ -4,6 +4,7 @@
 </data>
 
 ## ClanBase Entrys
+## deaktivierte Clanbasen werden auf Rep li_lsf_grp eingestellt
 
 <data file="DATA\UNIVERSE\Systems\Rh01\Rh01.ini" method="append">
 <source>
@@ -634,7 +635,7 @@ behavior = NOTHING
 pilot = pilot_crazy
 dock_with = Hi02_TCEAGLES_BASE
 base = Hi02_TCEAGLES_BASE
-reputation = TCEAGLES_CLAN
+reputation = li_lsf_grp
 rotate = 175.102,-43.7713,-179.99
 archetype = r_battleship
 ids_name = 0 ;GENERATESTRRES("ANS Terra")
@@ -802,7 +803,7 @@ behavior = NOTHING
 pilot = pilot_crazy 
 dock_with = Hi01_USF_Base 
 base = Hi01_USF_Base 
-reputation = uSF 
+reputation = li_lsf_grp 
 rotate = 0, 0, 0 
 archetype = b_battleship 
 ids_name = 0 ;GENERATESTRRES("New Providence")
