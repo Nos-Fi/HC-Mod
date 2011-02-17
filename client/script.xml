@@ -1,6 +1,6 @@
 <script>
 
-<header name="Hamburg City Server Mod (v3.18 beta R82)" savesafe="true">
+<header name="Hamburg City Server Mod (v3.18 beta R83)" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -705,9 +705,6 @@ disableDepartingPlayer=1
 
 <data file="data\Universe\Systems\Li05\Li05.ini" method="replace">
 <dest>
-
-</dest>
-<source>
 [Object]
 nickname = Li05_to_Li01
 ids_name = 260929
@@ -718,14 +715,14 @@ msg_id_prefix = gcs_refer_system_Li01
 jump_effect = jump_effect_bretonia
 behavior = NOTHING
 goto = Li01, Li01_to_Li05, gate_tunnel_bretonia
+</dest>
+<source>
+
 </source>
 </data>
 
 <data file="data\Universe\Systems\Li01\Li01.ini" method="replace">
 <dest>
-
-</dest>
-<source>
 [Object]
 nickname = Li01_to_Li05
 ids_name = 260914
@@ -742,6 +739,9 @@ difficulty_level = 10
 goto = Li05, Li05_to_Li01, gate_tunnel_bretonia
 loadout = jumpgate_li_03
 pilot = pilot_solar_easy
+</dest>
+<source>
+
 </source>
 </data>
 ###### Alaska Altes Gate Clientseitig entfernen - End ##########
