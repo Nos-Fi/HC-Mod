@@ -935,49 +935,49 @@ archetype = space_police_dmg
 
 [Object]
 nickname = EW01_oso_base
-pos = 25500, 22000, 26000
+pos = 1723, 65000, -1378
 ids_info = 0
 behavior = NOTHING
 pilot = pilot_crazy
-dock_with = EW01_oso_base
-base = EW01_oso_base
+dock_with = EW01_oso_Base
+base = EW01_oso_Base
 reputation = oso_clan
-rotate = 0, 0, 0
-archetype = smallstation1_old 
+rotate = 0, -90, 0
+archetype = smallstation1_old
 ids_name = 0 ;GENERATESTRRES("~ Conduct Of War ~")
 loadout = clan_smallstation1_old_hc
 difficulty_level = 30
-space_costume = benchmark_male_head, benchmark_male_body
-voice = atc_leg_m01
+space_costume = ku_kym_head, ku_kym_body
+voice = atc_leg_f01 
 
 [Object]
 nickname = oso_component01
-rotate = 0, 0, 90
-pos = 25175, 21847, 25953
-archetype = space_dome
+rotate = 0, 90, 180
+pos = 1724, 64695, -1378
+archetype = smallstation1_old
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component02
-rotate = 0, 0, -90
-pos = 25825, 21847, 25953
+rotate = -90, 0, 90
+pos = 1770, 64847, -1703
 archetype = space_dome
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component03
-rotate = 0, 0, 0
-pos = 25175, 21847, 25953
-archetype = baxter_hazard
+rotate = 90, 0, -90
+pos = 1770, 64847, -1053
+archetype = space_dome
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component04
 rotate = 0, 0, 0
-pos = 25825, 21847, 25953
+pos = 1770, 64847, -1703
 archetype = baxter_hazard
 parent = EW01_oso_base
 reputation = oso_clan
@@ -985,87 +985,103 @@ reputation = oso_clan
 [Object]
 nickname = oso_component05
 rotate = 0, 0, 0
-pos = 25206, 21836, 26247
-archetype = dyson_generator
+pos = 1770, 64847, -1053
+archetype = baxter_hazard
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component06
 rotate = 0, 0, 0
-pos = 25794, 21836, 26247
+pos = 1476, 64836, -1672
 archetype = dyson_generator
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component07
-rotate = 0, 180, 0
-pos = 25357, 21837, 26180
-archetype = Roid_Miner
+rotate = 0, 0, 0
+pos = 1476, 64836, -1084
+archetype = dyson_generator
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component08
-rotate = 0, 55, -90
-pos = 25382, 21776, 25851
-archetype = space_solar_pnl
+rotate = 0, 0, 0
+pos = 1513, 65175, -1378
+archetype = planet_storm_5000
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component09
-rotate = 0, -90, 0
-pos = 25611, 21779, 26102
-archetype = gas_collector
+rotate = 0, 0, 0
+pos = 1933, 65175, -1378
+archetype = planet_storm_5000
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component10
-rotate = 0, 0, -45
-pos = 25355, 22017, 26000
-archetype = m10_buoy
+rotate = 0, 0, 180
+pos = 1624, 64865, -1492
+archetype = gas_collector
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component11
-rotate = 0, 0, -45
-pos = 25311, 22017, 26000
-archetype = m10_buoy
+rotate = 0, -180, 0
+pos = 1623, 64830, -1264
+archetype = gas_collector
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component12
-rotate = 0, 0, -115
-pos = 25645, 22017, 26000
+rotate = 0, -45, -90
+pos = 1723, 65017, -1523
 archetype = m10_buoy
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component13
-rotate = 0, 0, -115
-pos = 25688, 22017, 26000
+rotate = 0, -45, -90
+pos = 1723, 65017, -1567
 archetype = m10_buoy
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component14
-rotate = 0, 0, -90
-pos = 25500, 22017, 25855
+rotate = 0, 45, -90
+pos = 1723, 65017, -1233
 archetype = m10_buoy
 parent = EW01_oso_base
 reputation = oso_clan
 
 [Object]
 nickname = oso_component15
-rotate = 0, 0, -90
-pos = 25500, 22017, 25812
+rotate = 0, 45, -90
+pos = 1723, 65017, -1190
+archetype = m10_buoy
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component16
+rotate = 0, 0, -135
+pos = 1868, 65017, -1378
+archetype = m10_buoy
+parent = EW01_oso_base
+reputation = oso_clan
+
+[Object]
+nickname = oso_component17
+rotate = 0, 0, -135
+pos = 1911, 65017, -1378
 archetype = m10_buoy
 parent = EW01_oso_base
 reputation = oso_clan
