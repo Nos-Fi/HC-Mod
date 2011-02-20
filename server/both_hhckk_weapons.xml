@@ -343,4 +343,13 @@ shop_archetype = equipment\models\weapons\no_fighter_gun.cmp
 </source>
 </data>
 
+<data file="data\equipment\market_misc.ini" numTimes="-1" method="sectionappend">
+<section>
+[BaseGood]
+</section>
+<source>
+MarketGood = nomad_torpedo01_rtc_ammo, 1, -1, 50, 50, 0, 1
+</source>
+</data>
+
 </script>
