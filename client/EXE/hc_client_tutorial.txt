@@ -1,0 +1,77 @@
+M1Cs ultimate hc_client.ini-Guide
+
+LogChat
+	Defines whether the chat should be logged into the chat.log file or not
+		Values: yes or no
+
+HighDetails
+	Defines whether the sight distance should be increased
+		Values: yes or no
+
+HighDetailFields
+	Same as above but in asteroid-fields
+		Values: yes or no
+
+MaxBandWidth
+	Defines the bandwith used for dynamic economy and updates
+		Values:
+		4   = Dial-Up: 56k
+		10  = Broadband: 128k
+		30  = Broadband: 512k
+		50  = Broadband: 1mbit
+		100 = Broadband: >1mbit
+
+3DSound
+	Defines whether 3D-sound is enabled or disabled (WARNING! enabled causes crashes)
+		Values: yes or no
+
+ScreenWidth & ScreenHeight
+	Your screen- width and height in pixels
+		Example: ScreenWidth=1440
+			 ScreenHeight=900
+
+NumberOfChatHistoryLines
+	Maximum number of lines displayed in the chat-window
+		Values:
+		Max of 127 (values over this will be set to 127)
+
+NumberOfChatLinesDisplayed
+	Maximum number of lines displayed ingame (without opening the chat-window)
+		Values:
+		Max of 255 (values over this will be set to 255)
+
+TimeChatDisplay
+	The time the chat is displayed ingame (without opening the chat-window)
+		Values:
+		Time in millisecounds, 1 secound = 1000ms
+
+MultiplayerQuestions
+	Bypasses the questions asked when the multiplayer-button in the main-menu is pressed
+		Values:
+		0 = show all
+		1 = disable ESRB but ask type
+		2 = auto-select inet and disable ESRB
+		3 = auto-select lan and disable ESRB
+
+disableNewPlayer & disableDepartingPlayer
+	Disables "New Player M1C" and "Departing Player M1C" messages ingame.
+		Values:
+		0 = Don't show them
+		1 = Show them
+
+enableKeyboardTurretView
+	Defines whether the ship is controleable with the keys (up, down, WASD,..) in turret-view-mode.
+		Values:
+		1 = Can control with keys
+		0 = Can't control with keys
+
+CrossColor
+	The color of the crosshair (the thing you move at).
+		Values:
+		1  = red
+		2  = green
+		3  = blue
+		4  = cyan
+		5  = pink
+		6  = yellow
+		99 = ???
