@@ -159,26 +159,17 @@ and some surprises :)
 </item>
 </option>
 
-<option name="Monitor Resolution" id="12" safesave="false">
-<item id="0" name="Autodetect">
+<option name="General Setting: Ingame Resolution" id="12" safesave="false">
+<item id="0" name="Autodetect (Destop Resolution)">
 </item>
-<item id="1" name="Resolution: 1280x720">
+<item id="1" name="800x600">
 </item>
-<item id="3" name="Resolution: 1400x1050">
+<item id="2" name="1024x768">
 </item>
-<item id="4" name="Resolution: 1440x900">
+<item id="3" name="1152x864">
 </item>
-<item id="5" name="Resolution: 1600x900">
+<item id="4" name="1280x960">
 </item>
-<item id="6" name="Resolution: 1600x1200">
-</item>
-<item id="7" name="Resolution: 1680x1050">
-</item>
-<item id="8" name="Resolution: 1920x1080">
-</item>
-<item id="9" name="Resolution: 1920x1200">
-</item>
-
 </option>
 
 <option name="Disable New/Departing Player Messages" id="13" safesave="false">
@@ -517,113 +508,49 @@ MaxBandWidth=100
 
 <data file="EXE\hc_client.ini" method="sectionreplace" options="12:1">
 <section>
-[Settings]
+[Display]
 </section>
 <dest>
-ScreenWidth=0
-ScreenHeight=0 
+size=auto
 </dest>
 <source>
-ScreenWidth=1280
-ScreenHeight=720
+size=800x600
+</source>
+</data>
+
+<data file="EXE\hc_client.ini" method="sectionreplace" options="12:2">
+<section>
+[Display]
+</section>
+<dest>
+size=auto
+</dest>
+<source>
+size=1024x768
 </source>
 </data>
 
 <data file="EXE\hc_client.ini" method="sectionreplace" options="12:3">
 <section>
-[Settings]
+[Display]
 </section>
 <dest>
-ScreenWidth=0
-ScreenHeight=0 
+size=auto
 </dest>
 <source>
-ScreenWidth=1400
-ScreenHeight=1050
+size=1152x864
 </source>
 </data>
 
 <data file="EXE\hc_client.ini" method="sectionreplace" options="12:4">
 <section>
-[Settings]
+[Display]
 </section>
 <dest>
-ScreenWidth=0
-ScreenHeight=0 
+size=auto
 </dest>
 <source>
-ScreenWidth=1440
-ScreenHeight=900
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:5">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1600
-ScreenHeight=900
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:6">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1600
-ScreenHeight=1200
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:7">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1680
-ScreenHeight=1050
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:8">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1920
-ScreenHeight=1080
-</source>
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="12:9">
-<section>
-[Settings]
-</section>
-<dest>
-ScreenWidth=0
-ScreenHeight=0 
-</dest>
-<source>
-ScreenWidth=1920
-ScreenHeight=1200
+size=1280x960
 </source>
 </data>
 
