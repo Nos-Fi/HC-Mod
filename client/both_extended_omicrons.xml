@@ -47,6 +47,24 @@ goto = St03b, St03b_to_EW06, gate_tunnel_bretonia
 </source>
 </data>
 
+<data file="DATA\UNIVERSE\universe.ini" method="append">
+<source>
+[Base]
+nickname = Ew06_Farway_Base
+system = EW06
+strid_name = 458810
+file = Universe\Systems\Ew06\Bases\Farway_Base.ini
+BGCS_base_run_by = W02bF53
+
+[Base]
+nickname = Ew06_Nomad_Base
+system = Ew06
+strid_name = 0
+file = Universe\Systems\Ew06\Bases\Nomad_Base.ini
+BGCS_base_run_by = W02bF53
+</source>
+</data>
+
 ##############################
 #### OMICRON MINOR | ST01 ####
 ##############################
@@ -277,6 +295,17 @@ goto = St01, St01_to_St02, gate_tunnel_bretonia
 </source>
 </data>
 
+<data file="DATA\UNIVERSE\universe.ini" method="append">
+<source>
+[Base]
+nickname = St02_02_Base
+system = st02
+strid_name = 0 ;GENERATESTRRES("OS Botzler")
+file = UNIVERSE\SYSTEMS\ST02\Bases\St02_02_Base.ini
+BGCS_base_run_by = W02bF35
+</source>
+</data>
+
 ################################
 #### OMICRON MAJOR 1 | ST03 ####
 ################################
@@ -485,6 +514,17 @@ goto = St03b, St03b_dyson_airlock, gate_tunnel_bretonia
 </source>
 </data>
 
+<data file="DATA\UNIVERSE\universe.ini" method="append">
+<source>
+[Base]
+nickname = ST03_01_Base
+system = ST03
+strid_name = 0 ;GENERATESTRRES("Alexandria")
+file = UNIVERSE\SYSTEMS\ST03\Bases\ST03_01_Base.ini
+BGCS_base_run_by = W02bF35
+</source>
+</data>
+
 #################################
 #### OMICRON MAJOR 2 | St03b ####
 #################################
@@ -648,6 +688,18 @@ nickname = Nomad_city
 </section>
 <source>
 ids_info = 0 ;GENERATEXMLRES(nomadcity)
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\universe.ini" method="append">
+<source>
+[Base]
+nickname = ST03B_02_Base
+system = ST03B
+visit = 1
+strid_name = 0 ;GENERATESTRRES("Sierra Nevada")
+file = UNIVERSE\SYSTEMS\ST03B\Bases\ST03B_02_Base.ini
+BGCS_base_run_by = W02bF35
 </source>
 </data>
 
@@ -1206,6 +1258,47 @@ loadout = ST04_Fighter
 </source>
 </data>
 
+<data file="DATA\UNIVERSE\universe.ini" method="append">
+<source>
+[Base]
+nickname = St04_01_Base
+system = st04
+strid_name = 0 ;GENERATESTRRES("Cairo")
+file = UNIVERSE\SYSTEMS\ST04\Bases\St04_01_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = St04_02_Base
+system = st04
+strid_name = 0 ;GENERATESTRRES("Menes")
+file = UNIVERSE\SYSTEMS\ST04\Bases\St04_02_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = St04_03_Base
+system = st04
+strid_name = 0 ;GENERATESTRRES("Sinai")
+file = UNIVERSE\SYSTEMS\ST04\Bases\St04_03_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = St04_04_Base
+system = st04
+strid_name = 0 ;GENERATESTRRES("OS Djoser")
+file = UNIVERSE\SYSTEMS\ST04\Bases\St04_04_Base.ini
+BGCS_base_run_by = W02bF35
+
+[system]
+nickname = ST04
+file = systems\St04\St04.ini
+pos = 15, 5
+visit = 0
+strid_name = 0 ;GENERATESTRRES("Omicron Lambda")
+ids_info = 1
+NavMapScale = 2.125000
+msg_id_prefix = gcs_refer_system_ST04
+</source>
+</data>
 
 ###################
 #### INFOCARDS ####

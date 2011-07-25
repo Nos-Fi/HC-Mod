@@ -237,4 +237,97 @@ ids_info = 0 ;GENERATESTRRES("VIPs = Very Important Persons")
 </source>
 </data>
 
+###### RACE und NEUTAL System+Basen in die universe.ini eintragen ######
+<data file="DATA\UNIVERSE\universe.ini" method="append">
+<source>
+[system]
+nickname = RACE01
+file = systems\RACE01\RACE01.ini
+pos = 15, 13
+visit = 0
+strid_name = 0 ;GENERATESTRRES("Race")
+ids_info = 1
+NavMapScale = 6
+msg_id_prefix = gcs_refer_system_RACE01
+
+[Base]
+nickname = RACE01_01_Base
+system = RACE01
+strid_name = 0 ;GENERATESTRRES("Start-Point")
+file = Universe\Systems\RACE01\Bases\RACE01_01_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = RACE01_02_Base
+system = RACE01
+strid_name = 0 ;GENERATESTRRES("End-Point")
+file = Universe\Systems\RACE01\Bases\RACE01_02_Base.ini
+BGCS_base_run_by = W02bF35
+
+[system]
+nickname = NEUTRAL
+file = systems\NEUTRAL\Neutral.ini
+pos = 16, 12
+visit = 0
+strid_name = 0 ;GENERATESTRRES("Neutral Zone")
+ids_info = 1
+NavMapScale = 6
+msg_id_prefix = gcs_refer_system_NEUTRAL
+
+[Base]
+nickname = NEUTRAL_01_Base
+system = NEUTRAL
+strid_name = 458783
+file = Universe\Systems\NEUTRAL\Bases\NEUTRAL_01_Base.ini
+BGCS_base_run_by = W02bF53
+
+[Base]
+nickname = NEUTRAL_02_Base
+system = NEUTRAL
+strid_name = 458781
+file = Universe\Systems\NEUTRAL\Bases\NEUTRAL_02_Base.ini
+BGCS_base_run_by = W02bF53
+
+[Base]
+nickname = NEUTRAL_03_Base
+system = NEUTRAL
+strid_name = 458782
+file = Universe\Systems\NEUTRAL\Bases\NEUTRAL_03_Base.ini
+BGCS_base_run_by = W02bF53
+
+[Base]
+nickname = Rh01_HiddenForce_Base
+system = Rh01
+file = Universe\Systems\Rh01\Bases\Rh01_HiddenForce_Base.ini
+strid_name = 458814
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Rh02_08_Base
+system = Rh02
+strid_name = 0 ;GENERATESTRRES("Hamburg City Liner")
+file = Universe\Systems\RH02\Bases\Rh02_08_Base.ini
+
+[Base]
+nickname = Rh02_09_Base
+system = Rh02
+strid_name = 0 ;GENERATESTRRES("Engine Shop")
+file = Universe\Systems\RH02\Bases\Rh02_09_Base.ini
+
+[Base]
+nickname = Rh02_10_Base
+system = Rh02
+file = Universe\Systems\Rh02\Bases\Rh02_10_Base.ini
+strid_name = 0 ;GENERATESTRRES("Planet Hannover")
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ku01_09_Base
+system = Ku01
+file = Universe\Systems\Ku01\Bases\Ku01_09_Base.ini
+strid_name = 0 ;GENERATESTRRES("Planet Izu")
+BGCS_base_run_by = W02bF35
+</source>
+</data>
+
 </script>

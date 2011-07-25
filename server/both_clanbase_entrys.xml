@@ -1516,4 +1516,153 @@ archetype = nav_buoy
 parent = BW06_ALLIANZ_Base
 </source>
 </data>
+
+
+<data file="DATA\UNIVERSE\universe.ini" method="append">
+<source>
+### CLAN BASES ###
+
+[Base]
+nickname = Hi01_USF_Base
+system = Hi01
+strid_name = 0 ;GENERATESTRRES("New Providence")
+file = Universe\clan_bases\USF_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Bw06_ALLIANZ_Base
+system = Bw06
+strid_name = 0 ;GENERATESTRRES("Freeport 7.2")
+file = Universe\clan_bases\ALLIANZ_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ew04_FT_Base
+system = Ew04
+strid_name = 0 ;GENERATESTRRES("FlyingTigers -=\Katzenkörbchen/=-")
+file = Universe\clan_bases\FT_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ku01_WOLFS_Base
+system = Ku01
+strid_name = 0 ;GENERATESTRRES("Fearsome Secret")
+file = Universe\clan_bases\WOLFS_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ku02_TD_Base
+system = Ku02
+strid_name = 0 ;GENERATESTRRES("Drachennest")
+file = Universe\clan_bases\TD_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Hi02_TCEAGLES_BASE
+system = Hi02
+strid_name = 0 ;GENERATESTRRES("ANS Terra")
+file = Universe\clan_bases\TCEAGLES_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = bw09_dos_Base
+system = bw09
+strid_name = 0 ;GENERATESTRRES("White~Sun")
+file = Universe\clan_bases\DOS_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ku04_STE_BASE
+system = Ku04
+strid_name = 0 ;GENERATESTRRES("~SinCity~")
+file = Universe\clan_bases\STE_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Rh01_NXS_base
+system = Rh01
+strid_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+file = Universe\clan_bases\NEXUS_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ew04_ORDEN_Base
+system = Ew04
+strid_name = 0 ;GENERATESTRRES("Avalon")
+file = Universe\clan_bases\ORDEN_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Hi01_PIRATES_Base
+system = Hi01
+strid_name = 0 ;GENERATESTRRES("Insanity")
+file = Universe\clan_bases\PIRATES_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Bw02_USAF_Base
+system = Bw02
+strid_name = 0 ;GENERATESTRRES("Magnum Opus")
+file = Universe\clan_bases\USAF_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = hi02_AUW_Base
+system = hi02
+strid_name = 0 ;GENERATESTRRES("Lanzelott")
+file = Universe\clan_bases\AUW_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Rh01_IMPERIUM_Base
+system = Rh01
+strid_name = 0 ;GENERATESTRRES("ISD II Redoubtable")
+file = Universe\clan_bases\IMPERIUM_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ew04_PS_Base
+system = Ew04
+strid_name = 0 ;GENERATESTRRES("Renovatio")
+file = Universe\clan_bases\PS_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Rh03_Rheinwehr_base
+system = Rh03
+strid_name = 0 ;GENERATESTRRES("[KMS]Donau")
+file = Universe\clan_bases\RHEINWEHR_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = br06_FOF_Base
+system = br06
+strid_name = 0 ;GENERATESTRRES("~Trader's~Paradise~")
+file = Universe\clan_bases\FOF_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ew01_OSO_Base
+system = Ew01
+strid_name = 0 ;GENERATESTRRES("~ Conduct Of War ~")
+file = Universe\clan_bases\OSO_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Br03_NUCLEAR_base
+system = Br03
+strid_name = 0 ;GENERATESTRRES("[Promethium]")
+file = Universe\clan_bases\NUCLEAR_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ew03_RIP_Base 
+system = Ew03
+strid_name = 0 ;GENERATESTRRES("~~Graveyard~~")
+file = Universe\clan_bases\RIP_Base.ini
+BGCS_base_run_by = W02bF35
+</source>
+</data>
+
+
 </script>
