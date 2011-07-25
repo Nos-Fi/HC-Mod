@@ -1,0 +1,543 @@
+<script>
+
+<data file="data\missions\faction_prop.ini" method="append">
+<source>
+### MOD Faction Props ###
+
+
+[FactionProps]
+affiliation = fc_order_grp
+legality = unlawful
+nickname_plurality = singular
+msg_id_prefix = gcs_refer_faction_fc_or
+jump_preference = jumphole
+voice = pilot_f_ill_m01
+voice = pilot_f_ill_m02
+npc_ship = or_fighter_d1-21
+mc_costume = mc_fc
+space_costume = pi_pirate1_head, pi_orillion_body, comm_br_guard
+space_costume = pi_pirate4_head, pi_orillion_body, comm_rh_alaric
+space_costume = sh_male4_head, pi_orillion_body, comm_br_guard
+space_costume = ge_male2_head, pi_orillion_body, comm_rh_alaric
+space_costume = ge_male4_head, pi_orillion_body, comm_br_guard
+space_costume = ge_male1_head, pi_orillion_body, comm_rh_alaric
+firstname_male = 226608, 226741
+lastname = 227008, 227307
+rank_desig = 197128, 197129, 197130, 10, 15
+formation_desig = 197808, 197820
+formation = fighters, fighter_basic
+formation = freighters, freighter_basic
+formation = freighters2, freighter2_basic
+
+[FactionProps]
+affiliation = fc_no_grp
+legality = unlawful
+nickname_plurality = plural
+msg_id_prefix = ignore
+jump_preference = jumpgate
+npc_ship = no_fighter_d1-20
+mc_costume = mc_fc
+firstname_male = 229608, 229608
+firstname_female = 229608, 229608
+lastname = 229608, 229608
+rank_desig = 197140, 197140, 197140, 10, 15
+formation_desig = 197808, 197820
+formation = fighters, fighter_guild
+npc_ship = Nomad_Gunboat
+npc_ship = Nomad_Battleship
+formation = gunboats, gunboat_wall
+formation = battleships, battleship_wall
+
+
+[FactionProps]
+affiliation = hc
+legality = lawful
+nickname_plurality = singular
+voice = pilot_f_mil_m01
+voice = pilot_f_mil_m02
+voice = pilot_f_leg_f01
+voice = pilot_f_leg_f01a
+mc_costume = mc_li
+space_costume = li_captain_head, li_scrote_body, comm_ge_generic2
+space_costume = li_rockford_head, li_scrote_body, comm_li_hatcher
+space_costume = li_sales_head_hat, li_scrote_body, comm_ge_generic2
+space_costume = ge_male4_head, li_scrote_body, comm_li_hatcher
+space_costume = pl_male2_head, li_scrote_body, comm_ge_generic2
+space_costume = ge_male3_head, li_scrote_body, comm_li_hatcher
+space_costume = li_newscaster_head_gen_hat, li_hatcher_body, comm_ge_generic2_female
+space_costume = li_newscaster_head_gen_hat, li_hatcher_body, comm_li_hatcher_female
+space_costume = br_newscaster_head_gen_hat, li_hatcher_body, comm_ge_generic2_female
+space_costume = br_newscaster_head_gen_hat, li_hatcher_body, comm_li_hatcher_female
+space_costume = pl_female2_head, li_hatcher_body, comm_ge_generic2_female
+space_costume = pl_female2_head, li_hatcher_body, comm_li_hatcher_female
+firstname_male = 458801, 458801
+firstname_female = 458801, 458801
+lastname = 458802, 458802
+rank_desig = 197140, 197140, 197140, 10, 15
+scan_for_cargo = commodity_cardamine, 2
+scan_announce = true
+scan_chance = 0.900000
+formation_desig = 197808, 197820
+formation = fighters, fighter_guild
+npc_ship = hc_fighter
+npc_ship = Nomad_Battleship
+formation = battleships, battleship_wall
+
+
+### Clan Faction Props ###
+
+
+[FactionProps]
+affiliation = uSF
+legality = unlawful
+
+[FactionProps]
+affiliation = ALLIANZ_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = FT_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = TD_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = TCEAGLES_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = STE_CLAN
+legality = unlawful
+
+[FactionProps]
+affiliation = IMPERIUM_CLAN
+legality = unlawful
+
+[FactionProps]
+affiliation = NEXUS_CLAN
+legality = unlawful
+
+[FactionProps]
+affiliation = PIRATES_CLAN
+legality = unlawful
+
+[FactionProps]
+affiliation = AUW_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = PS_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = RIP_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = Rheinwehr_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = OSO_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = USAF_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = Nuclear_CLAN
+legality = unlawful
+
+[FactionProps]
+affiliation = Br_EVENT_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = Rh_EVENT_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = Ku_EVENT_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = Li_EVENT_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = KK_EVENT_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = RYO_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = GUILD41_CLAN
+legality = lawful
+</source>
+</data>
+
+<data file="data\InitialWorld.ini" method="append">
+<source>
+### MOD Reps ###
+
+[Group]
+nickname = fc_no_grp
+ids_name = 196891
+ids_info = 66205
+ids_short_name = 196939
+rep = -0.65, li_n_grp
+rep = -0.65, li_lsf_grp
+rep = -0.65, li_p_grp
+rep = -0.65, br_n_grp
+rep = -0.65, br_p_grp
+rep = -0.65, ku_n_grp
+rep = -0.65, ku_p_grp
+rep = -0.65, rh_n_grp
+rep = -0.65, rh_p_grp
+rep = -0.65, co_alg_grp
+rep = -0.65, co_be_grp
+rep = -0.65, br_m_grp
+rep = -0.65, co_nws_grp
+rep = -0.65, co_hsp_grp
+rep = -0.65, co_ic_grp
+rep = -0.65, co_khc_grp
+rep = -0.65, co_kt_grp
+rep = -0.65, rh_m_grp
+rep = -0.65, co_me_grp
+rep = -0.65, co_ni_grp
+rep = -0.65, co_os_grp
+rep = -0.65, co_rs_grp
+rep = -0.65, co_shi_grp
+rep = -0.65, co_ss_grp
+rep = -0.65, co_ti_grp
+rep = -0.65, co_vr_grp
+rep = -0.65, fc_bd_grp
+rep = -0.65, fc_b_grp
+rep = -0.65, fc_c_grp
+rep = -0.65, fc_fa_grp
+rep = -0.65, fc_g_grp
+rep = -0.65, fc_gc_grp
+rep = -0.65, fc_h_grp
+rep = -0.65, fc_j_grp
+rep = -0.65, fc_lh_grp
+rep = -0.65, fc_lr_grp
+rep = -0.65, fc_lwb_grp
+rep = -0.65, fc_m_grp
+rep = -0.65, fc_ou_grp
+rep = -0.65, fc_rh_grp
+rep = -0.65, fc_or_grp
+rep = -0.65, fc_u_grp
+rep = -0.65, fc_x_grp
+rep = -0.65, gd_gm_grp
+rep = -0.65, fc_uk_grp
+rep = 0.91, fc_n_grp
+rep = 0.91, fc_no_grp
+rep = 0.91, fc_ln_grp
+rep = 0.91, fc_kn_grp
+rep = 0.91, fc_rn_grp
+rep = -0.65, fc_ouk_grp
+rep = -0.65, fc_q_grp
+rep = -0.65, fc_f_grp
+rep = -0.65, gd_im_grp
+rep = -0.65, gd_z_grp
+rep = -0.65, gd_bh_grp
+rep = -0.65, fc_order_grp
+
+[Group]
+nickname = fc_order_grp
+ids_name = 196889
+ids_info = 66207
+ids_short_name = 196937
+rep = 0, li_n_grp
+rep = 0, li_lsf_grp
+rep = 0, li_p_grp
+rep = 0, br_n_grp
+rep = 0, br_p_grp
+rep = 0, ku_n_grp
+rep = 0, ku_p_grp
+rep = 0, rh_n_grp
+rep = 0, rh_p_grp
+rep = 0, co_alg_grp
+rep = 0, co_be_grp
+rep = 0, br_m_grp
+rep = 0, co_nws_grp
+rep = 0, co_hsp_grp
+rep = 0, co_ic_grp
+rep = 0, co_khc_grp
+rep = 0, co_kt_grp
+rep = 0, rh_m_grp
+rep = 0, co_me_grp
+rep = 0, co_ni_grp
+rep = 0, co_os_grp
+rep = 0, co_rs_grp
+rep = 0, co_shi_grp
+rep = 0, co_ss_grp
+rep = 0, co_ti_grp
+rep = 0, co_vr_grp
+rep = 0, fc_bd_grp
+rep = 0, fc_b_grp
+rep = 0, fc_c_grp
+rep = 0, fc_fa_grp
+rep = 0, fc_g_grp
+rep = 0, fc_gc_grp
+rep = 0, fc_h_grp
+rep = 0, fc_j_grp
+rep = 0, fc_lh_grp
+rep = 0, fc_lr_grp
+rep = 0, fc_lwb_grp
+rep = 0, fc_m_grp
+rep = 0, fc_ou_grp
+rep = 0, fc_rh_grp
+rep = 0.91, fc_or_grp
+rep = 0, fc_u_grp
+rep = 0, fc_x_grp
+rep = 0, gd_gm_grp
+rep = 0, fc_uk_grp
+rep = -0.65, fc_n_grp
+rep = 0, fc_ln_grp
+rep = 0, fc_kn_grp
+rep = 0, fc_rn_grp
+rep = 0, fc_ouk_grp
+rep = 0, fc_q_grp
+rep = 0, fc_f_grp
+rep = 0, gd_im_grp
+rep = 0, gd_z_grp
+rep = 0, gd_bh_grp
+rep = -0.65, fc_no_grp
+rep = 0.91, fc_order_grp
+
+[Group]
+nickname = hc
+ids_name = 458801
+ids_info = 458801
+ids_short_name = 458801
+rep = -1, li_n_grp
+rep = -1, li_lsf_grp
+rep = -1, li_p_grp
+rep = -1, br_n_grp
+rep = -1, br_p_grp
+rep = -1, ku_n_grp
+rep = -1, ku_p_grp
+rep = -1, rh_n_grp
+rep = -1, rh_p_grp
+rep = -1, co_alg_grp
+rep = -1, co_be_grp
+rep = -1, br_m_grp
+rep = -1, co_nws_grp
+rep = -1, co_hsp_grp
+rep = -1, co_ic_grp
+rep = -1, co_khc_grp
+rep = -1, co_kt_grp
+rep = -1, rh_m_grp
+rep = -1, co_me_grp
+rep = -1, co_ni_grp
+rep = -1, co_os_grp
+rep = -1, co_rs_grp
+rep = -1, co_shi_grp
+rep = -1, co_ss_grp
+rep = -1, co_ti_grp
+rep = -1, co_vr_grp
+rep = -1, fc_bd_grp
+rep = -1, fc_b_grp
+rep = -1, fc_c_grp
+rep = -1, fc_fa_grp
+rep = -1, fc_g_grp
+rep = -1, fc_gc_grp
+rep = -1, fc_h_grp
+rep = -1, fc_j_grp
+rep = -1, fc_lh_grp
+rep = -1, fc_lr_grp
+rep = -1, fc_lwb_grp
+rep = -1, fc_m_grp
+rep = -1, fc_ou_grp
+rep = -1, fc_rh_grp
+rep = -1, fc_or_grp
+rep = -1, fc_u_grp
+rep = -1, fc_x_grp
+rep = -1, gd_gm_grp
+rep = -1, fc_uk_grp
+rep = -1, fc_n_grp
+rep = -1, fc_ln_grp
+rep = -1, fc_kn_grp
+rep = -1, fc_rn_grp
+rep = -1, fc_ouk_grp
+rep = -1, fc_q_grp
+rep = -1, fc_f_grp
+rep = -1, gd_im_grp
+rep = -1, gd_z_grp
+rep = -1, gd_bh_grp
+rep = 1, hc
+
+### Clan Reps ###
+
+[Group]
+nickname = uSF
+ids_name = 458760
+ids_info = 458762
+ids_short_name = 458820
+rep = 1, uSF
+
+[Group]
+nickname = ALLIANZ_CLAN
+ids_name = 458825
+ids_info = 458779
+ids_short_name = 458826
+rep = 1, ALLIANZ_CLAN
+
+[Group]
+nickname = FT_CLAN
+ids_name = 458827
+ids_info = 458827
+ids_short_name = 458828
+rep = 1, FT_CLAN
+
+[Group]
+nickname = TD_CLAN
+ids_name = 458835
+ids_info = 458835
+ids_short_name = 458836
+rep = 1, TD_CLAN
+
+[Group]
+nickname = TCEAGLES_CLAN
+ids_name = 458839
+ids_info = 458839
+ids_short_name = 458840
+rep = 1, TCEAGLES_CLAN
+
+[Group]
+nickname = STE_CLAN
+ids_name = 458845
+ids_info = 458845
+ids_short_name = 458846
+rep = 1, STE_CLAN
+
+[Group]
+nickname = IMPERIUM_CLAN
+ids_name = 458855
+ids_info = 458855
+ids_short_name = 458850
+rep = 1, IMPERIUM_CLAN
+
+[Group]
+nickname = NEXUS_CLAN
+ids_name = 458856
+ids_info = 0 ;GENERATEXMLRES(NEXUS_CLAN)
+ids_short_name = 458856
+rep = 1, NEXUS_CLAN
+
+[Group]
+nickname = PIRATES_CLAN
+ids_name = 458859
+ids_info = 458859
+ids_short_name = 458859
+rep = 1, PIRATES_CLAN
+
+[Group]
+nickname = AUW_CLAN
+ids_name = 458864
+ids_info = 0 ;GENERATEXMLRES(AUW_CLAN)
+ids_short_name = 458865
+rep = 1, AUW_CLAN
+
+[Group]
+nickname = PS_CLAN
+ids_name = 0 ;GENERATESTRRES("Phönix-Staffel")
+ids_info = 0 ;GENERATEXMLRES(PS_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("Phönix-Staffel")
+rep = 1, PS_CLAN
+
+[Group]
+nickname = RIP_CLAN
+ids_name = 0 ;GENERATESTRRES("Rest In Peace")
+ids_info = 458858
+ids_short_name = 0 ;GENERATESTRRES("|R.I.P|")
+rep = 1, RIP_CLAN
+
+[Group]
+nickname = Rheinwehr_CLAN
+ids_name = 0 ;GENERATESTRRES("Rheinwehr")
+ids_info = 0 ;GENERATEXMLRES(Rheinwehr_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("Rheinwehr_")
+rep = 1, Rheinwehr_CLAN
+
+[Group]
+nickname = OSO_CLAN
+ids_name = 0 ;GENERATESTRRES("Omikron Söldner Orden")
+ids_info = 0 ;GENERATEXMLRES(OSO_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("<]OSO[>")
+rep = 1, OSO_CLAN
+
+[Group]
+nickname = USAF_CLAN
+ids_name = 0 ;GENERATESTRRES("Universe Special Agency Force")
+ids_info = 0 ;GENERATEXMLRES(USAF_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("[USAF]_")
+rep = 1, USAF_CLAN
+
+[Group]
+nickname = Nuclear_CLAN
+ids_name = 0 ;GENERATESTRRES("Nuclear")
+ids_info = 0 ;GENERATEXMLRES(Nuclear_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("[Nuclear]")
+rep = 1, Nuclear_CLAN
+
+[Group]
+nickname = RYO_CLAN
+ids_name = 0 ;GENERATESTRRES("Ryoku Shin Do")
+ids_info = 0 ;GENERATEXMLRES(RYO_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("{-Ryo-}")
+rep = 1, RYO_CLAN
+
+[Group]
+nickname = GUILD41_CLAN
+ids_name = 0 ;GENERATESTRRES("Guild-41")
+ids_info = 0 ;GENERATEXMLRES(GUILD41_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("[Guild-41]")
+rep = 1, GUILD41_CLAN
+
+;#########HHCKK
+
+[Group]
+nickname = Br_EVENT_CLAN
+ids_name = 0 ;GENERATESTRRES("HHCKK")
+ids_info = 458858
+ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
+rep = 1, Br_EVENT_CLAN
+
+[Group]
+nickname = Rh_EVENT_CLAN
+ids_name = 0 ;GENERATESTRRES("HHCKK")
+ids_info = 458858
+ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
+rep = 1, Rh_EVENT_CLAN
+
+[Group]
+nickname = Ku_EVENT_CLAN
+ids_name = 0 ;GENERATESTRRES("HHCKK")
+ids_info = 458858
+ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
+rep = 1, Ku_EVENT_CLAN
+
+[Group]
+nickname = Li_EVENT_CLAN
+ids_name = 0 ;GENERATESTRRES("HHCKK")
+ids_info = 458858
+ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
+rep = 1, Li_EVENT_CLAN
+
+[Group]
+nickname = KK_EVENT_CLAN
+ids_name = 0 ;GENERATESTRRES("HHCKK")
+ids_info = 458858
+ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
+rep = 1, KK_EVENT_CLAN
+</source>
+</data>
+
+</script>
