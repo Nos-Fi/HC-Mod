@@ -712,6 +712,31 @@ equip = SlowLargeYellow, HpRunningLight05
 equip = armor_scale_13
 
 [Loadout]
+nickname = clan_miningbase_mineableA
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = sfx_rumble_station_large
+equip = rh_battleship_turret04_a, HpTurret_S2_01
+equip = rh_battleship_turret04_a, HpTurret_S2_02
+equip = rh_battleship_turret04_a, HpTurret_S2_03
+equip = rh_battleship_turret04_a, HpTurret_S2_04
+equip = SlowXLargeRed, HpRunningLight01
+equip = SlowXLargeRed, HpRunningLight02
+equip = SlowXLargeBlue, HpRunningLight03
+equip = SlowXLargeBlue, HpRunningLight04
+equip = SlowXLargeBlue, HpRunningLight05
+equip = SlowXLargeBlue, HpRunningLight06
+equip = SlowXLargeBlue, HpRunningLight07
+equip = SlowXLargeBlue, HpRunningLight08
+equip = SlowXLargeBlue, HpRunningLight09
+equip = SlowXLargeBlue, HpRunningLight11
+equip = SlowXLargeBlue, HpRunningLight12
+equip = SlowXLargeBlue, HpRunningLight13
+equip = SlowXLargeBlue, HpRunningLight14
+equip = SlowXLargeRed, HpRunningLight32
+equip = armor_scale_13
+
+[Loadout]
 nickname = hc_liner
 archetype = ge_liner
 equip = ge_s_scanner_02
