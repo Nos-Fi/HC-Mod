@@ -1415,4 +1415,1708 @@ BGCS_base_run_by = W02bF35
 </data>
 
 
+<data file="DATA\MISSIONS\mbases.ini" method="append">
+<source>
+
+
+
+
+### HC mbases Entrys ###
+
+
+
+[MBase]
+nickname = Ew06_Farway_Base
+local_faction = co_os_grp
+diff = 19
+
+
+[MVendor]
+num_offers = 0, 0
+
+[BaseFaction]
+faction = co_os_grp
+weight = 80
+npc = farway_npc1
+npc = farway_npc2
+npc = farway_npc3
+
+
+[BaseFaction]
+faction = li_lsf_grp
+weight = 20
+npc = farway_lsf
+
+
+[GF_NPC]
+nickname = farway_lsf
+body = li_hatcher_body
+head = li_newscaster_head_gen
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 220013
+affiliation = li_lsf_grp
+voice = rvp511
+room = bar
+know = 458813, 458805, 180000, 1
+knowdb = EW05_to_St03b_hole
+
+[GF_NPC]
+nickname = farway_npc1
+body = li_bartender_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("VIP")
+affiliation = co_os_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = farway_npc2
+body = li_male_elite_body
+head = rh_hassler_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("VIP")
+affiliation = co_os_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = farway_npc3
+body = li_male_elite_body
+head = rh_hassler_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("VIP")
+affiliation = co_os_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = farway_fix_bartender
+body = li_bartender_body
+head = li_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Orbital Spa and Cruise - Bartender")
+affiliation = co_os_grp
+voice = rvp101
+bribe = fc_c_grp, 10000, 16100
+bribe = gd_z_grp, 10000, 16100
+
+[GF_NPC]
+nickname = farway_fix_trader
+body = li_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Orbital Spa and Cruise - Commodity Trader")
+affiliation = co_os_grp
+voice = rvp111
+
+[GF_NPC]
+nickname = farway_fix_weaponsdealer
+body = li_male_elite_body
+head = rh_hassler_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Orbital Spa and Cruise - Weapons Dealer")
+affiliation = co_os_grp
+voice = rvp101
+
+[MRoom]
+nickname = bar
+character_density = 6
+fixture = farway_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+[MRoom]
+nickname = Deck
+character_density = 2
+fixture = farway_fix_trader, Zs/NPC/Trader/01/A/Stand, scripts\vendors\li_commtrader_fidget.thn, trader
+fixture = farway_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+
+
+[MBase]
+nickname = Rh02_10_Base
+local_faction = gd_im_grp
+diff = 1
+
+[MVendor]
+num_offers = 2, 4
+
+[BaseFaction]
+faction = gd_im_grp
+weight = 100
+offers_missions = 0
+mission_type = DestroyMission, 0.000000, 0.112387, 100
+
+[GF_NPC]
+nickname = Rh0210_fix_bartender
+body = li_bartender_body
+head = li_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Silent Bob")
+affiliation = gd_im_grp
+voice = rvp106
+
+
+[GF_NPC]
+nickname = Rh0210_fix_trader
+body = sc_scientist3_body
+head = br_brighton_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("George Loader")
+affiliation = gd_im_grp
+voice = rvp106
+
+[GF_NPC]
+nickname = Rh0210_fix_weaponsdealer
+body = sc_scientist3_body
+head = ge_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("John Snow")
+affiliation = gd_im_grp
+voice = rvp101
+
+[MRoom]
+nickname = bar
+character_density = 4
+fixture = Rh0210_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+
+[MRoom]
+nickname = Planetscape
+character_density = 3
+fixture = Rh0210_fix_trader, Zs/NPC/Trader/01/A/Stand, scripts\vendors\li_commtrader_fidget.thn, trader
+fixture = Rh0210_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+
+[MBase]
+nickname = Ku01_09_Base
+local_faction = gd_im_grp
+diff = 3
+
+[MVendor]
+num_offers = 2, 4
+
+[BaseFaction]
+faction = gd_im_grp
+weight = 100
+offers_missions = 
+mission_type = DestroyMission, 0.000000, 0.112387, 100
+
+[GF_NPC]
+nickname = Ku0109_fix_bartender
+body = li_bartender_body
+head = rh_bartender_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("John Carpenter")
+affiliation = gd_im_grp
+voice = rvp111
+
+[GF_NPC]
+nickname = Ku0109_fix_trader
+base_appr = Robot_body_a
+individual_name = 0 ;GENERATESTRRES("T-34-c")
+affiliation = gd_im_grp
+voice = rvp003
+
+[GF_NPC]
+nickname = Ku0109_fix_weaponsdealer
+base_appr = Robot_body_e
+individual_name = 0 ;GENERATESTRRES("T-303")
+affiliation = gd_im_grp
+voice = rvp003
+
+[MRoom]
+nickname = bar
+character_density = 4
+fixture = Ku0109_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+
+[MRoom]
+nickname = Planetscape
+character_density = 3
+fixture = Ku0109_fix_trader, Zs/NPC/Trader/01/A/Stand, scripts\vendors\li_commtrader_fidget.thn, trader
+fixture = Ku0109_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+
+
+[MBase]
+nickname = Rh02_08_Base
+local_faction = hc
+diff = 40
+[MVendor]
+num_offers = 0, 0
+[BaseFaction]
+faction = fc_or_grp
+weight = 90
+npc = rh0208_grip
+npc = rh0208_alarich
+npc = rh0208_nosfi
+npc = rh0208_kirki
+npc = rh0208_w0dk4
+[BaseFaction]
+faction = rh_n_grp
+weight = 90
+npc = rh0208_rh_n
+[GF_NPC]
+nickname = rh0208_rh_n
+body = rh_female_elite_body
+head = rh_gruenwald_head_gen
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 220740
+affiliation = rh_n_grp
+voice = rvp546
+room = bar
+know = 458803, 458804, 380000, 1
+knowdb = HiddenForce_Base
+[GF_NPC]
+nickname = rh0208_grip
+body = pi_pirate3_body
+head = pl_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Hamburg City CoAdmin - JM_Grip")
+affiliation = hc
+voice = rvp140
+room = bar
+[GF_NPC]
+nickname = rh0208_alarich
+body = pi_pirate3_body
+head = pl_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Hamburg City CoAdmin - Alarich")
+affiliation = hc
+voice = rvp140
+room = bar
+[GF_NPC]
+nickname = rh0208_w0dk4
+body = pi_orillion_body
+head = ge_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Hamburg City CoAdmin - w0dk4")
+affiliation = hc
+voice = rvp101
+room = bar
+[GF_NPC]
+nickname = rh0208_nosfi
+body = pl_male1_journeyman_body
+head = pi_pirate1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Hamburg City CoAdmin - Nosferatu")
+affiliation = hc
+voice = rvp140
+room = bar
+[GF_NPC]
+nickname = rh0208_kirki
+body = pi_pirate3_body
+head = pl_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Hamburg City CoAdmin - Kirki")
+affiliation = hc
+voice = rvp140
+room = bar
+[GF_NPC]
+nickname = rh0208_fix_bartender
+body = rh_deidrich_body
+head = pl_male7_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Hamburg City Admin - Niwo")
+affiliation = hc
+voice = rvp101
+bribe = fc_b_grp, 300000, 16101
+bribe = fc_rh_grp, 300000, 16101
+bribe = gd_bh_grp, 300000, 16100
+bribe = rh_n_grp, 300000, 16100
+bribe = rh_p_grp, 300000, 16100
+bribe = fc_u_grp, 300000, 16101
+bribe = fc_ou_grp, 300000, 16101
+[GF_NPC]
+nickname = rh0208_fix_trader
+body = rh_deidrich_body
+head = ge_male3_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Commodity Trader")
+affiliation = hc
+voice = rvp131
+[GF_NPC]
+nickname = rh0208_fix_weaponsdealer
+body = rh_deidrich_body
+head = br_bartender_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Equipment Dealer")
+affiliation = hc
+voice = rvp101
+[GF_NPC]
+nickname = rh0208_fix_ship
+body = rh_deidrich_body
+head = br_bartender_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Ship Dealer")
+affiliation = hc
+voice = rvp101
+[MRoom]
+nickname = bar
+character_density = 10
+fixture = rh0208_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+[MRoom]
+nickname = Deck
+character_density = 2
+fixture = rh0208_fix_trader, Zs/NPC/Trader/01/A/Stand, scripts\vendors\li_commtrader_fidget.thn, trader
+fixture = rh0208_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+[MRoom]
+nickname = ShipDealer
+character_density = 2
+fixture = rh0208_fix_ship, Zs/NPC/Shipdealer/01/A/Stand, scripts\vendors\li_shipdealer_fidget.thn, ShipDealer
+
+
+[MBase]
+nickname = Rh02_09_Base
+local_faction = hc
+diff = 40
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = rh0208_fix_weaponsdealer
+body = rh_deidrich_body
+head = br_bartender_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Engine Dealer")
+affiliation = hc
+voice = rvp101
+[MRoom]
+nickname = Deck
+character_density = 2
+fixture = rh0208_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Rh01_HiddenForce_Base
+local_faction = rh_p_grp
+diff = 20
+[MVendor]
+num_offers = 0, 0
+[BaseFaction]
+faction = rh_p_grp
+weight = 100
+[GF_NPC]
+nickname = rh01hforce_fix_bartender
+body = rh_bartender_body
+head = rh_hassler_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244910
+affiliation = rh_p_grp
+voice = rvp101
+[GF_NPC]
+nickname = rh01hforce_fix_weaponsdealer
+body = rh_commtrader_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244912
+affiliation = rh_p_grp
+voice = rvp111
+[GF_NPC]
+nickname = rh01hforce_fix_ship
+body = rh_commtrader_body
+head = li_rockford_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 244913
+affiliation = rh_p_grp
+voice = rvp146
+[MRoom]
+nickname = bar
+character_density = 2
+fixture = rh01hforce_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+[MRoom]
+nickname = Deck
+character_density = 2
+fixture = rh01hforce_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+[MRoom]
+nickname = ShipDealer
+character_density = 2
+fixture = rh01hforce_fix_ship, Zs/NPC/Shipdealer/01/A/Stand, scripts\vendors\li_shipdealer_fidget.thn, ShipDealer
+
+
+;OS Botzler
+[MBase]
+nickname = ST02_02_Base
+local_faction = fc_or_grp
+diff = 10
+msg_id_prefix = gcs_refer_base_ST02_02_Base
+
+[MVendor]
+num_offers = 4, 16
+
+[BaseFaction]
+faction = fc_or_grp
+weight = 64
+offers_missions = true
+mission_type = DestroyMission, 28.478239, 38.983860, 100
+npc = st0202_lnavy_001_f
+npc = st0202_lnavy_002_f
+npc = st0202_lnavy_003_m
+npc = st0202_blood_006_m
+npc = st0202_blood_004_m
+npc = st0202_blood_005_f
+npc = st0202_order_002_m
+
+[GF_NPC]
+nickname = st0202_alg_001_m
+body = rh_wilham_body
+head = br_quigly_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Jimmy Carpenter")
+affiliation = co_alg_grp
+voice = rvp146
+room = bar
+
+[GF_NPC]
+nickname = st0202_bounty_001_m
+body = sh_male2_body
+head = sh_male3_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Miki Wada")
+affiliation = gd_bh_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = st0202_bounty_002_m
+body = sh_male2_body
+head = li_sales_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Robert Hepton")
+affiliation = gd_bh_grp
+voice = rvp111
+misn = DestroyMission, 0.082100, 0.205129
+room = bar
+
+[GF_NPC]
+nickname = st0202_fix_bartender
+body = li_bartender_body
+head = pi_pirate2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Ryan Bourne")
+affiliation = li_n_grp
+voice = rvp111
+
+[GF_NPC]
+nickname = st0202_fix_weaponsdealer
+body = li_male_elite_body
+head = ge_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Jim Millam")
+affiliation = li_n_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = st0202_lnavy_001_f
+body = li_female_elite_body
+head = li_hatcher_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Celine Voigt")
+affiliation = li_n_grp
+voice = rvp511
+misn = DestroyMission, 0.082100, 0.205129
+room = bar
+
+[GF_NPC]
+nickname = st0202_blood_004_m
+body = pl_male3_journeyman_body
+head = ku_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Umakai Marusa")
+affiliation = fc_bd_grp
+voice = rvp121
+room = bar
+
+[GF_NPC]
+nickname = st0202_blood_005_f
+body = pl_female2_journeyman_body
+head = ku_newscaster_head_gen
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Naoko Shimizu")
+affiliation = fc_bd_grp
+voice = rvp511
+room = bar
+
+[GF_NPC]
+nickname = st0202_order_002_m
+body = pi_orillion_body
+head = br_brighton_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Yuji Matsumoto")
+affiliation = fc_or_grp
+voice = rvp106
+room = bar
+
+[MRoom]
+nickname = bar
+character_density = 4
+fixture = st0202_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_bartender_fidget.thn, bartender
+
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = st0202_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+;Alexandria
+[MBase]
+nickname = St03_01_Base
+local_faction = fc_or_grp
+diff = 9
+msg_id_prefix = gcs_refer_base_St03_01_Base
+
+[MVendor]
+num_offers = 8, 16
+
+[BaseFaction]
+faction = fc_or_grp
+weight = 100
+offers_missions = true
+mission_type = DestroyMission, 28.478239, 38.983860, 100
+npc = st0301_blood_001_m
+npc = st0301_blood_002_f
+npc = st0301_blood_003_f
+npc = st0301_blood_004_m
+npc = st0301_blood_005_f
+
+[GF_NPC]
+nickname = st0301_blood_001_m
+body = pl_male3_journeyman_body
+head = pl_male8_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Yuji Maeda")
+affiliation = fc_or_grp
+voice = rvp121
+room = bar
+
+[GF_NPC]
+nickname = st0301_blood_002_f
+body = pl_female2_journeyman_body
+head = ku_tashi_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Naoko Shimizu")
+affiliation = fc_or_grp
+voice = rvp516
+misn = DestroyMission, 1.232525, 2.309614
+room = bar
+
+[GF_NPC]
+nickname = st0301_blood_003_f
+body = pl_female2_journeyman_body
+head = pl_female6_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Tomoko Okazawaya")
+affiliation = fc_or_grp
+voice = rvp501
+misn = DestroyMission, 1.232525, 2.309614
+room = bar
+
+[GF_NPC]
+nickname = st0301_blood_004_m
+body = pl_male3_journeyman_body
+head = ku_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Takao Shimizu")
+affiliation = fc_or_grp
+voice = rvp121
+room = bar
+
+[GF_NPC]
+nickname = st0301_blood_005_f
+body = pl_male2_journeyman_body
+head = ku_newscaster_head_gen
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Yuji Matsumoto")
+affiliation = fc_or_grp
+voice = rvp511
+room = bar
+
+[GF_NPC]
+nickname = st0301_fix_bartender
+body = pl_male3_journeyman_body
+head = sc_scientist2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Hirotsugu Marusa")
+affiliation = fc_or_grp
+voice = rvp121
+
+[GF_NPC]
+nickname = st0301_fix_ship
+body = pl_male3_journeyman_body
+head = ku_bartender_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Sugi Okazawaya")
+affiliation = fc_or_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = st0301_fix_trader
+body = pl_male3_journeyman_body
+head = pl_male5_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Fujifusa Maeda")
+affiliation = fc_or_grp
+voice = rvp121
+
+[GF_NPC]
+nickname = st0301_fix_weaponsdealer
+body = pl_male3_journeyman_body
+head = ge_male2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Toyonari Hida")
+affiliation = fc_or_grp
+voice = rvp121
+
+[MRoom]
+nickname = bar
+character_density = 5
+fixture = st0301_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_bartender_fidget.thn, bartender
+
+[MRoom]
+nickname = Planetscape
+fixture = st0301_fix_trader, Zs/NPC/Trader/01/A/Stand, scripts\vendors\li_commtrader_fidget.thn, trader
+fixture = st0301_fix_ship, Zs/NPC/Shipdealer/01/A/Stand, scripts\vendors\li_shipdealer_fidget.thn, ShipDealer
+fixture = st0301_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+;Sirra Nevada
+[MBase]
+nickname = St03b_02_base
+local_faction = fc_or_grp
+diff = 10
+
+[MVendor]
+num_offers = 0, 0
+
+[BaseFaction]
+faction = fc_or_grp
+weight = 100
+offers_missions = true
+mission_type = DestroyMission, 28.478239, 38.983860, 100
+npc = st03b02_bnavy_001_m
+npc = st03b02_bnavy_002_f
+npc = st03b02_bmm_001_m
+npc = st03b02_bmm_002_m
+npc = st03b02_bmm_003_m
+npc = st03b02_bowex_001_m
+
+[GF_NPC]
+nickname = st03b02_bmm_001_m
+body = pi_pirate6_body
+head = ge_male3_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Off.Petersen")
+affiliation = br_m_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = st03b02_bmm_002_m
+body = pi_pirate6_body
+head = ge_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Jeff Zabor")
+affiliation = br_m_grp
+voice = rvp131
+room = bar
+
+[GF_NPC]
+nickname = st03b02_bmm_003_m
+body = pi_pirate6_body
+head = pi_pirate2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Ryan Bourne")
+affiliation = br_m_grp
+voice = rvp131
+room = bar
+
+[GF_NPC]
+nickname = st03b02_bnavy_001_m
+body = br_male_elite_body
+head = br_quigly_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Phil Jefferson")
+affiliation = br_n_grp
+voice = rvp111
+room = bar
+
+[GF_NPC]
+nickname = st03b02_bnavy_002_f
+body = br_female_elite_body
+head = br_newscaster_head_gen_hat
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Mary Miller")
+affiliation = br_n_grp
+voice = rvp541
+room = bar
+
+[GF_NPC]
+nickname = st03b02_bowex_001_m
+body = br_brighton_body
+head = pi_pirate4_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Tom Voigt")
+affiliation = co_be_grp
+voice = rvp131
+room = bar
+
+[GF_NPC]
+nickname = st03b02_fix_bartender
+body = br_bartender_body
+head = pi_pirate2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Georg Coldman")
+affiliation = br_m_grp
+voice = rvp131
+
+
+[GF_NPC]
+nickname = st03b02_fix_weaponsdealer
+base_appr = Robot_body_c
+individual_name = 0 ;GENERATESTRRES("RH0563-B01")
+affiliation = br_m_grp
+voice = rvp003
+
+[MRoom]
+nickname = bar
+character_density = 4
+fixture = st03b02_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+
+[MRoom]
+nickname = Deck
+character_density = 2
+fixture = st03b02_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+;Kairo
+[MBase]
+nickname = St04_01_Base
+local_faction = fc_or_grp
+diff = 10
+msg_id_prefix = gcs_refer_base_St04_01_Base
+
+[MVendor]
+num_offers = 2, 4
+
+[BaseFaction]
+faction = fc_or_grp
+weight = 8
+offers_missions = true
+mission_type = DestroyMission, 28.478239, 38.983860, 100
+npc = st0401_rnavy_001_f
+npc = st0401_rpolice_001_f
+npc = st0401_daumann_001_m
+npc = st0401_republican_001_m
+npc = st0401_republican_002_m
+npc = st0401_kruger_001_m
+npc = st0401_orbital_001_f
+npc = st0401_orbital_002_f
+npc = st0401_orbital_003_f
+
+[GF_NPC]
+nickname = st0401_daumann_001_m
+body = rh_shipdealer_body
+head = sh_male2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Christian Köner") 
+affiliation = fc_or_grp
+voice = rvp146
+room = bar
+bribe = fc_or_grp, 10000, 16100
+
+[GF_NPC]
+nickname = st0401_fix_bartender
+body = rh_deidrich_body
+head = pl_male7_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0  ;GENERATESTRRES("Michael Bernard") 
+affiliation = fc_or_grp
+voice = rvp146
+
+[GF_NPC]
+nickname = st0401_fix_ship
+body = rh_deidrich_body
+head = rh_wilham_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0  ;GENERATESTRRES("Christhoph Löber") 
+affiliation = fc_or_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = st0401_fix_trader
+body = rh_deidrich_body
+head = rh_bartender_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0  ;GENERATESTRRES("Jörg Meister")
+affiliation = fc_or_grp
+voice = rvp146
+
+[GF_NPC]
+nickname = st0401_fix_weaponsdealer
+body = rh_deidrich_body
+head = sc_scientist1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0  ;GENERATESTRRES("Klaus Schulze")
+affiliation = fc_or_grp
+voice = rvp111
+
+[GF_NPC]
+nickname = st0401_kruger_001_m
+body = li_shipdealer_body
+head = sh_male3_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0  ;GENERATESTRRES("Christhoph Löber")
+affiliation = fc_or_grp
+voice = rvp146
+room = bar
+
+[GF_NPC]
+nickname = st0401_orbital_001_f
+body = br_kaitlyn_body
+head = br_newscaster_head_gen
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0  ;GENERATESTRRES("Lena Rösler")
+affiliation = fc_or_grp
+voice = rvp511
+room = bar
+
+[GF_NPC]
+nickname = st0401_orbital_002_f
+body = br_kaitlyn_body
+head = ge_female1_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0  ;GENERATESTRRES("Celine Voigt")
+affiliation = fc_or_grp
+voice = rvp501
+room = bar
+
+[GF_NPC]
+nickname = st0401_orbital_003_f
+body = br_kaitlyn_body
+head = rh_newscaster_head_gen
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0  ;GENERATESTRRES("Off. Schiedel")
+affiliation = fc_or_grp
+voice = rvp501
+room = bar
+
+
+[GF_NPC]
+nickname = st0401_republican_001_m
+body = rh_reichman_body
+head = pl_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0  ;GENERATESTRRES("Paul Schulze")
+affiliation = fc_or_grp
+voice = rvp146
+room = bar
+
+
+[GF_NPC]
+nickname = st0401_republican_002_m
+body = rh_reichman_body
+head = rh_bartender_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0  ;GENERATESTRRES("Michael Bernard")
+affiliation = fc_or_grp
+voice = rvp101
+room = bar
+
+
+[GF_NPC]
+nickname = st0401_rnavy_001_f
+body = rh_female_elite_body
+head = pl_female2_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0  ;GENERATESTRRES("Karoline Groh")
+affiliation = fc_or_grp
+voice = rvp546
+room = bar
+
+
+[GF_NPC]
+nickname = st0401_rpolice_001_f
+body = rh_female_guard_body
+head = pl_female5_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0  ;GENERATESTRRES("Rosa Vogler")
+affiliation = rh_p_grp
+voice = rvp546
+room = bar
+accessory = prop_hat_female_rh_grd
+
+[MRoom]
+nickname = bar
+character_density = 5
+fixture = st0401_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+
+[MRoom]
+nickname = Planetscape
+character_density = 3
+fixture = st0401_fix_ship, Zs/NPC/Shipdealer/01/A/Stand, scripts\vendors\li_shipdealer_fidget.thn, ShipDealer
+fixture = st0401_fix_trader, Zs/NPC/Trader/01/A/Stand, scripts\vendors\li_commtrader_fidget.thn, trader
+fixture = st0401_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+
+
+
+;Menes
+[MBase]
+nickname = St04_02_Base
+local_faction = fc_or_grp
+diff = 9
+msg_id_prefix = gcs_refer_base_St04_02_Base
+
+[MVendor]
+num_offers = 8, 16
+
+[BaseFaction]
+faction = fc_or_grp
+weight = 100
+offers_missions = true
+mission_type = DestroyMission, 28.478239, 38.983860, 100
+npc = st0402_blood_001_m
+npc = st0402_blood_002_f
+npc = st0402_blood_003_f
+npc = st0402_blood_004_m
+npc = st0402_blood_005_f
+
+[GF_NPC]
+nickname = st0402_blood_001_m
+body = pl_male3_journeyman_body
+head = pl_male8_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Nambo Tansho")
+affiliation = fc_or_grp
+voice = rvp121
+room = bar
+
+[GF_NPC]
+nickname = st0402_blood_002_f
+body = pl_female2_journeyman_body
+head = ku_tashi_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Hotaru Hikari")
+affiliation = fc_or_grp
+voice = rvp516
+room = bar
+
+[GF_NPC]
+nickname = st0402_blood_003_f
+body = pl_female2_journeyman_body
+head = pl_female6_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Hiroko Katsuo")
+affiliation = fc_bd_grp
+voice = rvp501
+room = bar
+
+[GF_NPC]
+nickname = st0402_blood_004_m
+body = pl_male3_journeyman_body
+head = ku_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Katsu Nana")
+affiliation = fc_bd_grp
+voice = rvp121
+room = bar
+
+[GF_NPC]
+nickname = st0402_blood_005_f
+body = pl_female2_journeyman_body
+head = ku_newscaster_head_gen
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Nanashi")
+affiliation = fc_bd_grp
+voice = rvp511
+room = bar
+
+[GF_NPC]
+nickname = st0402_fix_bartender
+body = pl_male3_journeyman_body
+head = sc_scientist2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Suzume Goro")
+affiliation = fc_bd_grp
+voice = rvp121
+bribe = fc_bd_grp, 10000, 16101
+
+
+[GF_NPC]
+nickname = st0402_fix_weaponsdealer
+body = pl_male3_journeyman_body
+head = ge_male2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Akira Yuko")
+affiliation = fc_bd_grp
+voice = rvp121
+
+[MRoom]
+nickname = bar
+character_density = 5
+fixture = st0402_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_bartender_fidget.thn, bartender
+
+[MRoom]
+nickname = Equipment
+character_density = 2
+fixture = st0402_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+
+;Sinai
+[MBase]
+nickname = ST04_03_Base
+local_faction = fc_or_grp
+diff = 10
+msg_id_prefix = gcs_refer_base_ST04_03_Base
+
+[MVendor]
+num_offers = 8, 16
+
+[BaseFaction]
+faction = fc_or_grp
+weight = 50
+offers_missions = true
+mission_type = DestroyMission, 28.478239, 38.983860, 100
+npc = st0403_rpolice_001_f
+npc = st0403_rpolice_002_m
+npc = st0403_rpolice_003_f
+npc = st0403_daumann_001_m
+npc = st0403_republican_001_m
+npc = st0403_synth_001_m
+npc = st0403_kruger_001_m
+npc = st0403_universal_001_m
+npc = st0403_alg_001_f
+npc = st0403_junkers_001_m
+
+[GF_NPC]
+nickname = st0403_alg_001_f
+body = rh_greunwald_body
+head = rh_gruenwald_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Nicolin Mayer")
+affiliation = co_alg_grp
+voice = rvp546
+room = bar
+
+[GF_NPC]
+nickname = st0403_daumann_001_m
+body = rh_shipdealer_body
+head = ge_male1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Zarin Fischer")
+affiliation = co_khc_grp
+voice = rvp146
+room = bar
+bribe = rh_p_grp, 10000, 1
+bribe = co_khc_grp, 10000, 16101
+bribe = co_rs_grp, 10000, 16100
+bribe = gd_bh_grp, 10000, 16100
+rumor = base_0_rank, mission_end, 1, 133732
+rumor = base_0_rank, mission_end, 1, 133733
+rumor = base_0_rank, mission_end, 1, 133734
+know = 251806, 253931, 2000, 1
+knowdb = rh05_01
+
+[GF_NPC]
+nickname = st0403_fix_bartender
+body = rh_bartender_body
+head = rh_hassler_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Jim Miller")
+affiliation = rh_p_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = st0403_fix_ship
+body = rh_commtrader_body
+head = li_rockford_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Kasper Wittwer")
+affiliation = fc_or_grp
+voice = rvp146
+
+[GF_NPC]
+nickname = st0403_fix_trader
+body = rh_commtrader_body
+head = li_sales_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Franz Bauer")
+affiliation = rh_p_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = st0403_fix_weaponsdealer
+body = rh_commtrader_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Eddy Christianis")
+affiliation = rh_p_grp
+voice = rvp111
+room = bar
+[GF_NPC]
+nickname = st0403_junkers_001_m
+body = pl_male3_journeyman_body
+head = ge_male3_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Mike Tison")
+affiliation = fc_j_grp
+voice = rvp151
+room = bar
+
+[GF_NPC]
+nickname = st0403_kruger_001_m
+body = li_shipdealer_body
+head = pi_pirate4_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Dr. Dietrich Könolt")
+affiliation = rh_m_grp
+voice = rvp146
+room = bar
+
+[GF_NPC]
+nickname = st0403_republican_001_m
+body = rh_reichman_body
+head = pi_pirate3_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Klaus Schulze")
+affiliation = co_rs_grp
+voice = rvp146
+room = bar
+
+[GF_NPC]
+nickname = st0403_rpolice_001_f
+body = rh_female_guard_body
+head = pl_female2_head
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Jaceline Floda")
+affiliation = rh_p_grp
+voice = rvp511
+room = bar
+
+[GF_NPC]
+nickname = st0403_rpolice_002_m
+body = rh_male_guard_body
+head = rh_bartender_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Kendall Lang")
+affiliation = rh_p_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = st0403_rpolice_003_f
+body = rh_female_guard_body
+head = rh_newscaster_head_gen_hat
+lefthand = benchmark_female_hand_left
+righthand = benchmark_female_hand_right
+individual_name = 0 ;GENERATESTRRES("Celine Voigt")
+affiliation = rh_p_grp
+voice = rvp546
+room = bar
+
+[GF_NPC]
+nickname = st0403_synth_001_m
+body = ku_shipdealer_body
+head = sc_scientist1_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Jörg Meister")
+affiliation = co_ni_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = st0403_universal_001_m
+body = li_tilton_body
+head = sh_male3_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Michael Schüler")
+affiliation = co_ss_grp
+voice = rvp101
+room = bar
+
+[MRoom]
+nickname = bar
+character_density = 7
+fixture = st0403_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_bartender_fidget.thn, bartender
+
+[MRoom]
+nickname = trader
+character_density = 2
+fixture = st0403_fix_trader, Zs/NPC/Trader/01/A/Stand, scripts\vendors\li_commtrader_fidget.thn, trader
+
+[MRoom]
+nickname = ShipDealer
+character_density = 2
+fixture = st0403_fix_ship, Zs/NPC/Shipdealer/01/A/Stand, scripts\vendors\li_shipdealer_fidget.thn, ShipDealer
+
+[MRoom]
+nickname = Equipment
+character_density = 2
+fixture = st0403_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+
+;Djoser
+[MBase]
+nickname = ST04_04_Base
+local_faction = fc_or_grp
+diff = 6
+msg_id_prefix = gcs_refer_base_ST04_04_Base
+
+[MVendor]
+num_offers = 2, 16
+
+[BaseFaction]
+faction = fc_or_grp
+weight = 10
+offers_missions = true
+mission_type = DestroyMission, 28.478239, 38.983860, 100
+npc = st0404_gateway_001_m
+npc = st0404_mollys_001_m
+npc = st0404_img_001_m
+npc = st0404_img_002_m
+npc = st0404_img_003_m
+npc = st0404_bounty_001_m
+npc = st0404_bounty_002_f
+
+[GF_NPC]
+nickname = st0404_bounty_001_m
+body = sh_male2_body
+head = pi_pirate2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Jim Bamba")
+affiliation = fc_or_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = st0404_bounty_002_f
+body = pl_female2_journeyman_body
+head = li_newscaster_head_gen
+lefthand = female_hand_left_black
+righthand = female_hand_right_black
+individual_name = 0 ;GENERATESTRRES("Lucy Cruz")
+affiliation = gd_bh_grp
+voice = rvp541
+room = bar
+
+[GF_NPC]
+nickname = st0404_fix_bartender
+body = sh_male1_body
+head = ge_male3_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Juan Maria Sanchezz")
+affiliation = gd_im_grp
+voice = rvp101
+
+[GF_NPC]
+nickname = st0404_fix_weaponsdealer
+body = sh_male1_body
+head = pi_pirate4_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Lord Palmerston")
+affiliation = gd_im_grp
+voice = rvp131
+
+[GF_NPC]
+nickname = st0404_gateway_001_m
+body = pl_male2_peasant_body
+head = ge_male2_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Noam Summer")
+affiliation = co_nws_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = st0404_img_001_m
+body = sh_male1_body
+head = li_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Peter Braun")
+affiliation = gd_im_grp
+voice = rvp101
+room = bar
+
+[GF_NPC]
+nickname = st0404_img_002_m
+body = sh_male1_body
+head = li_sales_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Georg Buffalo")
+affiliation = gd_im_grp
+voice = rvp131
+room = bar
+
+[GF_NPC]
+nickname = st0404_img_003_m
+body = sh_male1_body
+head = rh_sales_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Carlos Alfaro")
+affiliation = gd_im_grp
+voice = rvp131
+room = bar
+
+[GF_NPC]
+nickname = st0404_mollys_001_m
+body = pi_pirate1_body
+head = pl_male3_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("Lucia Smith")
+affiliation = fc_m_grp
+voice = rvp131
+room = bar
+
+[MRoom]
+nickname = bar
+character_density = 4
+fixture = st0404_fix_bartender, Zs/NPC/Bartender/01/A/Stand, scripts\vendors\li_host_fidget.thn, bartender
+
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = st0404_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+
+
+
+### Clan mbases Entrys ###
+
+[MBase]
+nickname = Hi01_USF_Base
+local_faction = uSF
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = usf_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = uSF
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = usf_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Ew04_FT_Base
+local_faction = FT_CLAN
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = ft_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = FT_CLAN
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = ft_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Hi02_TCEAGLES_BASE
+local_faction = TCEAGLES_CLAN
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = tceagles_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = TCEAGLES_CLAN
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = tceagles_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Ku04_STE_Base
+local_faction = STE_CLAN
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = ste_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = STE_CLAN
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = ste_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Rh01_NXS_base
+local_faction = NEXUS_CLAN
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = nxs_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = NEXUS_CLAN
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = nxs_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Bw02_USAF_Base
+local_faction = USAF_CLAN
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = usaf_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = USAF_CLAN
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = wusaf_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Hi01_PIRATES_Base
+local_faction = PIRATES_CLAN
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = pirates_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = PIRATES_CLAN
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = pirates_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Rh01_IMPERIUM_Base
+local_faction = IMPERIUM_CLAN
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = imp_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = IMPERIUM_CLAN
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = imp_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Rh03_Rheinwehr_Base
+local_faction = RHEINWEHR_CLAN
+diff = 30
+
+[MVendor]
+num_offers = 0, 0
+
+[GF_NPC]
+nickname = rheinwehr_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = RHEINWEHR_CLAN
+voice = rvp111
+
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = rheinwehr_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = ew01_OSO_Base
+local_faction = OSO_CLAN
+diff = 30
+
+[MVendor]
+num_offers = 0, 0
+
+[GF_NPC]
+nickname = oso_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = OSO_CLAN
+voice = rvp111
+
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = oso_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Ew03_RIP_Base
+local_faction = RIP_CLAN
+diff = 30
+
+[MVendor]
+num_offers = 0, 0
+
+[GF_NPC]
+nickname = rip_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = RIP_CLAN
+voice = rvp111
+
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = rip_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = br03_NUCLEAR_Base
+local_faction = NUCLEAR_CLAN
+diff = 30
+
+[MVendor]
+num_offers = 0, 0
+
+[GF_NPC]
+nickname = nuclear_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = NUCLEAR_CLAN
+voice = rvp111
+
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = nuclear_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+</source>
+</data>
+
 </script>
