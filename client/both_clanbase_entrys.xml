@@ -631,18 +631,8 @@ ids_name = 0 ;GENERATESTRRES("~ Cocktailbar ~")
 [Object]
 nickname = Hi02_TCEAGLES_BASE
 pos = 6124, 11545, 17712
-behavior = NOTHING
-pilot = pilot_crazy
-dock_with = Hi02_TCEAGLES_BASE
-base = Hi02_TCEAGLES_BASE
-reputation = li_lsf_grp
-rotate = 175.102,-43.7713,-179.99
-archetype = r_battleship
+archetype = space_police_dmg
 ids_name = 0 ;GENERATESTRRES("ANS Terra")
-loadout = clan_rh_battleship
-difficulty_level = 30
-space_costume = benchmark_male_head, benchmark_male_body
-voice = atc_leg_m01
 
 [Object] 
 nickname = hi02_AUW_Base
@@ -2850,26 +2840,6 @@ voice = rvp111
 nickname = Deck
 character_density = 3
 fixture = ft_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
-
-[MBase]
-nickname = Hi02_TCEAGLES_BASE
-local_faction = TCEAGLES_CLAN
-diff = 30
-[MVendor]
-num_offers = 0, 0
-[GF_NPC]
-nickname = tceagles_fix_weaponsdealer
-body = rh_male_elite_body
-head = rh_captain_head
-lefthand = benchmark_male_hand_left
-righthand = benchmark_male_hand_right
-individual_name = 0 ;GENERATESTRRES("HC Security")
-affiliation = TCEAGLES_CLAN
-voice = rvp111
-[MRoom]
-nickname = Deck
-character_density = 3
-fixture = tceagles_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
 
 [MBase]
 nickname = Ku04_STE_Base

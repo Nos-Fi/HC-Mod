@@ -92,10 +92,6 @@ affiliation = FT_CLAN
 legality = lawful
 
 [FactionProps]
-affiliation = TCEAGLES_CLAN
-legality = lawful
-
-[FactionProps]
 affiliation = STE_CLAN
 legality = unlawful
 
@@ -361,13 +357,6 @@ ids_name = 458827
 ids_info = 458827
 ids_short_name = 458828
 rep = 1, FT_CLAN
-
-[Group]
-nickname = TCEAGLES_CLAN
-ids_name = 458839
-ids_info = 458839
-ids_short_name = 458840
-rep = 1, TCEAGLES_CLAN
 
 [Group]
 nickname = STE_CLAN
