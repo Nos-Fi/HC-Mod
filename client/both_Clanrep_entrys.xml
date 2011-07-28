@@ -88,10 +88,6 @@ formation = battleships, battleship_wall
 
 
 [FactionProps]
-affiliation = uSF
-legality = unlawful
-
-[FactionProps]
 affiliation = FT_CLAN
 legality = lawful
 
@@ -358,13 +354,6 @@ rep = -1, gd_bh_grp
 rep = 1, hc
 
 ### Clan Reps ###
-
-[Group]
-nickname = uSF
-ids_name = 458760
-ids_info = 458762
-ids_short_name = 458820
-rep = 1, uSF
 
 [Group]
 nickname = FT_CLAN

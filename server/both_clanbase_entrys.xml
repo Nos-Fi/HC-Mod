@@ -728,43 +728,9 @@ rotate = 0, 0, 0
 
 [Object] 
 nickname = Hi01_USF_BASE 
-pos = 3940, 4000, 18500 
-behavior = NOTHING 
-pilot = pilot_crazy 
-dock_with = Hi01_USF_Base 
-base = Hi01_USF_Base 
-reputation = li_lsf_grp 
-rotate = 0, 0, 0 
-archetype = b_battleship 
+pos = 3940, 4000, 18500
+archetype = space_police_dmg
 ids_name = 0 ;GENERATESTRRES("New Providence")
-loadout = clan_br_battleship 
-difficulty_level = 30 
-space_costume = benchmark_male_head, benchmark_male_body 
-voice = atc_leg_m01 
-
-[Object] 
-nickname = usf_base_component_01 
-ids_name = 1 
-pos = 3961,3970,18420 
-archetype = space_habitat_wide 
-parent = Hi01_USF_Base 
-rotate = 90,0,0 
-
-[Object] 
-nickname = usf_base_component_02 
-ids_name = 1 
-pos = 3915,3970,18420 
-archetype = space_habitat_wide 
-parent = Hi01_USF_Base 
-rotate = 90, 0, 0 
-
-[Object] 
-nickname = usf_base_component_03 
-ids_name = 1 
-pos = 3938,3970,18420 
-archetype = space_habitat_wide 
-parent = Hi01_USF_Base 
-rotate = 90,0,0
 </source>
 </data>
 
@@ -2864,26 +2830,6 @@ fixture = st0404_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors
 
 
 ### Clan mbases Entrys ###
-
-[MBase]
-nickname = Hi01_USF_Base
-local_faction = uSF
-diff = 30
-[MVendor]
-num_offers = 0, 0
-[GF_NPC]
-nickname = usf_fix_weaponsdealer
-body = rh_male_elite_body
-head = rh_captain_head
-lefthand = benchmark_male_hand_left
-righthand = benchmark_male_hand_right
-individual_name = 0 ;GENERATESTRRES("HC Security")
-affiliation = uSF
-voice = rvp111
-[MRoom]
-nickname = Deck
-character_density = 3
-fixture = usf_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
 
 [MBase]
 nickname = Ew04_FT_Base
