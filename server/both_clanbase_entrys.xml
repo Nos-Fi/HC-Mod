@@ -649,77 +649,7 @@ nickname = hi02_AUW_Base
 ids_name = 0 ;GENERATESTRRES("Lanzelott")
 ids_info = 0 
 pos = 26720, 10400, 23500
-rotate = 0, -90, 0 
-Archetype = prison 
-base = hi02_AUW_Base 
-dock_with = hi02_AUW_Base 
-loadout = clan_prison 
-pilot = pilot_crazy
-space_costume = br_karina_head_gen, li_female_guard_body 
-difficulty_level = 30 
-voice = atc_leg_f01 
-behavior = NOTHING 
-reputation = AUW_CLAN 
-
-[Object] 
-nickname = hi02_07_habitat_tall 
-ids_name = 0 
-ids_info = 0 
-pos = 26720, 10695, 23500
-Archetype = space_habitat_tall 
-behavior = NOTHING 
-parent = hi02_AUW_Base 
-reputation = AUW_CLAN 
-
-[Object] 
-nickname = hi02_07_solar_plant 
-ids_name = 0 
-ids_info = 0 
-pos = 26720, 10520, 23500
-rotate = 0, 0, -90 
-Archetype = space_solar_plant 
-parent = hi02_AUW_Base 
-reputation = AUW_CLAN 
-
-[Object] 
-nickname = hi02_07_shipyard 
-ids_name = 0 
-ids_info = 0 
-pos = 26427, 10370, 23500
-rotate = 0, 180, 0 
-Archetype = shipyard 
-parent = hi02_AUW_Base 
-reputation = AUW_CLAN 
-
-[Object] 
-nickname = hi02_07_space_dome 
-ids_name = 0 
-ids_info = 0 
-pos = 26995, 10430, 23500 
-rotate = 0, 270, 0 
-Archetype = space_dome 
-parent = hi02_AUW_Base 
-reputation = AUW_CLAN 
-
-[Object] 
-nickname = hi02_07_telescope_01 
-ids_name = 0 
-ids_info = 0 
-pos = 26720, 10500, 23600
-rotate = 0, 165, 0 
-Archetype = telescope 
-parent = hi02_AUW_Base 
-reputation = AUW_CLAN 
-
-[Object] 
-nickname = hi02_07_telescope_02 
-ids_name = 0 
-ids_info = 0 
-pos = 26720, 10500, 23400
-rotate = 0, -15, 0 
-Archetype = telescope 
-parent = hi02_AUW_Base 
-reputation = AUW_CLAN 
+Archetype = space_police_dmg
 
 </source>
 </data>

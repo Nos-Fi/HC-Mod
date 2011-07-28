@@ -124,10 +124,6 @@ affiliation = PIRATES_CLAN
 legality = unlawful
 
 [FactionProps]
-affiliation = AUW_CLAN
-legality = lawful
-
-[FactionProps]
 affiliation = PS_CLAN
 legality = lawful
 
@@ -433,13 +429,6 @@ ids_name = 458859
 ids_info = 458859
 ids_short_name = 458859
 rep = 1, PIRATES_CLAN
-
-[Group]
-nickname = AUW_CLAN
-ids_name = 458864
-ids_info = 0 ;GENERATEXMLRES(AUW_CLAN)
-ids_short_name = 458865
-rep = 1, AUW_CLAN
 
 [Group]
 nickname = PS_CLAN
