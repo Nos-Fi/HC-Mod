@@ -92,10 +92,6 @@ affiliation = uSF
 legality = unlawful
 
 [FactionProps]
-affiliation = ALLIANZ_CLAN
-legality = lawful
-
-[FactionProps]
 affiliation = FT_CLAN
 legality = lawful
 
@@ -373,13 +369,6 @@ ids_name = 458760
 ids_info = 458762
 ids_short_name = 458820
 rep = 1, uSF
-
-[Group]
-nickname = ALLIANZ_CLAN
-ids_name = 458825
-ids_info = 458779
-ids_short_name = 458826
-rep = 1, ALLIANZ_CLAN
 
 [Group]
 nickname = FT_CLAN

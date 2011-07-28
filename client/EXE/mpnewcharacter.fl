@@ -77,7 +77,6 @@ house = 0, fc_order_grp
 house = -1, fc_no_grp
 
 house = -1, uSF
-house = 0, ALLIANZ_CLAN
 house = -1, FT_CLAN
 house = 0, TD_CLAN
 house = 0, TCEAGLES_CLAN
