@@ -28,4 +28,8 @@
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>Wir sind ein Zusammenschluss aus erfahrenen Freelancern, welche einen Traum hatten, den Traum das Böse in Sirius zu bekämpfen, der Piraterie Einhalt zu gebieten und sich dieser in den Weg zu Stellen, egal wo diese auftaucht. Wir operieren in ganz Sirus und helfen auch gerne bei Eskorten.</TEXT><PARA/><TEXT>Wir sind extrem vielseitig, egal ob es sich um Handeln, den offenen Kampf oder dem gemütlichen Miteinander handelt. Gerne nehmen wir Neulinge auf, wenn diese sich an die Regeln halten können.</TEXT><PARA/><POP/></RDL>
 </xmldata>
 
+<xmldata name="BB_CLAN">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>Der BlackBirds Clan ist eine Aussage gegen Antipiraten und alles andere, das sich in Sirius befindet. Sie jagen, taxen und vernichten alles, was ihren Weg kreuzt. Angriffe auf Zivilisten sind häufig. Jedoch führen sie auch gezielte Angriffe auf Clans aus. Alles Unbekannte wird angegriffen. Gutes wird nicht toleriert - Böses muss sich erst beweisen. BlackBirds - für ein böses Sirius!</TEXT><PARA/><TEXT>BlackBirds fly together</TEXT><PARA/><TEXT>BlackBirds die together</TEXT><PARA/><TEXT>BlackBirds for ever</TEXT><PARA/><TEXT>~Battleship sponsored by Seugi~</TEXT><PARA/><TEXT>Link: www.blackbirds.siteboard.org</TEXT><PARA/><POP/></RDL>
+</xmldata>
+
 </script>

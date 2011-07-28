@@ -154,6 +154,10 @@ legality = lawful
 [FactionProps]
 affiliation = RYO_CLAN
 legality = lawful
+
+[FactionProps]
+affiliation = BB_CLAN
+legality = unlawful
 </source>
 </data>
 
@@ -434,6 +438,13 @@ ids_name = 0 ;GENERATESTRRES("Ryoku Shin Do")
 ids_info = 0 ;GENERATEXMLRES(RYO_CLAN)
 ids_short_name = 0 ;GENERATESTRRES("{-Ryo-}")
 rep = 1, RYO_CLAN
+
+[Group]
+nickname = BB_CLAN
+ids_name = 0 ;GENERATESTRRES("[BlackBirds]")
+ids_info = 0 ;GENERATEXMLRES(BB_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("[BB]")
+rep = 1, BB_CLAN
 
 ;#########HHCKK
 
