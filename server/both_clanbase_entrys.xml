@@ -834,18 +834,8 @@ ids_name = 0 ;GENERATESTRRES("Purgatorium")
 [Object]
 nickname = Ku02_TD_Base
 pos = -65795.5, 13581.6, -585.349
-behavior = NOTHING
-pilot = pilot_crazy
-dock_with = Ku02_TD_Base
-base = Ku02_TD_Base
-reputation = TD_CLAN
-rotate = 0, 0, 0
-archetype = miningbase_FragC
+archetype = space_police_dmg
 ids_name = 0 ;GENERATESTRRES("Drachennest")
-loadout = clan_FragB
-difficulty_level = 30
-space_costume = benchmark_male_head, benchmark_male_body
-voice = atc_leg_m01
 </source>
 </data>
 
