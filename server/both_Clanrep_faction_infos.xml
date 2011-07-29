@@ -36,4 +36,8 @@
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>Aufgrund unserer jahrelangen Treue zum Spiel</TEXT><PARA/><TEXT>und dem starken Zusammenhalt unsere Truppe, haben wir uns gemeinschaftlich endlich für die Gründung eines Trader-Clans auf dem HHC entschieden. Dieses Vorhaben ist lange vor der Beschließung bereits gründlich durchdacht und organisiert worden, so dass nichts dem Zufall überlassen wird.Ein Clan der unserem Namen vollste Ehre erweisen wird,denn wir sind die Cannonball Noobs.</TEXT><PARA/><POP/></RDL>
 </xmldata>
 
+<xmldata name="RONIN_CLAN">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>Die Ronin sind ein Zusammenschluss herrenloser Samurai, die ihre Unterstützung gerne gegen Entlohnung anbieten.</TEXT><PARA/><TEXT>Dabei wird zu allen Fraktionen eine Neutrale Beziehung eingehalten, um so jedem die Möglichkeit zu geben auf diese Dienste zuzugreifen.</TEXT><PARA/><POP/></RDL>
+</xmldata>
+
 </script>
