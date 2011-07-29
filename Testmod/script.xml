@@ -736,4 +736,28 @@ room_switch = ShipDealer
 </source>
 </data>
 
+<data file="DATA/SHIPS/loadouts_special.ini" method="sectionreplace">
+<section>
+nickname = Nomad_Battleship_Loadout
+</section>
+<dest>
+equip = ge_gf1_engine_01
+</dest>
+<source>
+equip = ge_ng_engine_01
+</source>
+</data>
+
+<data file="DATA\Ships\shiparch.ini" method="sectionreplace">
+<section>
+nickname = Nomad_Gunboat_Loadout
+</section>
+<dest>
+equip = ge_gf1_engine_01
+</dest>
+<source>
+equip = ge_ng_engine_01
+</source>
+</data>
+
 </script>
