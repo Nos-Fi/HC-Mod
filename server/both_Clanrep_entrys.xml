@@ -162,10 +162,6 @@ legality = unlawful
 [FactionProps]
 affiliation = CBN_CLAN
 legality = lawful
-
-[FactionProps]
-affiliation = RONIN_CLAN
-legality = lawful
 </source>
 </data>
 
@@ -460,13 +456,6 @@ ids_name = 0 ;GENERATESTRRES("Cannonballnoobs")
 ids_info = 0 ;GENERATEXMLRES(CBN_CLAN)
 ids_short_name = 0 ;GENERATESTRRES("-[CBN]-")
 rep = 1, CBN_CLAN
-
-[Group]
-nickname = RONIN_CLAN
-ids_name = 0 ;GENERATESTRRES("Ronin°")
-ids_info = 0 ;GENERATEXMLRES(RONIN_CLAN)
-ids_short_name = 0 ;GENERATESTRRES("Ronin°")
-rep = 1, RONIN_CLAN
 
 ;#########HHCKK
 
