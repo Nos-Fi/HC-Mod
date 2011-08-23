@@ -93,7 +93,6 @@ house = 0, KK_EVENT_CLAN
 house = 0, PS_CLAN
 house = 0, RYO_CLAN
 house = -1, BB_CLAN
-house = 0, CBN_CLAN
 
 ;Li02
 visit = 2745692751,1
