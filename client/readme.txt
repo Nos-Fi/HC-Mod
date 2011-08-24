@@ -1,14 +1,15 @@
 HAMBURG CITY MOD - CREDITS
 
-w0dk4 (general mod author)
+M1C (Current mod author)
+Crazy (Current client- and server-hook coder)
+Nosferatu (Former mod author)
+w0dk4 (initial mod author)
 Slayer (initial base mod and later mining addition)
-Nosferatu (Current mod author)
-Syd (Base modding and more)
+Syd (Base modding, nomad engine fix and more)
 cHiLLmAstA (intro menu scenes)
 mc_horst (flhook and client hooking methods)
 Why485 (some special effects)
-Adoxa (widescreen fix, 4 Strafe blocker)
-M!C (clienthooking and other moddings)
+Adoxa (widescreen fix, 4 Strafe blocker, fps limit)
 
 Extended Omicron systems credits:
 ____________________________________________________
