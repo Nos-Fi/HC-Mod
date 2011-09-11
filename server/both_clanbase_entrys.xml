@@ -1331,6 +1331,10 @@ parent = Bw06_BB_BASE
 </source>
 </data>
 
+<xmldata name="RYO_CLANBASE">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>Rising~Paradise</TEXT><PARA/><TEXT></TEXT><PARA/><TEXT>Die Rising~Paradise ist das Ergebnis eines Plans von Kuren und Kreuzfahrten, einen Luxusliner der Superlative zu bauen. Da dieses Vorhaben allerdings Milliarden Credits verschlang und Kuren und Kreuzfahrten an den Rand des Ruins brachte, wurde die Werft stillgelegt und das Projekt "Superliner" abgebrochen. Als jedoch die Piratenaktivitäten stark zunahmen und terroristische Überfälle im Sektor immer häufiger wurden, wurde das ehemalige "Erholungsschiff" zu einem kampfstarken Schlachtschiff umgerüstet und der Vereinigung Ryoku Shin Do übergeben, die dafür die Sicherheit in Sirius wiederherstellen wollte. Im Gegenzug für die Nutzung der Werft und deren Technologie beteiligte sich Ryoku Shin Do maßgeblich an den Kosten für dieses Projekt und half Kuren und Kreuzfahrten dabei, die Schulden, die durch das Projekt entstanden waren, zu tilgen. Es wird vermutet, dass Ryoku Shin Do die Verteidigung der Basis noch einmal stark verstärkt hat und die Rising~Paradise mit geheimer Hochtechnologie modifiziert hat. Zudem kursieren unter Frachter- und Jägerpiloten Gerüchte über ein Schlachtschiff der Osirisklasse und verschiedene Jagdgeschwader, die in der Umgebung der Basis patrouillieren. Freelancern wird geraten, die nähere Umgebung der Anlage zu meiden, sofern sie nicht ein gutes Verhältnis zu Ryoku Shin Do pflegen.</TEXT><POP/></RDL>
+</xmldata>
+
 <data file="DATA\UNIVERSE\Systems\Br01\Br01.ini" method="append">
 <source>
 
