@@ -206,6 +206,7 @@ and some surprises :)
 
 <xmldata name="Miningblaster_Info">
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>E T7 Mod.</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Diese Laserwaffe wurde fuer die Erzgewinnung entwickelt.</TEXT><PARA/><TEXT>Speziell kleinere Asteroiden- und Schrottfelder lassen</TEXT><PARA/><TEXT>sich damit, dank der hohen Schussrate und der Hitze </TEXT><PARA/><TEXT>des Laserstrahls, mit maximaler Effizienz ausbeuten.</TEXT><PARA/><TEXT>Zum Kämpfen ist diese Waffe allerdings ungeignet.</TEXT><PARA/><POP/></RDL>
+</xmldata>
 
 <data file="DATA\EQUIPMENT\weapon_good.ini" method="copyfile" sourcefile="DATA\EQUIPMENT\weapon_good.ini" scanfile="true">
 </data>
