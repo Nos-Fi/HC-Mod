@@ -1,5 +1,5 @@
 <script>
-<header name="Hamburg City Serverside Mod (v3.2 beta R137)"> <!--header tag and name of mod -->
+<header name="Hamburg City Serverside Mod (v3.2 beta R139)"> <!--header tag and name of mod -->
 
 <scriptversion> <!--The oldest version of FLMM that this mod will work with -->
 1.3
@@ -179,7 +179,7 @@ HC Serverside Mod
 ### weapon_equip & weapon_good ###
 
 <xmldata name="Miningblaster_Info">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>E T7 Mod.</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT></TEXT><PARA/><TEXT>Diese Laserwaffe wurde fuer die Erzgewinnung entwickelt.</TEXT><PARA/><TEXT>Speziell kleinere Asteroiden- und Schrottfelder lassen</TEXT><PARA/><TEXT>sich damit, dank der hohen Schussrate und der Hitze </TEXT><PARA/><TEXT>des Laserstrahls, mit maximaler Effizienz ausbeuten.</TEXT><PARA/><TEXT>Zum Kämpfen ist diese Waffe allerdings ungeignet.</TEXT><PARA/><POP/></RDL>
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA bold="true"/><JUST loc="center"/><TEXT>Miningblaster E T7</TEXT><PARA/><TEXT> </TEXT><PARA/><TRA bold="default"/><JUST loc="left"/><TEXT>Dieses Geschütz wurde direkt zum Abbau von Rohstoffen konzipiert. Mit exakt dosierten Hitzestößen wird das Zielobjekt zerkleinert und gibt so dessen Inneres frei. Diese Laser-basierte Waffe bietet eine hohe Schussrate und Beweglichkeit die jedoch stark auf Kosten der Schadenswirkung geht.</TEXT><PARA/><POP/></RDL>
 </xmldata>
 
 <data file="DATA\EQUIPMENT\weapon_good.ini" method="copyfile" sourcefile="DATA\EQUIPMENT\weapon_good.ini" scanfile="true">
