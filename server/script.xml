@@ -173,8 +173,6 @@ HC Serverside Mod
 
 <data file="DATA\UNIVERSE\universe.ini" method="copyfile" sourcefile="DATA\UNIVERSE\universe.ini" scanfile="true">
 </data>
-<data file="DATA\InitialWorld.ini" method="copyfile" sourcefile="DATA\InitialWorld.ini" scanfile="true">
-</data>
 
 ### weapon_equip & weapon_good ###
 
