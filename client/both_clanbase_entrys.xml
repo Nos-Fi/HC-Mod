@@ -967,228 +967,159 @@ reputation = oso_clan
 <data file="DATA\UNIVERSE\Systems\Br03\Br03.ini" method="append">
 <source>
 
-[Object] 
-nickname = Br03_nuclear_Base 
+[Object]
+nickname = Br03_nuclear_Base
 ids_name = 0 ;GENERATESTRRES("[Promethium]")
-pos = -32854, 4434, 52379
-archetype = outpost
-loadout = clan_outpost
-dock_with = br03_nuclear_Base 
-base = br03_nuclear_Base 
-behavior = NOTHING 
+pos = -31957, 4000, 59464
+rotate = 0, -90, 0
+archetype = depot
+loadout = clan_depot_hc
+dock_with = br03_nuclear_Base
+base = br03_nuclear_Base
+behavior = NOTHING
 pilot = pilot_crazy
-visit = 0 
-reputation = nuclear_clan 
-voice = atc_leg_m01 
+visit = 0
+reputation = nuclear_clan
+voice = atc_leg_m01
 space_costume = pi_pirate3_head, pl_male3_journeyman_body, prop_neuralnet_F_right
 
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_1
-ids_name = 1
-pos = -32550, 4417, 52293
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 10,10,10
-
+nickname = Promethium_component_01
+rotate = 0, 75, 0
+pos = -32459, 4573, 59340
+archetype = space_industrial01
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_2
-ids_name = 2
-pos = -32490, 4401, 52240
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 10,10,10
-
+nickname = Promethium_component_02
+rotate = 0, -105, 0
+pos = -31538, 4573, 59587
+archetype = space_industrial01
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_3
-ids_name = 3
-pos = -32550, 4417, 52465
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 10,10,10
-
+nickname = Promethium_component_03
+rotate = 0, -75, 0
+pos = -31538, 4573, 59340
+archetype = space_industrial01
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_4
-ids_name = 4
-pos = -32490, 4401, 52518
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 10,10,10
-
+nickname = Promethium_component_04
+rotate = 0, 105, 0
+pos = -32459, 4573, 59587
+archetype = space_industrial01
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_5
-ids_name = 5
-pos = -33158, 4417, 52465
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = -10,-10,-10
-
+nickname = Promethium_component_05
+rotate = 0, -15, 0
+pos = -32399, 4593, 59117
+archetype = mplatform
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_6
-ids_name = 6
-pos = -33218, 4401, 52518
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = -10,-10,-10
-
+nickname = Promethium_component_06
+rotate = 0, 15, 0
+pos = -31597, 4593, 59117
+archetype = mplatform
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_7
-ids_name = 7
-pos = -33158, 4417, 52293
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = -10,-10,-10
-
+nickname = Promethium_component_07
+rotate = 0, -165, 0
+pos = -32399, 4593, 59811
+archetype = mplatform
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_8
-ids_name = 8
-pos = -33218, 4401, 52240
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = -10,-10,-10
-
+nickname = Promethium_component_08
+rotate = 0, -195, 0
+pos = -31598, 4593, 59810
+archetype = mplatform
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_9
-ids_name = 9
-pos = -32858, 4456, 52232
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = -30,-10,-30
-
+nickname = Promethium_component_09
+rotate = -90, 15, 0
+pos = -31533, 4573, 59360
+archetype = dyson_generator
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_10
-ids_name = 10
-pos = -32849, 4411, 52224
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = -30,-10,-30
-
+nickname = Promethium_component_10
+rotate = -90, 15, 0
+pos = -32459, 4573, 59588
+archetype = dyson_generator
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_11
-ids_name = 11
-pos = -32858, 4438, 52169
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = -30,-10,-30
-
+nickname = Promethium_component_11
+rotate = -90, -15, 0
+pos = -31539, 4573, 59588
+archetype = dyson_generator
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_12
-ids_name = 12
-pos = -32849, 4418, 52137
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = -30,-10,-30
-
+nickname = Promethium_component_12
+rotate = -90, -15, 0
+pos = -32465, 4573, 59360
+archetype = dyson_generator
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_13
-ids_name = 13
-pos = -32854, 4618, 52420
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 135,0,90
-
+nickname = Promethium_component_13
+rotate = 90, -75, 0
+pos = -32345, 4573, 59556
+archetype = lair_platform
+spin = 0, -1, 0
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_14
-ids_name = 14
-pos = -32854, 4618, 52420
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 45,0,90
-
+nickname = Promethium_component_14
+rotate = 90, -105, 0
+pos = -32345, 4573, 59370
+spin = 0, -1, 0
+archetype = lair_platform
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_15
-ids_name = 15
-pos = -32858, 4456, 52529
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 30,10,30
-
+nickname = Promethium_component_15
+rotate = -90, -105, 0
+pos = -31653, 4573, 59556
+spin = 0, -1, 0
+archetype = lair_platform
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_16
-ids_name = 16
-pos = -32849, 4411, 52543
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 30,10,30
-
+nickname = Promethium_component_16
+rotate = -90, -75, 0
+pos = -31653, 4573, 59370
+spin = 0, -1, 0
+archetype = lair_platform
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_17
-ids_name = 17
-pos = -32858, 4438, 52596
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 30,10,30
-
+nickname = Promethium_component_17
+rotate = 90, -45, 0
+pos = -31997, 4502, 59464
+archetype = space_industrial
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_nav_buoy_18
-ids_name = 18
-pos = -32849, 4418, 52629
-archetype = nav_buoy
-parent = br03_nuclear_Base
-rotate = 30,10,30
-
+nickname = Promethium_component_18
+rotate = -90, 0, 0
+pos = -31997, 4644, 59464
+archetype = space_industrial
+parent = Br03_05
+reputation = Nuclear_CLAN
 [Object]
-nickname = br03_nuclear_Base_com_sat_1
-ids_name = 19
-pos = -32630, 4443, 52274
-archetype = com_sat
-parent = br03_nuclear_Base
-rotate = -45,0,-90
-
-[Object]
-nickname = br03_nuclear_Base_com_sat_2
-ids_name = 20
-pos = -32630, 4443, 52484
-archetype = com_sat
-parent = br03_nuclear_Base
-rotate = 45,0,-90
-
-[Object]
-nickname = br03_nuclear_Base_com_sat_3
-ids_name = 21
-pos = -32630, 4414, 52274
-archetype = com_sat
-parent = br03_nuclear_Base
-rotate = -45,0,-90
-
-[Object]
-nickname = br03_nuclear_Base_com_sat_4
-ids_name = 22
-pos = -32630, 4414, 52484
-archetype = com_sat
-parent = br03_nuclear_Base
-rotate = 45,0,-90
-
-[Object]
-nickname = br03_nuclear_Base_com_sat_5
-ids_name = 23
-pos = -33084, 4443, 52274
-archetype = com_sat
-parent = br03_nuclear_Base
-rotate = 315,0,90
-
-[Object]
-nickname = br03_nuclear_Base_com_sat_6
-ids_name = 24
-pos = -33084, 4443, 52484
-archetype = com_sat
-parent = br03_nuclear_Base
-rotate = -315,0,90
-
-[Object]
-nickname = br03_nuclear_Base_com_sat_7
-ids_name = 25
-pos = -33084, 4413, 52274
-archetype = com_sat
-parent = br03_nuclear_Base
-rotate = 315,0,90
-
-[Object]
-nickname = br03_nuclear_Base_com_sat_8
-ids_name = 26
-pos = -33084, 4413, 52484
-archetype = com_sat
-parent = br03_nuclear_Base
-rotate = -315,0,90
+nickname = Promethium_component_19
+rotate = 180, -90, 0
+pos = -32037, 5150, 59464
+archetype = depot
+parent = Br03_05
+reputation = Nuclear_CLAN
 </source>
 </data>
 
