@@ -1,5 +1,5 @@
 <script>
-<header name="Hamburg City - Testmod R136" savesafe="true">
+<header name="Hamburg City - Testmod R147" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -733,30 +733,6 @@ room_switch = ShipDealer
 name = IDS_HOTSPOT_SHIPDEALER_ROOM
 behavior = ExitDoor
 room_switch = ShipDealer
-</source>
-</data>
-
-<data file="DATA/SHIPS/loadouts_special.ini" method="sectionreplace">
-<section>
-nickname = Nomad_Battleship_Loadout
-</section>
-<dest>
-equip = ge_gf1_engine_01
-</dest>
-<source>
-equip = ge_ng_engine_01
-</source>
-</data>
-
-<data file="DATA/SHIPS/loadouts_special.ini" method="sectionreplace">
-<section>
-nickname = Nomad_Gunboat_Loadout
-</section>
-<dest>
-equip = ge_gf1_engine_01
-</dest>
-<source>
-equip = ge_ng_engine_01
 </source>
 </data>
 
