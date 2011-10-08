@@ -1162,7 +1162,7 @@ ids_name = 0 ;GENERATESTRRES("Freeport 7.2")
 <source>
 
 [Object]
-nickname = Bw06_BB_BASE
+nickname = Bw06_BB_Base
 ids_name = 0 ;GENERATESTRRES("Vogeltopia")
 ids_info = 0 ;GENERATEXMLRES(BB_CLANBASE)
 pos = -10913, -5995, 16940
@@ -1183,82 +1183,82 @@ nickname = Bw06_BB_Base_component_01
 rotate = 90, 0, 0
 pos = -10903, -5805, 16885
 archetype = space_industrial01
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_02
 rotate = 0, 90, 0
 pos = -11084, -5774, 16884
 archetype = space_dome
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_03
 rotate = 0, -90, 0
 pos = -10720, -5774, 16884
 archetype = space_dome
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_04
 rotate = 0, 0, 0
 pos = -10904, -5773, 16699
 archetype = space_dome
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_05
 rotate = 0, -180, 0
 pos = -10904, -5773, 17067
 archetype = space_dome
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_06
 rotate = 0, 0, 0
 pos = -10903, -5646, 16885
 archetype = dyson_generator
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_07
 rotate = 0, 90, -90
 spin = 0, 0, 1
 pos = -10903, -6290, 16885
 archetype = space_arch_generator
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_08
 rotate = 0, 0, -90
 pos = -10879, -6246, 16884
 archetype = com_sat
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_09
 rotate = -30, 0, -270
 pos = -10926, -6246, 16884
 archetype = com_sat
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_10
 spin = 0, 0, 1
 rotate = -90, 0, 0
 pos = -10903, -6219, 16885
 archetype = track_ring
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_11
 spin = 0, 0, -1
 rotate = -90, 0, 0
 pos = -10903, -6134, 16885
 archetype = track_ring
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_12
 rotate = 0, 0, -180
 pos = -10905, -5336, 16884
 archetype = nomad_dome_shield
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 [Object]
 nickname = Bw06_BB_Base_component_13
 rotate = 0, 0, 0
 pos = -10905, -5337, 16884
 archetype = nomad_dome_shield
-parent = Bw06_BB_BASE
+parent = Bw06_BB_Base
 </source>
 </data>
 
@@ -1291,122 +1291,122 @@ nickname = Br01_RYO_Base_01
 rotate = 0, 0, 0
 pos = 34871, 11950, 34871
 archetype = shipyard
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_02
 rotate = 90, 90, 0
 pos = 34891, 12077, 34503
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_03
 rotate = 90, 90, 0
 pos = 34837, 12077, 34503
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 
 [Object]
 nickname = Br01_RYO_Base_04
 rotate = 90, 90, 90
 pos = 34996, 12000, 34503
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_05
 rotate = 90, 90, 90
 pos = 34996, 11960, 34503
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_06
 rotate = 90, 90, 0
 pos = 34891, 11892, 34503
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_07
 rotate = 90, 90, 0
 pos = 34837, 11892, 34503
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_08
 rotate = 0, 0, 0
 pos = 34891, 118892, 34503
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_09
 rotate = 90, 90, 90
 pos = 34742, 11951, 34503
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_10
 rotate = 90, 90, 90
 pos = 34742, 11991, 34503
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_11
 rotate = 90, 90, 90
 pos = 34742, 11991, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_12
 rotate = 90, 90, 0
 pos = 34891, 12077, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_13
 rotate = 90, 90, 0
 pos = 34837, 12077, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_14
 rotate = 90, 90, 90
 pos = 34996, 12000, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_15
 rotate = 90, 90, 90
 pos = 34996, 11960, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_16
 rotate = 90, 90, 0
 pos = 34891, 11892, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_17
 rotate = 90, 90, 0
 pos = 34837, 11892, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_19
 rotate = 0, 0, 0
 pos = 34891, 118892, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_20
 rotate = 90, 90, 90
 pos = 34742, 11951, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 [Object]
 nickname = Br01_RYO_Base_21
 rotate = 90, 90, 90
 pos = 34742, 11991, 35235,6
 archetype = nav_buoy
-parent = Br01_09_Base
+parent = Br01_RYO_Base
 </source>
 </data>
 
