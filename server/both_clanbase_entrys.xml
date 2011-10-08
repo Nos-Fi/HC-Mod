@@ -988,84 +988,84 @@ nickname = Promethium_component_01
 rotate = 0, 75, 0
 pos = -32459, 4573, 59340
 archetype = space_industrial01
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_02
 rotate = 0, -105, 0
 pos = -31538, 4573, 59587
 archetype = space_industrial01
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_03
 rotate = 0, -75, 0
 pos = -31538, 4573, 59340
 archetype = space_industrial01
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_04
 rotate = 0, 105, 0
 pos = -32459, 4573, 59587
 archetype = space_industrial01
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_05
 rotate = 0, -15, 0
 pos = -32399, 4593, 59117
 archetype = mplatform
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_06
 rotate = 0, 15, 0
 pos = -31597, 4593, 59117
 archetype = mplatform
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_07
 rotate = 0, -165, 0
 pos = -32399, 4593, 59811
 archetype = mplatform
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_08
 rotate = 0, -195, 0
 pos = -31598, 4593, 59810
 archetype = mplatform
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_09
 rotate = -90, 15, 0
 pos = -31533, 4573, 59360
 archetype = dyson_generator
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_10
 rotate = -90, 15, 0
 pos = -32459, 4573, 59588
 archetype = dyson_generator
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_11
 rotate = -90, -15, 0
 pos = -31539, 4573, 59588
 archetype = dyson_generator
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_12
 rotate = -90, -15, 0
 pos = -32465, 4573, 59360
 archetype = dyson_generator
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_13
@@ -1073,7 +1073,7 @@ rotate = 90, -75, 0
 pos = -32345, 4573, 59556
 archetype = lair_platform
 spin = 0, -1, 0
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_14
@@ -1081,7 +1081,7 @@ rotate = 90, -105, 0
 pos = -32345, 4573, 59370
 spin = 0, -1, 0
 archetype = lair_platform
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_15
@@ -1089,7 +1089,7 @@ rotate = -90, -105, 0
 pos = -31653, 4573, 59556
 spin = 0, -1, 0
 archetype = lair_platform
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_16
@@ -1097,28 +1097,28 @@ rotate = -90, -75, 0
 pos = -31653, 4573, 59370
 spin = 0, -1, 0
 archetype = lair_platform
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_17
 rotate = 90, -45, 0
 pos = -31997, 4502, 59464
 archetype = space_industrial
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_18
 rotate = -90, 0, 0
 pos = -31997, 4644, 59464
 archetype = space_industrial
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 [Object]
 nickname = Promethium_component_19
 rotate = 180, -90, 0
 pos = -32037, 5150, 59464
 archetype = depot
-parent = Br03_05
+parent = Br03_nuclear_Base
 reputation = Nuclear_CLAN
 </source>
 </data>
