@@ -48,7 +48,12 @@ goto = St03b, St03b_to_EW06, gate_tunnel_bretonia
 </data>
 
 <data file="DATA\UNIVERSE\universe.ini" method="append">
+<section>
+[Time]
+seconds_per_day = 1800
+</section>
 <source>
+
 [Base]
 nickname = Ew06_Farway_Base
 system = EW06
@@ -296,7 +301,12 @@ goto = St01, St01_to_St02, gate_tunnel_bretonia
 </data>
 
 <data file="DATA\UNIVERSE\universe.ini" method="append">
+<section>
+[Time]
+seconds_per_day = 1800
+</section>
 <source>
+
 [Base]
 nickname = St02_02_Base
 system = st02
@@ -515,7 +525,12 @@ goto = St03b, St03b_dyson_airlock, gate_tunnel_bretonia
 </data>
 
 <data file="DATA\UNIVERSE\universe.ini" method="append">
+<section>
+[Time]
+seconds_per_day = 1800
+</section>
 <source>
+
 [Base]
 nickname = ST03_01_Base
 system = ST03
@@ -692,7 +707,12 @@ ids_info = 0 ;GENERATEXMLRES(nomadcity)
 </data>
 
 <data file="DATA\UNIVERSE\universe.ini" method="append">
+<section>
+[Time]
+seconds_per_day = 1800
+</section>
 <source>
+
 [Base]
 nickname = ST03B_02_Base
 system = ST03B
@@ -1259,7 +1279,12 @@ loadout = ST04_Fighter
 </data>
 
 <data file="DATA\UNIVERSE\universe.ini" method="append">
+<section>
+[Time]
+seconds_per_day = 1800
+</section>
 <source>
+
 [Base]
 nickname = St04_01_Base
 system = st04
@@ -1287,7 +1312,11 @@ system = st04
 strid_name = 0 ;GENERATESTRRES("OS Djoser")
 file = UNIVERSE\SYSTEMS\ST04\Bases\St04_04_Base.ini
 BGCS_base_run_by = W02bF35
+</source>
+</data>
 
+<data file="DATA\UNIVERSE\universe.ini" method="append">
+<source>
 [system]
 nickname = ST04
 file = systems\St04\St04.ini
@@ -1939,6 +1968,10 @@ parent = Li05_03_Base
 ### NEW STATIONS ###
 ## Rouge Staion ##
 <data file="DATA\UNIVERSE\UNIVERSE.ini" method="append">
+<section>
+[Time]
+seconds_per_day = 1800
+</section>
 <source>
 
 [Base]
@@ -2070,6 +2103,10 @@ fixture = Li0502_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors
 
 ## Shipyard ##
 <data file="DATA\UNIVERSE\UNIVERSE.ini" method="append">
+<section>
+[Time]
+seconds_per_day = 1800
+</section>
 <source>
 
 [Base]

@@ -692,6 +692,25 @@ ids_info = 1
 NavMapScale = 6
 msg_id_prefix = gcs_refer_system_RACE01
 
+[system]
+nickname = NEUTRAL
+file = systems\NEUTRAL\Neutral.ini
+pos = 16, 12
+visit = 0
+strid_name = 0 ;GENERATESTRRES("Neutral Zone")
+ids_info = 1
+NavMapScale = 6
+msg_id_prefix = gcs_refer_system_NEUTRAL
+</source>
+</data>
+
+<data file="DATA\UNIVERSE\universe.ini" method="append">
+<section>
+[Time]
+seconds_per_day = 1800
+</section>
+<source>
+
 [Base]
 nickname = RACE01_01_Base
 system = RACE01
@@ -705,16 +724,6 @@ system = RACE01
 strid_name = 0 ;GENERATESTRRES("End-Point")
 file = Universe\Systems\RACE01\Bases\RACE01_02_Base.ini
 BGCS_base_run_by = W02bF35
-
-[system]
-nickname = NEUTRAL
-file = systems\NEUTRAL\Neutral.ini
-pos = 16, 12
-visit = 0
-strid_name = 0 ;GENERATESTRRES("Neutral Zone")
-ids_info = 1
-NavMapScale = 6
-msg_id_prefix = gcs_refer_system_NEUTRAL
 
 [Base]
 nickname = NEUTRAL_01_Base

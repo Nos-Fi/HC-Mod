@@ -1411,7 +1411,12 @@ parent = Br01_RYO_Base
 </data>
 
 <data file="DATA\UNIVERSE\universe.ini" method="append">
+<section>
+[Time]
+seconds_per_day = 1800
+</section>
 <source>
+
 ### CLAN BASES ###
 
 [Base]
