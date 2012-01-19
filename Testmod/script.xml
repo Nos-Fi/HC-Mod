@@ -1,5 +1,5 @@
 <script>
-<header name="Hamburg City - Testmod R147" savesafe="true">
+<header name="Hamburg City - Testmod R157" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -147,39 +147,10 @@ wg = 0, HpWeapon01
 interface = 1
 
 [mPlayer]
-locked_gate = 2926089285
-locked_gate = 2926433351
-locked_gate = 2460445762
-locked_gate = 2263303234
-locked_gate = 2284213505
-locked_gate = 2293678337
-locked_gate = 2711806985
-locked_gate = 3051899916
-locked_gate = 2640501769
-locked_gate = 2541540999
-locked_gate = 2963174661
-locked_gate = 2314954114
-locked_gate = 2193365380
-locked_gate = 2350144385
-locked_gate = 2384076422
-locked_gate = 2919942795
-locked_gate = 2747303563
-locked_gate = 2749302404
-locked_gate = 3080351366
-locked_gate = 3157307012
-locked_gate = 2675819466
-locked_gate = 2694587652
-locked_gate = 3015759243
-locked_gate = 2254122510
-locked_gate = 2578962883
-locked_gate = 2444625543
-locked_gate = 2980035276
 can_dock = 1
 can_tl = 1
-ship_type_killed = 2913217602, 1
-ship_type_killed = 3038813056, 19
 total_cash_earned = 0.000000
-total_time_played = 20245.000000
+total_time_played = 0.000000
 </source>
 </data>
 
@@ -733,6 +704,161 @@ room_switch = ShipDealer
 name = IDS_HOTSPOT_SHIPDEALER_ROOM
 behavior = ExitDoor
 room_switch = ShipDealer
+</source>
+</data>
+
+<data file="data\universe\systems\LI01\LI01.ini" method="replace">
+<dest>
+goto = Li01, Li01b_to_Li01a_hole, gate_tunnel_bretonia
+</dest>
+<source>
+goto = Neutral, NEUTRAL_to_Li01_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="data\universe\systems\RH01\RH01.ini" method="replace">
+<dest>
+visit = 128
+goto = Bw05, Bw05_to_Rh01_hole, gate_tunnel_bretonia
+</dest>
+<source>
+visit = 0
+goto = Neutral, NEUTRAL_to_Rh01_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="data\universe\systems\KU01\KU01.ini" method="append">
+<section>
+goto = Ku03, Ku03_to_Ku01_hole, gate_tunnel_bretonia
+</section>
+<source>
+
+[Object]
+nickname = Ku01_to_NEUTRAL_hole
+pos = -4000, 0, 49500
+rotate = 0, 120, 0
+archetype = jumphole
+jump_effect = jump_effect_hole
+msg_id_prefix = gcs_refer_system_NEUTRAL
+ids_name = 458784
+ids_info = 66146
+visit = 0
+goto = Neutral, NEUTRAL_to_Ku01_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="data\universe\systems\BR01\BR01.ini" method="append">
+<section>
+goto = Br05, Br05_to_Br01_hole, gate_tunnel_bretonia
+</section>
+
+<source>
+
+[Object]
+nickname = Br01_to_NEUTRAL_hole
+msg_id_prefix = gcs_refer_system_NEUTRAL
+ids_name = 458784
+ids_info = 66146
+pos = -21000, 0, 57000
+rotate = 0, 120, 0
+archetype = jumphole
+jump_effect = jump_effect_hole
+visit = 0
+goto = Neutral, NEUTRAL_to_Br01_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="data\universe\systems\EW06\EW06.ini" method="append">
+<section>
+goto = Hi02, Hi02_to_Ew06_hole, gate_tunnel_bretonia
+visit = 0
+</section>
+<source>
+
+[Object]
+nickname = Ew06_to_NEUTRAL_hole
+msg_id_prefix = gcs_refer_system_NEUTRAL
+ids_name = 458784
+ids_info = 66146
+pos = 0, 0, 9000
+rotate = 0, 120, 0
+archetype = jumphole
+jump_effect = jump_effect_hole
+visit = 0
+goto = Neutral, NEUTRAL_to_Ew06_hole, gate_tunnel_bretonia
+</source>
+</data>
+
+<data file="data\universe\systems\neutral\neutral.ini" method="append">
+<section>
+goto = Ew04, Ew04_to_NEUTRAL_hole, gate_tunnel_bretonia
+</section>
+<source>
+
+[Object]
+nickname = NEUTRAL_to_Li01_hole
+ids_name = 0 ;GENERATESTRRES("New York")
+pos = 2700, 0, -10000
+archetype = jumphole
+jump_effect = jump_effect_hole
+ids_info = 60212
+visit = 0
+goto = Li01, Li01b_to_Li01a_hole, gate_tunnel_bretonia
+
+[Object]
+nickname = NEUTRAL_to_Rh01_hole
+ids_name = 260763
+msg_id_prefix = gcs_refer_system_Rh01
+pos = 2400, 0, -10200
+archetype = jumphole
+jump_effect = jump_effect_hole
+ids_info = 66146
+visit = 0
+goto = Rh01, Rh01_to_Bw05_hole, gate_tunnel_bretonia
+
+[Object]
+nickname = NEUTRAL_to_Ku01_hole
+ids_name = 0 ;GENERATESTRRES("New Tokio")
+msg_id_prefix = gcs_refer_system_Ku01
+pos = 2100, 0, -10400
+archetype = jumphole
+jump_effect = jump_effect_hole
+ids_info = 66146
+visit = 0
+goto = Ku01, Ku01_to_NEUTRAL_hole, gate_tunnel_bretonia
+
+[Object]
+nickname = NEUTRAL_to_Br01_hole
+ids_name = 0 ;GENERATESTRRES("New London")
+msg_id_prefix = gcs_refer_system_Br01
+pos = 3000, 0, -9800
+archetype = jumphole
+jump_effect = jump_effect_hole
+ids_info = 66146
+visit = 0
+goto = Br01, Br01_to_NEUTRAL_hole, gate_tunnel_bretonia
+
+[Object]
+nickname = NEUTRAL_to_Ew06_hole
+ids_name = 0 ;GENERATESTRRES("Unknown")
+msg_id_prefix = gcs_refer_system_Ew06
+pos = 3300, 0, -9600
+archetype = jumphole
+jump_effect = jump_effect_hole
+ids_info = 66146
+visit = 0
+goto = Ew06, Ew06_to_NEUTRAL_hole, gate_tunnel_bretonia
+
+[Object]
+nickname = JH_Rh01_IMPERIUM_Base
+ids_name = 0 ;GENERATESTRRES("Rh01_IMPERIUM_Base")
+ids_info = 66146
+dock_with = Rh01_IMPERIUM_Base 
+pos = 2700, 500, -10000
+rotate = 0, -45, 0
+archetype = jumphole
+behavior = NOTHING
+
 </source>
 </data>
 
