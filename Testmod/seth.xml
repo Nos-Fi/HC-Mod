@@ -1,0 +1,18 @@
+<script>
+<data file="Data\Ships\Shiparch.ini" method="sectionreplace">
+<section>
+nickname = or_elite_msn01
+</section>
+<dest>
+mass = 100.000000
+</dest>
+<source>
+mass = 150.000000
+</source> 
+<dest>
+strafe_power_usage = 200
+</dest>
+<source>
+strafe_power_usage = 2
+</source>
+</script>
