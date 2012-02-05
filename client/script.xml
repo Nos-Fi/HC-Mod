@@ -96,13 +96,6 @@ and some surprises :)
 </item>
 </option>
 
-<option name="Activate Global Server Workaround v1.0" id="4" safesave="false">
-<item id="0" name="No">
-</item>
-<item id="1" name="Yes">
-</item>
-</option>
-
 <option name="Log chat-window to chat.log" id="5" safesave="false">
 <item id="0" name="No">
 </item>
@@ -402,15 +395,6 @@ type = FREIGHTER
 
 
 <data file="EXE\dacom.ini" method="copyfile" sourcefile="EXE\dacom_details.ini" scanfile="false" options="6:1">
-</data>
-
-<data file="EXE\dacom.ini" method="append" options="4:1">
-<section>
-[Libraries]
-</section>
-<source>
-gls_workaround.dll
-</source>
 </data>
 
 <data file="EXE\hc_client.ini" method="sectionreplace" options="5:1">
