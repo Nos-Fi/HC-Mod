@@ -21,15 +21,6 @@ MaxBandWidth
 		50  = Broadband: 1mbit
 		100 = Broadband: >1mbit
 
-3DSound
-	Defines whether 3D-sound is enabled or disabled (WARNING! enabled causes crashes)
-		Values: yes or no
-
-ScreenWidth & ScreenHeight
-	Your screen- width and height in pixels
-		Example: ScreenWidth=1440
-			 ScreenHeight=900
-
 NumberOfChatHistoryLines
 	Maximum number of lines displayed in the chat-window
 		Values:
@@ -75,3 +66,14 @@ CrossColor
 		5  = pink
 		6  = yellow
 		99 = ???
+
+hudshifting
+	Controls the HUD-shifting (moving to HUD to the right position on widescreens)
+		Values:
+		auto = turn on
+		none = turn off
+
+size
+	Your screen- width and height in pixels
+		Example: Width 1440, Height 900
+				==> Value: 1440x900

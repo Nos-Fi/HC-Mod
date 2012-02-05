@@ -144,14 +144,6 @@ and some surprises :)
 </item>
 </option>
 
-
-<option name="Disable 3D Sound at FL Startup" id="11" safesave="false">
-<item id="0" name="Yes">
-</item>
-<item id="1" name="No (crash bug warning)">
-</item>
-</option>
-
 <option name="General Setting: Ingame Resolution" id="12" safesave="false">
 <item id="0" name="Autodetect (Destop Resolution)">
 </item>
@@ -482,18 +474,6 @@ MaxBandWidth=100
 </data>
 
 <data file="EXE\d3d8.dll" method="copyfile" sourcefile="EXE\d3d8_.dll" options="9:1">
-</data>
-
-<data file="EXE\hc_client.ini" method="sectionreplace" options="11:1">
-<section>
-[Settings]
-</section>
-<dest>
-3DSound=no
-</dest>
-<source>
-3DSound=yes
-</source>
 </data>
 
 <data file="EXE\hc_client.ini" method="sectionreplace" options="12:1">
