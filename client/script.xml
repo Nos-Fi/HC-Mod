@@ -396,27 +396,6 @@ type = FREIGHTER
 <data file="EXE\dacom.ini" method="copyfile" sourcefile="EXE\dacom_details.ini" scanfile="false" options="6:1">
 </data>
 
-### TIZONA/RAPIER SWITCH ###
-
-<data file="DATA\FX\effects.ini" method="append" options="2:1">
-<section>
-[Effect]
-nickname = pi_pulse_02_proj
-</section>
-<source>
-vis_effect = pi_pulse_02_proj
-</source>
-</data>
-
-<data file="DATA\FX\effects.ini" method="append" options="2:1">
-<section>
-[Effect]
-nickname = pi_pulse_03_proj
-</section>
-<source>
-vis_effect = pi_pulse_03_proj
-</source>
-</data>
 <data file="EXE\hc_client.ini" method="sectionreplace" options="5:1">
 <section>
 [Settings]
@@ -623,6 +602,28 @@ disableDepartingPlayer=0
 <source>
 disableNewPlayer=1
 disableDepartingPlayer=1
+</source>
+</data>
+
+### TIZONA/RAPIER SWITCH ###
+
+<data file="DATA\FX\effects.ini" method="append" options="2:1">
+<section>
+[Effect]
+nickname = pi_pulse_02_proj
+</section>
+<source>
+vis_effect = pi_pulse_02_proj
+</source>
+</data>
+
+<data file="DATA\FX\effects.ini" method="append" options="2:1">
+<section>
+[Effect]
+nickname = pi_pulse_03_proj
+</section>
+<source>
+vis_effect = pi_pulse_03_proj
 </source>
 </data>
 
