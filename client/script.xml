@@ -484,6 +484,8 @@ MaxBandWidth=100
 </data>
 <data file="EXE\d3d9.dll" method="copyfile" sourcefile="EXE\d3d9_.dll" options="9:1">
 </data>
+<data file="EXE\d3dx9_26.dll" method="copyfile" sourcefile="EXE\d3dx9_26_.dll" options="9:1">
+</data>
 
 <data file="EXE\hc_client.ini" method="sectionreplace" options="12:1">
 <section>
