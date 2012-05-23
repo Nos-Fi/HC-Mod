@@ -36,14 +36,6 @@ TimeChatDisplay
 		Values:
 		Time in millisecounds, 1 secound = 1000ms
 
-MultiplayerQuestions
-	Bypasses the questions asked when the multiplayer-button in the main-menu is pressed
-		Values:
-		0 = show all
-		1 = disable ESRB but ask type
-		2 = auto-select inet and disable ESRB
-		3 = auto-select lan and disable ESRB
-
 disableNewPlayer & disableDepartingPlayer
 	Disables "New Player M1C" and "Departing Player M1C" messages ingame.
 		Values:
