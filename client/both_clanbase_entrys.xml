@@ -6,6 +6,216 @@
 ## ClanBase Entrys
 ## deaktivierte Clanbasen werden auf Rep li_lsf_grp eingestellt
 
+<xmldata name="NXS_CLANBASE">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="96" mask="-31" def="-1"/><TEXT>Clanbasis: [NXS]Bismarck</TEXT><PARA/><TEXT>Gruppierung: Nexus-Staffel</TEXT><PARA/><PARA/><TRA data="1" mask="-31" def="-2"/><TEXT>VERBÜNDETE:</TEXT><PARA/><TRA data="96" mask="-31" def="-1"/><TEXT>Händler, Antipiraten</TEXT><PARA/><PARA/><TRA data="1" mask="-31" def="-2"/><TEXT>FEINDE:</TEXT><PARA/><TRA data="96" mask="-31" def="-1"/><TEXT>Piraten, Terroristen</TEXT><PARA/><PARA/><TEXT>Die Nexus-Staffel wurde am 27. Juni 2007 auf dem DFLS gegründet und schrieb am 1. Juli 2007 auf dem HHC ihre offizielle Clanvorstellung. Durch groß angelegte Rekrutierungsaufwendungen konnte sich die Staffel über großen Zulauf freuen und somit schon im Oktober 2007 ihre Reputation auf dem HHC vorzeigen. Mit guten aktiven Membern konnte auch im Anschluss gleich die Base am 13. November 2007 auf den Namen Bismarck getauft werden. Mit Reputation [Nexus-Staffel] und der Base Bismarck, konnte sich nun die Nexus-Staffel aufbauen, organisieren und weitere Rekruten für sich gewinnen.</TEXT><PARA/><PARA/><TEXT>Durch die erhöhte Aktivität der Nexus-Staffel wurden aber auch Feinde aufmerksam und erhöhten ihre Angriffe auf den Staffelstützpunkt Bismarck im Heimatsystem Frankfurt, was eine höhere Flottenstärke erforderte. Schließlich wurde am 27. März 2008 der Stolz der Staffel, nämlich das Schlachtschiff Tirpitz in Dienst gestellt. Epische Schlachten rund um den Handelsposten Mainz waren die Folge, mehrere angreifende Schiffe der STE/SLF Kampfverbände wurden nach harten Kämpfen und schweren Verlusten der Nexus-Staffel zurück nach Honshu gedrängt. Neue Verbündete, unter anderem die -=TD=-, ~AuW~, Rheinwehr und &lt;F2G&gt;, wurden gesucht und es wurden Bündnisse geschlossen. Um sich breiter aufstellen zu können, wurde gar eine Fusion der Staffel mit [MoD] durchgeführt.</TEXT><PARA/><PARA/><TEXT>Ein Gegenangriff war unausweichlich. Im August 2008 war es soweit. Eine riesige Flotte bewegte sich auf das System Honshu zu, in dem die STE und SLF Base standen. Nach schier endlos erscheinenden Kämpfen wurde die STE Base SinCity mit schweren Beschädigungen gerade noch erfolgreich verteidigt, doch für die Base Andromeda von der SLF kam jede Hilfe zu spät. Mit diesem Sieg flog die Flotte zurück in ihr Heimatsystem, um den Erfolg zu feiern.</TEXT><PARA/><PARA/><TEXT>Doch die Freude währte nicht lang, kurz darauf kam es zu schweren Auseinandersetzungen innerhalb der Clanführung. Arik warf mit haltlosen Beschuldigungen um sich, aktive Member kamen unter den Hammer und traten aus der Staffel aus und nur wenige Member glaubten Arik. So spaltete sich der Clan kurzfristig. Nach der Rückkehr des Gründers und damaligen, kurz abwesenden, Leaders konnte Nexus wiedergegründet werden. Arik und seine Anhänger blieben dieser neuen Staffel fern. Nach dieser Krise wurde ein demokratisches System der Clanführung eingeführt, um das weitere Bestehen der Staffel zu sichern.</TEXT><PARA/><PARA/><TEXT>Nun, da die Staffel neuen Mut gefasst hatte und einer neuen Zukunft entgegenblicken, verlegte Nexus die Heimatbasis Bismarck nach Neu-Berlin. Es war ein großes technisches Meisterwerk, die alten Antriebe der Bismarck wieder in Gang zusetzten und mit Starthilfe der Tirpitz den gigantischen Stahlkoloss zu bewegen. Nach diesem anstrengenden Unterfangen und dem erfolgreichen Ankommen in Neu-Berlin wurde der Staffel mehr Prestige und Aufmerksamkeit zuteil, und das nicht nur von der Rheinlandregierung.</TEXT><PARA/><PARA/><TEXT>Neue Schlachten folgten, es kamen und gingen Verbündete wie auch Feinde, doch ein Schatten legte sich über das Sirius des HHC. Dunkle Wolken durchzogen die eigenen Reihen. Zuerst lehnte sich die HA gegen die stolze Staffel auf und verbündete sich mit Piraten und verschwand dann in den Weiten des Alls. Ganze Clans hörten auf zu existieren und es wurden immer weniger Freelancer in Sirius gesichtet. Doch NXS hielt dem Vergessen stand.</TEXT><PARA/><PARA/><TEXT>Nun steht die Nexus-Staffel halbwegs alleine im Nichts und muss sich erbitterten Attacken erwehren. Auf der Suche nach einer guten Festung durchstreiften Spähstaffeln ganz Sirius und fanden eine verlassene Nomadenstation in Galileo. Nach der Instandsetzung der Basis wurde die Bismarck, in Geleitschutz der angeschlagenen Tirpitz, dorthin verlegt und ein neues Bollwerk gegen die dunklen Machenschaften etabliert. Immer auf der Seite wahrer Händler und rechtschaffenen Piloten besteht die Nexus-Staffel, als Händler Clan mit großartiger Kampfstaffel, bis heute. Die Tapferkeit und Unerschrockenheit ihrer Piloten wirst auch vielleicht Du einmal zu schätzen wissen, wenn sie dich und deine Fracht gerettet haben.</TEXT><PARA/><PARA/><PARA/><TEXT>Clantag: [NXS]</TEXT><PARA/><TEXT>Heimatsystem: Galileo</TEXT><PARA/><TEXT>Operationsbasis: [NXS]Bismarck</TEXT><PARA/><TEXT>Schlachtschiff: [NXS]Tirpitz</TEXT><PARA/><TEXT>www.nexus-staffel.de</TEXT><PARA/><POP/></RDL>
+</xmldata>
+
+<data file="DATA\UNIVERSE\Systems\Iw06\Iw06.ini" method="append">
+<source>
+
+[Object]
+nickname = Iw06_NXS_Base
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+pos = 32000, -5000, 3000
+archetype = r_battleship
+loadout = clan_rh_battleship
+difficulty_level = 30
+space_costume = pl_female4_head, br_female_elite_body
+voice = atc_leg_f01
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Iw06_NXS_Base
+base = Iw06_NXS_Base
+reputation = NEXUS_CLAN
+visit = 0
+
+[Object]
+nickname = Iw06_component_01
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, 0, 90
+pos = 31999.5, -5035, 2568
+archetype = space_habitat_wide
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_02
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 90, 0, 0
+pos = 31943, -5030, 2795
+archetype = space_habitat_wide
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_03
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 90, 0, 0
+pos = 32057, -5030, 2795
+archetype = space_habitat_wide
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_04
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+pos = 32000, -5017, 3278
+archetype = lair_shield_gen
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_05
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, 30, 90
+pos = 32061, -5017, 3250
+archetype = lair_platform
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_06
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, 30, -90
+pos = 31939, -5017, 3250
+archetype = lair_platform
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_07
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+spin = 0, 0, 0.25
+rotate = 180, 0, 0
+pos = 32000, -5020, 3287
+Archetype = space_arch_generator
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_08
+ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+pos = 32000, -5000, 3000
+archetype = planet_storm_5000
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_09
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, 105, 0
+pos = 32450, -4976, 3049
+atmosphere_range = 205
+archetype = dyson_city_platform
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_10
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, 15, 0
+pos = 32455, -5112, 3123
+archetype = depot
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_11
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 90, 105, 0
+pos = 32441.5, -5271, 2984
+archetype = space_habitat_wide
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_12
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, 195, 0
+pos = 32433, -4780, 3042
+archetype = gas_miner_old
+loadout = gas_miner_old_co_01
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_13
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+spin = 0, -0.75, 0
+rotate = 0, 15, 0
+pos = 32411.5, -4671.5, 2963.25
+archetype = com_sat
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_14
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+spin = 0, 0.25, 0
+rotate = 0, 105, 0
+pos = 32471, -4656, 3089
+archetype = space_habitat_wide
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_15
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, 105, 0
+pos = 32471, -4634, 3089
+archetype = space_habitat_tall
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_16
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, -15, 0
+pos = 32545, -4978, 2620
+archetype = track_ring
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_17
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 90, -15, 0
+pos = 32545, -4978, 2620
+archetype = track_ring
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_18
+ids_name = 0 ;GENERATESTRRES("Außenposten der Nomaden")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, 75, 0
+pos = 32545, -4978, 2620
+archetype = track_ring
+parent = Iw06_NXS_Base
+
+[Object]
+nickname = Iw06_component_19
+ids_name = 458787
+ids_info = 0
+pos = 32545, -4978, 2620
+atmosphere_range = 120
+archetype = blhazard
+
+[Object]
+nickname = Iw06_component_20
+ids_name = 0 ;GENERATESTRRES("[NXS]Tirpitz")
+ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
+rotate = 0, 127, 0
+pos = 32703.5, -4971, 3400
+archetype = o_osiris
+loadout = rh_battleship
+parent = Iw06_NXS_Base
+
+</source>
+</data>
+
 <data file="DATA\UNIVERSE\Systems\Rh01\Rh01.ini" method="append">
 <source>
 	
@@ -52,120 +262,6 @@ rotate = 0, 0, 0
 pos = 59612, -4030, 31494 
 archetype = space_beaml_dmg 
 parent = Rh01_IMPERIUM_Base 
-
-[Object] 
-nickname = Rh01_NXS_base 
-pos = 54644,8000,-14355 
-rotate = 50,-90,-50 
-ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
-archetype = r_battleship 
-loadout = clan_rh_battleship 
-difficulty_level = 30 
-space_costume = benchmark_male_head, benchmark_male_body 
-voice = atc_leg_m01 
-behavior = NOTHING 
-pilot = pilot_crazy 
-dock_with = Rh01_NXS_base 
-base = Rh01_NXS_base 
-reputation = NEXUS_CLAN
-
-[Object] 
-nickname = component_01 
-ids_name = 1 
-pos = 55076,8000,-14628 
-Archetype = space_dome 
-parent = Rh01_NXS_base 
-
-[Object] 
-nickname = component_02 
-ids_name = 1 
-pos = 55076,8000,-14865 
-Archetype = space_dome 
-parent = Rh01_NXS_base 
-
-[Object] 
-nickname = component_03 
-ids_name = 1 
-pos = 55076,7969,-14355 
-rotate = 90,0,90 
-Archetype = space_habitat_wide 
-parent = Rh01_NXS_base 
-
-[Object] 
-nickname = component_04 
-ids_name = 1 
-pos = 54640,8112,-14357 
-Archetype = space_habitat_tall 
-parent = Rh01_NXS_base 
-54644,8000,-14355 
-
-[Object] 
-nickname = component_05 
-ids_name = 1 
-pos = 54400,7980,-14355 
-Archetype = lair_shield_gen 
-parent = Rh01_NXS_base 
-rotate = 90, 0, 90 
-
-[Object] 
-nickname = component_06 
-ids_name = 1 
-pos = 54845,7970,-14411 
-Archetype = space_habitat_wide 
-parent = Rh01_NXS_base 
-rotate = 0, 0, 90 
-
-[Object] 
-nickname = component_07 
-ids_name = 1 
-pos = 54845,7970,-14298 
-Archetype = space_habitat_wide 
-parent = Rh01_NXS_base 
-rotate = 0, 0, 90 
-
-[Object] 
-nickname = component_08 
-ids_name = 1 
-pos = 54875,8024,-14355 
-Archetype = com_sat 
-parent = Rh01_NXS_base 
-
-[Object] 
-nickname = component_10 
-ids_name = 1 
-pos = 54405,7985,-14412 
-Archetype = lair_platform 
-parent = Rh01_NXS_base 
-rotate = 90, 0, 90 
-
-[Object] 
-nickname = component_11 
-ids_name = 1 
-pos = 54405,7985,-14298 
-Archetype = lair_platform 
-parent = Rh01_NXS_base 
-rotate = 270, 0, 90 
-
-[Object] 
-nickname = component_12 
-ids_name = 1 
-pos = 54403,8046,-14355 
-Archetype = com_sat 
-parent = Rh01_NXS_base 
-
-[Object] 
-nickname = component_13 
-ids_name = 1 
-pos = 55076,7890,-14865 
-Archetype = space_tanksx4 
-parent = Rh01_NXS_base 
-
-[Object] 
-nickname = component_14 
-ids_name = 1 
-pos = 55076,7890,-14628 
-Archetype = space_tanksx4 
-parent = Rh01_NXS_base
 </source>
 </data>
 
@@ -1419,8 +1515,8 @@ file = Universe\clan_bases\STE_Base.ini
 BGCS_base_run_by = W02bF35
 
 [Base]
-nickname = Rh01_NXS_base
-system = Rh01
+nickname = Iw06_NXS_Base
+system = Iw06
 strid_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
 file = Universe\clan_bases\NEXUS_Base.ini
 BGCS_base_run_by = W02bF35
@@ -3010,7 +3106,7 @@ character_density = 3
 fixture = ste_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
 
 [MBase]
-nickname = Rh01_NXS_base
+nickname = Iw06_NXS_Base
 local_faction = NEXUS_CLAN
 diff = 30
 [MVendor]
