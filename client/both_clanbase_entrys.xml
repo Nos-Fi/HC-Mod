@@ -5,6 +5,15 @@
 
 ## ClanBase Entrys
 ## deaktivierte Clanbasen werden auf Rep li_lsf_grp eingestellt
+## Muster für zerstöte Basen:
+## [Object]
+## nickname = Bw06_GOH_BASE
+## pos = -11115, -3703, 11563
+## archetype = space_police_dmg
+## rotate = 0, -63.9987, 0
+## ids_name = 0 ;GENERATESTRRES("Purgatorium")
+
+
 
 <xmldata name="NXS_CLANBASE">
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="96" mask="-31" def="-1"/><TEXT>Clanbasis: [NXS]Bismarck</TEXT><PARA/><TEXT>Gruppierung: Nexus-Staffel</TEXT><PARA/><PARA/><TRA data="1" mask="-31" def="-2"/><TEXT>VERBÜNDETE:</TEXT><PARA/><TRA data="96" mask="-31" def="-1"/><TEXT>Händler, Antipiraten</TEXT><PARA/><PARA/><TRA data="1" mask="-31" def="-2"/><TEXT>FEINDE:</TEXT><PARA/><TRA data="96" mask="-31" def="-1"/><TEXT>Piraten, Terroristen</TEXT><PARA/><PARA/><TEXT>Die Nexus-Staffel wurde am 27. Juni 2007 auf dem DFLS gegründet und schrieb am 1. Juli 2007 auf dem HHC ihre offizielle Clanvorstellung. Durch groß angelegte Rekrutierungsaufwendungen konnte sich die Staffel über großen Zulauf freuen und somit schon im Oktober 2007 ihre Reputation auf dem HHC vorzeigen. Mit guten aktiven Membern konnte auch im Anschluss gleich die Base am 13. November 2007 auf den Namen Bismarck getauft werden. Mit Reputation [Nexus-Staffel] und der Base Bismarck, konnte sich nun die Nexus-Staffel aufbauen, organisieren und weitere Rekruten für sich gewinnen.</TEXT><PARA/><PARA/><TEXT>Durch die erhöhte Aktivität der Nexus-Staffel wurden aber auch Feinde aufmerksam und erhöhten ihre Angriffe auf den Staffelstützpunkt Bismarck im Heimatsystem Frankfurt, was eine höhere Flottenstärke erforderte. Schließlich wurde am 27. März 2008 der Stolz der Staffel, nämlich das Schlachtschiff Tirpitz in Dienst gestellt. Epische Schlachten rund um den Handelsposten Mainz waren die Folge, mehrere angreifende Schiffe der STE/SLF Kampfverbände wurden nach harten Kämpfen und schweren Verlusten der Nexus-Staffel zurück nach Honshu gedrängt. Neue Verbündete, unter anderem die -=TD=-, ~AuW~, Rheinwehr und &lt;F2G&gt;, wurden gesucht und es wurden Bündnisse geschlossen. Um sich breiter aufstellen zu können, wurde gar eine Fusion der Staffel mit [MoD] durchgeführt.</TEXT><PARA/><PARA/><TEXT>Ein Gegenangriff war unausweichlich. Im August 2008 war es soweit. Eine riesige Flotte bewegte sich auf das System Honshu zu, in dem die STE und SLF Base standen. Nach schier endlos erscheinenden Kämpfen wurde die STE Base SinCity mit schweren Beschädigungen gerade noch erfolgreich verteidigt, doch für die Base Andromeda von der SLF kam jede Hilfe zu spät. Mit diesem Sieg flog die Flotte zurück in ihr Heimatsystem, um den Erfolg zu feiern.</TEXT><PARA/><PARA/><TEXT>Doch die Freude währte nicht lang, kurz darauf kam es zu schweren Auseinandersetzungen innerhalb der Clanführung. Arik warf mit haltlosen Beschuldigungen um sich, aktive Member kamen unter den Hammer und traten aus der Staffel aus und nur wenige Member glaubten Arik. So spaltete sich der Clan kurzfristig. Nach der Rückkehr des Gründers und damaligen, kurz abwesenden, Leaders konnte Nexus wiedergegründet werden. Arik und seine Anhänger blieben dieser neuen Staffel fern. Nach dieser Krise wurde ein demokratisches System der Clanführung eingeführt, um das weitere Bestehen der Staffel zu sichern.</TEXT><PARA/><PARA/><TEXT>Nun, da die Staffel neuen Mut gefasst hatte und einer neuen Zukunft entgegenblicken, verlegte Nexus die Heimatbasis Bismarck nach Neu-Berlin. Es war ein großes technisches Meisterwerk, die alten Antriebe der Bismarck wieder in Gang zusetzten und mit Starthilfe der Tirpitz den gigantischen Stahlkoloss zu bewegen. Nach diesem anstrengenden Unterfangen und dem erfolgreichen Ankommen in Neu-Berlin wurde der Staffel mehr Prestige und Aufmerksamkeit zuteil, und das nicht nur von der Rheinlandregierung.</TEXT><PARA/><PARA/><TEXT>Neue Schlachten folgten, es kamen und gingen Verbündete wie auch Feinde, doch ein Schatten legte sich über das Sirius des HHC. Dunkle Wolken durchzogen die eigenen Reihen. Zuerst lehnte sich die HA gegen die stolze Staffel auf und verbündete sich mit Piraten und verschwand dann in den Weiten des Alls. Ganze Clans hörten auf zu existieren und es wurden immer weniger Freelancer in Sirius gesichtet. Doch NXS hielt dem Vergessen stand.</TEXT><PARA/><PARA/><TEXT>Nun steht die Nexus-Staffel halbwegs alleine im Nichts und muss sich erbitterten Attacken erwehren. Auf der Suche nach einer guten Festung durchstreiften Spähstaffeln ganz Sirius und fanden eine verlassene Nomadenstation in Galileo. Nach der Instandsetzung der Basis wurde die Bismarck, in Geleitschutz der angeschlagenen Tirpitz, dorthin verlegt und ein neues Bollwerk gegen die dunklen Machenschaften etabliert. Immer auf der Seite wahrer Händler und rechtschaffenen Piloten besteht die Nexus-Staffel, als Händler Clan mit großartiger Kampfstaffel, bis heute. Die Tapferkeit und Unerschrockenheit ihrer Piloten wirst auch vielleicht Du einmal zu schätzen wissen, wenn sie dich und deine Fracht gerettet haben.</TEXT><PARA/><PARA/><PARA/><TEXT>Clantag: [NXS]</TEXT><PARA/><TEXT>Heimatsystem: Galileo</TEXT><PARA/><TEXT>Operationsbasis: [NXS]Bismarck</TEXT><PARA/><TEXT>Schlachtschiff: [NXS]Tirpitz</TEXT><PARA/><TEXT>www.nexus-staffel.de</TEXT><PARA/><POP/></RDL>
@@ -212,7 +221,6 @@ pos = 32703.5, -4971, 3400
 archetype = o_osiris
 loadout = rh_battleship
 parent = Iw06_NXS_Base
-
 </source>
 </data>
 
@@ -222,48 +230,10 @@ parent = Iw06_NXS_Base
 [Object] 
 nickname = Rh01_IMPERIUM_Base
 pos = 59550, -4000, 31652 
-ids_info = 0 
-behavior = NOTHING 
-pilot = pilot_crazy
-dock_with = Rh01_IMPERIUM_Base 
-base = Rh01_IMPERIUM_Base 
-reputation = IMPERIUM_CLAN 
 rotate = 0, 0, 0 
-archetype = r_battleship 
+archetype = space_police_dmg 
 ids_name = 0 ;GENERATESTRRES("ISD II Redoubtable")
-loadout = clan_rh_battleship 
-difficulty_level = 30 
-space_costume = benchmark_male_head, benchmark_male_body 
-voice = atc_leg_m01 
-  
-[Object] 
-nickname = Rh01_space_habitat_wide_02 
-ids_name = 0 
-ids_info = 0 
-rotate = 0, 0, 90 
-pos = 59549, -4036, 31212 
-archetype = space_habitat_wide 
-parent = Rh01_IMPERIUM_Base 
-  
-[Object] 
-nickname = Rh01_space_beaml_dmg_01 
-ids_name = 0 
-ids_info = 0 
-rotate = 0, 0, 0 
-pos = 59490, -4030, 31494 
-archetype = space_beaml_dmg 
-parent = Rh01_IMPERIUM_Base 
-  
-[Object] 
-nickname = Rh01_space_beaml_dmg_02 
-ids_name = 0 
-ids_info = 0 
-rotate = 0, 0, 0 
-pos = 59612, -4030, 31494 
-archetype = space_beaml_dmg 
-parent = Rh01_IMPERIUM_Base 
 </source>
-</data>
 
 <data file="DATA\UNIVERSE\Systems\Ku04\Ku04.ini" method="append">
 <source>
@@ -800,7 +770,6 @@ ids_name = 0 ;GENERATESTRRES("New Providence")
 </source>
 </data>
 
-
 <data file="DATA\UNIVERSE\Systems\EW04\ew04.ini" method="append"> 
 <source> 
 	
@@ -888,138 +857,9 @@ archetype = space_police_dmg
 [Object]
 nickname = EW01_oso_base
 pos = 1723, 65000, -1378
-ids_info = 0
-behavior = NOTHING
-pilot = pilot_crazy
-dock_with = EW01_oso_Base
-base = EW01_oso_Base
-reputation = oso_clan
 rotate = 0, -90, 0
-archetype = smallstation1_old
+archetype = space_police_dmg
 ids_name = 0 ;GENERATESTRRES("~ Conduct Of War ~")
-loadout = clan_smallstation1_old_hc
-difficulty_level = 30
-space_costume = ku_kym_head, ku_kym_body
-voice = atc_leg_f01 
-
-[Object]
-nickname = oso_component01
-rotate = 0, 90, 180
-pos = 1724, 64695, -1378
-archetype = smallstation1_old
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component02
-rotate = -90, 0, 90
-pos = 1770, 64847, -1703
-archetype = space_dome
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component03
-rotate = 90, 0, -90
-pos = 1770, 64847, -1053
-archetype = space_dome
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component04
-rotate = 0, 0, 0
-pos = 1770, 64847, -1703
-archetype = baxter_hazard
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component05
-rotate = 0, 0, 0
-pos = 1770, 64847, -1053
-archetype = baxter_hazard
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component06
-rotate = 0, 0, 0
-pos = 1476, 64836, -1672
-archetype = dyson_generator
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component07
-rotate = 0, 0, 0
-pos = 1476, 64836, -1084
-archetype = dyson_generator
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component08
-rotate = 0, 0, 0
-pos = 1513, 65175, -1378
-archetype = planet_storm_5000
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component09
-rotate = 0, 0, 0
-pos = 1933, 65175, -1378
-archetype = planet_storm_5000
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component10
-rotate = 0, 0, 180
-pos = 1624, 64865, -1492
-archetype = gas_collector
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component11
-rotate = 0, -180, 0
-pos = 1623, 64830, -1264
-archetype = gas_collector
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component12
-rotate = 0, -45, -90
-pos = 1723, 65017, -1523
-archetype = m10_buoy
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component13
-rotate = 0, -45, -90
-pos = 1723, 65017, -1567
-archetype = m10_buoy
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component14
-rotate = 0, 45, -90
-pos = 1723, 65017, -1233
-archetype = m10_buoy
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component15
-rotate = 0, 45, -90
-pos = 1723, 65017, -1190
-archetype = m10_buoy
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component16
-rotate = 0, 0, -135
-pos = 1868, 65017, -1378
-archetype = m10_buoy
-parent = EW01_oso_base
-
-[Object]
-nickname = oso_component17
-rotate = 0, 0, -135
-pos = 1911, 65017, -1378
-archetype = m10_buoy
-parent = EW01_oso_base
 </source> 
 </data> 
 
@@ -1031,135 +871,7 @@ nickname = Br03_nuclear_Base
 ids_name = 0 ;GENERATESTRRES("[Promethium]")
 pos = -31957, 4000, 59464
 rotate = 0, -90, 0
-archetype = depot
-loadout = clan_depot_hc
-dock_with = br03_nuclear_Base
-base = br03_nuclear_Base
-behavior = NOTHING
-pilot = pilot_crazy
-visit = 0
-reputation = nuclear_clan
-voice = atc_leg_m01
-space_costume = pi_pirate3_head, pl_male3_journeyman_body, prop_neuralnet_F_right
-
-[Object]
-nickname = Promethium_component_01
-rotate = 0, 75, 0
-pos = -32459, 4573, 59340
-archetype = space_industrial01
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_02
-rotate = 0, -105, 0
-pos = -31538, 4573, 59587
-archetype = space_industrial01
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_03
-rotate = 0, -75, 0
-pos = -31538, 4573, 59340
-archetype = space_industrial01
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_04
-rotate = 0, 105, 0
-pos = -32459, 4573, 59587
-archetype = space_industrial01
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_05
-rotate = 0, -15, 0
-pos = -32399, 4593, 59117
-archetype = mplatform
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_06
-rotate = 0, 15, 0
-pos = -31597, 4593, 59117
-archetype = mplatform
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_07
-rotate = 0, -165, 0
-pos = -32399, 4593, 59811
-archetype = mplatform
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_08
-rotate = 0, -195, 0
-pos = -31598, 4593, 59810
-archetype = mplatform
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_09
-rotate = -90, 15, 0
-pos = -31533, 4573, 59360
-archetype = dyson_generator
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_10
-rotate = -90, 15, 0
-pos = -32459, 4573, 59588
-archetype = dyson_generator
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_11
-rotate = -90, -15, 0
-pos = -31539, 4573, 59588
-archetype = dyson_generator
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_12
-rotate = -90, -15, 0
-pos = -32465, 4573, 59360
-archetype = dyson_generator
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_13
-rotate = 90, -75, 0
-pos = -32345, 4573, 59556
-archetype = lair_platform
-spin = 0, -1, 0
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_14
-rotate = 90, -105, 0
-pos = -32345, 4573, 59370
-spin = 0, -1, 0
-archetype = lair_platform
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_15
-rotate = -90, -105, 0
-pos = -31653, 4573, 59556
-spin = 0, -1, 0
-archetype = lair_platform
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_16
-rotate = -90, -75, 0
-pos = -31653, 4573, 59370
-spin = 0, -1, 0
-archetype = lair_platform
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_17
-rotate = 90, -45, 0
-pos = -31997, 4502, 59464
-archetype = space_industrial
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_18
-rotate = -90, 0, 0
-pos = -31997, 4644, 59464
-archetype = space_industrial
-parent = Br03_nuclear_Base
-[Object]
-nickname = Promethium_component_19
-rotate = 180, -90, 0
-pos = -32037, 5150, 59464
-archetype = depot
-parent = Br03_nuclear_Base
+archetype = space_police_dmg
 </source>
 </data>
 
@@ -1459,52 +1171,10 @@ seconds_per_day = 1800
 ### CLAN BASES ###
 
 [Base]
-nickname = Hi01_USF_Base
-system = Hi01
-strid_name = 0 ;GENERATESTRRES("New Providence")
-file = Universe\clan_bases\USF_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = Bw06_ALLIANZ_Base
-system = Bw06
-strid_name = 0 ;GENERATESTRRES("Freeport 7.2")
-file = Universe\clan_bases\ALLIANZ_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
 nickname = Ew04_FT_Base
 system = Ew04
 strid_name = 0 ;GENERATESTRRES("FlyingTigers -=\Katzenkörbchen/=-")
 file = Universe\clan_bases\FT_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = Ku01_WOLFS_Base
-system = Ku01
-strid_name = 0 ;GENERATESTRRES("Fearsome Secret")
-file = Universe\clan_bases\WOLFS_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = Ku02_TD_Base
-system = Ku02
-strid_name = 0 ;GENERATESTRRES("Drachennest")
-file = Universe\clan_bases\TD_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = Hi02_TCEAGLES_BASE
-system = Hi02
-strid_name = 0 ;GENERATESTRRES("ANS Terra")
-file = Universe\clan_bases\TCEAGLES_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = bw09_dos_Base
-system = bw09
-strid_name = 0 ;GENERATESTRRES("White~Sun")
-file = Universe\clan_bases\DOS_Base.ini
 BGCS_base_run_by = W02bF35
 
 [Base]
@@ -1522,13 +1192,6 @@ file = Universe\clan_bases\NEXUS_Base.ini
 BGCS_base_run_by = W02bF35
 
 [Base]
-nickname = Ew04_ORDEN_Base
-system = Ew04
-strid_name = 0 ;GENERATESTRRES("Avalon")
-file = Universe\clan_bases\ORDEN_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
 nickname = Hi01_PIRATES_Base
 system = Hi01
 strid_name = 0 ;GENERATESTRRES("Insanity")
@@ -1543,52 +1206,10 @@ file = Universe\clan_bases\USAF_Base.ini
 BGCS_base_run_by = W02bF35
 
 [Base]
-nickname = hi02_AUW_Base
-system = hi02
-strid_name = 0 ;GENERATESTRRES("Lanzelott")
-file = Universe\clan_bases\AUW_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = Rh01_IMPERIUM_Base
-system = Rh01
-strid_name = 0 ;GENERATESTRRES("ISD II Redoubtable")
-file = Universe\clan_bases\IMPERIUM_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = Ew04_PS_Base
-system = Ew04
-strid_name = 0 ;GENERATESTRRES("Renovatio")
-file = Universe\clan_bases\PS_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
 nickname = Rh03_Rheinwehr_base
 system = Rh03
 strid_name = 0 ;GENERATESTRRES("[KMS]Donau")
 file = Universe\clan_bases\RHEINWEHR_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = br06_FOF_Base
-system = br06
-strid_name = 0 ;GENERATESTRRES("~Trader's~Paradise~")
-file = Universe\clan_bases\FOF_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = Ew01_OSO_Base
-system = Ew01
-strid_name = 0 ;GENERATESTRRES("~ Conduct Of War ~")
-file = Universe\clan_bases\OSO_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = Br03_NUCLEAR_base
-system = Br03
-strid_name = 0 ;GENERATESTRRES("[Promethium]")
-file = Universe\clan_bases\NUCLEAR_Base.ini
 BGCS_base_run_by = W02bF35
 
 [Base]
@@ -3166,26 +2787,6 @@ character_density = 3
 fixture = pirates_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
 
 [MBase]
-nickname = Rh01_IMPERIUM_Base
-local_faction = IMPERIUM_CLAN
-diff = 30
-[MVendor]
-num_offers = 0, 0
-[GF_NPC]
-nickname = imp_fix_weaponsdealer
-body = rh_male_elite_body
-head = rh_captain_head
-lefthand = benchmark_male_hand_left
-righthand = benchmark_male_hand_right
-individual_name = 0 ;GENERATESTRRES("HC Security")
-affiliation = IMPERIUM_CLAN
-voice = rvp111
-[MRoom]
-nickname = Deck
-character_density = 3
-fixture = imp_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
-
-[MBase]
 nickname = Rh03_Rheinwehr_Base
 local_faction = RHEINWEHR_CLAN
 diff = 30
@@ -3206,26 +2807,6 @@ character_density = 3
 fixture = rheinwehr_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
 
 [MBase]
-nickname = ew01_OSO_Base
-local_faction = OSO_CLAN
-diff = 30
-[MVendor]
-num_offers = 0, 0
-[GF_NPC]
-nickname = oso_fix_weaponsdealer
-body = rh_male_elite_body
-head = rh_captain_head
-lefthand = benchmark_male_hand_left
-righthand = benchmark_male_hand_right
-individual_name = 0 ;GENERATESTRRES("HC Security")
-affiliation = OSO_CLAN
-voice = rvp111
-[MRoom]
-nickname = Deck
-character_density = 3
-fixture = oso_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
-
-[MBase]
 nickname = Ew03_RIP_Base
 local_faction = RIP_CLAN
 diff = 30
@@ -3244,26 +2825,6 @@ voice = rvp111
 nickname = Deck
 character_density = 3
 fixture = rip_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
-
-[MBase]
-nickname = br03_NUCLEAR_Base
-local_faction = NUCLEAR_CLAN
-diff = 30
-[MVendor]
-num_offers = 0, 0
-[GF_NPC]
-nickname = nuclear_fix_weaponsdealer
-body = rh_male_elite_body
-head = rh_captain_head
-lefthand = benchmark_male_hand_left
-righthand = benchmark_male_hand_right
-individual_name = 0 ;GENERATESTRRES("HC Security")
-affiliation = NUCLEAR_CLAN
-voice = rvp111
-[MRoom]
-nickname = Deck
-character_density = 3
-fixture = nuclear_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
 
 [MBase]
 nickname = Bw06_BB_Base
