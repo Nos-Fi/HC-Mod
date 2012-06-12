@@ -1437,8 +1437,6 @@ child_node = 5
 nickname = Zone_Br05_to_Br01_gate
 </section>
 <source>
-encounter = cap_fleet_li, 19, 0.45000
-faction = li_n_grp, 1.0000
 encounter = cap_fleet_rh, 19, 0.45000
 faction = rh_n_grp, 1.0000
 encounter = cap_fleet_kubr, 19, 0.45000
@@ -1455,8 +1453,6 @@ faction = fc_n_grp, 1.0000
 nickname = Zone_Br05_Hood_zone
 </section>
 <source>
-encounter = cap_fleet_li, 19, 0.50000
-faction = li_n_grp, 1.0000
 encounter = cap_fleet_rh, 19, 0.50000
 faction = rh_n_grp, 1.0000
 encounter = cap_fleet_kubr, 19, 0.50000
@@ -1474,8 +1470,6 @@ faction = fc_n_grp, 1.0000
 nickname = Zone_Br05_04
 </section>
 <source>
-encounter = cap_fleet_li, 19, 0.50000
-faction = li_n_grp, 1.0000
 encounter = cap_fleet_rh, 19, 0.50000
 faction = rh_n_grp, 1.0000
 encounter = cap_fleet_kubr, 19, 0.50000
