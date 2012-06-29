@@ -66,7 +66,7 @@ hp_type = hp_torpedo
 requires_ammo = true
 hit_pts = 2
 one_shot_sound = fire_no_torpedo
-detonation_dist = 0.50
+detonation_dist = 0
 lifetime = 37.500000
 Motor = torpedo01_mark01_motor
 force_gun_ori = false
@@ -77,7 +77,7 @@ seeker = LOCK
 seeker_range = 1500
 time_to_lock = 0
 seeker_fov_deg = 35
-max_angular_velocity = 0.19
+max_angular_velocity = 0.241
 ids_name = 263527
 ids_info = 263527
 mass = 1
@@ -198,4 +198,20 @@ MarketGood = nomad_torpedo01_rtc_ammo, 1, -1, 50, 50, 0, 1
 </source>
 </data>
 
+###########################
+## Artefaktwaffenaenderungen
+###########################
+
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = special_gun12_ammo
+</section>
+<dest>
+hull_damage = 586.799988
+</dest>
+<source>
+hull_damage = 930
+</source>
+</data>
 </script>
