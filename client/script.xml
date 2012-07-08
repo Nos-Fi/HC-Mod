@@ -164,7 +164,7 @@ and some surprises :)
 </item>
 </option>
 
-<option name="Activate hidden Tizona Del Cid/Rapier effect" id="2" safesave="false">
+<option name="Activate hidden Tizona Del Cid/Rapier effect" id="14" safesave="false">
 <item id="0" name="No">
 </item>
 <item id="1" name="Yes">
@@ -717,7 +717,7 @@ disableDepartingPlayer=1
 
 ### TIZONA/RAPIER SWITCH ###
 
-<data file="DATA\FX\effects.ini" method="append" options="2:1">
+<data file="DATA\FX\effects.ini" method="append" options="14:1">
 <section>
 [Effect]
 nickname = pi_pulse_02_proj
@@ -727,7 +727,7 @@ vis_effect = pi_pulse_02_proj
 </source>
 </data>
 
-<data file="DATA\FX\effects.ini" method="append" options="2:1">
+<data file="DATA\FX\effects.ini" method="append" options="14:1">
 <section>
 [Effect]
 nickname = pi_pulse_03_proj
