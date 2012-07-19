@@ -234,6 +234,7 @@ rotate = 0, 0, 0
 archetype = space_police_dmg 
 ids_name = 0 ;GENERATESTRRES("ISD II Redoubtable")
 </source>
+</data>
 
 <data file="DATA\UNIVERSE\Systems\Ku04\Ku04.ini" method="append">
 <source>
