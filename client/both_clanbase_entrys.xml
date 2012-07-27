@@ -41,8 +41,6 @@ visit = 0
 
 [Object]
 nickname = Iw06_component_01
-ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 0, 0, 90
 pos = 31999.5, -5035, 2568
 archetype = space_habitat_wide
@@ -50,8 +48,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_02
-ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 90, 0, 0
 pos = 31943, -5030, 2795
 archetype = space_habitat_wide
@@ -59,8 +55,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_03
-ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 90, 0, 0
 pos = 32057, -5030, 2795
 archetype = space_habitat_wide
@@ -68,16 +62,12 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_04
-ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 pos = 32000, -5017, 3278
 archetype = lair_shield_gen
 parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_05
-ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 0, 30, 90
 pos = 32061, -5017, 3250
 archetype = lair_platform
@@ -85,8 +75,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_06
-ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 0, 30, -90
 pos = 31939, -5017, 3250
 archetype = lair_platform
@@ -94,8 +82,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_07
-ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 spin = 0, 0, 0.25
 rotate = 180, 0, 0
 pos = 32000, -5020, 3287
@@ -104,16 +90,12 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_08
-ids_name = 0 ;GENERATESTRRES("[NXS]Bismarck")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 pos = 32000, -5000, 3000
 archetype = planet_storm_5000
 parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_09
-ids_name = 0 ;GENERATESTRRES("Auﬂenposten der Nomaden")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 0, 105, 0
 pos = 32450, -4976, 3049
 atmosphere_range = 205
@@ -131,8 +113,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_11
-ids_name = 0 ;GENERATESTRRES("Auﬂenposten der Nomaden")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 90, 105, 0
 pos = 32441.5, -5271, 2984
 archetype = space_habitat_wide
@@ -140,8 +120,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_12
-ids_name = 0 ;GENERATESTRRES("Auﬂenposten der Nomaden")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 0, 195, 0
 pos = 32433, -4780, 3042
 archetype = gas_miner_old
@@ -150,8 +128,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_13
-ids_name = 0 ;GENERATESTRRES("Auﬂenposten der Nomaden")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 spin = 0, -0.75, 0
 rotate = 0, 15, 0
 pos = 32411.5, -4671.5, 2963.25
@@ -160,8 +136,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_14
-ids_name = 0 ;GENERATESTRRES("Auﬂenposten der Nomaden")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 spin = 0, 0.25, 0
 rotate = 0, 105, 0
 pos = 32471, -4656, 3089
@@ -170,8 +144,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_15
-ids_name = 0 ;GENERATESTRRES("Auﬂenposten der Nomaden")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 0, 105, 0
 pos = 32471, -4634, 3089
 archetype = space_habitat_tall
@@ -179,8 +151,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_16
-ids_name = 0 ;GENERATESTRRES("Auﬂenposten der Nomaden")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 0, -15, 0
 pos = 32545, -4978, 2620
 archetype = track_ring
@@ -188,8 +158,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_17
-ids_name = 0 ;GENERATESTRRES("Auﬂenposten der Nomaden")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 90, -15, 0
 pos = 32545, -4978, 2620
 archetype = track_ring
@@ -197,8 +165,6 @@ parent = Iw06_NXS_Base
 
 [Object]
 nickname = Iw06_component_18
-ids_name = 0 ;GENERATESTRRES("Auﬂenposten der Nomaden")
-ids_info = 0 ;GENERATEXMLRES(NXS_CLANBASE)
 rotate = 0, 75, 0
 pos = 32545, -4978, 2620
 archetype = track_ring
