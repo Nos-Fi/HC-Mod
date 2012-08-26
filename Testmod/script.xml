@@ -849,16 +849,6 @@ ids_info = 66146
 visit = 0
 goto = Ew06, Ew06_to_NEUTRAL_hole, gate_tunnel_bretonia
 
-[Object]
-nickname = JH_Rh01_IMPERIUM_Base
-ids_name = 0 ;GENERATESTRRES("Rh01_IMPERIUM_Base")
-ids_info = 66146
-dock_with = Rh01_IMPERIUM_Base 
-pos = 2700, 500, -10000
-rotate = 0, -45, 0
-archetype = jumphole
-behavior = NOTHING
-
 </source>
 </data>
 
