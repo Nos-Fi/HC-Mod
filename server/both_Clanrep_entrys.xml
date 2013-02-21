@@ -96,10 +96,6 @@ affiliation = STE_CLAN
 legality = unlawful
 
 [FactionProps]
-affiliation = IMPERIUM_CLAN
-legality = unlawful
-
-[FactionProps]
 affiliation = NEXUS_CLAN
 legality = unlawful
 
@@ -117,10 +113,6 @@ legality = lawful
 
 [FactionProps]
 affiliation = Rheinwehr_CLAN
-legality = lawful
-
-[FactionProps]
-affiliation = OSO_CLAN
 legality = lawful
 
 [FactionProps]
@@ -370,13 +362,6 @@ ids_short_name = 458846
 rep = 1, STE_CLAN
 
 [Group]
-nickname = IMPERIUM_CLAN
-ids_name = 458855
-ids_info = 458855
-ids_short_name = 458850
-rep = 1, IMPERIUM_CLAN
-
-[Group]
 nickname = NEXUS_CLAN
 ids_name = 458856
 ids_info = 0 ;GENERATEXMLRES(NEXUS_CLAN)
@@ -410,13 +395,6 @@ ids_name = 0 ;GENERATESTRRES("Rheinwehr")
 ids_info = 0 ;GENERATEXMLRES(Rheinwehr_CLAN)
 ids_short_name = 0 ;GENERATESTRRES("Rheinwehr_")
 rep = 1, Rheinwehr_CLAN
-
-[Group]
-nickname = OSO_CLAN
-ids_name = 0 ;GENERATESTRRES("Omikron Söldner Orden")
-ids_info = 0 ;GENERATEXMLRES(OSO_CLAN)
-ids_short_name = 0 ;GENERATESTRRES("<]OSO[>")
-rep = 1, OSO_CLAN
 
 [Group]
 nickname = USAF_CLAN
