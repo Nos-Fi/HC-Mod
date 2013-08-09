@@ -393,7 +393,7 @@ rep = 1, RIP_CLAN
 nickname = Rheinwehr_CLAN
 ids_name = 0 ;GENERATESTRRES("Rheinwehr")
 ids_info = 0 ;GENERATEXMLRES(Rheinwehr_CLAN)
-ids_short_name = 0 ;GENERATESTRRES("Rheinwehr_")
+ids_short_name = 0 ;GENERATESTRRES("[RHW]_")
 rep = 1, Rheinwehr_CLAN
 
 [Group]
