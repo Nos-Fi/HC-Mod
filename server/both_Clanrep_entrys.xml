@@ -150,6 +150,11 @@ legality = lawful
 [FactionProps]
 affiliation = BB_CLAN
 legality = unlawful
+
+[FactionProps]
+affiliation = DC_CLAN
+legality = lawful
+
 </source>
 </data>
 
@@ -423,6 +428,13 @@ ids_name = 0 ;GENERATESTRRES("[BlackBirds]")
 ids_info = 0 ;GENERATEXMLRES(BB_CLAN)
 ids_short_name = 0 ;GENERATESTRRES("[BB]")
 rep = 1, BB_CLAN
+
+[Group]
+nickname = DC_CLAN
+ids_name = 0 ;GENERATESTRRES("Dragon Claw")
+ids_info = 0 ;GENERATEXMLRES(DC_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("[Dragon~Claw]")
+rep = 1, DC_CLAN
 
 ;#########HHCKK
 
