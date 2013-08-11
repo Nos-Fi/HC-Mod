@@ -155,6 +155,18 @@ legality = unlawful
 affiliation = DC_CLAN
 legality = lawful
 
+[FactionProps]
+affiliation = TRIAL_A_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = TRIAL_B_CLAN
+legality = lawful
+
+[FactionProps]
+affiliation = TRIAL_C_CLAN
+legality = lawful
+
 </source>
 </data>
 
@@ -436,7 +448,7 @@ ids_info = 0 ;GENERATEXMLRES(DC_CLAN)
 ids_short_name = 0 ;GENERATESTRRES("[Dragon~Claw]")
 rep = 1, DC_CLAN
 
-;#########HHCKK
+;#########HHCKK_TRIAL
 
 [Group]
 nickname = Br_EVENT_CLAN
@@ -472,7 +484,29 @@ ids_name = 0 ;GENERATESTRRES("HHCKK")
 ids_info = 458858
 ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
 rep = 1, KK_EVENT_CLAN
+
+[Group]
+nickname = TRIAL_A_CLAN
+ids_name = 0 ;GENERATESTRRES("-!-!-")
+ids_info = 458858
+ids_short_name = 0 ;GENERATESTRRES("-!-!-")
+rep = 1, TRIAL_A_CLAN
+</source>
+
+[Group]
+nickname = TRIAL_B_CLAN
+ids_name = 0 ;GENERATESTRRES("-§§§-")
+ids_info = 458858
+ids_short_name = 0 ;GENERATESTRRES("-§§§-")
+rep = 1, TRIAL_B_CLAN
+</source>
+
+[Group]
+nickname = TRIAL_C_CLAN
+ids_name = 0 ;GENERATESTRRES("-()-")
+ids_info = 458858
+ids_short_name = 0 ;GENERATESTRRES("-()-")
+rep = 1, TRIAL_C_CLAN
 </source>
 </data>
-
 </script>
