@@ -75,6 +75,7 @@ house = 0, fc_uk_grp
 house = 0, hc
 house = 0, fc_order_grp
 house = -1, fc_no_grp
+house = 0, ALLIANZ_CLAN
 house = -1, FT_CLAN
 house = -1, STE_CLAN
 house = 0, NEXUS_CLAN

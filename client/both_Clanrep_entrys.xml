@@ -88,6 +88,10 @@ formation = battleships, battleship_wall
 
 
 [FactionProps]
+affiliation = ALLIANZ_CLAN
+legality = lawful
+
+[FactionProps]
 affiliation = FT_CLAN
 legality = lawful
 
@@ -363,6 +367,13 @@ rep = -1, gd_bh_grp
 rep = 1, hc
 
 ### Clan Reps ###
+
+[Group]
+nickname = ALLIANZ_CLAN
+ids_name = 458825
+ids_info = 458779
+ids_short_name = 458826
+rep = 1, ALLIANZ_CLAN
 
 [Group]
 nickname = FT_CLAN
