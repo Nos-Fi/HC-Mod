@@ -1121,6 +1121,28 @@ parent = Br01_RYO_Base
 </source>
 </data>
 
+<data file="DATA\UNIVERSE\Systems\Rh05\Rh05.ini" method="append">
+<source>
+
+[Object]
+nickname = Rh05_ALLIANZ_BASE
+pos = -800, 4000, 50000
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Rh05_ALLIANZ_Base
+base = Rh05_ALLIANZ_Base
+reputation = ALLIANZ_CLAN
+rotate = 0, 0, 0
+archetype = smallstation1
+ids_name = 0 ;GENERATESTRRES("Freeport 7.3")
+ids_info = 458753
+loadout = clan_smallstation1_hc
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
+</source>
+</data>
+
 <data file="DATA\UNIVERSE\universe.ini" method="append">
 <section>
 [Time]
@@ -1191,6 +1213,13 @@ nickname = Br01_RYO_BASE
 system = Br01
 strid_name = 0 ;GENERATESTRRES("Rising~Paradise")
 file = Universe\clan_bases\RYO_Base.ini
+BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Rh05_ALLIANZ_Base
+system = Rh05
+strid_name = 0 ;GENERATESTRRES("Freeport 7.2")
+file = Universe\clan_bases\ALLIANZ_Base.ini
 BGCS_base_run_by = W02bF35
 </source>
 </data>
@@ -2825,6 +2854,26 @@ voice = rvp111
 nickname = Deck
 character_density = 3
 fixture = ryo_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Rh05_ALLIANZ_Base
+local_faction = ALLIANZ_CLAN
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = allianz_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = ALLIANZ_CLAN
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = allianz_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
 </source>
 </data>
 

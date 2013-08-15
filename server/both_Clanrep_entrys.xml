@@ -371,7 +371,7 @@ rep = 1, hc
 [Group]
 nickname = ALLIANZ_CLAN
 ids_name = 458825
-ids_info = 458779
+ids_info = 0 ;GENERATEXMLRES(ALLIANZ_CLAN)
 ids_short_name = 458826
 rep = 1, ALLIANZ_CLAN
 
