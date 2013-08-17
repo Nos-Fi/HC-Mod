@@ -759,9 +759,147 @@ voice = atc_leg_m01
 [Object]
 nickname = Ew04_PS_Base
 pos = -14005, 7500, -9193
-archetype = space_police_dmg
 ids_name = 0 ;GENERATESTRRES("Renovatio")
+ids_info = 0
+behavior = NOTHING
+pilot = pilot_crazy
+dock_with = Ew04_PS_Base
+base = Ew04_PS_Base
+reputation = li_lsf_grp
+rotate = 0, 0, 0
+archetype = luxury_liner
+loadout = clan_liner
+difficulty_level = 30
+space_costume = benchmark_male_head, benchmark_male_body
+voice = atc_leg_m01
 
+[Object]
+nickname = PS_buoy_01
+rotate = 0, -90, 0
+pos = -14002, 7485, -9408
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_02
+rotate = 0, -90, 0
+pos = -14008, 7485, -9408
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_03
+rotate = 0, -90, 0
+pos = -14001, 7476, -9414
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_04
+rotate = 0, -90, 0
+pos = -14009, 7476, -9414
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_05
+rotate = 0, 0, -90
+pos = -14005, 7529, -9179
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_06
+rotate = 0, 0, -90
+pos = -14005, 7529, -9168
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_07
+rotate = 0, 0, -90
+pos = -14005, 7529, -9156
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_08
+rotate = 0, 0, -270
+pos = -14020, 7464, -9305
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_09
+rotate = 0, 0, -270
+pos = -13989, 7464, -9305
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_10
+rotate = 0, 0, -270
+pos = -14020, 7464, -9264
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_11
+rotate = 0, 0, -270
+pos = -13989, 7464, -9264
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_12
+rotate = 0, -180, 0
+pos = -13992, 7483, -9151
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_13
+rotate = 0, 0, 0
+pos = -14018, 7483, -9151
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_14
+rotate = 0, 0, 0
+pos = -14028, 7473, -9291
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_15
+rotate = 0, -180, 0
+pos = -13982, 7473, -9291
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
+
+[Object]
+nickname = PS_buoy_16
+rotate = 0, 90, 0
+pos = -14005, 7486, -9070
+archetype = gravity_buoy
+parent = ew04_PS_base
+reputation = li_lsf_grp
 </source> 
 </data> 
 
