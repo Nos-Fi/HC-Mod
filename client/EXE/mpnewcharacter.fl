@@ -92,7 +92,6 @@ house = 0, KK_EVENT_CLAN
 house = 0, PS_CLAN
 house = 0, RYO_CLAN
 house = -1, BB_CLAN
-house = 0, DC_CLAN
 house = 0, TRIAL_A_CLAN
 house = 0, TRIAL_B_CLAN
 house = 0, TRIAL_C_CLAN
