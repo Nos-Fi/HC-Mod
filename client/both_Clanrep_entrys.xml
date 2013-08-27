@@ -490,7 +490,6 @@ ids_name = 0 ;GENERATESTRRES("-!-!-")
 ids_info = 458858
 ids_short_name = 0 ;GENERATESTRRES("-!-!-")
 rep = 1, TRIAL_A_CLAN
-</source>
 
 [Group]
 nickname = TRIAL_B_CLAN
@@ -498,7 +497,6 @@ ids_name = 0 ;GENERATESTRRES("-§§§-")
 ids_info = 458858
 ids_short_name = 0 ;GENERATESTRRES("-§§§-")
 rep = 1, TRIAL_B_CLAN
-</source>
 
 [Group]
 nickname = TRIAL_C_CLAN
