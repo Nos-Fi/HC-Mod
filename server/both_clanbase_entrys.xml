@@ -765,7 +765,7 @@ behavior = NOTHING
 pilot = pilot_crazy
 dock_with = Ew04_PS_Base
 base = Ew04_PS_Base
-reputation = li_lsf_grp
+reputation = PS_CLAN
 rotate = 0, 0, 0
 archetype = luxury_liner
 loadout = clan_liner
@@ -779,7 +779,6 @@ rotate = 0, -90, 0
 pos = -14002, 7485, -9408
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_02
@@ -787,7 +786,6 @@ rotate = 0, -90, 0
 pos = -14008, 7485, -9408
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_03
@@ -795,7 +793,6 @@ rotate = 0, -90, 0
 pos = -14001, 7476, -9414
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_04
@@ -803,7 +800,6 @@ rotate = 0, -90, 0
 pos = -14009, 7476, -9414
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_05
@@ -811,7 +807,6 @@ rotate = 0, 0, -90
 pos = -14005, 7529, -9179
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_06
@@ -819,7 +814,6 @@ rotate = 0, 0, -90
 pos = -14005, 7529, -9168
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_07
@@ -827,7 +821,6 @@ rotate = 0, 0, -90
 pos = -14005, 7529, -9156
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_08
@@ -835,7 +828,6 @@ rotate = 0, 0, -270
 pos = -14020, 7464, -9305
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_09
@@ -843,7 +835,6 @@ rotate = 0, 0, -270
 pos = -13989, 7464, -9305
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_10
@@ -851,7 +842,6 @@ rotate = 0, 0, -270
 pos = -14020, 7464, -9264
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_11
@@ -859,7 +849,6 @@ rotate = 0, 0, -270
 pos = -13989, 7464, -9264
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_12
@@ -867,7 +856,6 @@ rotate = 0, -180, 0
 pos = -13992, 7483, -9151
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_13
@@ -875,7 +863,6 @@ rotate = 0, 0, 0
 pos = -14018, 7483, -9151
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_14
@@ -883,7 +870,6 @@ rotate = 0, 0, 0
 pos = -14028, 7473, -9291
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_15
@@ -891,7 +877,6 @@ rotate = 0, -180, 0
 pos = -13982, 7473, -9291
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 
 [Object]
 nickname = PS_buoy_16
@@ -899,7 +884,6 @@ rotate = 0, 90, 0
 pos = -14005, 7486, -9070
 archetype = gravity_buoy
 parent = ew04_PS_base
-reputation = li_lsf_grp
 </source> 
 </data> 
 
@@ -995,14 +979,6 @@ space_costume = pi_pirate3_head, pl_male3_journeyman_body, prop_neuralnet_F_righ
 
 <data file="DATA\UNIVERSE\Systems\BW06\BW06.ini" method="append">
 <source>
-
-[Object]
-nickname = Bw06_ALLIANZ_Base
-pos = 1500, -14980, -4000
-archetype = space_police_dmg
-ids_name = 0 ;GENERATESTRRES("Freeport 7.2")
-</source>
-</data>
 
 <xmldata name="BB_CLANBASE">
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>Vogeltopia</TEXT><PARA/><TEXT></TEXT><PARA/><TEXT>Dies ist das legendäre Nest der BlackBirds, den gefürchteten Raubvögeln mit den schärfsten Krallen und stärksten Flügeln, die Sirius je erblickt hat. Von hier aus starten sie ihre gefährlichen Vernichtungszüge durch die Systeme, hier schleifen sie ihre Klauen nach erfolgreichen Schlachten.</TEXT><PARA/><TEXT>Dies ist ein Hort des Bösen. Normalerweise weicht die Dunkelheit dem Licht - doch die Schwärze der BlackBirds-Seelen, die von diesem Fleck ausgeht, lässt die Helligkeit zurückweichen und wird letzten Endes über das "Gute", also über korrupte Politiker, Polizisten, Militärs und Händler, obsiegen.</TEXT><PARA/><TEXT>Diese Basis ist für die BlackBirds eine Utopie und für Menschen nichts weiter als eine Phobie.</TEXT><PARA/><TEXT></TEXT><PARA/><TEXT>BlackBirds fly together</TEXT><PARA/><TEXT>BlackBirds die together</TEXT><PARA/><TEXT>BlackBirds for ever</TEXT><PARA/><POP/></RDL>
@@ -1356,9 +1332,17 @@ BGCS_base_run_by = W02bF35
 [Base]
 nickname = Rh05_ALLIANZ_Base
 system = Rh05
-strid_name = 0 ;GENERATESTRRES("Freeport 7.2")
+strid_name = 0 ;GENERATESTRRES("Freeport 7.3")
 file = Universe\clan_bases\ALLIANZ_Base.ini
 BGCS_base_run_by = W02bF35
+
+[Base]
+nickname = Ew04_PS_Base
+system = Ew04
+strid_name = 0 ;GENERATESTRRES("Renovatio")
+file = Universe\clan_bases\PS_Base.ini
+BGCS_base_run_by = W02bF35
+
 </source>
 </data>
 
@@ -3007,6 +2991,26 @@ lefthand = benchmark_male_hand_left
 righthand = benchmark_male_hand_right
 individual_name = 0 ;GENERATESTRRES("HC Security")
 affiliation = ALLIANZ_CLAN
+voice = rvp111
+[MRoom]
+nickname = Deck
+character_density = 3
+fixture = allianz_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
+
+[MBase]
+nickname = Ew04_PS_Base
+local_faction = PS_CLAN
+diff = 30
+[MVendor]
+num_offers = 0, 0
+[GF_NPC]
+nickname = allianz_fix_weaponsdealer
+body = rh_male_elite_body
+head = rh_captain_head
+lefthand = benchmark_male_hand_left
+righthand = benchmark_male_hand_right
+individual_name = 0 ;GENERATESTRRES("HC Security")
+affiliation = PS_CLAN
 voice = rvp111
 [MRoom]
 nickname = Deck
