@@ -977,9 +977,6 @@ space_costume = pi_pirate3_head, pl_male3_journeyman_body, prop_neuralnet_F_righ
 </source>
 </data>
 
-<data file="DATA\UNIVERSE\Systems\BW06\BW06.ini" method="append">
-<source>
-
 <xmldata name="BB_CLANBASE">
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT>Vogeltopia</TEXT><PARA/><TEXT></TEXT><PARA/><TEXT>Dies ist das legendäre Nest der BlackBirds, den gefürchteten Raubvögeln mit den schärfsten Krallen und stärksten Flügeln, die Sirius je erblickt hat. Von hier aus starten sie ihre gefährlichen Vernichtungszüge durch die Systeme, hier schleifen sie ihre Klauen nach erfolgreichen Schlachten.</TEXT><PARA/><TEXT>Dies ist ein Hort des Bösen. Normalerweise weicht die Dunkelheit dem Licht - doch die Schwärze der BlackBirds-Seelen, die von diesem Fleck ausgeht, lässt die Helligkeit zurückweichen und wird letzten Endes über das "Gute", also über korrupte Politiker, Polizisten, Militärs und Händler, obsiegen.</TEXT><PARA/><TEXT>Diese Basis ist für die BlackBirds eine Utopie und für Menschen nichts weiter als eine Phobie.</TEXT><PARA/><TEXT></TEXT><PARA/><TEXT>BlackBirds fly together</TEXT><PARA/><TEXT>BlackBirds die together</TEXT><PARA/><TEXT>BlackBirds for ever</TEXT><PARA/><POP/></RDL>
 </xmldata>

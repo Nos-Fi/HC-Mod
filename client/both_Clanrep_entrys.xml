@@ -400,9 +400,9 @@ rep = 1, PIRATES_CLAN
 
 [Group]
 nickname = PS_CLAN
-ids_name = 0 ;GENERATESTRRES("PhÃ¶nix-Staffel")
+ids_name = 0 ;GENERATESTRRES("Phönix-Staffel")
 ids_info = 0 ;GENERATEXMLRES(PS_CLAN)
-ids_short_name = 0 ;GENERATESTRRES("PhÃ¶nix-Staffel")
+ids_short_name = 0 ;GENERATESTRRES("Phönix-Staffel")
 rep = 1, PS_CLAN
 
 [Group]
@@ -416,7 +416,7 @@ rep = 1, RIP_CLAN
 nickname = Rheinwehr_CLAN
 ids_name = 0 ;GENERATESTRRES("Rheinwehr")
 ids_info = 0 ;GENERATEXMLRES(Rheinwehr_CLAN)
-ids_short_name = 0 ;GENERATESTRRES("[RHW]_")
+ids_short_name = 0 ;GENERATESTRRES("[RHW]")
 rep = 1, Rheinwehr_CLAN
 
 [Group]
@@ -493,9 +493,9 @@ rep = 1, TRIAL_A_CLAN
 
 [Group]
 nickname = TRIAL_B_CLAN
-ids_name = 0 ;GENERATESTRRES("-Â§Â§Â§-")
+ids_name = 0 ;GENERATESTRRES("-§§§-")
 ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("-Â§Â§Â§-")
+ids_short_name = 0 ;GENERATESTRRES("-§§§-")
 rep = 1, TRIAL_B_CLAN
 
 [Group]
