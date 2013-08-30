@@ -374,7 +374,7 @@ behavior = NOTHING
 pilot = pilot_crazy
 dock_with = Bw02_USAF_Base 
 base = Bw02_USAF_Base 
-reputation = USAF_CLAN
+reputation = li_lsf_grp
 rotate = 0, 0, 0 
 archetype = outpost 
 ids_name = 0 ;GENERATESTRRES("Magnum Opus")
@@ -971,7 +971,7 @@ base = Ew03_RIP_Base
 behavior = NOTHING 
 pilot = pilot_crazy
 visit = 0 
-reputation = RIP_clan 
+reputation = li_lsf_grp 
 voice = atc_leg_m01 
 space_costume = pi_pirate3_head, pl_male3_journeyman_body, prop_neuralnet_F_right 
 </source>
@@ -2856,7 +2856,7 @@ fixture = nxs_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li
 
 [MBase]
 nickname = Bw02_USAF_Base
-local_faction = USAF_CLAN
+local_faction = li_lsf_grp
 diff = 30
 [MVendor]
 num_offers = 0, 0
@@ -2867,7 +2867,7 @@ head = rh_captain_head
 lefthand = benchmark_male_hand_left
 righthand = benchmark_male_hand_right
 individual_name = 0 ;GENERATESTRRES("HC Security")
-affiliation = USAF_CLAN
+affiliation = li_lsf_grp
 voice = rvp111
 [MRoom]
 nickname = Deck
@@ -2916,7 +2916,7 @@ fixture = rheinwehr_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vend
 
 [MBase]
 nickname = Ew03_RIP_Base
-local_faction = RIP_CLAN
+local_faction = li_lsf_grp
 diff = 30
 [MVendor]
 num_offers = 0, 0
@@ -2927,7 +2927,7 @@ head = rh_captain_head
 lefthand = benchmark_male_hand_left
 righthand = benchmark_male_hand_right
 individual_name = 0 ;GENERATESTRRES("HC Security")
-affiliation = RIP_CLAN
+affiliation = li_lsf_grp
 voice = rvp111
 [MRoom]
 nickname = Deck
