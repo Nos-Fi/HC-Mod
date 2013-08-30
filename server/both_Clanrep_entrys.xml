@@ -154,6 +154,11 @@ legality = lawful
 [FactionProps]
 affiliation = BB_CLAN
 legality = unlawful
+
+[FactionProps]
+affiliation = MAJ_CLAN
+legality = unlawful
+
 [FactionProps]
 affiliation = TRIAL_A_CLAN
 legality = lawful
@@ -446,6 +451,13 @@ ids_name = 0 ;GENERATESTRRES("[BlackBirds]")
 ids_info = 0 ;GENERATEXMLRES(BB_CLAN)
 ids_short_name = 0 ;GENERATESTRRES("[BB]")
 rep = 1, BB_CLAN
+
+[Group]
+nickname = MAJ_CLAN
+ids_name = 0 ;GENERATESTRRES("3 Mighty Asteroids of Judgment")
+ids_info = 0 ;GENERATEXMLRES(MAJ_CLAN)
+ids_short_name = 0 ;GENERATESTRRES(">3MAJ<")
+rep = 1, MAJ_CLAN
 
 ;#########HHCKK_TRIAL
 
