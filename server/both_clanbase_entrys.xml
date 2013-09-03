@@ -99,7 +99,7 @@ parent = Iw06_NXS_Base
 nickname = Iw06_component_09 
 rotate = 0, 105, 0 
 pos = 32450, -4976, 3049 
-atmosphere_range = 205 
+atmosphere_range = 500 
 archetype = dyson_city_platform 
 parent = Iw06_NXS_Base 
 
@@ -178,7 +178,6 @@ parent = Iw06_NXS_Base
 nickname = Iw06_component_19 
 ids_name = 458787 
 pos = 32545, -4978, 2620 
-atmosphere_range = 120 
 archetype = blhazard 
 parent = Iw06_NXS_Base 
 
