@@ -62,7 +62,7 @@ volume = 0.000100
 [Pilot]
 nickname = cruiser_ace
 inherit = cruiser_default
-gun_id = captial_style_ace 
+gun_id = capital_style_ace 
 missile_id = missile_cruiser_a
 repair_id = repair_easy
 </source>
@@ -74,7 +74,7 @@ repair_id = repair_easy
 [Pilot]
 nickname = battleship_ace
 inherit = battleship_default
-gun_id = captial_style_ace 
+gun_id = capital_style_ace 
 missile_id = missile_cruiser_a
 repair_id = repair_easy
 </source>
@@ -84,7 +84,7 @@ repair_id = repair_easy
 <source>
 [Pilot]
 nickname = gunboat_ace
-gun_id = captial_style_ace
+gun_id = capital_style_ace
 missile_id = missile_gunboat_a
 buzz_head_toward_id = buzz_head_toward_gunboat_a
 buzz_pass_by_id = buzz_pass_by_gunboat_a
@@ -100,7 +100,7 @@ job_id = job_gunboat_a
 <data file="data\missions\pilots_population.ini" method="append">
 <source>
 [GunBlock]
-nickname = captial_style_ace
+nickname = capital_style_ace
 gun_fire_interval_time = 0.01000
 gun_fire_interval_variance_percent = 0.100000
 gun_fire_burst_interval_time = 10
