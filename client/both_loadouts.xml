@@ -817,6 +817,18 @@ cargo = special_nomad_gun02, 4
 </source>
 </data>
 
+<data file="DATA\SHIPS\loadouts_special.ini" method="sectionreplace">
+<section>
+nickname = Nomad_Gunboat_Loadout
+</section>
+<dest>
+equip = ge_gf1_engine_01
+</dest>
+<source>
+equip = ge_ng_engine_01
+</source>
+</data>
+
 <!-- Change Nomad Gunboat loadout to turrets, add additional dropped weapons -->
 <data file="DATA\SHIPS\loadouts_special.ini" method="sectionreplace">
 <section>
@@ -851,18 +863,6 @@ equip = nomad_turret01_mark01, Hp_1_05
 equip = nomad_turret01_mark01, Hp_1_06
 cargo = special_nomad_gun01, 2
 cargo = special_nomad_gun02, 2
-</source>
-</data>
-
-<data file="DATA\SHIPS\loadouts_special.ini" method="sectionreplace">
-<section>
-nickname = Nomad_Gunboat_Loadout
-</section>
-<dest>
-equip = ge_gf1_engine_01
-</dest>
-<source>
-equip = ge_ng_engine_01
 </source>
 </data>
 
