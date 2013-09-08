@@ -208,6 +208,16 @@ auto_turret_burst_interval_variance_percent = 0.200000
 gun_range_threshold_variance_percent = 1.300000
 gun_fire_accuracy_power_npc = 3
 </source>
-
 </data>
+
+<!-- Use Fighter AI -->
+<data file="data\missions\npcships.ini" method="filereplace" numTimes=”-1”>
+<dest>
+pilot = MSN13_Nomad_Fighter
+</dest>
+<source>
+pilot = pilot_nomad_ace
+</source>
+</data>
+
 </script>
