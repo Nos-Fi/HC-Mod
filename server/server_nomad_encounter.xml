@@ -1,6 +1,6 @@
 <script>
 
-<!-- Nomaden Blaster/Kannonen sound -->
+<!-- Nomad blaster/cannon sound -->
 <data file="data\audio\sounds.ini" method="sectionappend">
 <section>
 [Sound]
@@ -20,7 +20,7 @@ range = 170, 1000
 </source>
 </data>
 
-<!-- Nomaden Waffe -->
+<!-- Nomad Turret for capital ships -->
 <data file="data\equipment\weapon_equip.ini" method="sectionappend">
 <section>
 [Munition]
