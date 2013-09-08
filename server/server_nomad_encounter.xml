@@ -120,8 +120,37 @@ repair_id = repair_easy
 job_id = job_gunboat_a
 </source>
 
+<!-- Nomad Fighter Pilot -->
+<data file="data\missions\pilots_population.ini" method="append"> 
+<source>
+[Pilot]
+nickname = pilot_nomad_ace
+inherit = pilot_pirate_ace
+gun_id = uber_pilot
+missile_id = missile_fighter_crazy
+evade_dodge_id = evade_dodge_fighter_horiz_ace
+repair_id = repair_uber
+job_id = uber_job
+formation_id = formation_leave_fast
+</source>
 
-
+<!-- Fighter Formation -->
+<data file="data\missions\pilots_population.ini" method="append"> 
+<source>
+[FormationBlock]
+nickname = formation_leave_fast
+force_attack_formation_active_time = 0.01000
+force_attack_formation_unactive_time = 50
+break_formation_damage_trigger_percent = 0.300000
+break_formation_damage_trigger_time = 10
+break_formation_missile_reaction_time = 1
+break_apart_formation_missile_reaction_time = 2
+break_apart_formation_on_evade_break = True
+break_formation_on_evade_break_time = 1
+formation_exit_top_turn_break_away_throttle = 1
+formation_exit_roll_outrun_throttle = 1
+formation_exit_max_time = 500
+</source>
 
 </data>
 </script>
