@@ -1,0 +1,211 @@
+<script>
+
+<!-- Battleship Gun AI  -->
+<data file="data\missions\pilots_population.ini" method="append">
+<source>
+[GunBlock]
+nickname = capital_style_ace
+gun_fire_interval_time = 0.01000
+gun_fire_interval_variance_percent = 0.100000
+gun_fire_burst_interval_time = 10
+gun_fire_burst_interval_variance_percent = 0.6000
+gun_fire_no_burst_interval_time = 0.10400
+gun_fire_accuracy_cone_angle = 0.25000
+gun_fire_accuracy_power = 0.25000
+gun_range_threshold = 1.0999
+gun_target_point_switch_time = 0.005000
+fire_style = multiple
+auto_turret_interval_time = 0.01000
+auto_turret_burst_interval_time = 6
+auto_turret_no_burst_interval_time = 0
+auto_turret_burst_interval_variance_percent = 0.600000
+gun_range_threshold_variance_percent = 0.200000
+gun_fire_accuracy_power_npc = 0.55
+</source>
+</data>
+
+<!-- Fighter Formation -->
+<data file="data\missions\pilots_population.ini" method="append"> 
+<source>
+[FormationBlock]
+nickname = formation_leave_fast
+force_attack_formation_active_time = 0.01000
+force_attack_formation_unactive_time = 50
+break_formation_damage_trigger_percent = 0.300000
+break_formation_damage_trigger_time = 10
+break_formation_missile_reaction_time = 1
+break_apart_formation_missile_reaction_time = 2
+break_apart_formation_on_evade_break = True
+break_formation_on_evade_break_time = 1
+formation_exit_top_turn_break_away_throttle = 1
+formation_exit_roll_outrun_throttle = 1
+formation_exit_max_time = 500
+</source>
+</data>
+
+<!-- Fighter Gun AI -->
+<data file="data\missions\pilots_population.ini" method="append"> 
+<source>
+[GunBlock]
+nickname = gun_fighter_nomad
+gun_fire_interval_time = 0
+gun_fire_interval_variance_percent = 0.500000
+gun_fire_burst_interval_time = 7.500000
+gun_fire_burst_interval_variance_percent = 0.500000
+gun_fire_no_burst_interval_time = 0.2000
+gun_fire_accuracy_cone_angle = 2
+gun_fire_accuracy_power = 1.0000
+gun_range_threshold = 1.15000
+gun_target_point_switch_time = 0.0100
+fire_style = multiple
+auto_turret_interval_time = 0
+auto_turret_burst_interval_time = 1
+auto_turret_no_burst_interval_time = 2
+auto_turret_burst_interval_variance_percent = 0.200000
+gun_range_threshold_variance_percent = 1.300000
+gun_fire_accuracy_power_npc = 3
+</source>
+</data>
+
+<!-- Nomad Fighter Pilot -->
+<data file="data\missions\pilots_population.ini" method="append"> 
+<source>
+[Pilot]
+nickname = pilot_nomad_ace
+inherit = pilot_pirate_ace
+gun_id = gun_fighter_nomad
+missile_id = missile_fighter_crazy
+evade_dodge_id = evade_dodge_fighter_horiz_ace
+repair_id = repair_uber
+job_id = uber_job
+formation_id = formation_leave_fast
+</source>
+</data>
+
+<!-- Cruiser Pilot -->
+<data file="data\missions\pilots_population.ini" method="append"> 
+<source>
+[Pilot]
+nickname = cruiser_ace
+inherit = cruiser_default
+gun_id = capital_style_ace 
+missile_id = missile_cruiser_a
+repair_id = repair_easy
+</source>
+</data>
+
+<!-- Battleship Pilot -->
+<data file="data\missions\pilots_population.ini" method="append"> 
+<source>
+[Pilot]
+nickname = battleship_ace
+inherit = battleship_default
+gun_id = capital_style_ace 
+missile_id = missile_cruiser_a
+repair_id = repair_easy
+</source>
+</data>
+
+<!-- Gunboat Pilot -->
+<data file="data\missions\pilots_population.ini" method="append"> 
+<source>
+[Pilot]
+nickname = gunboat_ace
+gun_id = capital_style_ace
+missile_id = missile_gunboat_a
+buzz_head_toward_id = buzz_head_toward_gunboat_a
+buzz_pass_by_id = buzz_pass_by_gunboat_a
+trail_id = trail_gunboat_a
+strafe_id = strafe_gunboat_a
+mine_id = mine_gunboat_a
+countermeasure_id = countermeasure_a
+repair_id = repair_easy
+job_id = job_gunboat_a
+formation_id = formation_leave_fast
+</source>
+</data>
+
+<!-- Use Fighter AI -->
+<data file="data\missions\npcships.ini" method="filereplace" numTimes="-1">
+<dest>
+pilot = MSN13_Nomad_Fighter
+</dest>
+<source>
+pilot = pilot_nomad_ace
+</source>
+</data>
+
+<!-- Use Nomad Gunboat AI -->
+<data file="data\missions\npcships.ini" method="sectionreplace">
+<section>
+[NPCShipArch]
+nickname = Nomad_Gunboat
+</section>
+<dest>
+loadout = Nomad_Gunboat_Loadout
+level = d30
+ship_archetype = no_gunboat
+pilot = pilot_capitals
+state_graph = GUNBOAT
+npc_class = unlawful, class_gunboat, d19
+</dest>
+<source>
+loadout = Nomad_Gunboat_Loadout
+level = d30
+ship_archetype = no_gunboat
+pilot = gunboat_ace
+state_graph = FIGHTER
+npc_class = unlawful, class_gunboat, d19
+</source>
+</data>
+
+<!-- Use Nomad Battleship AI -->
+<data file="data\missions\npcships.ini" method="sectionreplace">
+<section>
+[NPCShipArch]
+nickname = Nomad_Battleship
+</section>
+<dest>
+loadout = Nomad_Battleship_Loadout
+level = d40
+ship_archetype = no_battleship
+pilot = pilot_capitals
+state_graph = CRUISER
+npc_class = unlawful, class_battleship, d19
+</dest>
+<source>
+loadout = Nomad_Battleship_Loadout
+level = d40
+ship_archetype = no_battleship
+pilot = battleship_ace
+state_graph = CRUISER
+npc_class = unlawful, class_battleship, d19
+</source>
+</data>
+
+<!-- Create File for this encounter (ships and their behaviour) -->
+<data file="data\missions\encounters\capitalships_Nomads.ini" method="append" newfile="true"> 
+<source>
+[EncounterFormation]
+ship_by_class = 1, 1, sc_battleships
+pilot_job = assault_leader_job
+make_class = wanderer
+ship_by_class = 2, 2, sc_gunboats
+pilot_job = scout_job
+make_class = wanderer
+ship_by_class = 12, 12, fighters
+pilot_job = scout_job
+make_class = wanderer
+formation_by_class = battleships  
+behavior = wander
+arrival = cruise
+allow_simultaneous_creation = no
+zone_creation_distance = 0
+times_to_create = 1
+
+[Creation]
+permutation = 0, 3
+</source>
+</data>
+
+</script>

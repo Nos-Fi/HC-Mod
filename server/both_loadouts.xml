@@ -761,6 +761,62 @@ equip = ge_ng_engine_01
 </source>
 </data>
 
+
+<!-- Change Nomad Battleship loadout to turrets, add additional dropped weapons -->
+<data file="DATA\SHIPS\loadouts_special.ini" method="sectionreplace">
+<section>
+nickname = Nomad_Battleship_Loadout
+</section>
+<dest>
+archetype = no_battleship
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = ge_ng_engine_01
+equip = armor_scale_21
+equip = nomad_gun01_mark03, Hp_1_01
+equip = nomad_gun01_mark03, Hp_1_02
+equip = nomad_gun01_mark03, Hp_1_03
+equip = nomad_gun01_mark03, Hp_1_04
+equip = nomad_gun01_mark03, Hp_1_05
+equip = nomad_gun01_mark03, Hp_1_06
+equip = nomad_gun01_mark03, Hp_1_07
+equip = nomad_gun01_mark03, Hp_1_08
+equip = nomad_gun01_mark03, Hp_1_09
+equip = nomad_gun01_mark03, Hp_1_10
+equip = nomad_gun01_mark03, Hp_1_11
+equip = nomad_gun01_mark03, Hp_1_12
+equip = nomad_gun01_mark03, Hp_1_13
+equip = nomad_gun01_mark03, Hp_1_14
+equip = nomad_gun01_mark03, Hp_1_15
+cargo = special_nomad_gun01, 1
+cargo = special_nomad_gun02, 1
+</dest>
+<source>
+archetype = no_battleship
+equip = infinite_power
+equip = ge_s_scanner_02
+equip = ge_ng_engine_01
+equip = armor_scale_21
+equip = nomad_turret01_mark01, Hp_1_01
+equip = nomad_turret01_mark01, Hp_1_02
+equip = nomad_turret01_mark01, Hp_1_03
+equip = nomad_turret01_mark01, Hp_1_04
+equip = nomad_turret01_mark01, Hp_1_05
+equip = nomad_turret01_mark01, Hp_1_06
+equip = nomad_turret01_mark01, Hp_1_07
+equip = nomad_turret01_mark01, Hp_1_08
+equip = nomad_turret01_mark01, Hp_1_09
+equip = nomad_turret01_mark01, Hp_1_10
+equip = nomad_turret01_mark01, Hp_1_11
+equip = nomad_turret01_mark01, Hp_1_12
+equip = nomad_turret01_mark01, Hp_1_13
+equip = nomad_turret01_mark01, Hp_1_14
+equip = nomad_turret01_mark01, Hp_1_15
+cargo = special_nomad_gun01, 4
+cargo = special_nomad_gun02, 4
+</source>
+</data>
+
 <data file="DATA\SHIPS\loadouts_special.ini" method="sectionreplace">
 <section>
 nickname = Nomad_Gunboat_Loadout
@@ -770,6 +826,43 @@ equip = ge_gf1_engine_01
 </dest>
 <source>
 equip = ge_ng_engine_01
+</source>
+</data>
+
+<!-- Change Nomad Gunboat loadout to turrets, add additional dropped weapons -->
+<data file="DATA\SHIPS\loadouts_special.ini" method="sectionreplace">
+<section>
+nickname = Nomad_Gunboat_Loadout
+</section>
+<dest>
+archetype = no_gunboat
+equip = infinite_power
+equip = ge_ng_engine_01
+equip = ge_s_scanner_02
+equip = armor_scale_17
+equip = nomad_gun01_mark03, Hp_1_01
+equip = nomad_gun01_mark03, Hp_1_02
+equip = nomad_gun01_mark03, Hp_1_03
+equip = nomad_gun01_mark03, Hp_1_04
+equip = nomad_gun01_mark03, Hp_1_05
+equip = nomad_gun01_mark03, Hp_1_06
+cargo = special_nomad_gun01, 1
+cargo = special_nomad_gun02, 1
+</dest>
+<source>
+archetype = no_gunboat
+equip = infinite_power
+equip = ge_ng_engine_01
+equip = ge_s_scanner_02
+equip = armor_scale_17
+equip = nomad_turret01_mark01, Hp_1_01
+equip = nomad_turret01_mark01, Hp_1_02
+equip = nomad_turret01_mark01, Hp_1_03
+equip = nomad_turret01_mark01, Hp_1_04
+equip = nomad_turret01_mark01, Hp_1_05
+equip = nomad_turret01_mark01, Hp_1_06
+cargo = special_nomad_gun01, 2
+cargo = special_nomad_gun02, 2
 </source>
 </data>
 
