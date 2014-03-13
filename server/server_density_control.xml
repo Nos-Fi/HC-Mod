@@ -1512,7 +1512,7 @@ faction = fc_n_grp, 1.0000
 
 [zone]
 nickname = Zone_Ew06_capital_encounter
-pos = 5000, 0, 11000
+pos = 6831, 0, 15543
 shape = SPHERE
 size = 8000
 density = 1
@@ -1521,7 +1521,7 @@ max_battle_size = 4
 pop_type = Background
 relief_time = 35
 faction_weight = fc_n_grp, 10
-encounter = capitalships_Nomads, 19, 0.40000
+encounter = capitalships_Nomads, 19, 0.400000
 faction = fc_n_grp, 1.000000
 </source>
 </data>
