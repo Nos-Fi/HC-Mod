@@ -81,6 +81,18 @@
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><JUST loc="center"/><TRA data="1" mask="-31" def="-2"/><TEXT>"Seth" Order Very Heavy Fighter</TEXT><PARA/><TRA data="96" mask="-31" def="-1"/><PARA/><TRA data="65281" mask="-31" def="30"/><TEXT>!!!Attention, this ship has a high strafepowerusage!!!</TEXT><PARA/><JUST loc="left"/><TRA data="96" mask="-31" def="-1"/><PARA/><TEXT>There is no profile on this ship, however the readings of the on-board components suggest a ship composed of pieces harvested from multiple houses in Sirius, heavily modified, and then integrated in a radical design.</TEXT><PARA/><PARA/><POP/></RDL>
 </xmldata>
 
+<xmldata name="li_cruiser_fullstats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Stats</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Gun/Turret Mounts: 0/0</TEXT><PARA/><TEXT>Armor: 333353</TEXT><PARA/><TEXT>Cargo Space: 200</TEXT><PARA/><TEXT>Max Batteries/NanoBots: 0/0</TEXT><PARA/><TEXT>Optimal Weapon Class: 0</TEXT><PARA/><TEXT>Max. Weapon Class: 0</TEXT><PARA/><TEXT>Additional Equipment: -</TEXT><PARA/><PARA/><POP/></RDL>  
+</xmldata>
+
+<xmldata name="li_cruiser_description">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>Liberty Cruiser</TEXT><PARA/><TRA data="0" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>Possessing a massive coaxially mounted cannon capable of unleashing terrible firepower across vast distances, the venerable cruiser has long stood as deterrent against foreign incursion. While possessing light conventional armaments, the awe inspiring speed and slim profile of this craft provides a strong edge against the battering of larger craft. It excels in combat against large and slow targets, but needs to be protected from fighters.</TEXT><PARA/><POP/></RDL>
+</xmldata>
+
+<xmldata name="li_cruiser_stats">
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>333353</TEXT><PARA/><TEXT>200</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>0</TEXT><PARA/><TEXT>0</TEXT><PARA/><TEXT>-</TEXT><PARA/><POP/></RDL>
+</xmldata>
+
 ### NEW SHIPS COPY FILE 
 
 <data file="DATA\SHIPS\shiparch.ini" method="copyfile" sourcefile="DATA\SHIPS\shiparch.ini" scanfile="true">
