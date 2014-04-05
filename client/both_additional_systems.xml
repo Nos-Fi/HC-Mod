@@ -70,6 +70,46 @@ BGCS_base_run_by = W02bF53
 </source>
 </data>
 
+# Fix Death Zones
+<data file="data\universe\systems\ew06\ew06.ini" method="sectionreplace">
+<section>
+[zone]
+nickname = Zone_Ew06_robot_planet_death
+</section>
+<dest>
+pos = 20162, 0, 13301
+shape = SPHERE
+size = 2100
+sort = 99.500000
+</dest>
+<source>
+pos = 20162, 0, 13301
+shape = SPHERE
+size = 2100
+damage = 10000
+sort = 99.500000
+</source>
+</data>
+
+<data file="data\universe\systems\ew06\ew06.ini" method="append" numTimes="1">
+<section>
+[Object]
+nickname = Ew06_sun_1000_1
+</section>
+<source>
+
+[zone]
+nickname = Zone_Ew06_sun_1000_1_death
+pos = 145000, 0, -130000
+shape = SPHERE
+size = 7000
+damage = 10000
+sort = 99
+density = 0
+relief_time = 0
+</source>
+</data>
+
 ##############################
 #### OMICRON MINOR | ST01 ####
 ##############################
@@ -174,6 +214,45 @@ ids_name = 261194
 </dest>
 <source>
 ids_name = 0 ;GENERATESTRRES("Toledo - Docking Ring")
+</source>
+</data>
+
+# Fix Death Zones
+<data file="data\universe\systems\st01\st01.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St01_sun
+</section>
+<dest>
+pos = 70523, 30000, -62152
+Archetype = sun_1000
+star = St01_yellow_sun
+</dest>
+<source>
+pos = 70523, 30000, -62152
+Archetype = sun_1000
+star = St01_yellow_sun
+atmosphere_range = 3000
+burn_color = 255, 255, 255
+</source>
+</data>
+
+<data file="data\universe\systems\st01\st01.ini" method="append" numTimes="1">
+<section>
+[Object]
+nickname = St01_sun
+</section>
+<source>
+
+[zone]
+nickname = Zone_St01_sun_death
+pos = 70523, 30000, -62152
+shape = SPHERE
+size = 2000
+damage = 10000
+sort = 99
+density = 0
+relief_time = 0
 </source>
 </data>
 
@@ -537,6 +616,50 @@ system = ST03
 strid_name = 0 ;GENERATESTRRES("Alexandria")
 file = UNIVERSE\SYSTEMS\ST03\Bases\ST03_01_Base.ini
 BGCS_base_run_by = W02bF35
+</source>
+</data>
+
+# Fix Death Zones
+<data file="data\universe\systems\st03\st03.ini" method="sectionreplace">
+<section>
+[Object]
+nickname = St03_Sun
+</section>
+<dest>
+ids_name = 261010
+pos = -32480, 12000, -6630
+ambient_color = 255, 255, 255
+Archetype = sun_2000
+star = St03_Sun
+ids_info = 65991
+</dest>
+<source>
+ids_name = 261010
+pos = -32480, 12000, -6630
+ambient_color = 255, 255, 255
+Archetype = sun_2000
+star = St03_Sun
+ids_info = 65991
+atmosphere_range = 3000
+</source>
+</data>
+
+<data file="data\universe\systems\st03\st03.ini" method="append" numTimes="1">
+<section>
+[Object]
+nickname = St03_Sun
+</section>
+<source>
+
+[zone]
+nickname = Zone_St03_sun_death
+pos = -32480, 12000, -6630
+shape = SPHERE
+size = 2000
+damage = 10000
+sort = 99
+density = 0
+relief_time = 0
 </source>
 </data>
 

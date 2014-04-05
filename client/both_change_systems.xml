@@ -1,0 +1,109 @@
+<script>
+####################################
+## Fix Death Zones
+####################################
+
+# EW01 (Tau 37)
+<data file="data\universe\systems\ew01\ew01.ini" method="append" numTimes="1">
+<section>
+[Object]
+nickname = Ew01_Sun2
+</section>
+<source>
+[zone]
+nickname = Zone_Ew01_Sun2_death
+pos = 1723, 30000, -1378
+shape = SPHERE
+size = 3000
+damage = 10000
+sort = 99
+density = 0
+relief_time = 0
+</source>
+</data>
+
+# KU04 (Honshu)
+<data file="data\universe\systems\ku04\ku04.ini" method="sectionreplace">
+<section>
+[zone]
+nickname = Zone_Ku04_01_death
+</section>
+<dest>
+pos = 34497, 0, -44836
+shape = SPHERE
+size = 3100
+damage = 2000000
+sort = 99.500000
+density = 0
+relief_time = 0
+zone_creation_distance = 0
+</dest>
+<source>
+pos = 34497, 0, -44836
+shape = SPHERE
+size = 4100
+damage = 2000000
+sort = 99.500000
+density = 0
+relief_time = 0
+zone_creation_distance = 0
+</source>
+</data>
+
+# Li05 (Alaska)
+# fixed in alaska.xml
+
+# BR02 (Manchester)
+<data file="data\universe\systems\br02\br02.ini" method="sectionreplace">
+<section>
+[Zone]
+nickname = Zone_Br02_sun_death 
+</section>
+<dest>
+damage = 1000
+</dest>
+<source>
+damage = 10000
+</source>
+</data>
+
+
+# EW03 (Omega-11)
+<data file="data\universe\systems\ew03\ew03.ini" method="sectionreplace">
+<section>
+[zone]
+nickname = Zone_Ew03_sun_exclusion
+</section>
+<dest>
+damage = 1000
+</dest>
+<source>
+damage = 10000
+</source>
+</data>
+
+# IW01 (Bering)
+<data file="data\universe\systems\iw01\iw01.ini" method="sectionreplace">
+<section>
+[zone]
+nickname = ZONE_Iw01_sun_death 
+</section>
+<dest>
+pos = 9, 0, 28
+shape = SPHERE
+size = 6000
+damage = 100
+sort = 99.500000
+population_additive = false
+</dest>
+<source>
+pos = 0, 0, 0
+shape = SPHERE
+size = 6000
+damage = 10000
+sort = 99.500000
+population_additive = false
+</source>
+</data>
+
+</script>
