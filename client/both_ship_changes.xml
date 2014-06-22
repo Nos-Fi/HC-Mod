@@ -78,7 +78,7 @@
 </xmldata>
 
 <xmldata name="or_elite2_info2">
-<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><JUST loc="center"/><TRA data="1" mask="-31" def="-2"/><TEXT>"Seth" Order Very Heavy Fighter</TEXT><PARA/><TRA data="96" mask="-31" def="-1"/><PARA/><TRA data="65281" mask="-31" def="30"/><TEXT>!!!Attention, this ship has a high strafepowerusage!!!</TEXT><PARA/><JUST loc="left"/><TRA data="96" mask="-31" def="-1"/><PARA/><TEXT>There is no profile on this ship, however the readings of the on-board components suggest a ship composed of pieces harvested from multiple houses in Sirius, heavily modified, and then integrated in a radical design.</TEXT><PARA/><PARA/><POP/></RDL>
+<?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TRA data="1" mask="1" def="-2"/><JUST loc="center"/><TEXT>"Seth" Order Very Heavy Fighter</TEXT><PARA/><TRA data="65281" mask="1" def="-1"/><JUST loc="left"/><TEXT> </TEXT><PARA/><TEXT>There is no profile on this ship, however the readings of the on-board components suggest a ship composed of pieces harvested from multiple houses in Sirius, heavily modified, and then integrated in a radical design.</TEXT><PARA/><POP/></RDL>
 </xmldata>
 
 <xmldata name="li_cruiser_fullstats">
@@ -97,5 +97,28 @@
 
 <data file="DATA\SHIPS\shiparch.ini" method="copyfile" sourcefile="DATA\SHIPS\shiparch.ini" scanfile="true">
 </data>
+
+
+### SETH BALANCING
+
+
+<data file="Data\Ships\Shiparch.ini" method="sectionreplace">
+<section>
+nickname = or_elite_msn01
+</section>
+<dest>
+mass = 100.000000
+</dest>
+<source>
+mass = 150.000000
+</source> 
+<dest>
+strafe_power_usage = 200
+</dest>
+<source>
+strafe_power_usage = 2
+</source>
+</data>
+
 
 </script>
