@@ -1,7 +1,7 @@
 <script>
 
 
-### LOADOUTS ###
+### LOADOUTS ### 
 
 
 <data file="DATA\SOLAR\loadouts.ini" method="append">

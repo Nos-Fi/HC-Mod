@@ -3,7 +3,7 @@
 <data file="DATA\InitialWorld.ini" method="copyfile" sourcefile="DATA\InitialWorld.ini" scanfile="true">
 </data>
 
-## ClanBase Entrys
+## ClanBase Entrys 
 ## deaktivierte Clanbasen werden auf Rep li_lsf_grp eingestellt
 ## Muster für zerstöte Basen:
 ## [Object]

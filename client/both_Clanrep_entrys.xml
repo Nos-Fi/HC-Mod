@@ -2,7 +2,7 @@
 
 <data file="data\missions\faction_prop.ini" method="append">
 <source>
-### MOD Faction Props ###
+### MOD Faction Props ### 
 
 
 [FactionProps]
