@@ -2,7 +2,7 @@
 
 
 
-### Freeport 1 Shipdealer ###
+### Freeport 1 Shipdealer ### 
 
 <data file="data\universe\SYSTEMS\BW01\BASES\Bw01_02_base.ini" method="sectionappend">
 <section>
@@ -55,28 +55,6 @@ room_switch = ShipDealer
 
 Map = 458804, HiddenForce_Base, 1
 Map = 458805, Ew05_to_St02_hole, 1
-</source>
-</data>
-
-### TIZONA/RAPIER EFFEKT ###
-
-<data file="DATA\FX\effects.ini" method="append">
-<section>
-[Effect]
-nickname = pi_pulse_02_proj
-</section>
-<source>
-vis_effect = pi_pulse_02_proj
-</source>
-</data>
-
-<data file="DATA\FX\effects.ini" method="append">
-<section>
-[Effect]
-nickname = pi_pulse_03_proj
-</section>
-<source>
-vis_effect = pi_pulse_03_proj
 </source>
 </data>
 

@@ -1,6 +1,6 @@
 <script>
 
-<!-- Nomad blaster/cannon sound -->
+<!-- Nomad blaster/cannon sound --> 
 <data file="data\audio\sounds.ini" method="sectionreplace">
 <section>
 [Sound]
