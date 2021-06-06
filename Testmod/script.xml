@@ -1,5 +1,5 @@
 <script>
-<header name="Hamburg City - Testmod R158" savesafe="true">
+<header name="Hamburg City - Testmod R159" savesafe="true">
 <scriptversion>
 1.3
 </scriptversion>
@@ -16,7 +16,6 @@ HHC Mod must be activated first!!!
 
 Features:
 - Test Arena
-- Nomadtorpedotest
 </description>
 
 </header>
@@ -194,8 +193,10 @@ MarketGood = missile03_mark02_ammo, 1, -1, 50, 50, 0, 1
 MarketGood = missile03_mark03_ammo, 1, -1, 50, 50, 0, 1
 MarketGood = missile03_mark04_ammo, 1, -1, 50, 50, 0, 1
 MarketGood = loot_turret01n, 1, -1, 10, 10, 0, 1
+MarketGood = cruise_disruptor01_mark01, 2, -1, 10, 10, 0, 1
 MarketGood = cruise_disruptor01_mark01_ammo, 1, -1, 50, 50, 0, 1
 MarketGood = cruise_disruptor01_mark02_ammo, 1, -1, 50, 50, 0, 1
+MarketGood = torpedo01_mark01, 10, -1, 10, 10, 0, 1
 MarketGood = torpedo01_mark01_ammo, 1, -1, 50, 50, 0, 1
 MarketGood = torpedo01_mark02_ammo, 1, -1, 50, 50, 0, 1
 MarketGood = mine01_mark01_ammo, 1, -1, 50, 50, 0, 1
