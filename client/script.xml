@@ -176,6 +176,10 @@ and some surprises :)
 </header>
 
 
+### NEW SHIPS COPY FILE 
+
+<data file="DATA\SHIPS\shiparch.ini" method="copyfile" sourcefile="DATA\SHIPS\shiparch.ini" scanfile="true">
+</data>
 
 
 ### MBASES.INI ENTRYS
