@@ -93,11 +93,6 @@
 <?xml version="1.0" encoding="UTF-16"?><RDL><PUSH/><TEXT> </TEXT><PARA/><TEXT> </TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>333353</TEXT><PARA/><TEXT>200</TEXT><PARA/><TEXT>0/0</TEXT><PARA/><TEXT>0</TEXT><PARA/><TEXT>0</TEXT><PARA/><TEXT>-</TEXT><PARA/><POP/></RDL>
 </xmldata>
 
-### NEW SHIPS COPY FILE 
-
-<data file="DATA\SHIPS\shiparch.ini" method="copyfile" sourcefile="DATA\SHIPS\shiparch.ini" scanfile="true">
-</data>
-
 
 ### SETH BALANCING
 
