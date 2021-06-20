@@ -507,6 +507,54 @@ vis_effect = pi_pulse_03_proj
 </source>
 </data>
 
+###### enhanced hc graphics ######
+<data file="Data\Equipment\Models\Commodities\NN_Icons\equipicon_torplauncher.3db" method="copyfile" sourcefile="enhanced hc graphics\Data\Equipment\Models\Commodities\NN_Icons\equipicon_torplauncher.3db" options="7:1">
+</data>
+<data file="Data\Fx\beam.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\beam.txm" options="7:1">
+</data>
+<data file="Data\Fx\hexagon.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\hexagon.txm" options="7:1">
+</data>
+<data file="Data\Fx\jumpeffect.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\jumpeffect.txm" options="7:1">
+</data>
+<data file="Data\Fx\kioncannon.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\kioncannon.txm" options="7:1">
+</data>
+<data file="Data\Fx\lightbeam.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\lightbeam.txm" options="7:1">
+</data>
+<data file="Data\Fx\lightning2.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\lightning2.txm" options="7:1">
+</data>
+<data file="Data\Fx\moon.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\moon.txm" options="7:1">
+</data>
+<data file="Data\Fx\photon.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\photon.txm" options="7:1">
+</data>
+<data file="Data\Fx\planetflare.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\planetflare.txm" options="7:1">
+</data>
+<data file="Data\Fx\plasmaring.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\plasmaring.txm" options="7:1">
+</data>
+<data file="Data\Fx\sarma.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\sarma.txm" options="7:1">
+</data>
+<data file="Data\Fx\sidedistortion.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\sidedistortion.txm" options="7:1">
+</data>
+<data file="Data\Fx\smoke.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\smoke.txm" options="7:1">
+</data>
+<data file="Data\Fx\standardeffects.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\standardeffects.txm" options="7:1">
+</data>
+<data file="Data\Fx\storm.txm" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\storm.txm" options="7:1">
+</data>
+<data file="Data\Fx\Equipment\gf_ge_s_thruster_01.ale" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\Equipment\gf_ge_s_thruster_01.ale" options="7:1">
+</data>
+<data file="Data\Fx\Explosions\gf_explosion_smallship01.ale" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\Explosions\gf_explosion_smallship01.ale" options="7:1">
+</data>
+<data file="Data\Fx\Weapons\ku_torpedo01.ale" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\Weapons\ku_torpedo01.ale" options="7:1">
+</data>
+<data file="Data\Fx\Weapons\li_cruisedis01.ale" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\Weapons\li_cruisedis01.ale" options="7:1">
+</data>
+<data file="Data\Fx\Weapons\li_torpedo01.ale" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\Weapons\li_torpedo01.ale" options="7:1">
+</data>
+<data file="Data\Fx\Weapons\pi_missile02.ale" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\Weapons\pi_missile02.ale" options="7:1">
+</data>
+<data file="Data\Fx\Weapons\rh_missile02.ale" method="copyfile" sourcefile="enhanced hc graphics\Data\Fx\Weapons\rh_missile02.ale" options="7:1">
+</data>
+
 ###### Alaska Altes Gate Clientseitig entfernen ##########
 
 <data file="data\Universe\Systems\Li05\Li05.ini" method="replace">
