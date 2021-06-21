@@ -160,6 +160,14 @@ affiliation = MAJ_CLAN
 legality = unlawful
 
 [FactionProps]
+affiliation = EFIL_CLAN
+legality = unlawful
+
+[FactionProps]
+affiliation = HCPA_CLAN
+legality = lawful
+
+[FactionProps]
 affiliation = TRIAL_A_CLAN
 legality = lawful
 
@@ -405,9 +413,9 @@ rep = 1, PIRATES_CLAN
 
 [Group]
 nickname = PS_CLAN
-ids_name = 0 ;GENERATESTRRES("Ph�nix-Staffel")
+ids_name = 0 ;GENERATESTRRES("Phönix-Staffel")
 ids_info = 0 ;GENERATEXMLRES(PS_CLAN)
-ids_short_name = 0 ;GENERATESTRRES("Ph�nix-Staffel")
+ids_short_name = 0 ;GENERATESTRRES("Phönix-Staffel")
 rep = 1, PS_CLAN
 
 [Group]
@@ -519,9 +527,9 @@ rep = 1, TRIAL_A_CLAN
 
 [Group]
 nickname = TRIAL_B_CLAN
-ids_name = 0 ;GENERATESTRRES("-���-")
+ids_name = 0 ;GENERATESTRRES("-§§§-")
 ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("-���-")
+ids_short_name = 0 ;GENERATESTRRES("-§§§-")
 rep = 1, TRIAL_B_CLAN
 
 [Group]
