@@ -160,6 +160,14 @@ affiliation = MAJ_CLAN
 legality = unlawful
 
 [FactionProps]
+affiliation = EFIL_CLAN
+legality = unlawful
+
+[FactionProps]
+affiliation = HCPA_CLAN
+legality = lawful
+
+[FactionProps]
 affiliation = TRIAL_A_CLAN
 legality = lawful
 
@@ -405,9 +413,9 @@ rep = 1, PIRATES_CLAN
 
 [Group]
 nickname = PS_CLAN
-ids_name = 0 ;GENERATESTRRES("Phönix-Staffel")
+ids_name = 0 ;GENERATESTRRES("PhÃ¶nix-Staffel")
 ids_info = 0 ;GENERATEXMLRES(PS_CLAN)
-ids_short_name = 0 ;GENERATESTRRES("Phönix-Staffel")
+ids_short_name = 0 ;GENERATESTRRES("PhÃ¶nix-Staffel")
 rep = 1, PS_CLAN
 
 [Group]
@@ -459,6 +467,20 @@ ids_info = 0 ;GENERATEXMLRES(MAJ_CLAN)
 ids_short_name = 0 ;GENERATESTRRES(">3MAJ<")
 rep = 1, MAJ_CLAN
 
+[Group]
+nickname = EFIL_CLAN
+ids_name = 0 ;GENERATESTRRES("Exploration Fleet For Intelligent Life")
+ids_info = 0 ;GENERATEXMLRES(EFIL_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("[EFIL]")
+rep = 1, EFIL_CLAN
+
+[Group]
+nickname = HCPA_CLAN
+ids_name = 0 ;GENERATESTRRES("Human Colonization Protection Alliance")
+ids_info = 0 ;GENERATEXMLRES(HCPA_CLAN)
+ids_short_name = 0 ;GENERATESTRRES("[HCPA]")
+rep = 1, HCPA_CLAN
+
 ;#########HHCKK_TRIAL
 
 [Group]
@@ -505,9 +527,9 @@ rep = 1, TRIAL_A_CLAN
 
 [Group]
 nickname = TRIAL_B_CLAN
-ids_name = 0 ;GENERATESTRRES("-§§§-")
+ids_name = 0 ;GENERATESTRRES("-Â§Â§Â§-")
 ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("-§§§-")
+ids_short_name = 0 ;GENERATESTRRES("-Â§Â§Â§-")
 rep = 1, TRIAL_B_CLAN
 
 [Group]
