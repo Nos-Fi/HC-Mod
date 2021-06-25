@@ -120,32 +120,8 @@ affiliation = Rheinwehr_CLAN
 legality = lawful
 
 [FactionProps]
-affiliation = USAF_CLAN
-legality = lawful
-
-[FactionProps]
 affiliation = Nuclear_CLAN
 legality = unlawful
-
-[FactionProps]
-affiliation = Br_EVENT_CLAN
-legality = lawful
-
-[FactionProps]
-affiliation = Rh_EVENT_CLAN
-legality = lawful
-
-[FactionProps]
-affiliation = Ku_EVENT_CLAN
-legality = lawful
-
-[FactionProps]
-affiliation = Li_EVENT_CLAN
-legality = lawful
-
-[FactionProps]
-affiliation = KK_EVENT_CLAN
-legality = lawful
 
 [FactionProps]
 affiliation = RYO_CLAN
@@ -165,18 +141,6 @@ legality = unlawful
 
 [FactionProps]
 affiliation = HCPA_CLAN
-legality = lawful
-
-[FactionProps]
-affiliation = TRIAL_A_CLAN
-legality = lawful
-
-[FactionProps]
-affiliation = TRIAL_B_CLAN
-legality = lawful
-
-[FactionProps]
-affiliation = TRIAL_C_CLAN
 legality = lawful
 
 </source>
@@ -433,13 +397,6 @@ ids_short_name = 0 ;GENERATESTRRES("[RHW]")
 rep = 1, Rheinwehr_CLAN
 
 [Group]
-nickname = USAF_CLAN
-ids_name = 0 ;GENERATESTRRES("Universe Special Agency Force")
-ids_info = 0 ;GENERATEXMLRES(USAF_CLAN)
-ids_short_name = 0 ;GENERATESTRRES("[USAF]_")
-rep = 1, USAF_CLAN
-
-[Group]
 nickname = Nuclear_CLAN
 ids_name = 0 ;GENERATESTRRES("Nuclear")
 ids_info = 0 ;GENERATEXMLRES(Nuclear_CLAN)
@@ -481,63 +438,4 @@ ids_info = 0 ;GENERATEXMLRES(HCPA_CLAN)
 ids_short_name = 0 ;GENERATESTRRES("[HCPA]")
 rep = 1, HCPA_CLAN
 
-;#########HHCKK_TRIAL
-
-[Group]
-nickname = Br_EVENT_CLAN
-ids_name = 0 ;GENERATESTRRES("HHCKK")
-ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
-rep = 1, Br_EVENT_CLAN
-
-[Group]
-nickname = Rh_EVENT_CLAN
-ids_name = 0 ;GENERATESTRRES("HHCKK")
-ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
-rep = 1, Rh_EVENT_CLAN
-
-[Group]
-nickname = Ku_EVENT_CLAN
-ids_name = 0 ;GENERATESTRRES("HHCKK")
-ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
-rep = 1, Ku_EVENT_CLAN
-
-[Group]
-nickname = Li_EVENT_CLAN
-ids_name = 0 ;GENERATESTRRES("HHCKK")
-ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
-rep = 1, Li_EVENT_CLAN
-
-[Group]
-nickname = KK_EVENT_CLAN
-ids_name = 0 ;GENERATESTRRES("HHCKK")
-ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("[HHCKK]")
-rep = 1, KK_EVENT_CLAN
-
-[Group]
-nickname = TRIAL_A_CLAN
-ids_name = 0 ;GENERATESTRRES("-!-!-")
-ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("-!-!-")
-rep = 1, TRIAL_A_CLAN
-
-[Group]
-nickname = TRIAL_B_CLAN
-ids_name = 0 ;GENERATESTRRES("-§§§-")
-ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("-§§§-")
-rep = 1, TRIAL_B_CLAN
-
-[Group]
-nickname = TRIAL_C_CLAN
-ids_name = 0 ;GENERATESTRRES("-()-")
-ids_info = 458858
-ids_short_name = 0 ;GENERATESTRRES("-()-")
-rep = 1, TRIAL_C_CLAN
-</source>
-</data>
 </script>

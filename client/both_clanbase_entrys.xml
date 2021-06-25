@@ -362,140 +362,6 @@ rotate = 0,74,180
 </source> 
 </data>
 
-<data file="DATA\UNIVERSE\Systems\Bw02\Bw02.ini" method="append">
-<source>
-	
-[Object] 
-nickname = Bw02_USAF_Base 
-pos = 2587, 4000, 4166 
-ids_info = 0
-behavior = NOTHING 
-pilot = pilot_crazy
-dock_with = Bw02_USAF_Base 
-base = Bw02_USAF_Base 
-reputation = li_lsf_grp
-rotate = 0, 0, 0 
-archetype = outpost 
-ids_name = 0 ;GENERATESTRRES("Magnum Opus")
-loadout = clan_outpost
-difficulty_level = 30
-space_costume = benchmark_male_head, benchmark_male_body 
-voice = atc_leg_m01 
-
-[Object] 
-nickname = USAF_component01
-rotate = -90, 0, 0 
-pos = 2592, 3600, 4166 
-archetype = space_industrial 
-parent = Bw02_USAF_Base
-
-[Object] 
-nickname = USAF_component02
-rotate = 0, -90, 0 
-pos = 2734, 4153, 4213 
-archetype = space_habitat_tall 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component03
-rotate = 0, 0, 0 
-pos = 2425, 4095, 4208 
-archetype = space_habitat_wide 
-parent = Bw02_USAF_Base
-
-[Object] 
-nickname = USAF_component04 
-rotate = 0, -90, 0 
-pos = 3072, 3999, 4166 
-archetype = space_industrial01 
-parent = Bw02_USAF_Base
-
-[Object] 
-nickname = USAF_component05 
-rotate = 0, 90, 0 
-pos = 2089, 3995, 4163 
-archetype = space_industrial01 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component06 
-rotate = 0, 0, 0 
-pos = 2089, 4026, 3797 
-archetype = space_dome 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component07 
-rotate = 0, -180, 0 
-pos = 2089, 4026, 4530 
-archetype = space_dome 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component08
-rotate = 0, 0, 0 
-pos = 3072, 4029, 3800 
-archetype = space_dome 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component09
-rotate = 0, -180, 0 
-pos = 3073, 4029, 4531 
-archetype = space_dome 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component10
-rotate = 0, -90, 0 
-pos = 2436, 3601, 4166 
-archetype = large_transport 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component11
-rotate = 0, 0, 0 
-pos = 2694, 3600, 4166 
-archetype = l_dreadnought_nodock 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component12 
-rotate = 0, 0, 0 
-pos = 2592, 3602, 4322 
-archetype = large_transport 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component13 
-rotate = 0, 0, 0 
-pos = 3072, 3878, 4165 
-archetype = space_tanksx4 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component14
-rotate = 0, -90, 0 
-pos = 2475, 3840, 4166 
-archetype = space_tanks4 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component15
-rotate = 0, -90, 0 
-pos = 2341, 3840, 4166 
-archetype = space_tanks4 
-parent = Bw02_USAF_Base 
-
-[Object] 
-nickname = USAF_component16
-rotate = 0, 0, 0 
-pos = 2487, 4155, 4136 
-archetype = space_habitat_tall 
-parent = Bw02_USAF_Base 
-</source>
-</data>
-
 <data file="DATA\UNIVERSE\Systems\Rh03\Rh03.ini" method="append">
 <source>
 [Object] 
@@ -1288,13 +1154,6 @@ nickname = Hi01_PIRATES_Base
 system = Hi01
 strid_name = 0 ;GENERATESTRRES("Insanity")
 file = Universe\clan_bases\PIRATES_Base.ini
-BGCS_base_run_by = W02bF35
-
-[Base]
-nickname = Bw02_USAF_Base
-system = Bw02
-strid_name = 0 ;GENERATESTRRES("Magnum Opus")
-file = Universe\clan_bases\USAF_Base.ini
 BGCS_base_run_by = W02bF35
 
 [Base]
@@ -2852,26 +2711,6 @@ voice = rvp111
 nickname = Deck
 character_density = 3
 fixture = nxs_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
-
-[MBase]
-nickname = Bw02_USAF_Base
-local_faction = li_lsf_grp
-diff = 30
-[MVendor]
-num_offers = 0, 0
-[GF_NPC]
-nickname = usaf_fix_weaponsdealer
-body = rh_male_elite_body
-head = rh_captain_head
-lefthand = benchmark_male_hand_left
-righthand = benchmark_male_hand_right
-individual_name = 0 ;GENERATESTRRES("HC Security")
-affiliation = li_lsf_grp
-voice = rvp111
-[MRoom]
-nickname = Deck
-character_density = 3
-fixture = wusaf_fix_weaponsdealer, Zs/NPC/Equipment/01/A/Stand, scripts\vendors\li_equipdealer_fidget.thn, Equipment
 
 [MBase]
 nickname = Hi01_PIRATES_Base
