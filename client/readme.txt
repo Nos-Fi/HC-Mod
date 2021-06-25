@@ -1,11 +1,12 @@
 HAMBURG CITY MOD - CREDITS
 
-M1C (Current mod author)
-Crazy (Current client- and server-hook coder)
-Nosferatu (Former mod author)
-w0dk4 (initial mod author)
+w0dk4 - modding & FlHook
+Nosferatu - modding
+Crazy - FlHook
+M1C - modding
 Slayer (initial base mod and later mining addition)
 Syd (Base modding, nomad engine fix and more)
+Inay - modding - enhanced graphics effects
 cHiLLmAstA (intro menu scenes)
 mc_horst (flhook and client hooking methods)
 Why485 (some special effects)
