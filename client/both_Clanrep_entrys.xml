@@ -377,9 +377,9 @@ rep = 1, PIRATES_CLAN
 
 [Group]
 nickname = PS_CLAN
-ids_name = 0 ;GENERATESTRRES("PhÃ¶nix-Staffel")
+ids_name = 0 ;GENERATESTRRES("Phönix-Staffel")
 ids_info = 0 ;GENERATEXMLRES(PS_CLAN)
-ids_short_name = 0 ;GENERATESTRRES("PhÃ¶nix-Staffel")
+ids_short_name = 0 ;GENERATESTRRES("Phönix-Staffel")
 rep = 1, PS_CLAN
 
 [Group]
