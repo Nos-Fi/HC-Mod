@@ -202,6 +202,174 @@ MarketGood = nomad_torpedo01_rtc_ammo, 1, -1, 50, 50, 0, 1
 ## Artefaktwaffenaenderungen
 ###########################
 
+### ONYX
+--- Schadensanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = special_gun1_ammo
+</section>
+<dest>
+hull_damage = 1075.800049
+</dest>
+<source>
+hull_damage = 1409,09
+</source>
+</data>
+
+### Bloodstone
+--- Klassenanpassung auf Lvl 9
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = special_gun2
+</section>
+<dest>
+hp_gun_type = hp_gun_special_10
+</dest>
+<source>
+hp_gun_type = hp_gun_special_9
+</source>
+</data>
+
+### JADE
+--- Klassenanpassung auf Lvl 9
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = special_gun3
+</section>
+<dest>
+hp_gun_type = hp_gun_special_10
+</dest>
+<source>
+hp_gun_type = hp_gun_special_9
+</source>
+</data>
+
+### DIAMONDBACK
+--- Schadensanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = special_gun4_ammo
+</section>
+<dest>
+hull_damage = 1173.599976
+</dest>
+<source>
+hull_damage = 1409,09
+</source>
+</data>
+
+### IRON HAMMER
+--- Klassenanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = special_gun5
+</section>
+<dest>
+hp_gun_type = hp_gun_special_10
+</dest>
+<source>
+hp_gun_type = hp_gun_special_9
+</source>
+</data>
+
+### SILVER FIRE
+--- Schadensanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = special_gun6_ammo
+</section>
+<dest>
+hull_damage = 717.200012
+</dest>
+<source>
+hull_damage = 930
+</source>
+</data>
+
+### GOLDEN BLADE
+--- Klassenanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = special_gun7
+</section>
+<dest>
+hp_gun_type = hp_gun_special_10
+</dest>
+<source>
+hp_gun_type = hp_gun_special_8
+</source>
+</data>
+
+### BLUE BLAZE
+--- Schadensanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = special_gun8_ammo
+</section>
+<dest>
+hull_damage = 1075.800049
+</dest>
+<source>
+hull_damage = 1409,09
+</source>
+</data>
+
+### DARK BLOSSOM
+--- Klassenanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = special_gun9
+</section>
+<dest>
+hp_gun_type = hp_gun_special_10
+</dest>
+<source>
+hp_gun_type = hp_gun_special_9
+</source>
+</data>
+
+### WILD FIRE
+--- Schadensanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = special_gun10_ammo
+</section>
+<dest>
+hull_damage = 1075.800049
+</dest>
+<source>
+hull_damage = 1409,09
+</source>
+</data>
+
+
+### THOR'S HAMMER
+--- Klassenanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = special_gun11
+</section>
+<dest>
+hp_gun_type = hp_gun_special_10
+</dest>
+<source>
+hp_gun_type = hp_gun_special_9
+</source>
+</data>
+
+### Prometheus
+--- Schadensanpassung
 <data file="data\equipment\weapon_equip.ini" method="sectionreplace">
 <section>
 [Munition]
@@ -212,6 +380,51 @@ hull_damage = 586.799988
 </dest>
 <source>
 hull_damage = 930
+</source>
+</data>
+
+### GUARDIAN
+--- Schadensanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = special_gun13_ammo
+</section>
+<dest>
+hull_damage = 1075.800049
+</dest>
+<source>
+hull_damage = 1409,09
+</source>
+</data>
+
+### CERBERUS
+--- Schadensanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Munition]
+nickname = special_gun14_ammo
+</section>
+<dest>
+hull_damage = 1173.599976
+</dest>
+<source>
+hull_damage = 1409,09
+</source>
+</data>
+
+### ARCHANGEL
+--- Klassenanpassung
+<data file="data\equipment\weapon_equip.ini" method="sectionreplace">
+<section>
+[Gun]
+nickname = special_gun15
+</section>
+<dest>
+hp_gun_type = hp_gun_special_10
+</dest>
+<source>
+hp_gun_type = hp_gun_special_9
 </source>
 </data>
 </script>
