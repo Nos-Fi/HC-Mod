@@ -156,13 +156,8 @@ HC Serverside Mod
 
 </header>
 
-### NEW SHIPS COPY FILE 
-
-<data file="DATA\SHIPS\shiparch.ini" method="copyfile" sourcefile="DATA\SHIPS\shiparch.ini" scanfile="true">
-</data>
 
 ### MBASES.INI ENTRYS
-
 
 <data file="DATA\Missions\mbases.ini" method="copyfile" sourcefile="DATA\Missions\mbases.ini" scanfile="true">
 </data>

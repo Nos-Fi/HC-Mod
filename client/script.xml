@@ -33,10 +33,6 @@ Hamburg City MOD Features:
 * Train
 * Liberty Cruiser
 * Osiris (Clans only)
-* Nomad Fighter (RPG only)
-* Liberty Dreadnought (Event only)
-* Rheinland Battleship (Event only)
-* Rheinland Cruiser (Event only)
 
 - Special Ships with Cloaking Device:
 * Valkyre
@@ -56,8 +52,6 @@ Hamburg City MOD Features:
 * Novabomb Launcher
 * Repair Turret
 
-- Enhanced Colony Fighters
-- Dynamic Economy
 - Widescreenfix by Adoxa
 - 4 Strafe blocker by Adoxa (implemented by Viper/w0dk4)
 - Extended AntiCheat
@@ -141,15 +135,7 @@ and some surprises :)
 
 </header>
 
-
-### NEW SHIPS COPY FILE 
-
-<data file="DATA\SHIPS\shiparch.ini" method="copyfile" sourcefile="DATA\SHIPS\shiparch.ini" scanfile="true">
-</data>
-
-
 ### MBASES.INI ENTRYS
-
 
 <data file="DATA\Missions\mbases.ini" method="copyfile" sourcefile="DATA\Missions\mbases.ini" scanfile="true">
 </data>
