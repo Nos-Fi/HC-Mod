@@ -14,7 +14,7 @@ Adoxa (widescreen fix, 4 Strafe blocker, fps limit)
 
 Extended Omicron systems credits:
 ____________________________________________________
-Mirage, Raknarök, Teo, Toinlo, Êntrex
+Mirage, Raknarök, Teo, Toinlo, Inay
 
 Wir danken Kirika für die Übersetzung der Texte.
 

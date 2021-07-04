@@ -1,0 +1,296 @@
+<script>
+=== OVERVIEW
+=== These entries are relics of ancient times labeled as error fixing.
+=== It might be safer to keep these for the time being.
+
+<data file="data\ships\shiparch.ini" method="append">
+<source>
+[Ship]
+nickname = wplatform_mineable
+ids_name = 261164
+ids_info = 66171
+type = WEAPONS_PLATFORM
+DA_archetype = solar\asteroids\models\ast_mineable_platform.3db
+material_library = solar\ast_mineable.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 2000
+mass = 10000.000000
+loadout = pirate_weapon_platform
+solar_radius = 300
+shape_name = NAV_weaponplatform
+destructible = true
+explosion_arch = explosion_wplatform
+hit_pts = 1600
+
+[Ship]
+nickname = wplatform_rock
+ids_name = 261164
+ids_info = 66171
+type = WEAPONS_PLATFORM
+DA_archetype = solar\asteroids\models\ast_rock_platform.3db
+material_library = solar\ast_rock.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 2000
+mass = 10000.000000
+loadout = pirate_weapon_platform
+solar_radius = 300
+shape_name = NAV_weaponplatform
+destructible = true
+explosion_arch = explosion_wplatform
+hit_pts = 1600
+
+[Ship]
+nickname = wplatform_rock2
+ids_name = 261164
+ids_info = 66171
+type = WEAPONS_PLATFORM
+DA_archetype = solar\asteroids\models\ast_rock02_platform.3db
+material_library = solar\ast_rock.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 2000
+mass = 10000.000000
+loadout = pirate_weapon_platform
+solar_radius = 300
+shape_name = NAV_weaponplatform
+destructible = true
+explosion_arch = explosion_rock_wplatform
+fuse = fuse_rock_wplatform, 0.000000, 1
+hit_pts = 1600
+
+[Ship]
+nickname = wplatform
+LODranges = 0, 200, 400, 4000
+ids_name = 261164
+ids_info = 66171
+type = WEAPONS_PLATFORM
+DA_archetype = solar\misc\weapons_platform_lod.cmp
+material_library = solar\Solar_mat_dockable03.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+mass = 10000.000000
+loadout = weapon_platform
+solar_radius = 300
+shape_name = NAV_weaponplatform
+destructible = true
+explosion_arch = explosion_wplatform
+hit_pts = 1600
+
+[Ship]
+nickname = wplatform_ice
+ids_name = 261164
+ids_info = 66171
+type = WEAPONS_PLATFORM
+DA_archetype = solar\asteroids\models\ast_ice_platform.3db
+material_library = solar\ast_ice.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 2000
+mass = 10000.000000
+loadout = pirate_weapon_platform
+solar_radius = 300
+shape_name = NAV_weaponplatform
+destructible = true
+fuse = random_turret_drop, 0.000000, 1
+explosion_arch = explosion_wplatform
+hit_pts = 1600
+
+[Ship]
+nickname = small_wplatform
+LODranges = 0, 200, 500, 1000, 1800
+ids_name = 261164
+ids_info = 66171
+type = WEAPONS_PLATFORM
+DA_archetype = solar\misc\weapons_platform_small.3db
+material_library = solar\Solar_mat_misc02.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+mass = 10000.000000
+loadout = small_weapon_platform
+solar_radius = 300
+shape_name = NAV_weaponplatform
+destructible = true
+explosion_arch = explosion_small_wplat
+hit_pts = 1600
+
+[Ship]
+nickname = rm_space_freeport01
+ids_name = 329689
+ids_info = 329689
+type = MISSION_SATELLITE
+DA_archetype = solar\dockable\space_freeport01.cmp
+material_library = solar\Solar_mat_tink.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 2000, 15000
+mass = 10000.000000
+solar_radius = 600
+shape_name = NAV_depot
+explosion_arch = explosion_space_mod_base
+destructible = true
+hit_pts = 4800
+fuse = fuse_space_mining01, 0.000000, 1
+
+[Ship]
+nickname = rm_space_police01
+ids_name = 329691
+ids_info = 329691
+type = MISSION_SATELLITE
+DA_archetype = solar\dockable\space_police01.cmp
+material_library = solar\Solar_mat_dockable03.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 2000, 15000
+mass = 10000.000000
+solar_radius = 600
+shape_name = NAV_depot
+explosion_arch = explosion_space_mod_base
+destructible = true
+hit_pts = 4800
+fuse = fuse_space_police01, 0.000000, 1
+
+[Ship]
+nickname = rm_depot
+ids_name = 329682
+ids_info = 329682
+type = MISSION_SATELLITE
+DA_archetype = solar\dockable\depot_lod.cmp
+material_library = solar\Solar_mat_dockable02.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 800, 1200, 2000, 15000
+mass = 10000.000000
+solar_radius = 300
+destructible = true
+explosion_arch = explosion_pirate_depot
+hit_pts = 4800
+fuse = pirate_base_explode_fuse, 0.000000, 1
+
+[Ship]
+nickname = rm_miningbase_small_ice
+ids_name = 329690
+ids_info = 329690
+type = MISSION_SATELLITE
+DA_archetype = solar\dockable\miningbase_small_ice.cmp
+material_library = solar\asteroid_dock.mat
+material_library = solar\ast_ice.mat
+LODranges = 0, 7000
+mass = 100000000
+solar_radius = 500
+shape_name = NNM_SM_DEPOT
+explosion_arch = explosion_rock_base
+destructible = true
+hit_pts = 4800
+fuse = fuse_miningbase_small_rock, 0.000000, 1
+
+[Ship]
+nickname = rm_miningbase_small_rock
+ids_name = 329690
+ids_info = 329690
+type = MISSION_SATELLITE
+DA_archetype = solar\dockable\miningbase_small_rock.cmp
+material_library = solar\asteroid_dock.mat
+material_library = solar\ast_rock.mat
+LODranges = 0, 7000
+mass = 100000000
+solar_radius = 500
+shape_name = NNM_SM_DEPOT
+explosion_arch = explosion_rock_base
+destructible = true
+hit_pts = 4800
+fuse = fuse_miningbase_small_rock, 0.000000, 1
+
+[Ship]
+nickname = rm_Roid_Miner
+LODranges = 0, 500, 1300, 5000
+ids_name = 329687
+ids_info = 329687
+type = MISSION_SATELLITE
+DA_archetype = Ships\utility\mining\mining.cmp
+material_library = ships\utility\utility_ships.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+mass = 10000.000000
+solar_radius = 350
+shape_name = NNM_SM_MINING
+explosion_arch = explosion_asteroid_miner
+destructible = true
+hit_pts = 4800
+fuse = miner_death_fuse, 0.000000, 1
+
+[Ship]
+nickname = rm_wplatform
+LODranges = 0, 200, 400, 4000
+ids_name = 329680
+ids_info = 329680
+type = MISSION_SATELLITE
+DA_archetype = solar\misc\weapons_platform_lod.cmp
+material_library = solar\Solar_mat_dockable03.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+mass = 10000.000000
+loadout = weapon_platform
+solar_radius = 300
+shape_name = NAV_weaponplatform
+destructible = true
+explosion_arch = explosion_wplatform
+hit_pts = 1600
+
+[Ship]
+nickname = rm_wplatform_rock
+ids_name = 329680
+ids_info = 329680
+type = MISSION_SATELLITE
+DA_archetype = solar\asteroids\models\ast_rock02_platform.3db
+material_library = solar\ast_rock.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 5000
+mass = 10000.000000
+solar_radius = 300
+shape_name = NAV_weaponplatform
+destructible = true
+explosion_arch = explosion_rock_wplatform
+fuse = fuse_rock_wplatform, 0.000000, 1
+hit_pts = 1600
+
+[Ship]
+nickname = rm_wplatform_ice
+ids_name = 329680
+ids_info = 329680
+type = MISSION_SATELLITE
+DA_archetype = solar\asteroids\models\ast_ice_platform.3db
+material_library = solar\ast_ice.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 5000
+mass = 10000.000000
+solar_radius = 300
+shape_name = NAV_weaponplatform
+destructible = true
+explosion_arch = explosion_ice_wplatform
+fuse = fuse_ice_wplatform, 0.000000, 1
+hit_pts = 1600
+
+[Ship]
+nickname = rm_space_mining01
+ids_name = 329688
+ids_info = 329688
+type = MISSION_SATELLITE
+DA_archetype = solar\dockable\space_mining01.cmp
+material_library = solar\Solar_mat_tink.mat
+material_library = fx\envmapbasic.mat
+envmap_material = envmapbasic
+LODranges = 0, 2000, 15000
+mass = 10000.000000
+solar_radius = 600
+shape_name = NAV_depot
+explosion_arch = explosion_space_mod_base
+destructible = true
+hit_pts = 4800
+fuse = fuse_space_mining01, 0.000000, 1
+</source>
+</data>
+</script>
