@@ -213,7 +213,7 @@ nickname = special_gun1_ammo
 hull_damage = 1075.800049
 </dest>
 <source>
-hull_damage = 1409,09
+hull_damage = 1409.09
 </source>
 </data>
 
@@ -258,7 +258,7 @@ nickname = special_gun4_ammo
 hull_damage = 1173.599976
 </dest>
 <source>
-hull_damage = 1409,09
+hull_damage = 1409.09
 </source>
 </data>
 
@@ -318,7 +318,7 @@ nickname = special_gun8_ammo
 hull_damage = 1075.800049
 </dest>
 <source>
-hull_damage = 1409,09
+hull_damage = 1409.09
 </source>
 </data>
 
@@ -348,7 +348,7 @@ nickname = special_gun10_ammo
 hull_damage = 1075.800049
 </dest>
 <source>
-hull_damage = 1409,09
+hull_damage = 1409.09
 </source>
 </data>
 
@@ -394,7 +394,7 @@ nickname = special_gun13_ammo
 hull_damage = 1075.800049
 </dest>
 <source>
-hull_damage = 1409,09
+hull_damage = 1409.09
 </source>
 </data>
 
@@ -409,7 +409,7 @@ nickname = special_gun14_ammo
 hull_damage = 1173.599976
 </dest>
 <source>
-hull_damage = 1409,09
+hull_damage = 1409.09
 </source>
 </data>
 
