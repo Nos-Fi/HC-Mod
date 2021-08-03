@@ -158,15 +158,15 @@ total_time_played = 0.000000
 <source>
 [BaseGood]
 base = NEUTRAL_03_Base
-marketgood = le2_package, 2, -1, 1, 1, 0, 1, 1
-marketgood = be_package, 8, -1, 1, 1, 0, 1, 1
-marketgood = ke_package, 13, -1, 1, 1, 0, 1, 1
+marketgood = bhe2_package, 1, -1, 1, 1, 0, 1, 1
+marketgood = oe2_package, 1, -1, 1, 1, 0, 1, 1
+marketgood = kf_package, 1, -1, 1, 1, 0, 1, 1
 
 [BaseGood]
 base = NEUTRAL_02_Base
-marketgood = be_package, 8, -1, 1, 1, 0, 1, 1
-marketgood = ke_package, 13, -1, 1, 1, 0, 1, 1
-marketgood = re_package, 22, -1, 1, 1, 0, 1, 1
+marketgood = coe2_package, 1, -1, 1, 1, 0, 1, 1
+marketgood = bwe2_package, 1, -1, 1, 1, 0, 1, 1
+marketgood = gf6_package, 1, -1, 1, 1, 0, 1, 1
 </source>
 </data>
 
